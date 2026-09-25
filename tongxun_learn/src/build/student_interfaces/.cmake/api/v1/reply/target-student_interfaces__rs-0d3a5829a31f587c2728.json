@@ -1,0 +1,73 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/huangbo/ros2_learn/tongxun_learn/src/build/student_interfaces/student_interfaces__rs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "student_interfaces__rs::@a792c6cf8612fe0bc16e",
+	"name" : "student_interfaces__rs",
+	"paths" : 
+	{
+		"build" : "student_interfaces__rs",
+		"source" : "/home/huangbo/ros2_learn/tongxun_learn/src/build/student_interfaces/student_interfaces__rs"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/huangbo/ros2_learn/tongxun_learn/src/build/student_interfaces/student_interfaces__rs/CMakeFiles/student_interfaces__rs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huangbo/ros2_learn/tongxun_learn/src/build/student_interfaces/student_interfaces__rs/CMakeFiles/student_interfaces__rs.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/huangbo/ros2_learn/tongxun_learn/src/build/student_interfaces/rosidl_generator_rs/student_interfaces/rust/src/lib.rs.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

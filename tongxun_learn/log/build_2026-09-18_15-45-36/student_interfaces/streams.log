@@ -1,0 +1,244 @@
+[0.021s] Invoking command in '/home/huangbo/ros2_learn/tongxun_learn/build/student_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/huangbo/ros2_learn/tongxun_learn/src/student_interfaces -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces
+[0.209s] -- The C compiler identification is GNU 13.3.0
+[0.372s] -- The CXX compiler identification is GNU 13.3.0
+[0.415s] -- Detecting C compiler ABI info
+[0.537s] -- Detecting C compiler ABI info - done
+[0.548s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.549s] -- Detecting C compile features
+[0.550s] -- Detecting C compile features - done
+[0.565s] -- Detecting CXX compiler ABI info
+[0.770s] -- Detecting CXX compiler ABI info - done
+[0.784s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.785s] -- Detecting CXX compile features
+[0.785s] -- Detecting CXX compile features - done
+[0.805s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.992s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.151s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.162s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.258s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.344s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.051s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.618s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.298s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.304s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.491s] -- Found PythonExtra: /usr/bin/python3  
+[4.127s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.202s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.226s] -- Configuring done (4.2s)
+[4.289s] -- Generating done (0.1s)
+[4.293s] [33mCMake Warning:
+[4.293s]   Manually-specified variables were not used by the project:
+[4.293s] 
+[4.293s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[4.293s] 
+[4.295s] [0m
+[4.305s] -- Build files have been written to: /home/huangbo/ros2_learn/tongxun_learn/build/student_interfaces
+[4.315s] Invoked command in '/home/huangbo/ros2_learn/tongxun_learn/build/student_interfaces' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/huangbo/ros2_learn/tongxun_learn/src/student_interfaces -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces
+[4.316s] Invoking command in '/home/huangbo/ros2_learn/tongxun_learn/build/student_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/huangbo/ros2_learn/tongxun_learn/build/student_interfaces -- -j2 -l2
+[4.387s] [  5%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.387s] [  5%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[4.748s] [  5%] Built target student_interfaces__rs
+[4.786s] [  5%] Built target student_interfaces__rosidl_generator_type_description
+[4.802s] [  5%] Built target ament_cmake_python_copy_student_interfaces
+[4.818s] [  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.841s] [ 11%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.413s] [ 14%] [32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_c.dir/rosidl_generator_c/student_interfaces/msg/detail/student__description.c.o[0m
+[5.696s] [ 17%] [32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_c.dir/rosidl_generator_c/student_interfaces/msg/detail/student__functions.c.o[0m
+[5.700s] [ 17%] Built target student_interfaces__cpp
+[5.865s] [ 20%] [32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_c.dir/rosidl_generator_c/student_interfaces/msg/detail/student__type_support.c.o[0m
+[5.986s] [ 22%] [32m[1mLinking C shared library libstudent_interfaces__rosidl_generator_c.so[0m
+[6.082s] [ 22%] Built target student_interfaces__rosidl_generator_c
+[6.102s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.356s] running egg_info
+[6.357s] creating student_interfaces.egg-info
+[6.385s] writing student_interfaces.egg-info/PKG-INFO
+[6.385s] writing dependency_links to student_interfaces.egg-info/dependency_links.txt
+[6.388s] writing top-level names to student_interfaces.egg-info/top_level.txt
+[6.388s] writing manifest file 'student_interfaces.egg-info/SOURCES.txt'
+[6.516s] reading manifest file 'student_interfaces.egg-info/SOURCES.txt'
+[6.516s] writing manifest file 'student_interfaces.egg-info/SOURCES.txt'
+[6.574s] [ 25%] Built target ament_cmake_python_build_student_interfaces_egg
+[6.588s] [ 28%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.753s] [ 31%] [32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/student_interfaces/msg/student__type_support.cpp.o[0m
+[6.831s] [ 34%] [32m[1mLinking CXX shared library libstudent_interfaces__rosidl_typesupport_c.so[0m
+[6.906s] [ 34%] Built target student_interfaces__rosidl_typesupport_c
+[6.950s] [ 37%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.216s] [ 40%] [32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/student_interfaces/msg/detail/dds_fastrtps/student__type_support.cpp.o[0m
+[7.588s] [ 42%] [32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/student_interfaces/msg/detail/student__type_support_c.cpp.o[0m
+[8.661s] [ 45%] [32m[1mLinking CXX shared library libstudent_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.781s] [ 48%] [32m[1mLinking CXX shared library libstudent_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[8.784s] [ 48%] Built target student_interfaces__rosidl_typesupport_fastrtps_cpp
+[8.801s] [ 51%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.894s] [ 51%] Built target student_interfaces__rosidl_typesupport_fastrtps_c
+[8.908s] [ 54%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[9.110s] [ 57%] [32mBuilding C object CMakeFiles/student_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/student_interfaces/msg/detail/student__type_support.c.o[0m
+[9.174s] [ 60%] [32m[1mLinking C shared library libstudent_interfaces__rosidl_typesupport_introspection_c.so[0m
+[9.198s] [ 62%] [32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/student_interfaces/msg/detail/student__type_support.cpp.o[0m
+[9.227s] [ 62%] Built target student_interfaces__rosidl_typesupport_introspection_c
+[9.246s] [ 65%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.525s] [ 68%] [32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/student_interfaces/msg/student__type_support.cpp.o[0m
+[9.630s] [ 71%] [32m[1mLinking CXX shared library libstudent_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[9.742s] [ 71%] Built target student_interfaces__rosidl_typesupport_introspection_cpp
+[9.923s] [ 74%] [32m[1mLinking CXX shared library libstudent_interfaces__rosidl_typesupport_cpp.so[0m
+[9.983s] [ 74%] Built target student_interfaces__rosidl_typesupport_cpp
+[10.018s] [ 74%] Built target student_interfaces
+[10.050s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.375s] [ 77%] Built target student_interfaces__py
+[10.405s] [ 80%] [32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_py.dir/rosidl_generator_py/student_interfaces/msg/_student_s.c.o[0m
+[10.654s] [ 82%] [32m[1mLinking C shared library libstudent_interfaces__rosidl_generator_py.so[0m
+[10.720s] [ 82%] Built target student_interfaces__rosidl_generator_py
+[10.752s] [ 85%] [32mBuilding C object CMakeFiles/student_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/student_interfaces/_student_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.755s] [ 88%] [32mBuilding C object CMakeFiles/student_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/student_interfaces/_student_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.887s] [ 91%] [32m[1mLinking C shared module rosidl_generator_py/student_interfaces/student_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[10.888s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/student_interfaces/student_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[10.940s] [ 94%] Built target student_interfaces_s__rosidl_typesupport_fastrtps_c
+[10.942s] [ 94%] Built target student_interfaces_s__rosidl_typesupport_introspection_c
+[10.970s] [ 97%] [32mBuilding C object CMakeFiles/student_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/student_interfaces/_student_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[11.079s] [100%] [32m[1mLinking C shared module rosidl_generator_py/student_interfaces/student_interfaces_s__rosidl_typesupport_c.so[0m
+[11.122s] [100%] Built target student_interfaces_s__rosidl_typesupport_c
+[11.140s] Invoked command in '/home/huangbo/ros2_learn/tongxun_learn/build/student_interfaces' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/huangbo/ros2_learn/tongxun_learn/build/student_interfaces -- -j2 -l2
+[11.156s] Invoking command in '/home/huangbo/ros2_learn/tongxun_learn/build/student_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/huangbo/ros2_learn/tongxun_learn/build/student_interfaces
+[11.167s] -- Install configuration: ""
+[11.168s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/ament_index/resource_index/rosidl_interfaces/student_interfaces
+[11.168s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/msg/Student.json
+[11.169s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces
+[11.169s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg
+[11.169s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail
+[11.170s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__type_support.c
+[11.170s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__struct.h
+[11.170s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__description.c
+[11.171s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__functions.h
+[11.171s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__functions.c
+[11.171s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__type_support.h
+[11.172s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg/rosidl_generator_c__visibility_control.h
+[11.172s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg/student.h
+[11.173s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/environment/library_path.sh
+[11.174s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/environment/library_path.dsv
+[11.174s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/libstudent_interfaces__rosidl_generator_c.so
+[11.175s] -- Set non-toolchain portion of runtime path of "/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/libstudent_interfaces__rosidl_generator_c.so" to ""
+[11.175s] -- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces
+[11.175s] -- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg
+[11.176s] -- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail
+[11.176s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__rosidl_typesupport_fastrtps_c.h
+[11.176s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.176s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/libstudent_interfaces__rosidl_typesupport_fastrtps_c.so
+[11.177s] -- Set non-toolchain portion of runtime path of "/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/libstudent_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[11.177s] -- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces
+[11.178s] -- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg
+[11.178s] -- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail
+[11.178s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__type_support.c
+[11.178s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__rosidl_typesupport_introspection_c.h
+[11.178s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.179s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/libstudent_interfaces__rosidl_typesupport_introspection_c.so
+[11.179s] -- Set non-toolchain portion of runtime path of "/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/libstudent_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[11.179s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/libstudent_interfaces__rosidl_typesupport_c.so
+[11.180s] -- Set non-toolchain portion of runtime path of "/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/libstudent_interfaces__rosidl_typesupport_c.so" to ""
+[11.180s] -- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces
+[11.181s] -- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg
+[11.181s] -- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail
+[11.181s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__builder.hpp
+[11.181s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__traits.hpp
+[11.181s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__struct.hpp
+[11.181s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__type_support.hpp
+[11.181s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg/student.hpp
+[11.182s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[11.183s] -- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces
+[11.183s] -- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg
+[11.183s] -- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail
+[11.184s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__rosidl_typesupport_fastrtps_cpp.hpp
+[11.184s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/dds_fastrtps
+[11.184s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.184s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/libstudent_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[11.184s] -- Set non-toolchain portion of runtime path of "/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/libstudent_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.184s] -- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces
+[11.185s] -- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg
+[11.185s] -- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail
+[11.185s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__type_support.cpp
+[11.186s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__rosidl_typesupport_introspection_cpp.hpp
+[11.186s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/libstudent_interfaces__rosidl_typesupport_introspection_cpp.so
+[11.187s] -- Set non-toolchain portion of runtime path of "/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/libstudent_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[11.187s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/libstudent_interfaces__rosidl_typesupport_cpp.so
+[11.187s] -- Set non-toolchain portion of runtime path of "/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/libstudent_interfaces__rosidl_typesupport_cpp.so" to ""
+[11.187s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/environment/pythonpath.sh
+[11.188s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/environment/pythonpath.dsv
+[11.188s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages/student_interfaces-0.0.0-py3.12.egg-info
+[11.188s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages/student_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[11.188s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages/student_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[11.189s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages/student_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[11.189s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages/student_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[11.189s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages/student_interfaces
+[11.189s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/student_interfaces_s__rosidl_typesupport_c.so
+[11.189s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/student_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[11.189s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/_student_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.189s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/_student_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[11.189s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/_student_interfaces_s.ep.rosidl_typesupport_c.c
+[11.190s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/msg
+[11.190s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/msg/_student.py
+[11.191s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/msg/_student_s.c
+[11.191s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/msg/__init__.py
+[11.191s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/__init__.py
+[11.191s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/student_interfaces_s__rosidl_typesupport_introspection_c.so
+[11.234s] Listing '/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages/student_interfaces'...
+[11.234s] Compiling '/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/__init__.py'...
+[11.235s] Listing '/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/msg'...
+[11.235s] Compiling '/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/msg/__init__.py'...
+[11.235s] Compiling '/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/msg/_student.py'...
+[11.241s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/student_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[11.242s] -- Set non-toolchain portion of runtime path of "/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/student_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[11.242s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/student_interfaces_s__rosidl_typesupport_introspection_c.so
+[11.242s] -- Set non-toolchain portion of runtime path of "/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/student_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[11.243s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/student_interfaces_s__rosidl_typesupport_c.so
+[11.243s] -- Set non-toolchain portion of runtime path of "/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/student_interfaces_s__rosidl_typesupport_c.so" to ""
+[11.243s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/libstudent_interfaces__rosidl_generator_py.so
+[11.244s] -- Set non-toolchain portion of runtime path of "/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/libstudent_interfaces__rosidl_generator_py.so" to ""
+[11.244s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/rust
+[11.244s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/rust/src
+[11.244s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/rust/src/msg.rs
+[11.245s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/rust/src/msg
+[11.246s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/rust/src/msg/rmw.rs
+[11.247s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/rust/src/lib.rs
+[11.248s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/rust/Cargo.toml
+[11.249s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/rust/build.rs
+[11.249s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/msg/Student.idl
+[11.250s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/msg/Student.msg
+[11.250s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/ament_index/resource_index/package_run_dependencies/student_interfaces
+[11.250s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/ament_index/resource_index/parent_prefix_path/student_interfaces
+[11.250s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/environment/ament_prefix_path.sh
+[11.250s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/environment/ament_prefix_path.dsv
+[11.251s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/environment/path.sh
+[11.251s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/environment/path.dsv
+[11.252s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/local_setup.bash
+[11.252s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/local_setup.sh
+[11.253s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/local_setup.zsh
+[11.253s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/local_setup.dsv
+[11.254s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/package.dsv
+[11.254s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/ament_index/resource_index/packages/student_interfaces
+[11.255s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/cmake/export_student_interfaces__rosidl_generator_cExport.cmake
+[11.255s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/cmake/export_student_interfaces__rosidl_generator_cExport-noconfig.cmake
+[11.255s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/cmake/export_student_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[11.255s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/cmake/export_student_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.255s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/cmake/student_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[11.255s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/cmake/student_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.255s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/cmake/student_interfaces__rosidl_typesupport_cExport.cmake
+[11.255s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/cmake/student_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[11.255s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/cmake/export_student_interfaces__rosidl_generator_cppExport.cmake
+[11.256s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/cmake/export_student_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.257s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/cmake/export_student_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.257s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/cmake/student_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[11.257s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/cmake/student_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.257s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/cmake/student_interfaces__rosidl_typesupport_cppExport.cmake
+[11.257s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/cmake/student_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[11.257s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/cmake/export_student_interfaces__rosidl_generator_pyExport.cmake
+[11.258s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/cmake/export_student_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[11.258s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/cmake/rosidl_cmake-extras.cmake
+[11.258s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.258s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[11.258s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[11.258s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.258s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.258s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.258s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[11.258s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/cmake/student_interfacesConfig.cmake
+[11.258s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/cmake/student_interfacesConfig-version.cmake
+[11.258s] -- Installing: /home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/share/student_interfaces/package.xml
+[11.260s] Invoked command in '/home/huangbo/ros2_learn/tongxun_learn/build/student_interfaces' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/huangbo/ros2_learn/tongxun_learn/build/student_interfaces

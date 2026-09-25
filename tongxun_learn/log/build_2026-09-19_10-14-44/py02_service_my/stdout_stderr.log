@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/py02_service_my/py02_service_my.egg-info
+writing ../../build/py02_service_my/py02_service_my.egg-info/PKG-INFO
+writing dependency_links to ../../build/py02_service_my/py02_service_my.egg-info/dependency_links.txt
+writing entry points to ../../build/py02_service_my/py02_service_my.egg-info/entry_points.txt
+writing requirements to ../../build/py02_service_my/py02_service_my.egg-info/requires.txt
+writing top-level names to ../../build/py02_service_my/py02_service_my.egg-info/top_level.txt
+writing manifest file '../../build/py02_service_my/py02_service_my.egg-info/SOURCES.txt'
+reading manifest file '../../build/py02_service_my/py02_service_my.egg-info/SOURCES.txt'
+writing manifest file '../../build/py02_service_my/py02_service_my.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/huangbo/ros2_learn/tongxun_learn/build/py02_service_my/build
+creating /home/huangbo/ros2_learn/tongxun_learn/build/py02_service_my/build/lib
+creating /home/huangbo/ros2_learn/tongxun_learn/build/py02_service_my/build/lib/py02_service_my
+copying py02_service_my/demo_server_py.py -> /home/huangbo/ros2_learn/tongxun_learn/build/py02_service_my/build/lib/py02_service_my
+copying py02_service_my/demo_client_py.py -> /home/huangbo/ros2_learn/tongxun_learn/build/py02_service_my/build/lib/py02_service_my
+copying py02_service_my/__init__.py -> /home/huangbo/ros2_learn/tongxun_learn/build/py02_service_my/build/lib/py02_service_my
+running install
+running install_lib
+creating /home/huangbo/ros2_learn/tongxun_learn/install/py02_service_my/lib/python3.12/site-packages/py02_service_my
+copying /home/huangbo/ros2_learn/tongxun_learn/build/py02_service_my/build/lib/py02_service_my/demo_server_py.py -> /home/huangbo/ros2_learn/tongxun_learn/install/py02_service_my/lib/python3.12/site-packages/py02_service_my
+copying /home/huangbo/ros2_learn/tongxun_learn/build/py02_service_my/build/lib/py02_service_my/demo_client_py.py -> /home/huangbo/ros2_learn/tongxun_learn/install/py02_service_my/lib/python3.12/site-packages/py02_service_my
+copying /home/huangbo/ros2_learn/tongxun_learn/build/py02_service_my/build/lib/py02_service_my/__init__.py -> /home/huangbo/ros2_learn/tongxun_learn/install/py02_service_my/lib/python3.12/site-packages/py02_service_my
+byte-compiling /home/huangbo/ros2_learn/tongxun_learn/install/py02_service_my/lib/python3.12/site-packages/py02_service_my/demo_server_py.py to demo_server_py.cpython-312.pyc
+byte-compiling /home/huangbo/ros2_learn/tongxun_learn/install/py02_service_my/lib/python3.12/site-packages/py02_service_my/demo_client_py.py to demo_client_py.cpython-312.pyc
+byte-compiling /home/huangbo/ros2_learn/tongxun_learn/install/py02_service_my/lib/python3.12/site-packages/py02_service_my/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/huangbo/ros2_learn/tongxun_learn/install/py02_service_my/share/ament_index
+creating /home/huangbo/ros2_learn/tongxun_learn/install/py02_service_my/share/ament_index/resource_index
+creating /home/huangbo/ros2_learn/tongxun_learn/install/py02_service_my/share/ament_index/resource_index/packages
+copying resource/py02_service_my -> /home/huangbo/ros2_learn/tongxun_learn/install/py02_service_my/share/ament_index/resource_index/packages
+copying package.xml -> /home/huangbo/ros2_learn/tongxun_learn/install/py02_service_my/share/py02_service_my
+running install_egg_info
+Copying ../../build/py02_service_my/py02_service_my.egg-info to /home/huangbo/ros2_learn/tongxun_learn/install/py02_service_my/lib/python3.12/site-packages/py02_service_my-0.0.0-py3.12.egg-info
+running install_scripts
+Installing demo_client_py script to /home/huangbo/ros2_learn/tongxun_learn/install/py02_service_my/lib/py02_service_my
+Installing demo_server_py script to /home/huangbo/ros2_learn/tongxun_learn/install/py02_service_my/lib/py02_service_my
+writing list of installed files to '/home/huangbo/ros2_learn/tongxun_learn/build/py02_service_my/install.log'

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "student_interfaces/action/Progress_Goal",
+      "fields": [
+        {
+          "name": "num",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "student_interfaces/action/Progress_Goal",
+      "hash_string": "RIHS01_76cefc15e278cb959ee21baebed7c0010cec421270552914544d053724939b7d"
+    }
+  ]
+}

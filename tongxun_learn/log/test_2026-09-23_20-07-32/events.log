@@ -1,0 +1,193 @@
+[0.000000] (-) TimerEvent: {}
+[0.000081] (py07_jx) JobQueued: {'identifier': 'py07_jx', 'dependencies': OrderedDict({'py07_jx': '/home/huangbo/ros2_learn/tongxun_learn/install/py07_jx'})}
+[0.000111] (py07_jx) JobStarted: {'identifier': 'py07_jx'}
+[0.099274] (-) TimerEvent: {}
+[0.200391] (-) TimerEvent: {}
+[0.284751] (py07_jx) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/huangbo/ros2_learn/tongxun_learn/src/py07_jx', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'RUBBER_DUCK_AGENT': 'true', 'AI_AGENT': 'github_copilot_vscode_agent', 'USER': 'huangbo', 'SSH_CLIENT': '192.168.91.1 3095 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/huangbo', 'GIT_CONFIG_COUNT': '3', 'COPILOT_CLI_RUN_AS_NODE': '1', 'ROS_PYTHON_VERSION': '3', 'COPILOT_CLI': '1', 'SSH_ASKPASS': '', 'ANTHROPIC_ADVISOR': 'false', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'USE_BUILTIN_RIPGREP': 'false', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'GIT_OPTIONAL_LOCKS': '0', 'GCM_INTERACTIVE': 'Never', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'huangbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'XDG_SESSION_ID': '4', 'GIT_CONFIG_VALUE_0': 'explicit', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/node_modules/@vscode/ripgrep-universal/bin/linux-x64', 'GIT_CONFIG_VALUE_1': 'never', 'CLAUDE_CODE_DISABLE_PRECOMPACT_SKIP': '1', 'GIT_CONFIG_VALUE_2': '', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'zh_CN.UTF-8', 'LS_COLORS': '', 'AMENT_PREFIX_PATH': '/home/huangbo/ros2_learn/tongxun_learn/install/py07_jx:/opt/ros/jazzy', 'COPILOT_AGENT_SESSION_ID': '24a895c8-a9ec-452c-ae18-996c93ed6ba6', 'SHELL': '/bin/bash', 'GIT_TERMINAL_PROMPT': '0', 'MXC_BIN_DIR': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/node_modules/@microsoft/mxc-sdk/bin', 'GIT_CONFIG_KEY_0': 'safe.bareRepository', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GIT_CONFIG_KEY_1': 'credential.interactive', 'GIT_CONFIG_KEY_2': 'core.fsmonitor', 'COPILOT_MCP_APPS': 'true', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/huangbo/ros2_learn/tongxun_learn/build/py07_jx', 'AUTO_APPROVAL': 'true', 'SSH_CONNECTION': '192.168.91.1 3095 192.168.91.129 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COPILOT_ENABLE_BUILTIN_GITHUB_MCP': 'true', 'PYTHONPATH': '/home/huangbo/ros2_learn/tongxun_learn/install/py07_jx/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'COPILOT_CLI_ENABLED_FEATURE_FLAGS': 'SHELL_SPAWN_BACKEND', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'PYTHONDONTWRITEBYTECODE': '1', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/pytest.xml --junit-prefix=py07_jx -o cache_dir=/home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/.pytest_cache'}), 'shell': False}
+[0.301165] (-) TimerEvent: {}
+[0.403266] (-) TimerEvent: {}
+[0.503869] (-) TimerEvent: {}
+[0.604906] (-) TimerEvent: {}
+[0.705540] (-) TimerEvent: {}
+[0.805972] (-) TimerEvent: {}
+[0.906726] (-) TimerEvent: {}
+[0.986030] (py07_jx) StdoutLine: {'line': b'============================= test session starts ==============================\n'}
+[0.986537] (py07_jx) StdoutLine: {'line': b'platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0\n'}
+[0.987184] (py07_jx) StdoutLine: {'line': b'cachedir: /home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/.pytest_cache\n'}
+[0.987769] (py07_jx) StdoutLine: {'line': b'rootdir: /home/huangbo/ros2_learn/tongxun_learn/src/py07_jx\n'}
+[0.988123] (py07_jx) StdoutLine: {'line': b'plugins: launch-testing-ros-0.26.12, launch-testing-3.4.11, ament-lint-0.17.5, ament-xmllint-0.17.5, ament-pep257-0.17.5, ament-flake8-0.17.5, ament-copyright-0.17.5, colcon-core-0.21.2, cov-4.1.0\n'}
+[0.990523] (py07_jx) StdoutLine: {'line': b'collected 3 items\n'}
+[0.990758] (py07_jx) StdoutLine: {'line': b'\n'}
+[0.997701] (py07_jx) StdoutLine: {'line': b'test/test_copyright.py s                                                 [ 33%]\n'}
+[1.007484] (-) TimerEvent: {}
+[1.108579] (-) TimerEvent: {}
+[1.193373] (py07_jx) StdoutLine: {'line': b'test/test_flake8.py F                                                    [ 66%]\n'}
+[1.209714] (-) TimerEvent: {}
+[1.224181] (py07_jx) StdoutLine: {'line': b'test/test_pep257.py .                                                    [100%]\n'}
+[1.224606] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.224920] (py07_jx) StdoutLine: {'line': b'=================================== FAILURES ===================================\n'}
+[1.225192] (py07_jx) StdoutLine: {'line': b'_________________________________ test_flake8 __________________________________\n'}
+[1.225772] (py07_jx) StdoutLine: {'line': b'test/test_flake8.py:23: in test_flake8\n'}
+[1.226219] (py07_jx) StdoutLine: {'line': b'    assert rc == 0, \\\n'}
+[1.226749] (py07_jx) StdoutLine: {'line': b'E   AssertionError: Found 25 code style errors / warnings:\n'}
+[1.227457] (py07_jx) StdoutLine: {'line': b'E     ./launch/mirror_launch.py:4:1: E302 expected 2 blank lines, found 1\n'}
+[1.228462] (py07_jx) StdoutLine: {'line': b'E     ./launch/mirror_launch.py:8:21: Q000 Double quotes found but single quotes preferred\n'}
+[1.229340] (py07_jx) StdoutLine: {'line': b'E     ./launch/mirror_launch.py:9:24: Q000 Double quotes found but single quotes preferred\n'}
+[1.230232] (py07_jx) StdoutLine: {'line': b'E     ./launch/mirror_launch.py:10:23: Q000 Double quotes found but single quotes preferred\n'}
+[1.232151] (py07_jx) StdoutLine: {'line': b'E     ./launch/mirror_launch.py:11:18: Q000 Double quotes found but single quotes preferred\n'}
+[1.232567] (py07_jx) StdoutLine: {'line': b'E     ./launch/mirror_launch.py:15:21: Q000 Double quotes found but single quotes preferred\n'}
+[1.232914] (py07_jx) StdoutLine: {'line': b'E     ./launch/mirror_launch.py:16:24: Q000 Double quotes found but single quotes preferred\n'}
+[1.233235] (py07_jx) StdoutLine: {'line': b'E     ./launch/mirror_launch.py:17:23: Q000 Double quotes found but single quotes preferred\n'}
+[1.233662] (py07_jx) StdoutLine: {'line': b'E     ./launch/mirror_launch.py:18:18: Q000 Double quotes found but single quotes preferred\n'}
+[1.233929] (py07_jx) StdoutLine: {'line': b'E     ./launch/mirror_launch.py:22:21: Q000 Double quotes found but single quotes preferred\n'}
+[1.235246] (py07_jx) StdoutLine: {'line': b'E     ./launch/mirror_launch.py:23:24: Q000 Double quotes found but single quotes preferred\n'}
+[1.235874] (py07_jx) StdoutLine: {'line': b'E     ./launch/mirror_launch.py:24:18: Q000 Double quotes found but single quotes preferred\n'}
+[1.237221] (py07_jx) StdoutLine: {'line': b"E     ./py07_jx/turtle_jingxiang.py:3:1: I100 Import statements are in the wrong order. 'from geometry_msgs.msg import Twist' should be before 'from rclpy.node import Node'\n"}
+[1.237970] (py07_jx) StdoutLine: {'line': b'E     ./py07_jx/turtle_jingxiang.py:7:1: E302 expected 2 blank lines, found 1\n'}
+[1.238708] (py07_jx) StdoutLine: {'line': b'E     ./py07_jx/turtle_jingxiang.py:49:32: Q000 Double quotes found but single quotes preferred\n'}
+[1.240010] (py07_jx) StdoutLine: {'line': b"E     ./py07_jx/turtle_jingxiang.py:51:31: E231 missing whitespace after ':'\n"}
+[1.240359] (py07_jx) StdoutLine: {'line': b'E     ./py07_jx/turtle_jingxiang.py:60:1: E302 expected 2 blank lines, found 1\n'}
+[1.241065] (py07_jx) StdoutLine: {'line': b'E     ./py07_jx/turtle_jingxiang.py:67:1: E305 expected 2 blank lines after class or function definition, found 1\n'}
+[1.242569] (py07_jx) StdoutLine: {'line': b"E     ./setup.py:2:1: I100 Import statements are in the wrong order. 'import os' should be before 'from setuptools import find_packages, setup' and in a different group.\n"}
+[1.242980] (py07_jx) StdoutLine: {'line': b"E     ./setup.py:2:1: I201 Missing newline between import groups. 'import os' is identified as Stdlib and 'from setuptools import find_packages, setup' is identified as Third Party.\n"}
+[1.243341] (py07_jx) StdoutLine: {'line': b"E     ./setup.py:3:1: I100 Import statements are in the wrong order. 'from glob import glob' should be before 'import os'\n"}
+[1.243970] (py07_jx) StdoutLine: {'line': b'E     ./setup.py:11:5: E122 continuation line missing indentation or outdented\n'}
+[1.244794] (py07_jx) StdoutLine: {'line': b'E     ./setup.py:13:5: E122 continuation line missing indentation or outdented\n'}
+[1.246410] (py07_jx) StdoutLine: {'line': b'E     ./setup.py:14:5: E122 continuation line missing indentation or outdented\n'}
+[1.246743] (py07_jx) StdoutLine: {'line': b'E     ./setup.py:15:5: E122 continuation line missing indentation or outdented\n'}
+[1.247148] (py07_jx) StdoutLine: {'line': b'E   assert 1 == 0\n'}
+[1.247417] (py07_jx) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[1.248195] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.248461] (py07_jx) StdoutLine: {'line': b'./launch/mirror_launch.py:4:1: E302 expected 2 blank lines, found 1\n'}
+[1.248811] (py07_jx) StdoutLine: {'line': b'def generate_launch_description():\n'}
+[1.249067] (py07_jx) StdoutLine: {'line': b'^\n'}
+[1.249400] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.249660] (py07_jx) StdoutLine: {'line': b'./launch/mirror_launch.py:8:21: Q000 Double quotes found but single quotes preferred\n'}
+[1.249913] (py07_jx) StdoutLine: {'line': b'            package="turtlesim",\n'}
+[1.250263] (py07_jx) StdoutLine: {'line': b'                    ^\n'}
+[1.250520] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.250769] (py07_jx) StdoutLine: {'line': b'./launch/mirror_launch.py:9:24: Q000 Double quotes found but single quotes preferred\n'}
+[1.251100] (py07_jx) StdoutLine: {'line': b'            executable="turtlesim_node",\n'}
+[1.251350] (py07_jx) StdoutLine: {'line': b'                       ^\n'}
+[1.251599] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.252097] (py07_jx) StdoutLine: {'line': b'./launch/mirror_launch.py:10:23: Q000 Double quotes found but single quotes preferred\n'}
+[1.252352] (py07_jx) StdoutLine: {'line': b'            namespace="turtlesim1",\n'}
+[1.252845] (py07_jx) StdoutLine: {'line': b'                      ^\n'}
+[1.253098] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.253529] (py07_jx) StdoutLine: {'line': b'./launch/mirror_launch.py:11:18: Q000 Double quotes found but single quotes preferred\n'}
+[1.253787] (py07_jx) StdoutLine: {'line': b'            name="sim1"\n'}
+[1.254037] (py07_jx) StdoutLine: {'line': b'                 ^\n'}
+[1.254349] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.254598] (py07_jx) StdoutLine: {'line': b'./launch/mirror_launch.py:15:21: Q000 Double quotes found but single quotes preferred\n'}
+[1.254844] (py07_jx) StdoutLine: {'line': b'            package="turtlesim",\n'}
+[1.255170] (py07_jx) StdoutLine: {'line': b'                    ^\n'}
+[1.255419] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.255673] (py07_jx) StdoutLine: {'line': b'./launch/mirror_launch.py:16:24: Q000 Double quotes found but single quotes preferred\n'}
+[1.255921] (py07_jx) StdoutLine: {'line': b'            executable="turtlesim_node",\n'}
+[1.256167] (py07_jx) StdoutLine: {'line': b'                       ^\n'}
+[1.256414] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.256746] (py07_jx) StdoutLine: {'line': b'./launch/mirror_launch.py:17:23: Q000 Double quotes found but single quotes preferred\n'}
+[1.256993] (py07_jx) StdoutLine: {'line': b'            namespace="turtlesim2",\n'}
+[1.257239] (py07_jx) StdoutLine: {'line': b'                      ^\n'}
+[1.257544] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.257791] (py07_jx) StdoutLine: {'line': b'./launch/mirror_launch.py:18:18: Q000 Double quotes found but single quotes preferred\n'}
+[1.258037] (py07_jx) StdoutLine: {'line': b'            name="sim2"\n'}
+[1.258371] (py07_jx) StdoutLine: {'line': b'                 ^\n'}
+[1.258621] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.258870] (py07_jx) StdoutLine: {'line': b'./launch/mirror_launch.py:22:21: Q000 Double quotes found but single quotes preferred\n'}
+[1.259206] (py07_jx) StdoutLine: {'line': b'            package="py07_jx",\n'}
+[1.259454] (py07_jx) StdoutLine: {'line': b'                    ^\n'}
+[1.259727] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.259974] (py07_jx) StdoutLine: {'line': b'./launch/mirror_launch.py:23:24: Q000 Double quotes found but single quotes preferred\n'}
+[1.260219] (py07_jx) StdoutLine: {'line': b'            executable="turtle_jingxiang",\n'}
+[1.260627] (py07_jx) StdoutLine: {'line': b'                       ^\n'}
+[1.261001] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.261637] (py07_jx) StdoutLine: {'line': b'./launch/mirror_launch.py:24:18: Q000 Double quotes found but single quotes preferred\n'}
+[1.261972] (py07_jx) StdoutLine: {'line': b'            name="mirror_node"\n'}
+[1.262451] (py07_jx) StdoutLine: {'line': b'                 ^\n'}
+[1.262790] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.263222] (py07_jx) StdoutLine: {'line': b"./py07_jx/turtle_jingxiang.py:3:1: I100 Import statements are in the wrong order. 'from geometry_msgs.msg import Twist' should be before 'from rclpy.node import Node'\n"}
+[1.263557] (py07_jx) StdoutLine: {'line': b'from geometry_msgs.msg import Twist\n'}
+[1.263929] (py07_jx) StdoutLine: {'line': b'^\n'}
+[1.264279] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.264726] (py07_jx) StdoutLine: {'line': b'./py07_jx/turtle_jingxiang.py:7:1: E302 expected 2 blank lines, found 1\n'}
+[1.265052] (py07_jx) StdoutLine: {'line': b'class MirrorNode(Node):\n'}
+[1.265462] (py07_jx) StdoutLine: {'line': b'^\n'}
+[1.265785] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.266219] (py07_jx) StdoutLine: {'line': b'./py07_jx/turtle_jingxiang.py:49:32: Q000 Double quotes found but single quotes preferred\n'}
+[1.266461] (py07_jx) StdoutLine: {'line': b'        self.get_logger().info("\xe4\xb9\x8c\xe9\xbe\x9f2\xe5\xb7\xb2\xe6\x8e\x89\xe5\xa4\xb4180\xe5\xba\xa6\xef\xbc\x8c\xe9\x95\x9c\xe5\x83\x8f\xe8\x8a\x82\xe7\x82\xb9\xe5\xb0\xb1\xe7\xbb\xaa")\n'}
+[1.266682] (py07_jx) StdoutLine: {'line': b'                               ^\n'}
+[1.266925] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.267171] (py07_jx) StdoutLine: {'line': b"./py07_jx/turtle_jingxiang.py:51:31: E231 missing whitespace after ':'\n"}
+[1.267389] (py07_jx) StdoutLine: {'line': b'    def vel_callback(self, msg:Twist):\n'}
+[1.267711] (py07_jx) StdoutLine: {'line': b'                              ^\n'}
+[1.267999] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.268281] (py07_jx) StdoutLine: {'line': b'./py07_jx/turtle_jingxiang.py:60:1: E302 expected 2 blank lines, found 1\n'}
+[1.268799] (py07_jx) StdoutLine: {'line': b'def main(args=None):\n'}
+[1.269078] (py07_jx) StdoutLine: {'line': b'^\n'}
+[1.269556] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.269839] (py07_jx) StdoutLine: {'line': b'./py07_jx/turtle_jingxiang.py:67:1: E305 expected 2 blank lines after class or function definition, found 1\n'}
+[1.270198] (py07_jx) StdoutLine: {'line': b"if __name__ == '__main__':\n"}
+[1.270452] (py07_jx) StdoutLine: {'line': b'^\n'}
+[1.270706] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.270984] (py07_jx) StdoutLine: {'line': b"./setup.py:2:1: I100 Import statements are in the wrong order. 'import os' should be before 'from setuptools import find_packages, setup' and in a different group.\n"}
+[1.271240] (py07_jx) StdoutLine: {'line': b'import os\n'}
+[1.271486] (py07_jx) StdoutLine: {'line': b'^\n'}
+[1.271819] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.272074] (py07_jx) StdoutLine: {'line': b"./setup.py:2:1: I201 Missing newline between import groups. 'import os' is identified as Stdlib and 'from setuptools import find_packages, setup' is identified as Third Party.\n"}
+[1.272360] (py07_jx) StdoutLine: {'line': b'import os\n'}
+[1.272708] (py07_jx) StdoutLine: {'line': b'^\n'}
+[1.273042] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.273326] (py07_jx) StdoutLine: {'line': b"./setup.py:3:1: I100 Import statements are in the wrong order. 'from glob import glob' should be before 'import os'\n"}
+[1.273611] (py07_jx) StdoutLine: {'line': b'from glob import glob\n'}
+[1.273934] (py07_jx) StdoutLine: {'line': b'^\n'}
+[1.274213] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.274487] (py07_jx) StdoutLine: {'line': b'./setup.py:11:5: E122 continuation line missing indentation or outdented\n'}
+[1.274816] (py07_jx) StdoutLine: {'line': b"    ('share/ament_index/resource_index/packages',\n"}
+[1.275068] (py07_jx) StdoutLine: {'line': b'    ^\n'}
+[1.275315] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.275647] (py07_jx) StdoutLine: {'line': b'./setup.py:13:5: E122 continuation line missing indentation or outdented\n'}
+[1.275899] (py07_jx) StdoutLine: {'line': b"    ('share/' + package_name, ['package.xml']),\n"}
+[1.276190] (py07_jx) StdoutLine: {'line': b'    ^\n'}
+[1.276450] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.276700] (py07_jx) StdoutLine: {'line': b'./setup.py:14:5: E122 continuation line missing indentation or outdented\n'}
+[1.277002] (py07_jx) StdoutLine: {'line': b'    # \xe6\xb3\xa8\xe5\x86\x8claunch\xe6\x96\x87\xe4\xbb\xb6\n'}
+[1.277292] (py07_jx) StdoutLine: {'line': b'    ^\n'}
+[1.277563] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.277860] (py07_jx) StdoutLine: {'line': b'./setup.py:15:5: E122 continuation line missing indentation or outdented\n'}
+[1.278230] (py07_jx) StdoutLine: {'line': b"    (os.path.join('share', package_name, 'launch'), glob(os.path.join('launch', '*.py'))),\n"}
+[1.278501] (py07_jx) StdoutLine: {'line': b'    ^\n'}
+[1.278925] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.279239] (py07_jx) StdoutLine: {'line': b'4     E122 continuation line missing indentation or outdented\n'}
+[1.279653] (py07_jx) StdoutLine: {'line': b"1     E231 missing whitespace after ':'\n"}
+[1.279965] (py07_jx) StdoutLine: {'line': b'3     E302 expected 2 blank lines, found 1\n'}
+[1.280365] (py07_jx) StdoutLine: {'line': b'1     E305 expected 2 blank lines after class or function definition, found 1\n'}
+[1.280684] (py07_jx) StdoutLine: {'line': b"3     I100 Import statements are in the wrong order. 'from geometry_msgs.msg import Twist' should be before 'from rclpy.node import Node'\n"}
+[1.281061] (py07_jx) StdoutLine: {'line': b"1     I201 Missing newline between import groups. 'import os' is identified as Stdlib and 'from setuptools import find_packages, setup' is identified as Third Party.\n"}
+[1.281326] (py07_jx) StdoutLine: {'line': b'12    Q000 Double quotes found but single quotes preferred\n'}
+[1.281596] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.281878] (py07_jx) StdoutLine: {'line': b'7 files checked\n'}
+[1.282132] (py07_jx) StdoutLine: {'line': b'25 errors\n'}
+[1.282603] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.282870] (py07_jx) StdoutLine: {'line': b"'E'-type errors: 9\n"}
+[1.283123] (py07_jx) StdoutLine: {'line': b"'I'-type errors: 4\n"}
+[1.283485] (py07_jx) StdoutLine: {'line': b"'Q'-type errors: 12\n"}
+[1.283736] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.283982] (py07_jx) StdoutLine: {'line': b'Checked files:\n'}
+[1.284789] (py07_jx) StdoutLine: {'line': b'\n'}
+[1.285270] (py07_jx) StdoutLine: {'line': b'* ./setup.py\n'}
+[1.285524] (py07_jx) StdoutLine: {'line': b'* ./py07_jx/turtle_jingxiang.py\n'}
+[1.285798] (py07_jx) StdoutLine: {'line': b'* ./py07_jx/__init__.py\n'}
+[1.286049] (py07_jx) StdoutLine: {'line': b'* ./test/test_flake8.py\n'}
+[1.286301] (py07_jx) StdoutLine: {'line': b'* ./test/test_copyright.py\n'}
+[1.286642] (py07_jx) StdoutLine: {'line': b'* ./test/test_pep257.py\n'}
+[1.286891] (py07_jx) StdoutLine: {'line': b'* ./launch/mirror_launch.py\n'}
+[1.287142] (py07_jx) StdoutLine: {'line': b'- generated xml file: /home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/pytest.xml -\n'}
+[1.287477] (py07_jx) StdoutLine: {'line': b'=========================== short test summary info ============================\n'}
+[1.287755] (py07_jx) StdoutLine: {'line': b'FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 25 code style...\n'}
+[1.288316] (py07_jx) StdoutLine: {'line': b'==================== 1 failed, 1 passed, 1 skipped in 0.34s ====================\n'}
+[1.309955] (-) TimerEvent: {}
+[1.343205] (py07_jx) CommandEnded: {'returncode': 1}
+[1.344231] (py07_jx) TestFailure: {'identifier': 'py07_jx'}
+[1.344325] (py07_jx) JobEnded: {'identifier': 'py07_jx', 'rc': 0}
+[1.345156] (-) EventReactorShutdown: {}

@@ -1,0 +1,3 @@
+[console_scripts]
+demo_client_py = py02_service_my.demo_client_py:main
+demo_server_py = py02_service_my.demo_server_py:main

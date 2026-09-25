@@ -1,0 +1,25 @@
+[2.188s] Invoking command in '/home/huangbo/ros2_learn/tongxun_learn/src/py04_param': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tongxun_learn/build/py04_param/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tongxun_learn/install/py04_param/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py04_param build --build-base /home/huangbo/ros2_learn/tongxun_learn/build/py04_param/build install --record /home/huangbo/ros2_learn/tongxun_learn/build/py04_param/install.log --install-scripts $base/lib/py04_param --single-version-externally-managed install_data
+[2.946s] running egg_info
+[2.995s] writing ../../build/py04_param/py04_param.egg-info/PKG-INFO
+[2.999s] writing dependency_links to ../../build/py04_param/py04_param.egg-info/dependency_links.txt
+[2.999s] writing entry points to ../../build/py04_param/py04_param.egg-info/entry_points.txt
+[3.000s] writing requirements to ../../build/py04_param/py04_param.egg-info/requires.txt
+[3.001s] writing top-level names to ../../build/py04_param/py04_param.egg-info/top_level.txt
+[3.104s] reading manifest file '../../build/py04_param/py04_param.egg-info/SOURCES.txt'
+[3.105s] writing manifest file '../../build/py04_param/py04_param.egg-info/SOURCES.txt'
+[3.106s] running build
+[3.106s] running build_py
+[3.106s] copying py04_param/demo01_param_server_py.py -> /home/huangbo/ros2_learn/tongxun_learn/build/py04_param/build/lib/py04_param
+[3.107s] running install
+[3.120s] running install_lib
+[3.176s] copying /home/huangbo/ros2_learn/tongxun_learn/build/py04_param/build/lib/py04_param/demo01_param_server_py.py -> /home/huangbo/ros2_learn/tongxun_learn/install/py04_param/lib/python3.12/site-packages/py04_param
+[3.186s] byte-compiling /home/huangbo/ros2_learn/tongxun_learn/install/py04_param/lib/python3.12/site-packages/py04_param/demo01_param_server_py.py to demo01_param_server_py.cpython-312.pyc
+[3.187s] running install_data
+[3.190s] running install_egg_info
+[3.254s] removing '/home/huangbo/ros2_learn/tongxun_learn/install/py04_param/lib/python3.12/site-packages/py04_param-0.0.0-py3.12.egg-info' (and everything under it)
+[3.256s] Copying ../../build/py04_param/py04_param.egg-info to /home/huangbo/ros2_learn/tongxun_learn/install/py04_param/lib/python3.12/site-packages/py04_param-0.0.0-py3.12.egg-info
+[3.259s] running install_scripts
+[3.593s] Installing demo00_param script to /home/huangbo/ros2_learn/tongxun_learn/install/py04_param/lib/py04_param
+[3.593s] Installing demo01_param_server_py script to /home/huangbo/ros2_learn/tongxun_learn/install/py04_param/lib/py04_param
+[3.595s] writing list of installed files to '/home/huangbo/ros2_learn/tongxun_learn/build/py04_param/install.log'
+[3.637s] Invoked command in '/home/huangbo/ros2_learn/tongxun_learn/src/py04_param' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tongxun_learn/build/py04_param/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tongxun_learn/install/py04_param/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py04_param build --build-base /home/huangbo/ros2_learn/tongxun_learn/build/py04_param/build install --record /home/huangbo/ros2_learn/tongxun_learn/build/py04_param/install.log --install-scripts $base/lib/py04_param --single-version-externally-managed install_data

@@ -1,0 +1,174 @@
+[0.286s] Invoking command in '/home/huangbo/ros2_learn/tongxun_learn/src/py07_jx': AMENT_PREFIX_PATH=/home/huangbo/ros2_learn/tongxun_learn/install/py07_jx:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/pytest.xml --junit-prefix=py07_jx -o cache_dir=/home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/huangbo/ros2_learn/tongxun_learn/install/py07_jx/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[0.986s] ============================= test session starts ==============================
+[0.987s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[0.988s] cachedir: /home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/.pytest_cache
+[0.988s] rootdir: /home/huangbo/ros2_learn/tongxun_learn/src/py07_jx
+[0.990s] plugins: launch-testing-ros-0.26.12, launch-testing-3.4.11, ament-lint-0.17.5, ament-xmllint-0.17.5, ament-pep257-0.17.5, ament-flake8-0.17.5, ament-copyright-0.17.5, colcon-core-0.21.2, cov-4.1.0
+[0.991s] collected 3 items
+[0.991s] 
+[0.998s] test/test_copyright.py s                                                 [ 33%]
+[1.194s] test/test_flake8.py F                                                    [ 66%]
+[1.224s] test/test_pep257.py .                                                    [100%]
+[1.225s] 
+[1.225s] =================================== FAILURES ===================================
+[1.225s] _________________________________ test_flake8 __________________________________
+[1.226s] test/test_flake8.py:23: in test_flake8
+[1.227s]     assert rc == 0, \
+[1.227s] E   AssertionError: Found 25 code style errors / warnings:
+[1.228s] E     ./launch/mirror_launch.py:4:1: E302 expected 2 blank lines, found 1
+[1.229s] E     ./launch/mirror_launch.py:8:21: Q000 Double quotes found but single quotes preferred
+[1.230s] E     ./launch/mirror_launch.py:9:24: Q000 Double quotes found but single quotes preferred
+[1.231s] E     ./launch/mirror_launch.py:10:23: Q000 Double quotes found but single quotes preferred
+[1.232s] E     ./launch/mirror_launch.py:11:18: Q000 Double quotes found but single quotes preferred
+[1.233s] E     ./launch/mirror_launch.py:15:21: Q000 Double quotes found but single quotes preferred
+[1.233s] E     ./launch/mirror_launch.py:16:24: Q000 Double quotes found but single quotes preferred
+[1.233s] E     ./launch/mirror_launch.py:17:23: Q000 Double quotes found but single quotes preferred
+[1.234s] E     ./launch/mirror_launch.py:18:18: Q000 Double quotes found but single quotes preferred
+[1.234s] E     ./launch/mirror_launch.py:22:21: Q000 Double quotes found but single quotes preferred
+[1.235s] E     ./launch/mirror_launch.py:23:24: Q000 Double quotes found but single quotes preferred
+[1.237s] E     ./launch/mirror_launch.py:24:18: Q000 Double quotes found but single quotes preferred
+[1.238s] E     ./py07_jx/turtle_jingxiang.py:3:1: I100 Import statements are in the wrong order. 'from geometry_msgs.msg import Twist' should be before 'from rclpy.node import Node'
+[1.238s] E     ./py07_jx/turtle_jingxiang.py:7:1: E302 expected 2 blank lines, found 1
+[1.240s] E     ./py07_jx/turtle_jingxiang.py:49:32: Q000 Double quotes found but single quotes preferred
+[1.240s] E     ./py07_jx/turtle_jingxiang.py:51:31: E231 missing whitespace after ':'
+[1.241s] E     ./py07_jx/turtle_jingxiang.py:60:1: E302 expected 2 blank lines, found 1
+[1.242s] E     ./py07_jx/turtle_jingxiang.py:67:1: E305 expected 2 blank lines after class or function definition, found 1
+[1.243s] E     ./setup.py:2:1: I100 Import statements are in the wrong order. 'import os' should be before 'from setuptools import find_packages, setup' and in a different group.
+[1.243s] E     ./setup.py:2:1: I201 Missing newline between import groups. 'import os' is identified as Stdlib and 'from setuptools import find_packages, setup' is identified as Third Party.
+[1.244s] E     ./setup.py:3:1: I100 Import statements are in the wrong order. 'from glob import glob' should be before 'import os'
+[1.244s] E     ./setup.py:11:5: E122 continuation line missing indentation or outdented
+[1.246s] E     ./setup.py:13:5: E122 continuation line missing indentation or outdented
+[1.246s] E     ./setup.py:14:5: E122 continuation line missing indentation or outdented
+[1.247s] E     ./setup.py:15:5: E122 continuation line missing indentation or outdented
+[1.247s] E   assert 1 == 0
+[1.248s] ----------------------------- Captured stdout call -----------------------------
+[1.248s] 
+[1.249s] ./launch/mirror_launch.py:4:1: E302 expected 2 blank lines, found 1
+[1.249s] def generate_launch_description():
+[1.249s] ^
+[1.249s] 
+[1.250s] ./launch/mirror_launch.py:8:21: Q000 Double quotes found but single quotes preferred
+[1.250s]             package="turtlesim",
+[1.250s]                     ^
+[1.251s] 
+[1.251s] ./launch/mirror_launch.py:9:24: Q000 Double quotes found but single quotes preferred
+[1.251s]             executable="turtlesim_node",
+[1.251s]                        ^
+[1.252s] 
+[1.252s] ./launch/mirror_launch.py:10:23: Q000 Double quotes found but single quotes preferred
+[1.253s]             namespace="turtlesim1",
+[1.253s]                       ^
+[1.253s] 
+[1.254s] ./launch/mirror_launch.py:11:18: Q000 Double quotes found but single quotes preferred
+[1.254s]             name="sim1"
+[1.254s]                  ^
+[1.254s] 
+[1.255s] ./launch/mirror_launch.py:15:21: Q000 Double quotes found but single quotes preferred
+[1.255s]             package="turtlesim",
+[1.255s]                     ^
+[1.255s] 
+[1.256s] ./launch/mirror_launch.py:16:24: Q000 Double quotes found but single quotes preferred
+[1.256s]             executable="turtlesim_node",
+[1.256s]                        ^
+[1.257s] 
+[1.257s] ./launch/mirror_launch.py:17:23: Q000 Double quotes found but single quotes preferred
+[1.257s]             namespace="turtlesim2",
+[1.257s]                       ^
+[1.258s] 
+[1.258s] ./launch/mirror_launch.py:18:18: Q000 Double quotes found but single quotes preferred
+[1.258s]             name="sim2"
+[1.258s]                  ^
+[1.259s] 
+[1.259s] ./launch/mirror_launch.py:22:21: Q000 Double quotes found but single quotes preferred
+[1.259s]             package="py07_jx",
+[1.259s]                     ^
+[1.260s] 
+[1.260s] ./launch/mirror_launch.py:23:24: Q000 Double quotes found but single quotes preferred
+[1.260s]             executable="turtle_jingxiang",
+[1.261s]                        ^
+[1.261s] 
+[1.262s] ./launch/mirror_launch.py:24:18: Q000 Double quotes found but single quotes preferred
+[1.262s]             name="mirror_node"
+[1.263s]                  ^
+[1.263s] 
+[1.263s] ./py07_jx/turtle_jingxiang.py:3:1: I100 Import statements are in the wrong order. 'from geometry_msgs.msg import Twist' should be before 'from rclpy.node import Node'
+[1.264s] from geometry_msgs.msg import Twist
+[1.264s] ^
+[1.264s] 
+[1.265s] ./py07_jx/turtle_jingxiang.py:7:1: E302 expected 2 blank lines, found 1
+[1.265s] class MirrorNode(Node):
+[1.266s] ^
+[1.266s] 
+[1.266s] ./py07_jx/turtle_jingxiang.py:49:32: Q000 Double quotes found but single quotes preferred
+[1.266s]         self.get_logger().info("乌龟2已掉头180度，镜像节点就绪")
+[1.267s]                                ^
+[1.267s] 
+[1.267s] ./py07_jx/turtle_jingxiang.py:51:31: E231 missing whitespace after ':'
+[1.267s]     def vel_callback(self, msg:Twist):
+[1.268s]                               ^
+[1.268s] 
+[1.269s] ./py07_jx/turtle_jingxiang.py:60:1: E302 expected 2 blank lines, found 1
+[1.269s] def main(args=None):
+[1.269s] ^
+[1.270s] 
+[1.270s] ./py07_jx/turtle_jingxiang.py:67:1: E305 expected 2 blank lines after class or function definition, found 1
+[1.270s] if __name__ == '__main__':
+[1.270s] ^
+[1.271s] 
+[1.271s] ./setup.py:2:1: I100 Import statements are in the wrong order. 'import os' should be before 'from setuptools import find_packages, setup' and in a different group.
+[1.271s] import os
+[1.272s] ^
+[1.272s] 
+[1.272s] ./setup.py:2:1: I201 Missing newline between import groups. 'import os' is identified as Stdlib and 'from setuptools import find_packages, setup' is identified as Third Party.
+[1.272s] import os
+[1.273s] ^
+[1.273s] 
+[1.273s] ./setup.py:3:1: I100 Import statements are in the wrong order. 'from glob import glob' should be before 'import os'
+[1.274s] from glob import glob
+[1.274s] ^
+[1.274s] 
+[1.275s] ./setup.py:11:5: E122 continuation line missing indentation or outdented
+[1.275s]     ('share/ament_index/resource_index/packages',
+[1.275s]     ^
+[1.275s] 
+[1.276s] ./setup.py:13:5: E122 continuation line missing indentation or outdented
+[1.276s]     ('share/' + package_name, ['package.xml']),
+[1.276s]     ^
+[1.276s] 
+[1.277s] ./setup.py:14:5: E122 continuation line missing indentation or outdented
+[1.277s]     # 注册launch文件
+[1.277s]     ^
+[1.278s] 
+[1.278s] ./setup.py:15:5: E122 continuation line missing indentation or outdented
+[1.278s]     (os.path.join('share', package_name, 'launch'), glob(os.path.join('launch', '*.py'))),
+[1.279s]     ^
+[1.279s] 
+[1.279s] 4     E122 continuation line missing indentation or outdented
+[1.280s] 1     E231 missing whitespace after ':'
+[1.280s] 3     E302 expected 2 blank lines, found 1
+[1.280s] 1     E305 expected 2 blank lines after class or function definition, found 1
+[1.281s] 3     I100 Import statements are in the wrong order. 'from geometry_msgs.msg import Twist' should be before 'from rclpy.node import Node'
+[1.281s] 1     I201 Missing newline between import groups. 'import os' is identified as Stdlib and 'from setuptools import find_packages, setup' is identified as Third Party.
+[1.281s] 12    Q000 Double quotes found but single quotes preferred
+[1.282s] 
+[1.282s] 7 files checked
+[1.282s] 25 errors
+[1.283s] 
+[1.283s] 'E'-type errors: 9
+[1.283s] 'I'-type errors: 4
+[1.284s] 'Q'-type errors: 12
+[1.284s] 
+[1.285s] Checked files:
+[1.285s] 
+[1.285s] * ./setup.py
+[1.286s] * ./py07_jx/turtle_jingxiang.py
+[1.286s] * ./py07_jx/__init__.py
+[1.286s] * ./test/test_flake8.py
+[1.286s] * ./test/test_copyright.py
+[1.287s] * ./test/test_pep257.py
+[1.287s] * ./launch/mirror_launch.py
+[1.287s] - generated xml file: /home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/pytest.xml -
+[1.288s] =========================== short test summary info ============================
+[1.288s] FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 25 code style...
+[1.288s] ==================== 1 failed, 1 passed, 1 skipped in 0.34s ====================
+[1.344s] Invoked command in '/home/huangbo/ros2_learn/tongxun_learn/src/py07_jx' returned '1': AMENT_PREFIX_PATH=/home/huangbo/ros2_learn/tongxun_learn/install/py07_jx:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/pytest.xml --junit-prefix=py07_jx -o cache_dir=/home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/huangbo/ros2_learn/tongxun_learn/install/py07_jx/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

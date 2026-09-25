@@ -1,0 +1,156 @@
+[0.224s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'py01_topic']
+[0.224s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['py01_topic'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x771059545eb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7710596f74a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7710596f74a0>>, mixin_verb=('build',))
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.287s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/huangbo/ros2_learn/tongxun_learn'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_tongxun_s) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_tongxun_s) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_tongxun_s) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_tongxun_s) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_tongxun_s) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_tongxun_s) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_tongxun_s) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_tongxun_s) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_tongxun_s) by extension 'ros'
+[0.346s] DEBUG:colcon.colcon_core.package_identification:Package 'src/base_tongxun_s' with type 'ros.ament_python' and name 'base_tongxun_s'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extension 'ros'
+[0.349s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py01_topic' with type 'ros.ament_python' and name 'py01_topic'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/student_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/student_interfaces) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/student_interfaces) by extension 'ignore_ament_install'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/student_interfaces) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/student_interfaces) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/student_interfaces) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/student_interfaces) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/student_interfaces) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/student_interfaces) by extension 'ros'
+[0.351s] DEBUG:colcon.colcon_core.package_identification:Package 'src/student_interfaces' with type 'ros.ament_cmake' and name 'student_interfaces'
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.388s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'base_tongxun_s' in 'src/base_tongxun_s'
+[0.388s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'student_interfaces' in 'src/student_interfaces'
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.393s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/huangbo/ros2_learn/tongxun_learn/install
+[0.394s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 287 installed packages in /opt/ros/jazzy
+[0.397s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'cmake_args' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'cmake_target' from command line to 'None'
+[0.457s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'cmake_clean_first' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'cmake_force_configure' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'ament_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.458s] DEBUG:colcon.colcon_core.verb:Building package 'py01_topic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/huangbo/ros2_learn/tongxun_learn/build/py01_topic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/huangbo/ros2_learn/tongxun_learn/install/py01_topic', 'merge_install': False, 'path': '/home/huangbo/ros2_learn/tongxun_learn/src/py01_topic', 'symlink_install': False, 'test_result_base': None}
+[0.458s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.460s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.460s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/huangbo/ros2_learn/tongxun_learn/src/py01_topic' with build type 'ament_python'
+[0.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('py01_topic', 'ament_prefix_path')
+[0.464s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/share/py01_topic/hook/ament_prefix_path.ps1'
+[0.465s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/share/py01_topic/hook/ament_prefix_path.dsv'
+[0.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/share/py01_topic/hook/ament_prefix_path.sh'
+[0.467s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.468s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.825s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/huangbo/ros2_learn/tongxun_learn/src/py01_topic'
+[0.825s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.825s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.394s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: build_ext, install_lib, dist_info, easy_install, setopt, test, symlink_data, build_py, sdist, install, install_data, bdist_egg, editable_wheel, rotate, upload_docs, extract_messages, update_catalog, build_clib, install_egg_info, alias, init_catalog, install_headers, register, clean, saveopts, build, upload, develop, bdist_dumb, egg_info, bdist_rpm, install_scripts, bdist, compile_catalog, build_scripts, check
+[2.398s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/huangbo/ros2_learn/tongxun_learn/src/py01_topic': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tongxun_learn/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/lib/python3.12/site-packages:/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages:/home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/lib/python3.12/site-packages:/home/huangbo/ros2_learn/tongxun_learn/install/base_tongxun_s/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/huangbo/ros2_learn/tongxun_learn/build/py01_topic/build install --record /home/huangbo/ros2_learn/tongxun_learn/build/py01_topic/install.log --install-scripts $base/lib/py01_topic --single-version-externally-managed install_data
+[3.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/huangbo/ros2_learn/tongxun_learn/src/py01_topic' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tongxun_learn/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/lib/python3.12/site-packages:/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages:/home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/lib/python3.12/site-packages:/home/huangbo/ros2_learn/tongxun_learn/install/base_tongxun_s/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/huangbo/ros2_learn/tongxun_learn/build/py01_topic/build install --record /home/huangbo/ros2_learn/tongxun_learn/build/py01_topic/install.log --install-scripts $base/lib/py01_topic --single-version-externally-managed install_data
+[3.111s] Level 1:colcon.colcon_core.environment:checking '/home/huangbo/ros2_learn/tongxun_learn/install/py01_topic' for CMake module files
+[3.112s] Level 1:colcon.colcon_core.environment:checking '/home/huangbo/ros2_learn/tongxun_learn/install/py01_topic' for CMake config files
+[3.113s] Level 1:colcon.colcon_core.environment:checking '/home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/lib'
+[3.113s] Level 1:colcon.colcon_core.environment:checking '/home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/bin'
+[3.113s] Level 1:colcon.colcon_core.environment:checking '/home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/lib/pkgconfig/py01_topic.pc'
+[3.113s] Level 1:colcon.colcon_core.environment:checking '/home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/lib/python3.12/site-packages'
+[3.114s] Level 1:colcon.colcon_core.shell:create_environment_hook('py01_topic', 'pythonpath')
+[3.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/share/py01_topic/hook/pythonpath.ps1'
+[3.116s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/share/py01_topic/hook/pythonpath.dsv'
+[3.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/share/py01_topic/hook/pythonpath.sh'
+[3.118s] Level 1:colcon.colcon_core.environment:checking '/home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/bin'
+[3.118s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py01_topic)
+[3.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/share/py01_topic/package.ps1'
+[3.120s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/share/py01_topic/package.dsv'
+[3.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/share/py01_topic/package.sh'
+[3.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/share/py01_topic/package.bash'
+[3.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/share/py01_topic/package.zsh'
+[3.126s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/share/colcon-core/packages/py01_topic)
+[3.127s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.127s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.128s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.128s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.128s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.129s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/huangbo/ros2_learn/tongxun_learn/install/local_setup.ps1'
+[3.130s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/huangbo/ros2_learn/tongxun_learn/install/_local_setup_util_ps1.py'
+[3.131s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/huangbo/ros2_learn/tongxun_learn/install/setup.ps1'
+[3.132s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/huangbo/ros2_learn/tongxun_learn/install/local_setup.sh'
+[3.133s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/huangbo/ros2_learn/tongxun_learn/install/_local_setup_util_sh.py'
+[3.134s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/huangbo/ros2_learn/tongxun_learn/install/setup.sh'
+[3.136s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/huangbo/ros2_learn/tongxun_learn/install/local_setup.bash'
+[3.137s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/huangbo/ros2_learn/tongxun_learn/install/setup.bash'
+[3.139s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/huangbo/ros2_learn/tongxun_learn/install/local_setup.zsh'
+[3.140s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/huangbo/ros2_learn/tongxun_learn/install/setup.zsh'

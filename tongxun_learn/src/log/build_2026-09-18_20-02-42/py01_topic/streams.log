@@ -1,0 +1,26 @@
+[1.011s] Invoking command in '/home/huangbo/ros2_learn/tongxun_learn/src/py01_topic': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tongxun_learn/src/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tongxun_learn/src/install/py01_topic/lib/python3.12/site-packages:/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages:/home/huangbo/ros2_learn/tongxun_learn/src/install/py01_topic/lib/python3.12/site-packages:/home/huangbo/ros2_learn/tongxun_learn/src/install/py02_service/lib/python3.12/site-packages:/home/huangbo/ros2_learn/tongxun_learn/src/install/base_tongxun_s/lib/python3.12/site-packages:/home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/lib/python3.12/site-packages:/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages:/home/huangbo/ros2_learn/tongxun_learn/install/base_tongxun_s/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/py01_topic build --build-base /home/huangbo/ros2_learn/tongxun_learn/src/build/py01_topic/build install --record /home/huangbo/ros2_learn/tongxun_learn/src/build/py01_topic/install.log --install-scripts $base/lib/py01_topic --single-version-externally-managed install_data
+[1.307s] running egg_info
+[1.329s] writing ../build/py01_topic/py01_topic.egg-info/PKG-INFO
+[1.330s] writing dependency_links to ../build/py01_topic/py01_topic.egg-info/dependency_links.txt
+[1.330s] writing entry points to ../build/py01_topic/py01_topic.egg-info/entry_points.txt
+[1.331s] writing requirements to ../build/py01_topic/py01_topic.egg-info/requires.txt
+[1.331s] writing top-level names to ../build/py01_topic/py01_topic.egg-info/top_level.txt
+[1.376s] reading manifest file '../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[1.377s] writing manifest file '../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[1.378s] running build
+[1.378s] running build_py
+[1.378s] running install
+[1.384s] running install_lib
+[1.406s] running install_data
+[1.406s] running install_egg_info
+[1.430s] removing '/home/huangbo/ros2_learn/tongxun_learn/src/install/py01_topic/lib/python3.12/site-packages/py01_topic-0.0.0-py3.12.egg-info' (and everything under it)
+[1.430s] Copying ../build/py01_topic/py01_topic.egg-info to /home/huangbo/ros2_learn/tongxun_learn/src/install/py01_topic/lib/python3.12/site-packages/py01_topic-0.0.0-py3.12.egg-info
+[1.431s] running install_scripts
+[1.577s] Installing addints_client_py script to /home/huangbo/ros2_learn/tongxun_learn/src/install/py01_topic/lib/py01_topic
+[1.577s] Installing addints_server_py script to /home/huangbo/ros2_learn/tongxun_learn/src/install/py01_topic/lib/py01_topic
+[1.578s] Installing demo01_talker_str_py script to /home/huangbo/ros2_learn/tongxun_learn/src/install/py01_topic/lib/py01_topic
+[1.578s] Installing demo02_listener_str_py script to /home/huangbo/ros2_learn/tongxun_learn/src/install/py01_topic/lib/py01_topic
+[1.578s] Installing student_listener_py script to /home/huangbo/ros2_learn/tongxun_learn/src/install/py01_topic/lib/py01_topic
+[1.578s] Installing student_talker_py script to /home/huangbo/ros2_learn/tongxun_learn/src/install/py01_topic/lib/py01_topic
+[1.580s] writing list of installed files to '/home/huangbo/ros2_learn/tongxun_learn/src/build/py01_topic/install.log'
+[1.618s] Invoked command in '/home/huangbo/ros2_learn/tongxun_learn/src/py01_topic' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tongxun_learn/src/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tongxun_learn/src/install/py01_topic/lib/python3.12/site-packages:/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages:/home/huangbo/ros2_learn/tongxun_learn/src/install/py01_topic/lib/python3.12/site-packages:/home/huangbo/ros2_learn/tongxun_learn/src/install/py02_service/lib/python3.12/site-packages:/home/huangbo/ros2_learn/tongxun_learn/src/install/base_tongxun_s/lib/python3.12/site-packages:/home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/lib/python3.12/site-packages:/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages:/home/huangbo/ros2_learn/tongxun_learn/install/base_tongxun_s/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/py01_topic build --build-base /home/huangbo/ros2_learn/tongxun_learn/src/build/py01_topic/build install --record /home/huangbo/ros2_learn/tongxun_learn/src/build/py01_topic/install.log --install-scripts $base/lib/py01_topic --single-version-externally-managed install_data

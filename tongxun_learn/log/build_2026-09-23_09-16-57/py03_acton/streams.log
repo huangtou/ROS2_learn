@@ -1,0 +1,22 @@
+[1.066s] Invoking command in '/home/huangbo/ros2_learn/tongxun_learn/src/py03_acton': AMENT_PREFIX_PATH=/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huangbo/ros2_learn/tongxun_learn/build/py03_acton/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tongxun_learn/install/py03_acton/lib/python3.12/site-packages:/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py03_acton build --build-base /home/huangbo/ros2_learn/tongxun_learn/build/py03_acton/build install --record /home/huangbo/ros2_learn/tongxun_learn/build/py03_acton/install.log --install-scripts $base/lib/py03_acton --single-version-externally-managed install_data
+[1.360s] running egg_info
+[1.380s] writing ../../build/py03_acton/py03_acton.egg-info/PKG-INFO
+[1.381s] writing dependency_links to ../../build/py03_acton/py03_acton.egg-info/dependency_links.txt
+[1.381s] writing entry points to ../../build/py03_acton/py03_acton.egg-info/entry_points.txt
+[1.382s] writing requirements to ../../build/py03_acton/py03_acton.egg-info/requires.txt
+[1.382s] writing top-level names to ../../build/py03_acton/py03_acton.egg-info/top_level.txt
+[1.422s] reading manifest file '../../build/py03_acton/py03_acton.egg-info/SOURCES.txt'
+[1.424s] writing manifest file '../../build/py03_acton/py03_acton.egg-info/SOURCES.txt'
+[1.425s] running build
+[1.425s] running build_py
+[1.426s] running install
+[1.431s] running install_lib
+[1.456s] running install_data
+[1.456s] running install_egg_info
+[1.485s] removing '/home/huangbo/ros2_learn/tongxun_learn/install/py03_acton/lib/python3.12/site-packages/py03_acton-0.0.0-py3.12.egg-info' (and everything under it)
+[1.487s] Copying ../../build/py03_acton/py03_acton.egg-info to /home/huangbo/ros2_learn/tongxun_learn/install/py03_acton/lib/python3.12/site-packages/py03_acton-0.0.0-py3.12.egg-info
+[1.488s] running install_scripts
+[1.627s] Installing demo_action_client_py script to /home/huangbo/ros2_learn/tongxun_learn/install/py03_acton/lib/py03_acton
+[1.627s] Installing demo_action_server_py script to /home/huangbo/ros2_learn/tongxun_learn/install/py03_acton/lib/py03_acton
+[1.628s] writing list of installed files to '/home/huangbo/ros2_learn/tongxun_learn/build/py03_acton/install.log'
+[1.664s] Invoked command in '/home/huangbo/ros2_learn/tongxun_learn/src/py03_acton' returned '0': AMENT_PREFIX_PATH=/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huangbo/ros2_learn/tongxun_learn/build/py03_acton/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tongxun_learn/install/py03_acton/lib/python3.12/site-packages:/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py03_acton build --build-base /home/huangbo/ros2_learn/tongxun_learn/build/py03_acton/build install --record /home/huangbo/ros2_learn/tongxun_learn/build/py03_acton/install.log --install-scripts $base/lib/py03_acton --single-version-externally-managed install_data

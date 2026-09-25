@@ -1,0 +1,51 @@
+[0.000000] (-) TimerEvent: {}
+[0.000064] (-) JobUnselected: {'identifier': 'base_tongxun_s'}
+[0.000111] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.000142] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.000171] (-) JobUnselected: {'identifier': 'py02_service_my'}
+[0.000184] (-) JobUnselected: {'identifier': 'py03_acton'}
+[0.000211] (-) JobUnselected: {'identifier': 'student_interfaces'}
+[0.000226] (py04_param) JobQueued: {'identifier': 'py04_param', 'dependencies': OrderedDict()}
+[0.000903] (py04_param) JobStarted: {'identifier': 'py04_param'}
+[0.102431] (-) TimerEvent: {}
+[0.203440] (-) TimerEvent: {}
+[0.304389] (-) TimerEvent: {}
+[0.405372] (-) TimerEvent: {}
+[0.506407] (-) TimerEvent: {}
+[0.607525] (-) TimerEvent: {}
+[0.708403] (-) TimerEvent: {}
+[0.809385] (-) TimerEvent: {}
+[0.892571] (py04_param) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py04_param', 'build', '--build-base', '/home/huangbo/ros2_learn/tongxun_learn/build/py04_param/build', 'install', '--record', '/home/huangbo/ros2_learn/tongxun_learn/build/py04_param/install.log', '--install-scripts', '$base/lib/py04_param', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/huangbo/ros2_learn/tongxun_learn/src/py04_param', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'RUBBER_DUCK_AGENT': 'true', 'AI_AGENT': 'github_copilot_vscode_agent', 'USER': 'huangbo', 'SSH_CLIENT': '192.168.91.1 2349 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/huangbo', 'GIT_CONFIG_COUNT': '3', 'COPILOT_CLI_RUN_AS_NODE': '1', 'ROS_PYTHON_VERSION': '3', 'COPILOT_CLI': '1', 'SSH_ASKPASS': '', 'ANTHROPIC_ADVISOR': 'false', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'USE_BUILTIN_RIPGREP': 'false', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'GIT_OPTIONAL_LOCKS': '0', 'GCM_INTERACTIVE': 'Never', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'huangbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'XDG_SESSION_ID': '4', 'GIT_CONFIG_VALUE_0': 'explicit', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/node_modules/@vscode/ripgrep-universal/bin/linux-x64', 'GIT_CONFIG_VALUE_1': 'never', 'CLAUDE_CODE_DISABLE_PRECOMPACT_SKIP': '1', 'GIT_CONFIG_VALUE_2': '', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'zh_CN.UTF-8', 'LS_COLORS': '', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'COPILOT_AGENT_SESSION_ID': '3b89c981-99d2-43f4-82cf-544e782ef026', 'SHELL': '/bin/bash', 'GIT_TERMINAL_PROMPT': '0', 'MXC_BIN_DIR': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/node_modules/@microsoft/mxc-sdk/bin', 'GIT_CONFIG_KEY_0': 'safe.bareRepository', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GIT_CONFIG_KEY_1': 'credential.interactive', 'GIT_CONFIG_KEY_2': 'core.fsmonitor', 'COPILOT_MCP_APPS': 'true', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/huangbo/ros2_learn/tongxun_learn/build/py04_param', 'AUTO_APPROVAL': 'true', 'SSH_CONNECTION': '192.168.91.1 2349 192.168.91.129 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COPILOT_ENABLE_BUILTIN_GITHUB_MCP': 'true', 'PYTHONPATH': '/home/huangbo/ros2_learn/tongxun_learn/build/py04_param/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tongxun_learn/install/py04_param/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'COPILOT_CLI_ENABLED_FEATURE_FLAGS': 'SHELL_SPAWN_BACKEND', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.910508] (-) TimerEvent: {}
+[1.011391] (-) TimerEvent: {}
+[1.112392] (-) TimerEvent: {}
+[1.168169] (py04_param) StdoutLine: {'line': b'running egg_info\n'}
+[1.188645] (py04_param) StdoutLine: {'line': b'writing ../../build/py04_param/py04_param.egg-info/PKG-INFO\n'}
+[1.188940] (py04_param) StdoutLine: {'line': b'writing dependency_links to ../../build/py04_param/py04_param.egg-info/dependency_links.txt\n'}
+[1.189460] (py04_param) StdoutLine: {'line': b'writing entry points to ../../build/py04_param/py04_param.egg-info/entry_points.txt\n'}
+[1.189723] (py04_param) StdoutLine: {'line': b'writing requirements to ../../build/py04_param/py04_param.egg-info/requires.txt\n'}
+[1.189875] (py04_param) StdoutLine: {'line': b'writing top-level names to ../../build/py04_param/py04_param.egg-info/top_level.txt\n'}
+[1.213389] (-) TimerEvent: {}
+[1.230053] (py04_param) StdoutLine: {'line': b"reading manifest file '../../build/py04_param/py04_param.egg-info/SOURCES.txt'\n"}
+[1.231054] (py04_param) StdoutLine: {'line': b"writing manifest file '../../build/py04_param/py04_param.egg-info/SOURCES.txt'\n"}
+[1.231524] (py04_param) StdoutLine: {'line': b'running build\n'}
+[1.231701] (py04_param) StdoutLine: {'line': b'running build_py\n'}
+[1.231913] (py04_param) StdoutLine: {'line': b'copying py04_param/demo00_param.py -> /home/huangbo/ros2_learn/tongxun_learn/build/py04_param/build/lib/py04_param\n'}
+[1.232172] (py04_param) StdoutLine: {'line': b'running install\n'}
+[1.238857] (py04_param) StdoutLine: {'line': b'running install_lib\n'}
+[1.260104] (py04_param) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/tongxun_learn/build/py04_param/build/lib/py04_param/demo00_param.py -> /home/huangbo/ros2_learn/tongxun_learn/install/py04_param/lib/python3.12/site-packages/py04_param\n'}
+[1.260637] (py04_param) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/tongxun_learn/install/py04_param/lib/python3.12/site-packages/py04_param/demo00_param.py to demo00_param.cpython-312.pyc\n'}
+[1.261377] (py04_param) StdoutLine: {'line': b'running install_data\n'}
+[1.261704] (py04_param) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.283101] (py04_param) StdoutLine: {'line': b"removing '/home/huangbo/ros2_learn/tongxun_learn/install/py04_param/lib/python3.12/site-packages/py04_param-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[1.283266] (py04_param) StdoutLine: {'line': b'Copying ../../build/py04_param/py04_param.egg-info to /home/huangbo/ros2_learn/tongxun_learn/install/py04_param/lib/python3.12/site-packages/py04_param-0.0.0-py3.12.egg-info\n'}
+[1.283576] (py04_param) StdoutLine: {'line': b'running install_scripts\n'}
+[1.314385] (-) TimerEvent: {}
+[1.415450] (-) TimerEvent: {}
+[1.418299] (py04_param) StdoutLine: {'line': b'Installing demo00_param script to /home/huangbo/ros2_learn/tongxun_learn/install/py04_param/lib/py04_param\n'}
+[1.419147] (py04_param) StdoutLine: {'line': b'Installing demo01_param_server_py script to /home/huangbo/ros2_learn/tongxun_learn/install/py04_param/lib/py04_param\n'}
+[1.419516] (py04_param) StdoutLine: {'line': b'Installing demo02_param_client_py script to /home/huangbo/ros2_learn/tongxun_learn/install/py04_param/lib/py04_param\n'}
+[1.419778] (py04_param) StdoutLine: {'line': b"writing list of installed files to '/home/huangbo/ros2_learn/tongxun_learn/build/py04_param/install.log'\n"}
+[1.458666] (py04_param) CommandEnded: {'returncode': 0}
+[1.476022] (py04_param) JobEnded: {'identifier': 'py04_param', 'rc': 0}
+[1.478995] (-) EventReactorShutdown: {}

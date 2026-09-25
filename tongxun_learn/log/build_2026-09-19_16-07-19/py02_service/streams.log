@@ -1,0 +1,22 @@
+[1.583s] Invoking command in '/home/huangbo/ros2_learn/tongxun_learn/src/py02_service': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tongxun_learn/build/py02_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tongxun_learn/install/py02_service/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py02_service build --build-base /home/huangbo/ros2_learn/tongxun_learn/build/py02_service/build install --record /home/huangbo/ros2_learn/tongxun_learn/build/py02_service/install.log --install-scripts $base/lib/py02_service --single-version-externally-managed install_data
+[2.289s] running egg_info
+[2.388s] writing ../../build/py02_service/py02_service.egg-info/PKG-INFO
+[2.391s] writing dependency_links to ../../build/py02_service/py02_service.egg-info/dependency_links.txt
+[2.394s] writing entry points to ../../build/py02_service/py02_service.egg-info/entry_points.txt
+[2.400s] writing requirements to ../../build/py02_service/py02_service.egg-info/requires.txt
+[2.404s] writing top-level names to ../../build/py02_service/py02_service.egg-info/top_level.txt
+[2.504s] reading manifest file '../../build/py02_service/py02_service.egg-info/SOURCES.txt'
+[2.506s] writing manifest file '../../build/py02_service/py02_service.egg-info/SOURCES.txt'
+[2.507s] running build
+[2.507s] running build_py
+[2.507s] running install
+[2.514s] running install_lib
+[2.572s] running install_data
+[2.575s] running install_egg_info
+[2.603s] removing '/home/huangbo/ros2_learn/tongxun_learn/install/py02_service/lib/python3.12/site-packages/py02_service-0.0.0-py3.12.egg-info' (and everything under it)
+[2.605s] Copying ../../build/py02_service/py02_service.egg-info to /home/huangbo/ros2_learn/tongxun_learn/install/py02_service/lib/python3.12/site-packages/py02_service-0.0.0-py3.12.egg-info
+[2.609s] running install_scripts
+[2.881s] Installing demo01_server_py script to /home/huangbo/ros2_learn/tongxun_learn/install/py02_service/lib/py02_service
+[2.883s] Installing demo02_client_py script to /home/huangbo/ros2_learn/tongxun_learn/install/py02_service/lib/py02_service
+[2.884s] writing list of installed files to '/home/huangbo/ros2_learn/tongxun_learn/build/py02_service/install.log'
+[2.999s] Invoked command in '/home/huangbo/ros2_learn/tongxun_learn/src/py02_service' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tongxun_learn/build/py02_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tongxun_learn/install/py02_service/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py02_service build --build-base /home/huangbo/ros2_learn/tongxun_learn/build/py02_service/build install --record /home/huangbo/ros2_learn/tongxun_learn/build/py02_service/install.log --install-scripts $base/lib/py02_service --single-version-externally-managed install_data

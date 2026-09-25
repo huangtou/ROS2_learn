@@ -1,0 +1,2 @@
+[console_scripts]
+turtle_jingxiang = py07_jx.turtle_jingxiang:main

@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../build/py02_service_my/py02_service_my.egg-info/PKG-INFO
+../build/py02_service_my/py02_service_my.egg-info/SOURCES.txt
+../build/py02_service_my/py02_service_my.egg-info/dependency_links.txt
+../build/py02_service_my/py02_service_my.egg-info/entry_points.txt
+../build/py02_service_my/py02_service_my.egg-info/requires.txt
+../build/py02_service_my/py02_service_my.egg-info/top_level.txt
+../build/py02_service_my/py02_service_my.egg-info/zip-safe
+py02_service_my/__init__.py
+py02_service_my/demo_client_py.py
+py02_service_my/demo_server_py.py
+resource/py02_service_my
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,55 @@
+[0.000000] (-) TimerEvent: {}
+[0.000084] (-) JobUnselected: {'identifier': 'base_tongxun_s'}
+[0.000168] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.000619] (-) JobUnselected: {'identifier': 'py02_service'}
+[0.000666] (-) JobUnselected: {'identifier': 'py02_service_my'}
+[0.000683] (-) JobUnselected: {'identifier': 'py03_acton'}
+[0.000694] (-) JobUnselected: {'identifier': 'py04_param'}
+[0.000704] (-) JobUnselected: {'identifier': 'py05_time'}
+[0.000713] (-) JobUnselected: {'identifier': 'student_interfaces'}
+[0.000781] (py06_lianxi) JobQueued: {'identifier': 'py06_lianxi', 'dependencies': OrderedDict()}
+[0.001170] (py06_lianxi) JobStarted: {'identifier': 'py06_lianxi'}
+[0.099928] (-) TimerEvent: {}
+[0.200465] (-) TimerEvent: {}
+[0.301273] (-) TimerEvent: {}
+[0.401796] (-) TimerEvent: {}
+[0.503067] (-) TimerEvent: {}
+[0.603692] (-) TimerEvent: {}
+[0.704325] (-) TimerEvent: {}
+[0.804942] (-) TimerEvent: {}
+[0.905621] (-) TimerEvent: {}
+[0.945918] (py06_lianxi) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py06_lianxi', 'build', '--build-base', '/home/huangbo/ros2_learn/tongxun_learn/build/py06_lianxi/build', 'install', '--record', '/home/huangbo/ros2_learn/tongxun_learn/build/py06_lianxi/install.log', '--install-scripts', '$base/lib/py06_lianxi', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/huangbo/ros2_learn/tongxun_learn/src/py06_lianxi', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'RUBBER_DUCK_AGENT': 'true', 'AI_AGENT': 'github_copilot_vscode_agent', 'USER': 'huangbo', 'SSH_CLIENT': '192.168.91.1 2062 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/huangbo', 'GIT_CONFIG_COUNT': '3', 'COPILOT_CLI_RUN_AS_NODE': '1', 'ROS_PYTHON_VERSION': '3', 'COPILOT_CLI': '1', 'SSH_ASKPASS': '', 'ANTHROPIC_ADVISOR': 'false', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'USE_BUILTIN_RIPGREP': 'false', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'GIT_OPTIONAL_LOCKS': '0', 'GCM_INTERACTIVE': 'Never', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'huangbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'XDG_SESSION_ID': '4', 'GIT_CONFIG_VALUE_0': 'explicit', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/node_modules/@vscode/ripgrep-universal/bin/linux-x64', 'GIT_CONFIG_VALUE_1': 'never', 'CLAUDE_CODE_DISABLE_PRECOMPACT_SKIP': '1', 'GIT_CONFIG_VALUE_2': '', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'zh_CN.UTF-8', 'LS_COLORS': '', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'COPILOT_AGENT_SESSION_ID': '4fd51c6a-e7f6-4d0b-94d2-06f4ed3acc55', 'SHELL': '/bin/bash', 'GIT_TERMINAL_PROMPT': '0', 'MXC_BIN_DIR': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/node_modules/@microsoft/mxc-sdk/bin', 'GIT_CONFIG_KEY_0': 'safe.bareRepository', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GIT_CONFIG_KEY_1': 'credential.interactive', 'GIT_CONFIG_KEY_2': 'core.fsmonitor', 'COPILOT_MCP_APPS': 'true', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/huangbo/ros2_learn/tongxun_learn/build/py06_lianxi', 'AUTO_APPROVAL': 'true', 'SSH_CONNECTION': '192.168.91.1 2062 192.168.91.129 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COPILOT_ENABLE_BUILTIN_GITHUB_MCP': 'true', 'PYTHONPATH': '/home/huangbo/ros2_learn/tongxun_learn/build/py06_lianxi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tongxun_learn/install/py06_lianxi/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'COPILOT_CLI_ENABLED_FEATURE_FLAGS': 'SHELL_SPAWN_BACKEND', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[1.006244] (-) TimerEvent: {}
+[1.108159] (-) TimerEvent: {}
+[1.208755] (-) TimerEvent: {}
+[1.309384] (-) TimerEvent: {}
+[1.321404] (py06_lianxi) StdoutLine: {'line': b'running egg_info\n'}
+[1.344529] (py06_lianxi) StdoutLine: {'line': b'writing ../../build/py06_lianxi/py06_lianxi.egg-info/PKG-INFO\n'}
+[1.346698] (py06_lianxi) StdoutLine: {'line': b'writing dependency_links to ../../build/py06_lianxi/py06_lianxi.egg-info/dependency_links.txt\n'}
+[1.347448] (py06_lianxi) StdoutLine: {'line': b'writing entry points to ../../build/py06_lianxi/py06_lianxi.egg-info/entry_points.txt\n'}
+[1.348401] (py06_lianxi) StdoutLine: {'line': b'writing requirements to ../../build/py06_lianxi/py06_lianxi.egg-info/requires.txt\n'}
+[1.349107] (py06_lianxi) StdoutLine: {'line': b'writing top-level names to ../../build/py06_lianxi/py06_lianxi.egg-info/top_level.txt\n'}
+[1.398006] (py06_lianxi) StdoutLine: {'line': b"reading manifest file '../../build/py06_lianxi/py06_lianxi.egg-info/SOURCES.txt'\n"}
+[1.399428] (py06_lianxi) StdoutLine: {'line': b"writing manifest file '../../build/py06_lianxi/py06_lianxi.egg-info/SOURCES.txt'\n"}
+[1.400045] (py06_lianxi) StdoutLine: {'line': b'running build\n'}
+[1.401265] (py06_lianxi) StdoutLine: {'line': b'running build_py\n'}
+[1.401469] (py06_lianxi) StdoutLine: {'line': b'copying py06_lianxi/turtle_fabu.py -> /home/huangbo/ros2_learn/tongxun_learn/build/py06_lianxi/build/lib/py06_lianxi\n'}
+[1.401571] (py06_lianxi) StdoutLine: {'line': b'running install\n'}
+[1.407210] (py06_lianxi) StdoutLine: {'line': b'running install_lib\n'}
+[1.409992] (-) TimerEvent: {}
+[1.432799] (py06_lianxi) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/tongxun_learn/build/py06_lianxi/build/lib/py06_lianxi/turtle_fabu.py -> /home/huangbo/ros2_learn/tongxun_learn/install/py06_lianxi/lib/python3.12/site-packages/py06_lianxi\n'}
+[1.434224] (py06_lianxi) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/tongxun_learn/install/py06_lianxi/lib/python3.12/site-packages/py06_lianxi/turtle_fabu.py to turtle_fabu.cpython-312.pyc\n'}
+[1.435835] (py06_lianxi) StdoutLine: {'line': b'running install_data\n'}
+[1.436236] (py06_lianxi) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.465876] (py06_lianxi) StdoutLine: {'line': b"removing '/home/huangbo/ros2_learn/tongxun_learn/install/py06_lianxi/lib/python3.12/site-packages/py06_lianxi-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[1.466507] (py06_lianxi) StdoutLine: {'line': b'Copying ../../build/py06_lianxi/py06_lianxi.egg-info to /home/huangbo/ros2_learn/tongxun_learn/install/py06_lianxi/lib/python3.12/site-packages/py06_lianxi-0.0.0-py3.12.egg-info\n'}
+[1.468086] (py06_lianxi) StdoutLine: {'line': b'running install_scripts\n'}
+[1.510173] (-) TimerEvent: {}
+[1.610748] (-) TimerEvent: {}
+[1.685230] (py06_lianxi) StdoutLine: {'line': b'Installing turtle_fabu script to /home/huangbo/ros2_learn/tongxun_learn/install/py06_lianxi/lib/py06_lianxi\n'}
+[1.685835] (py06_lianxi) StdoutLine: {'line': b'Installing turtle_jieshou script to /home/huangbo/ros2_learn/tongxun_learn/install/py06_lianxi/lib/py06_lianxi\n'}
+[1.686884] (py06_lianxi) StdoutLine: {'line': b"writing list of installed files to '/home/huangbo/ros2_learn/tongxun_learn/build/py06_lianxi/install.log'\n"}
+[1.711316] (-) TimerEvent: {}
+[1.728607] (py06_lianxi) CommandEnded: {'returncode': 0}
+[1.743199] (py06_lianxi) JobEnded: {'identifier': 'py06_lianxi', 'rc': 0}
+[1.744692] (-) EventReactorShutdown: {}

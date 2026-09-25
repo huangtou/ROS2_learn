@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../build/py06_lianxi/py06_lianxi.egg-info/PKG-INFO
+../build/py06_lianxi/py06_lianxi.egg-info/SOURCES.txt
+../build/py06_lianxi/py06_lianxi.egg-info/dependency_links.txt
+../build/py06_lianxi/py06_lianxi.egg-info/entry_points.txt
+../build/py06_lianxi/py06_lianxi.egg-info/requires.txt
+../build/py06_lianxi/py06_lianxi.egg-info/top_level.txt
+../build/py06_lianxi/py06_lianxi.egg-info/zip-safe
+py06_lianxi/__init__.py
+py06_lianxi/turtle_fabu.py
+py06_lianxi/turtle_jieshou.py
+resource/py06_lianxi
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

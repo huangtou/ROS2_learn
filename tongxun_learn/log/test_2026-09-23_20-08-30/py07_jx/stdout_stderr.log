@@ -1,0 +1,57 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+cachedir: /home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/.pytest_cache
+rootdir: /home/huangbo/ros2_learn/tongxun_learn/src/py07_jx
+plugins: launch-testing-ros-0.26.12, launch-testing-3.4.11, ament-lint-0.17.5, ament-xmllint-0.17.5, ament-pep257-0.17.5, ament-flake8-0.17.5, ament-copyright-0.17.5, colcon-core-0.21.2, cov-4.1.0
+collected 3 items
+
+test/test_copyright.py s                                                 [ 33%]
+test/test_flake8.py F                                                    [ 66%]
+test/test_pep257.py .                                                    [100%]
+
+=================================== FAILURES ===================================
+_________________________________ test_flake8 __________________________________
+test/test_flake8.py:23: in test_flake8
+    assert rc == 0, \
+E   AssertionError: Found 3 code style errors / warnings:
+E     ./setup.py:2:1: I100 Import statements are in the wrong order. 'from glob import glob' should be before 'import os'
+E     ./setup.py:3:1: I201 Missing newline between import groups. 'from setuptools import find_packages, setup' is identified as Third Party and 'from glob import glob' is identified as Stdlib.
+E     ./setup.py:12:9: E128 continuation line under-indented for visual indent
+E   assert 1 == 0
+----------------------------- Captured stdout call -----------------------------
+
+./setup.py:2:1: I100 Import statements are in the wrong order. 'from glob import glob' should be before 'import os'
+from glob import glob
+^
+
+./setup.py:3:1: I201 Missing newline between import groups. 'from setuptools import find_packages, setup' is identified as Third Party and 'from glob import glob' is identified as Stdlib.
+from setuptools import find_packages, setup
+^
+
+./setup.py:12:9: E128 continuation line under-indented for visual indent
+        ['resource/' + package_name]),
+        ^
+
+1     E128 continuation line under-indented for visual indent
+1     I100 Import statements are in the wrong order. 'from glob import glob' should be before 'import os'
+1     I201 Missing newline between import groups. 'from setuptools import find_packages, setup' is identified as Third Party and 'from glob import glob' is identified as Stdlib.
+
+7 files checked
+3 errors
+
+'E'-type errors: 1
+'I'-type errors: 2
+
+Checked files:
+
+* ./setup.py
+* ./py07_jx/turtle_jingxiang.py
+* ./py07_jx/__init__.py
+* ./test/test_flake8.py
+* ./test/test_copyright.py
+* ./test/test_pep257.py
+* ./launch/mirror_launch.py
+- generated xml file: /home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/pytest.xml -
+=========================== short test summary info ============================
+FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 3 code style ...
+==================== 1 failed, 1 passed, 1 skipped in 0.29s ====================

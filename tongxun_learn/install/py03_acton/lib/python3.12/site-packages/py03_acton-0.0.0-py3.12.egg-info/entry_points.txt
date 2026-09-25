@@ -1,0 +1,3 @@
+[console_scripts]
+demo_action_client_py = py03_acton.demo_action_client_py:main
+demo_action_server_py = py03_acton.demo_action_server_py:main

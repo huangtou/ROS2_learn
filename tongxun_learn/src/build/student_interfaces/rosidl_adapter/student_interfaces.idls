@@ -1,0 +1,3 @@
+/home/huangbo/ros2_learn/tongxun_learn/src/build/student_interfaces/rosidl_adapter/student_interfaces:msg/Student.idl
+/home/huangbo/ros2_learn/tongxun_learn/src/build/student_interfaces/rosidl_adapter/student_interfaces:srv/Addints.idl
+/home/huangbo/ros2_learn/tongxun_learn/src/build/student_interfaces/rosidl_adapter/student_interfaces:action/Progress.idl

@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/py07_jx/py07_jx.egg-info/PKG-INFO
+../../build/py07_jx/py07_jx.egg-info/SOURCES.txt
+../../build/py07_jx/py07_jx.egg-info/dependency_links.txt
+../../build/py07_jx/py07_jx.egg-info/entry_points.txt
+../../build/py07_jx/py07_jx.egg-info/requires.txt
+../../build/py07_jx/py07_jx.egg-info/top_level.txt
+../../build/py07_jx/py07_jx.egg-info/zip-safe
+launch/mirror_launch.py
+py07_jx/__init__.py
+py07_jx/turtle_jingxiang.py
+resource/py07_jx
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,40 @@
+1.ros2 node list 查看运行的所有节点
+2.ros2 node info /节点名   查看当前节点的详细信息
+
+ros2 interface 获取接口信息的
+参数有list列出所有可用接口 
+    package 输出指定功能包下接口
+    packages 列出包含该接口的所有功能包
+    proto 输出接口格式 精简后无注释等
+    show 接口函数怎么写就怎么输出
+
+ros2 topic
+     参数有 bw 可以输出话题消息传输的带宽
+           delay 输出话题传输的延迟
+           echo 输出某个话题下的消息
+           find 根据传入的接口类型 查找对应的话题
+           hz 输出消息的发布频率
+           info 输出话题相关信息
+           list 输出当前可用话题
+           pub 往某个话题发布消息
+           type 打印话题使用接口类型
+    
+ros2 service 
+      参数有 call 请求某个服务
+            find 根据给的类型查找相关服务
+            list 列出当前可用服务
+            type 输出一个服务使用的接口类型
+
+ros2 action 
+      参数有 info 打印服务端 客户端相关信息
+            list 打印动作
+            Send an action goal发送动作目标
+            
+ros2 param 
+	参数有 delete 删除参数
+	describe 获取参数描述信息
+	dump将节点下的参数写入磁盘
+	get 获取某个参数
+	list 列出所以可用参数
+	load 从磁盘中读取参数
+	set 设置参数

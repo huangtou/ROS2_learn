@@ -1,0 +1,3 @@
+[console_scripts]
+turtle_fabu = py06_lianxi.turtle_fabu:main
+turtle_jieshou = py06_lianxi.turtle_jieshou:main

@@ -1,0 +1,24 @@
+[1.328s] Invoking command in '/home/huangbo/ros2_learn/tongxun_learn/src/py05_time': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tongxun_learn/build/py05_time/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tongxun_learn/install/py05_time/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py05_time build --build-base /home/huangbo/ros2_learn/tongxun_learn/build/py05_time/build install --record /home/huangbo/ros2_learn/tongxun_learn/build/py05_time/install.log --install-scripts $base/lib/py05_time --single-version-externally-managed install_data
+[1.677s] running egg_info
+[1.707s] writing ../../build/py05_time/py05_time.egg-info/PKG-INFO
+[1.708s] writing dependency_links to ../../build/py05_time/py05_time.egg-info/dependency_links.txt
+[1.710s] writing entry points to ../../build/py05_time/py05_time.egg-info/entry_points.txt
+[1.711s] writing requirements to ../../build/py05_time/py05_time.egg-info/requires.txt
+[1.712s] writing top-level names to ../../build/py05_time/py05_time.egg-info/top_level.txt
+[1.775s] reading manifest file '../../build/py05_time/py05_time.egg-info/SOURCES.txt'
+[1.777s] writing manifest file '../../build/py05_time/py05_time.egg-info/SOURCES.txt'
+[1.778s] running build
+[1.779s] running build_py
+[1.779s] copying py05_time/demo01_time.py -> /home/huangbo/ros2_learn/tongxun_learn/build/py05_time/build/lib/py05_time
+[1.780s] running install
+[1.789s] running install_lib
+[1.819s] copying /home/huangbo/ros2_learn/tongxun_learn/build/py05_time/build/lib/py05_time/demo01_time.py -> /home/huangbo/ros2_learn/tongxun_learn/install/py05_time/lib/python3.12/site-packages/py05_time
+[1.820s] byte-compiling /home/huangbo/ros2_learn/tongxun_learn/install/py05_time/lib/python3.12/site-packages/py05_time/demo01_time.py to demo01_time.cpython-312.pyc
+[1.821s] running install_data
+[1.821s] running install_egg_info
+[1.850s] removing '/home/huangbo/ros2_learn/tongxun_learn/install/py05_time/lib/python3.12/site-packages/py05_time-0.0.0-py3.12.egg-info' (and everything under it)
+[1.851s] Copying ../../build/py05_time/py05_time.egg-info to /home/huangbo/ros2_learn/tongxun_learn/install/py05_time/lib/python3.12/site-packages/py05_time-0.0.0-py3.12.egg-info
+[1.853s] running install_scripts
+[2.037s] Installing demo01_time script to /home/huangbo/ros2_learn/tongxun_learn/install/py05_time/lib/py05_time
+[2.038s] writing list of installed files to '/home/huangbo/ros2_learn/tongxun_learn/build/py05_time/install.log'
+[2.082s] Invoked command in '/home/huangbo/ros2_learn/tongxun_learn/src/py05_time' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tongxun_learn/build/py05_time/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tongxun_learn/install/py05_time/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py05_time build --build-base /home/huangbo/ros2_learn/tongxun_learn/build/py05_time/build install --record /home/huangbo/ros2_learn/tongxun_learn/build/py05_time/install.log --install-scripts $base/lib/py05_time --single-version-externally-managed install_data

@@ -1,0 +1,59 @@
+[0.261s] Invoking command in '/home/huangbo/ros2_learn/tongxun_learn/src/py07_jx': AMENT_PREFIX_PATH=/home/huangbo/ros2_learn/tongxun_learn/install/py07_jx:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/pytest.xml --junit-prefix=py07_jx -o cache_dir=/home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/huangbo/ros2_learn/tongxun_learn/install/py07_jx/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[0.689s] ============================= test session starts ==============================
+[0.689s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[0.690s] cachedir: /home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/.pytest_cache
+[0.690s] rootdir: /home/huangbo/ros2_learn/tongxun_learn/src/py07_jx
+[0.690s] plugins: launch-testing-ros-0.26.12, launch-testing-3.4.11, ament-lint-0.17.5, ament-xmllint-0.17.5, ament-pep257-0.17.5, ament-flake8-0.17.5, ament-copyright-0.17.5, colcon-core-0.21.2, cov-4.1.0
+[0.691s] collected 3 items
+[0.691s] 
+[0.698s] test/test_copyright.py s                                                 [ 33%]
+[0.873s] test/test_flake8.py F                                                    [ 66%]
+[0.896s] test/test_pep257.py .                                                    [100%]
+[0.896s] 
+[0.896s] =================================== FAILURES ===================================
+[0.896s] _________________________________ test_flake8 __________________________________
+[0.896s] test/test_flake8.py:23: in test_flake8
+[0.896s]     assert rc == 0, \
+[0.897s] E   AssertionError: Found 3 code style errors / warnings:
+[0.897s] E     ./setup.py:2:1: I100 Import statements are in the wrong order. 'from glob import glob' should be before 'import os'
+[0.897s] E     ./setup.py:3:1: I201 Missing newline between import groups. 'from setuptools import find_packages, setup' is identified as Third Party and 'from glob import glob' is identified as Stdlib.
+[0.897s] E     ./setup.py:12:9: E128 continuation line under-indented for visual indent
+[0.897s] E   assert 1 == 0
+[0.897s] ----------------------------- Captured stdout call -----------------------------
+[0.897s] 
+[0.897s] ./setup.py:2:1: I100 Import statements are in the wrong order. 'from glob import glob' should be before 'import os'
+[0.897s] from glob import glob
+[0.897s] ^
+[0.900s] 
+[0.900s] ./setup.py:3:1: I201 Missing newline between import groups. 'from setuptools import find_packages, setup' is identified as Third Party and 'from glob import glob' is identified as Stdlib.
+[0.901s] from setuptools import find_packages, setup
+[0.901s] ^
+[0.901s] 
+[0.902s] ./setup.py:12:9: E128 continuation line under-indented for visual indent
+[0.902s]         ['resource/' + package_name]),
+[0.902s]         ^
+[0.903s] 
+[0.903s] 1     E128 continuation line under-indented for visual indent
+[0.903s] 1     I100 Import statements are in the wrong order. 'from glob import glob' should be before 'import os'
+[0.904s] 1     I201 Missing newline between import groups. 'from setuptools import find_packages, setup' is identified as Third Party and 'from glob import glob' is identified as Stdlib.
+[0.904s] 
+[0.905s] 7 files checked
+[0.905s] 3 errors
+[0.905s] 
+[0.906s] 'E'-type errors: 1
+[0.906s] 'I'-type errors: 2
+[0.906s] 
+[0.907s] Checked files:
+[0.907s] 
+[0.907s] * ./setup.py
+[0.908s] * ./py07_jx/turtle_jingxiang.py
+[0.908s] * ./py07_jx/__init__.py
+[0.908s] * ./test/test_flake8.py
+[0.909s] * ./test/test_copyright.py
+[0.909s] * ./test/test_pep257.py
+[0.909s] * ./launch/mirror_launch.py
+[0.910s] - generated xml file: /home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/pytest.xml -
+[0.910s] =========================== short test summary info ============================
+[0.910s] FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 3 code style ...
+[0.911s] ==================== 1 failed, 1 passed, 1 skipped in 0.29s ====================
+[0.976s] Invoked command in '/home/huangbo/ros2_learn/tongxun_learn/src/py07_jx' returned '1': AMENT_PREFIX_PATH=/home/huangbo/ros2_learn/tongxun_learn/install/py07_jx:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/pytest.xml --junit-prefix=py07_jx -o cache_dir=/home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/huangbo/ros2_learn/tongxun_learn/install/py07_jx/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

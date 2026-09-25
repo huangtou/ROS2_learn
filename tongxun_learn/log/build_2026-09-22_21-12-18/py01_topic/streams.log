@@ -1,0 +1,26 @@
+[1.250s] Invoking command in '/home/huangbo/ros2_learn/tongxun_learn/src/py01_topic': AMENT_PREFIX_PATH=/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huangbo/ros2_learn/tongxun_learn/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/lib/python3.12/site-packages:/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/huangbo/ros2_learn/tongxun_learn/build/py01_topic/build install --record /home/huangbo/ros2_learn/tongxun_learn/build/py01_topic/install.log --install-scripts $base/lib/py01_topic --single-version-externally-managed install_data
+[1.613s] running egg_info
+[1.633s] writing ../../build/py01_topic/py01_topic.egg-info/PKG-INFO
+[1.634s] writing dependency_links to ../../build/py01_topic/py01_topic.egg-info/dependency_links.txt
+[1.634s] writing entry points to ../../build/py01_topic/py01_topic.egg-info/entry_points.txt
+[1.635s] writing requirements to ../../build/py01_topic/py01_topic.egg-info/requires.txt
+[1.636s] writing top-level names to ../../build/py01_topic/py01_topic.egg-info/top_level.txt
+[1.678s] reading manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[1.679s] writing manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[1.680s] running build
+[1.680s] running build_py
+[1.681s] running install
+[1.687s] running install_lib
+[1.708s] running install_data
+[1.709s] running install_egg_info
+[1.731s] removing '/home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/lib/python3.12/site-packages/py01_topic-0.0.0-py3.12.egg-info' (and everything under it)
+[1.733s] Copying ../../build/py01_topic/py01_topic.egg-info to /home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/lib/python3.12/site-packages/py01_topic-0.0.0-py3.12.egg-info
+[1.736s] running install_scripts
+[1.895s] Installing addints_client_py script to /home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/lib/py01_topic
+[1.895s] Installing addints_server_py script to /home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/lib/py01_topic
+[1.896s] Installing demo01_talker_str_py script to /home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/lib/py01_topic
+[1.897s] Installing demo02_listener_str_py script to /home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/lib/py01_topic
+[1.898s] Installing student_listener_py script to /home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/lib/py01_topic
+[1.899s] Installing student_talker_py script to /home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/lib/py01_topic
+[1.901s] writing list of installed files to '/home/huangbo/ros2_learn/tongxun_learn/build/py01_topic/install.log'
+[2.007s] Invoked command in '/home/huangbo/ros2_learn/tongxun_learn/src/py01_topic' returned '0': AMENT_PREFIX_PATH=/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/huangbo/ros2_learn/tongxun_learn/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tongxun_learn/install/py01_topic/lib/python3.12/site-packages:/home/huangbo/ros2_learn/tongxun_learn/install/student_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/huangbo/ros2_learn/tongxun_learn/build/py01_topic/build install --record /home/huangbo/ros2_learn/tongxun_learn/build/py01_topic/install.log --install-scripts $base/lib/py01_topic --single-version-externally-managed install_data

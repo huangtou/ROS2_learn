@@ -1,0 +1,30 @@
+running egg_info
+creating ../build/base_tongxun_s/base_tongxun_s.egg-info
+writing ../build/base_tongxun_s/base_tongxun_s.egg-info/PKG-INFO
+writing dependency_links to ../build/base_tongxun_s/base_tongxun_s.egg-info/dependency_links.txt
+writing requirements to ../build/base_tongxun_s/base_tongxun_s.egg-info/requires.txt
+writing top-level names to ../build/base_tongxun_s/base_tongxun_s.egg-info/top_level.txt
+writing manifest file '../build/base_tongxun_s/base_tongxun_s.egg-info/SOURCES.txt'
+reading manifest file '../build/base_tongxun_s/base_tongxun_s.egg-info/SOURCES.txt'
+writing manifest file '../build/base_tongxun_s/base_tongxun_s.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/huangbo/ros2_learn/tongxun_learn/src/build/base_tongxun_s/build
+creating /home/huangbo/ros2_learn/tongxun_learn/src/build/base_tongxun_s/build/lib
+creating /home/huangbo/ros2_learn/tongxun_learn/src/build/base_tongxun_s/build/lib/base_tongxun_s
+copying base_tongxun_s/__init__.py -> /home/huangbo/ros2_learn/tongxun_learn/src/build/base_tongxun_s/build/lib/base_tongxun_s
+running install
+running install_lib
+creating /home/huangbo/ros2_learn/tongxun_learn/src/install/base_tongxun_s/lib/python3.12/site-packages/base_tongxun_s
+copying /home/huangbo/ros2_learn/tongxun_learn/src/build/base_tongxun_s/build/lib/base_tongxun_s/__init__.py -> /home/huangbo/ros2_learn/tongxun_learn/src/install/base_tongxun_s/lib/python3.12/site-packages/base_tongxun_s
+byte-compiling /home/huangbo/ros2_learn/tongxun_learn/src/install/base_tongxun_s/lib/python3.12/site-packages/base_tongxun_s/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/huangbo/ros2_learn/tongxun_learn/src/install/base_tongxun_s/share/ament_index
+creating /home/huangbo/ros2_learn/tongxun_learn/src/install/base_tongxun_s/share/ament_index/resource_index
+creating /home/huangbo/ros2_learn/tongxun_learn/src/install/base_tongxun_s/share/ament_index/resource_index/packages
+copying resource/base_tongxun_s -> /home/huangbo/ros2_learn/tongxun_learn/src/install/base_tongxun_s/share/ament_index/resource_index/packages
+copying package.xml -> /home/huangbo/ros2_learn/tongxun_learn/src/install/base_tongxun_s/share/base_tongxun_s
+running install_egg_info
+Copying ../build/base_tongxun_s/base_tongxun_s.egg-info to /home/huangbo/ros2_learn/tongxun_learn/src/install/base_tongxun_s/lib/python3.12/site-packages/base_tongxun_s-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/huangbo/ros2_learn/tongxun_learn/src/build/base_tongxun_s/install.log'

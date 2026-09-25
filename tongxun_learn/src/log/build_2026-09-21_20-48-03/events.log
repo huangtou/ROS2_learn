@@ -1,0 +1,874 @@
+[0.000000] (-) TimerEvent: {}
+[0.003249] (base_tongxun_s) JobQueued: {'identifier': 'base_tongxun_s', 'dependencies': OrderedDict()}
+[0.003366] (py02_service) JobQueued: {'identifier': 'py02_service', 'dependencies': OrderedDict()}
+[0.003421] (py02_service_my) JobQueued: {'identifier': 'py02_service_my', 'dependencies': OrderedDict()}
+[0.003440] (py04_param) JobQueued: {'identifier': 'py04_param', 'dependencies': OrderedDict()}
+[0.003452] (py05_time) JobQueued: {'identifier': 'py05_time', 'dependencies': OrderedDict()}
+[0.003464] (student_interfaces) JobQueued: {'identifier': 'student_interfaces', 'dependencies': OrderedDict()}
+[0.003477] (py01_topic) JobQueued: {'identifier': 'py01_topic', 'dependencies': OrderedDict({'student_interfaces': '/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces'})}
+[0.003542] (py03_acton) JobQueued: {'identifier': 'py03_acton', 'dependencies': OrderedDict({'student_interfaces': '/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces'})}
+[0.003591] (student_interfaces) JobStarted: {'identifier': 'student_interfaces'}
+[0.033080] (base_tongxun_s) JobStarted: {'identifier': 'base_tongxun_s'}
+[0.059510] (student_interfaces) JobProgress: {'identifier': 'student_interfaces', 'progress': 'cmake'}
+[0.062172] (student_interfaces) JobProgress: {'identifier': 'student_interfaces', 'progress': 'build'}
+[0.063083] (student_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/huangbo/ros2_learn/tongxun_learn/src/build/student_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/huangbo/ros2_learn/tongxun_learn/src/build/student_interfaces', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'huangbo', 'SSH_CLIENT': '192.168.91.1 12340 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/helpers/browser.sh', 'HOME': '/home/huangbo', 'OLDPWD': '/home/huangbo/ros2_learn/tongxun_learn', 'TERM_PROGRAM_VERSION': '1.138.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-00b45f1c-0bba-44f7-88d2-6b887fa08722.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'huangbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-6c2380fe732802f1.txt', 'LANG': 'zh_CN.UTF-8', 'PYTHONSTARTUP': '/home/huangbo/.vscode-server/data/User/workspaceStorage/c358a63721801e90ff5d3c048722ef27/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b3ba6a87e1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/huangbo/ros2_learn/tongxun_learn/src/build/student_interfaces', 'COPILOT_DEBUG_NONCE': '0eaae38a08eb9b17f52bd7ed955eaf75', 'SSH_CONNECTION': '192.168.91.1 12340 192.168.91.129 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.106002] (-) TimerEvent: {}
+[0.206382] (-) TimerEvent: {}
+[0.306836] (-) TimerEvent: {}
+[0.361541] (student_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.407341] (-) TimerEvent: {}
+[0.507856] (-) TimerEvent: {}
+[0.550920] (student_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.559417] (student_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.608185] (-) TimerEvent: {}
+[0.659923] (student_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.708705] (-) TimerEvent: {}
+[0.744358] (student_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.809149] (-) TimerEvent: {}
+[0.911675] (-) TimerEvent: {}
+[1.012694] (-) TimerEvent: {}
+[1.116874] (-) TimerEvent: {}
+[1.226078] (-) TimerEvent: {}
+[1.326751] (-) TimerEvent: {}
+[1.427701] (-) TimerEvent: {}
+[1.530039] (-) TimerEvent: {}
+[1.630488] (-) TimerEvent: {}
+[1.694133] (student_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.732695] (-) TimerEvent: {}
+[1.833568] (-) TimerEvent: {}
+[1.845061] (student_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.934125] (-) TimerEvent: {}
+[2.035033] (-) TimerEvent: {}
+[2.094273] (student_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.097373] (student_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[2.129896] (base_tongxun_s) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/base_tongxun_s', 'build', '--build-base', '/home/huangbo/ros2_learn/tongxun_learn/src/build/base_tongxun_s/build', 'install', '--record', '/home/huangbo/ros2_learn/tongxun_learn/src/build/base_tongxun_s/install.log', '--install-scripts', '$base/lib/base_tongxun_s', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/huangbo/ros2_learn/tongxun_learn/src/base_tongxun_s', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'huangbo', 'SSH_CLIENT': '192.168.91.1 12340 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/helpers/browser.sh', 'HOME': '/home/huangbo', 'OLDPWD': '/home/huangbo/ros2_learn/tongxun_learn', 'TERM_PROGRAM_VERSION': '1.138.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-00b45f1c-0bba-44f7-88d2-6b887fa08722.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'huangbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-6c2380fe732802f1.txt', 'LANG': 'zh_CN.UTF-8', 'PYTHONSTARTUP': '/home/huangbo/.vscode-server/data/User/workspaceStorage/c358a63721801e90ff5d3c048722ef27/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b3ba6a87e1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/huangbo/ros2_learn/tongxun_learn/src/build/base_tongxun_s', 'COPILOT_DEBUG_NONCE': '0eaae38a08eb9b17f52bd7ed955eaf75', 'SSH_CONNECTION': '192.168.91.1 12340 192.168.91.129 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/huangbo/ros2_learn/tongxun_learn/src/build/base_tongxun_s/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tongxun_learn/src/install/base_tongxun_s/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[2.136334] (-) TimerEvent: {}
+[2.236974] (-) TimerEvent: {}
+[2.340249] (-) TimerEvent: {}
+[2.442436] (-) TimerEvent: {}
+[2.543024] (-) TimerEvent: {}
+[2.583908] (base_tongxun_s) StdoutLine: {'line': b'running egg_info\n'}
+[2.607318] (base_tongxun_s) StdoutLine: {'line': b'writing ../build/base_tongxun_s/base_tongxun_s.egg-info/PKG-INFO\n'}
+[2.609416] (base_tongxun_s) StdoutLine: {'line': b'writing dependency_links to ../build/base_tongxun_s/base_tongxun_s.egg-info/dependency_links.txt\n'}
+[2.609998] (base_tongxun_s) StdoutLine: {'line': b'writing requirements to ../build/base_tongxun_s/base_tongxun_s.egg-info/requires.txt\n'}
+[2.612163] (base_tongxun_s) StdoutLine: {'line': b'writing top-level names to ../build/base_tongxun_s/base_tongxun_s.egg-info/top_level.txt\n'}
+[2.643526] (-) TimerEvent: {}
+[2.647873] (student_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[2.671521] (base_tongxun_s) StdoutLine: {'line': b"reading manifest file '../build/base_tongxun_s/base_tongxun_s.egg-info/SOURCES.txt'\n"}
+[2.673922] (base_tongxun_s) StdoutLine: {'line': b"writing manifest file '../build/base_tongxun_s/base_tongxun_s.egg-info/SOURCES.txt'\n"}
+[2.674695] (base_tongxun_s) StdoutLine: {'line': b'running build\n'}
+[2.675412] (base_tongxun_s) StdoutLine: {'line': b'running build_py\n'}
+[2.676219] (base_tongxun_s) StdoutLine: {'line': b'running install\n'}
+[2.683596] (base_tongxun_s) StdoutLine: {'line': b'running install_lib\n'}
+[2.709412] (base_tongxun_s) StdoutLine: {'line': b'running install_data\n'}
+[2.709938] (base_tongxun_s) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.722586] (student_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.743841] (-) TimerEvent: {}
+[2.747594] (base_tongxun_s) StdoutLine: {'line': b"removing '/home/huangbo/ros2_learn/tongxun_learn/src/install/base_tongxun_s/lib/python3.12/site-packages/base_tongxun_s-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[2.750646] (base_tongxun_s) StdoutLine: {'line': b'Copying ../build/base_tongxun_s/base_tongxun_s.egg-info to /home/huangbo/ros2_learn/tongxun_learn/src/install/base_tongxun_s/lib/python3.12/site-packages/base_tongxun_s-0.0.0-py3.12.egg-info\n'}
+[2.755753] (base_tongxun_s) StdoutLine: {'line': b'running install_scripts\n'}
+[2.762727] (student_interfaces) StdoutLine: {'line': b'-- Configuring done (2.4s)\n'}
+[2.844085] (-) TimerEvent: {}
+[2.902234] (student_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.932383] (student_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/huangbo/ros2_learn/tongxun_learn/src/build/student_interfaces\n'}
+[2.946520] (-) TimerEvent: {}
+[3.009176] (student_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[3.029352] (student_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[3.046742] (-) TimerEvent: {}
+[3.115869] (base_tongxun_s) StdoutLine: {'line': b"writing list of installed files to '/home/huangbo/ros2_learn/tongxun_learn/src/build/base_tongxun_s/install.log'\n"}
+[3.150264] (-) TimerEvent: {}
+[3.251099] (-) TimerEvent: {}
+[3.269879] (base_tongxun_s) CommandEnded: {'returncode': 0}
+[3.328998] (base_tongxun_s) JobEnded: {'identifier': 'base_tongxun_s', 'rc': 0}
+[3.330173] (py02_service) JobStarted: {'identifier': 'py02_service'}
+[3.353983] (-) TimerEvent: {}
+[3.454961] (-) TimerEvent: {}
+[3.555736] (-) TimerEvent: {}
+[3.597789] (student_interfaces) StdoutLine: {'line': b'[  3%] Built target student_interfaces__rosidl_generator_type_description\n'}
+[3.657878] (-) TimerEvent: {}
+[3.700338] (student_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_student_interfaces\n'}
+[3.758464] (-) TimerEvent: {}
+[3.772788] (student_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.858864] (-) TimerEvent: {}
+[3.901628] (student_interfaces) StdoutLine: {'line': b'[  5%] Built target student_interfaces__rs\n'}
+[3.969221] (-) TimerEvent: {}
+[4.008154] (student_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.069474] (-) TimerEvent: {}
+[4.170008] (-) TimerEvent: {}
+[4.273704] (-) TimerEvent: {}
+[4.374451] (-) TimerEvent: {}
+[4.478616] (-) TimerEvent: {}
+[4.579491] (-) TimerEvent: {}
+[4.685442] (-) TimerEvent: {}
+[4.788187] (-) TimerEvent: {}
+[4.890333] (-) TimerEvent: {}
+[4.990931] (-) TimerEvent: {}
+[5.094253] (-) TimerEvent: {}
+[5.196077] (-) TimerEvent: {}
+[5.298062] (-) TimerEvent: {}
+[5.398760] (-) TimerEvent: {}
+[5.499575] (-) TimerEvent: {}
+[5.600289] (-) TimerEvent: {}
+[5.703415] (-) TimerEvent: {}
+[5.804362] (-) TimerEvent: {}
+[5.899067] (student_interfaces) StdoutLine: {'line': b'[  7%] Built target student_interfaces__cpp\n'}
+[5.905165] (-) TimerEvent: {}
+[5.937483] (py02_service) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/py02_service', 'build', '--build-base', '/home/huangbo/ros2_learn/tongxun_learn/src/build/py02_service/build', 'install', '--record', '/home/huangbo/ros2_learn/tongxun_learn/src/build/py02_service/install.log', '--install-scripts', '$base/lib/py02_service', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/huangbo/ros2_learn/tongxun_learn/src/py02_service', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'huangbo', 'SSH_CLIENT': '192.168.91.1 12340 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/helpers/browser.sh', 'HOME': '/home/huangbo', 'OLDPWD': '/home/huangbo/ros2_learn/tongxun_learn', 'TERM_PROGRAM_VERSION': '1.138.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-00b45f1c-0bba-44f7-88d2-6b887fa08722.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'huangbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-6c2380fe732802f1.txt', 'LANG': 'zh_CN.UTF-8', 'PYTHONSTARTUP': '/home/huangbo/.vscode-server/data/User/workspaceStorage/c358a63721801e90ff5d3c048722ef27/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b3ba6a87e1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/huangbo/ros2_learn/tongxun_learn/src/build/py02_service', 'COPILOT_DEBUG_NONCE': '0eaae38a08eb9b17f52bd7ed955eaf75', 'SSH_CONNECTION': '192.168.91.1 12340 192.168.91.129 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/huangbo/ros2_learn/tongxun_learn/src/build/py02_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tongxun_learn/src/install/py02_service/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[6.005417] (-) TimerEvent: {}
+[6.037538] (student_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_c.dir/rosidl_generator_c/student_interfaces/msg/detail/student__description.c.o\x1b[0m\n'}
+[6.108439] (-) TimerEvent: {}
+[6.209743] (-) TimerEvent: {}
+[6.311943] (-) TimerEvent: {}
+[6.344313] (student_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_c.dir/rosidl_generator_c/student_interfaces/msg/detail/student__functions.c.o\x1b[0m\n'}
+[6.350635] (student_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[6.402542] (student_interfaces) StdoutLine: {'line': b'writing student_interfaces.egg-info/PKG-INFO\n'}
+[6.405969] (student_interfaces) StdoutLine: {'line': b'writing dependency_links to student_interfaces.egg-info/dependency_links.txt\n'}
+[6.408171] (student_interfaces) StdoutLine: {'line': b'writing top-level names to student_interfaces.egg-info/top_level.txt\n'}
+[6.412030] (-) TimerEvent: {}
+[6.478350] (student_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_c.dir/rosidl_generator_c/student_interfaces/msg/detail/student__type_support.c.o\x1b[0m\n'}
+[6.503026] (student_interfaces) StdoutLine: {'line': b"reading manifest file 'student_interfaces.egg-info/SOURCES.txt'\n"}
+[6.504493] (student_interfaces) StdoutLine: {'line': b"writing manifest file 'student_interfaces.egg-info/SOURCES.txt'\n"}
+[6.514477] (-) TimerEvent: {}
+[6.552789] (student_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_build_student_interfaces_egg\n'}
+[6.558184] (py02_service) StdoutLine: {'line': b'running egg_info\n'}
+[6.567065] (student_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_c.dir/rosidl_generator_c/student_interfaces/srv/detail/addints__description.c.o\x1b[0m\n'}
+[6.578483] (student_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_c.dir/rosidl_generator_c/student_interfaces/srv/detail/addints__functions.c.o\x1b[0m\n'}
+[6.582564] (py02_service) StdoutLine: {'line': b'writing ../build/py02_service/py02_service.egg-info/PKG-INFO\n'}
+[6.582769] (py02_service) StdoutLine: {'line': b'writing dependency_links to ../build/py02_service/py02_service.egg-info/dependency_links.txt\n'}
+[6.583249] (py02_service) StdoutLine: {'line': b'writing entry points to ../build/py02_service/py02_service.egg-info/entry_points.txt\n'}
+[6.584239] (py02_service) StdoutLine: {'line': b'writing requirements to ../build/py02_service/py02_service.egg-info/requires.txt\n'}
+[6.585401] (py02_service) StdoutLine: {'line': b'writing top-level names to ../build/py02_service/py02_service.egg-info/top_level.txt\n'}
+[6.614747] (-) TimerEvent: {}
+[6.638394] (py02_service) StdoutLine: {'line': b"reading manifest file '../build/py02_service/py02_service.egg-info/SOURCES.txt'\n"}
+[6.639614] (py02_service) StdoutLine: {'line': b"writing manifest file '../build/py02_service/py02_service.egg-info/SOURCES.txt'\n"}
+[6.640298] (py02_service) StdoutLine: {'line': b'running build\n'}
+[6.640550] (py02_service) StdoutLine: {'line': b'running build_py\n'}
+[6.640959] (py02_service) StdoutLine: {'line': b'copying py02_service/demo02_client_py.py -> /home/huangbo/ros2_learn/tongxun_learn/src/build/py02_service/build/lib/py02_service\n'}
+[6.650963] (py02_service) StdoutLine: {'line': b'copying py02_service/demo01_server_py.py -> /home/huangbo/ros2_learn/tongxun_learn/src/build/py02_service/build/lib/py02_service\n'}
+[6.651141] (py02_service) StdoutLine: {'line': b'running install\n'}
+[6.673144] (py02_service) StdoutLine: {'line': b'running install_lib\n'}
+[6.715003] (-) TimerEvent: {}
+[6.727429] (student_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_c.dir/rosidl_generator_c/student_interfaces/srv/detail/addints__type_support.c.o\x1b[0m\n'}
+[6.742786] (py02_service) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/tongxun_learn/src/build/py02_service/build/lib/py02_service/demo02_client_py.py -> /home/huangbo/ros2_learn/tongxun_learn/src/install/py02_service/lib/python3.12/site-packages/py02_service\n'}
+[6.743348] (py02_service) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/tongxun_learn/src/build/py02_service/build/lib/py02_service/demo01_server_py.py -> /home/huangbo/ros2_learn/tongxun_learn/src/install/py02_service/lib/python3.12/site-packages/py02_service\n'}
+[6.745330] (py02_service) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/tongxun_learn/src/install/py02_service/lib/python3.12/site-packages/py02_service/demo02_client_py.py to demo02_client_py.cpython-312.pyc\n'}
+[6.748236] (py02_service) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/tongxun_learn/src/install/py02_service/lib/python3.12/site-packages/py02_service/demo01_server_py.py to demo01_server_py.cpython-312.pyc\n'}
+[6.751261] (py02_service) StdoutLine: {'line': b'running install_data\n'}
+[6.751682] (py02_service) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.784857] (student_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_c.dir/rosidl_generator_c/student_interfaces/action/detail/progress__description.c.o\x1b[0m\n'}
+[6.788568] (py02_service) StdoutLine: {'line': b"removing '/home/huangbo/ros2_learn/tongxun_learn/src/install/py02_service/lib/python3.12/site-packages/py02_service-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[6.791006] (py02_service) StdoutLine: {'line': b'Copying ../build/py02_service/py02_service.egg-info to /home/huangbo/ros2_learn/tongxun_learn/src/install/py02_service/lib/python3.12/site-packages/py02_service-0.0.0-py3.12.egg-info\n'}
+[6.792767] (py02_service) StdoutLine: {'line': b'running install_scripts\n'}
+[6.815534] (-) TimerEvent: {}
+[6.849121] (student_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_c.dir/rosidl_generator_c/student_interfaces/action/detail/progress__functions.c.o\x1b[0m\n'}
+[6.916176] (-) TimerEvent: {}
+[7.018962] (-) TimerEvent: {}
+[7.070061] (py02_service) StdoutLine: {'line': b'Installing demo01_server_py script to /home/huangbo/ros2_learn/tongxun_learn/src/install/py02_service/lib/py02_service\n'}
+[7.073655] (py02_service) StdoutLine: {'line': b'Installing demo02_client_py script to /home/huangbo/ros2_learn/tongxun_learn/src/install/py02_service/lib/py02_service\n'}
+[7.073821] (py02_service) StdoutLine: {'line': b"writing list of installed files to '/home/huangbo/ros2_learn/tongxun_learn/src/build/py02_service/install.log'\n"}
+[7.099184] (student_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_c.dir/rosidl_generator_c/student_interfaces/action/detail/progress__type_support.c.o\x1b[0m\n'}
+[7.119621] (-) TimerEvent: {}
+[7.160464] (py02_service) CommandEnded: {'returncode': 0}
+[7.190571] (py02_service) JobEnded: {'identifier': 'py02_service', 'rc': 0}
+[7.191445] (py02_service_my) JobStarted: {'identifier': 'py02_service_my'}
+[7.220175] (-) TimerEvent: {}
+[7.267422] (student_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library libstudent_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[7.320337] (-) TimerEvent: {}
+[7.422364] (-) TimerEvent: {}
+[7.525271] (-) TimerEvent: {}
+[7.526292] (student_interfaces) StdoutLine: {'line': b'[ 25%] Built target student_interfaces__rosidl_generator_c\n'}
+[7.572271] (student_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.572516] (student_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.625622] (-) TimerEvent: {}
+[7.729541] (-) TimerEvent: {}
+[7.830033] (-) TimerEvent: {}
+[7.932393] (-) TimerEvent: {}
+[8.033026] (-) TimerEvent: {}
+[8.135954] (-) TimerEvent: {}
+[8.236546] (-) TimerEvent: {}
+[8.281111] (student_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/student_interfaces/msg/student__type_support.cpp.o\x1b[0m\n'}
+[8.337188] (-) TimerEvent: {}
+[8.437975] (-) TimerEvent: {}
+[8.538770] (-) TimerEvent: {}
+[8.639917] (-) TimerEvent: {}
+[8.742379] (-) TimerEvent: {}
+[8.846529] (-) TimerEvent: {}
+[8.947226] (-) TimerEvent: {}
+[9.026952] (student_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/student_interfaces/msg/detail/student__type_support_c.cpp.o\x1b[0m\n'}
+[9.047444] (-) TimerEvent: {}
+[9.148222] (-) TimerEvent: {}
+[9.251475] (-) TimerEvent: {}
+[9.360084] (-) TimerEvent: {}
+[9.462237] (-) TimerEvent: {}
+[9.563517] (-) TimerEvent: {}
+[9.668774] (-) TimerEvent: {}
+[9.734298] (py02_service_my) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/py02_service_my', 'build', '--build-base', '/home/huangbo/ros2_learn/tongxun_learn/src/build/py02_service_my/build', 'install', '--record', '/home/huangbo/ros2_learn/tongxun_learn/src/build/py02_service_my/install.log', '--install-scripts', '$base/lib/py02_service_my', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/huangbo/ros2_learn/tongxun_learn/src/py02_service_my', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'huangbo', 'SSH_CLIENT': '192.168.91.1 12340 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/helpers/browser.sh', 'HOME': '/home/huangbo', 'OLDPWD': '/home/huangbo/ros2_learn/tongxun_learn', 'TERM_PROGRAM_VERSION': '1.138.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-00b45f1c-0bba-44f7-88d2-6b887fa08722.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'huangbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-6c2380fe732802f1.txt', 'LANG': 'zh_CN.UTF-8', 'PYTHONSTARTUP': '/home/huangbo/.vscode-server/data/User/workspaceStorage/c358a63721801e90ff5d3c048722ef27/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b3ba6a87e1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/huangbo/ros2_learn/tongxun_learn/src/build/py02_service_my', 'COPILOT_DEBUG_NONCE': '0eaae38a08eb9b17f52bd7ed955eaf75', 'SSH_CONNECTION': '192.168.91.1 12340 192.168.91.129 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/huangbo/ros2_learn/tongxun_learn/src/build/py02_service_my/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tongxun_learn/src/install/py02_service_my/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[9.768988] (-) TimerEvent: {}
+[9.786815] (student_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/student_interfaces/srv/addints__type_support.cpp.o\x1b[0m\n'}
+[9.871344] (-) TimerEvent: {}
+[9.972100] (-) TimerEvent: {}
+[10.074026] (-) TimerEvent: {}
+[10.175946] (-) TimerEvent: {}
+[10.276736] (-) TimerEvent: {}
+[10.377278] (-) TimerEvent: {}
+[10.481658] (-) TimerEvent: {}
+[10.589244] (-) TimerEvent: {}
+[10.693015] (-) TimerEvent: {}
+[10.793974] (-) TimerEvent: {}
+[10.866474] (py02_service_my) StdoutLine: {'line': b'running egg_info\n'}
+[10.874518] (py02_service_my) StdoutLine: {'line': b'creating ../build/py02_service_my/py02_service_my.egg-info\n'}
+[10.894357] (py02_service_my) StdoutLine: {'line': b'writing ../build/py02_service_my/py02_service_my.egg-info/PKG-INFO\n'}
+[10.894550] (-) TimerEvent: {}
+[10.898557] (py02_service_my) StdoutLine: {'line': b'writing dependency_links to ../build/py02_service_my/py02_service_my.egg-info/dependency_links.txt\n'}
+[10.898710] (py02_service_my) StdoutLine: {'line': b'writing entry points to ../build/py02_service_my/py02_service_my.egg-info/entry_points.txt\n'}
+[10.901162] (py02_service_my) StdoutLine: {'line': b'writing requirements to ../build/py02_service_my/py02_service_my.egg-info/requires.txt\n'}
+[10.901391] (py02_service_my) StdoutLine: {'line': b'writing top-level names to ../build/py02_service_my/py02_service_my.egg-info/top_level.txt\n'}
+[10.901477] (py02_service_my) StdoutLine: {'line': b"writing manifest file '../build/py02_service_my/py02_service_my.egg-info/SOURCES.txt'\n"}
+[10.994895] (-) TimerEvent: {}
+[11.095785] (-) TimerEvent: {}
+[11.160864] (py02_service_my) StdoutLine: {'line': b"reading manifest file '../build/py02_service_my/py02_service_my.egg-info/SOURCES.txt'\n"}
+[11.164064] (py02_service_my) StdoutLine: {'line': b"writing manifest file '../build/py02_service_my/py02_service_my.egg-info/SOURCES.txt'\n"}
+[11.164626] (py02_service_my) StdoutLine: {'line': b'running build\n'}
+[11.164891] (py02_service_my) StdoutLine: {'line': b'running build_py\n'}
+[11.165359] (py02_service_my) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tongxun_learn/src/build/py02_service_my/build\n'}
+[11.173414] (py02_service_my) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tongxun_learn/src/build/py02_service_my/build/lib\n'}
+[11.173688] (py02_service_my) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tongxun_learn/src/build/py02_service_my/build/lib/py02_service_my\n'}
+[11.173772] (py02_service_my) StdoutLine: {'line': b'copying py02_service_my/demo_server_py.py -> /home/huangbo/ros2_learn/tongxun_learn/src/build/py02_service_my/build/lib/py02_service_my\n'}
+[11.173834] (py02_service_my) StdoutLine: {'line': b'copying py02_service_my/demo_client_py.py -> /home/huangbo/ros2_learn/tongxun_learn/src/build/py02_service_my/build/lib/py02_service_my\n'}
+[11.173966] (py02_service_my) StdoutLine: {'line': b'copying py02_service_my/__init__.py -> /home/huangbo/ros2_learn/tongxun_learn/src/build/py02_service_my/build/lib/py02_service_my\n'}
+[11.174031] (py02_service_my) StdoutLine: {'line': b'running install\n'}
+[11.188310] (py02_service_my) StdoutLine: {'line': b'running install_lib\n'}
+[11.196092] (-) TimerEvent: {}
+[11.259532] (py02_service_my) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tongxun_learn/src/install/py02_service_my/lib/python3.12/site-packages/py02_service_my\n'}
+[11.261455] (py02_service_my) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/tongxun_learn/src/build/py02_service_my/build/lib/py02_service_my/demo_server_py.py -> /home/huangbo/ros2_learn/tongxun_learn/src/install/py02_service_my/lib/python3.12/site-packages/py02_service_my\n'}
+[11.261631] (py02_service_my) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/tongxun_learn/src/build/py02_service_my/build/lib/py02_service_my/demo_client_py.py -> /home/huangbo/ros2_learn/tongxun_learn/src/install/py02_service_my/lib/python3.12/site-packages/py02_service_my\n'}
+[11.261765] (py02_service_my) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/tongxun_learn/src/build/py02_service_my/build/lib/py02_service_my/__init__.py -> /home/huangbo/ros2_learn/tongxun_learn/src/install/py02_service_my/lib/python3.12/site-packages/py02_service_my\n'}
+[11.261839] (py02_service_my) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/tongxun_learn/src/install/py02_service_my/lib/python3.12/site-packages/py02_service_my/demo_server_py.py to demo_server_py.cpython-312.pyc\n'}
+[11.262809] (py02_service_my) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/tongxun_learn/src/install/py02_service_my/lib/python3.12/site-packages/py02_service_my/demo_client_py.py to demo_client_py.cpython-312.pyc\n'}
+[11.267108] (py02_service_my) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/tongxun_learn/src/install/py02_service_my/lib/python3.12/site-packages/py02_service_my/__init__.py to __init__.cpython-312.pyc\n'}
+[11.267356] (py02_service_my) StdoutLine: {'line': b'running install_data\n'}
+[11.267585] (py02_service_my) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tongxun_learn/src/install/py02_service_my/share/ament_index\n'}
+[11.267780] (py02_service_my) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tongxun_learn/src/install/py02_service_my/share/ament_index/resource_index\n'}
+[11.268272] (py02_service_my) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tongxun_learn/src/install/py02_service_my/share/ament_index/resource_index/packages\n'}
+[11.269578] (py02_service_my) StdoutLine: {'line': b'copying resource/py02_service_my -> /home/huangbo/ros2_learn/tongxun_learn/src/install/py02_service_my/share/ament_index/resource_index/packages\n'}
+[11.269776] (py02_service_my) StdoutLine: {'line': b'copying package.xml -> /home/huangbo/ros2_learn/tongxun_learn/src/install/py02_service_my/share/py02_service_my\n'}
+[11.279586] (py02_service_my) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.296231] (-) TimerEvent: {}
+[11.368729] (student_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/student_interfaces/srv/detail/addints__type_support_c.cpp.o\x1b[0m\n'}
+[11.373038] (py02_service_my) StdoutLine: {'line': b'Copying ../build/py02_service_my/py02_service_my.egg-info to /home/huangbo/ros2_learn/tongxun_learn/src/install/py02_service_my/lib/python3.12/site-packages/py02_service_my-0.0.0-py3.12.egg-info\n'}
+[11.377223] (py02_service_my) StdoutLine: {'line': b'running install_scripts\n'}
+[11.396485] (-) TimerEvent: {}
+[11.496812] (student_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/student_interfaces/action/progress__type_support.cpp.o\x1b[0m\n'}
+[11.496988] (-) TimerEvent: {}
+[11.597819] (-) TimerEvent: {}
+[11.698316] (-) TimerEvent: {}
+[11.801237] (-) TimerEvent: {}
+[11.905538] (-) TimerEvent: {}
+[11.919949] (py02_service_my) StdoutLine: {'line': b'Installing demo_client_py script to /home/huangbo/ros2_learn/tongxun_learn/src/install/py02_service_my/lib/py02_service_my\n'}
+[11.926172] (py02_service_my) StdoutLine: {'line': b'Installing demo_server_py script to /home/huangbo/ros2_learn/tongxun_learn/src/install/py02_service_my/lib/py02_service_my\n'}
+[11.926350] (py02_service_my) StdoutLine: {'line': b"writing list of installed files to '/home/huangbo/ros2_learn/tongxun_learn/src/build/py02_service_my/install.log'\n"}
+[12.006186] (-) TimerEvent: {}
+[12.108551] (-) TimerEvent: {}
+[12.128200] (py02_service_my) CommandEnded: {'returncode': 0}
+[12.146437] (py02_service_my) JobEnded: {'identifier': 'py02_service_my', 'rc': 0}
+[12.148577] (py04_param) JobStarted: {'identifier': 'py04_param'}
+[12.210306] (-) TimerEvent: {}
+[12.312245] (-) TimerEvent: {}
+[12.412712] (-) TimerEvent: {}
+[12.513704] (-) TimerEvent: {}
+[12.615089] (-) TimerEvent: {}
+[12.718491] (-) TimerEvent: {}
+[12.819137] (-) TimerEvent: {}
+[12.919657] (-) TimerEvent: {}
+[13.028086] (-) TimerEvent: {}
+[13.128700] (-) TimerEvent: {}
+[13.234590] (-) TimerEvent: {}
+[13.278723] (student_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/student_interfaces/action/detail/progress__type_support_c.cpp.o\x1b[0m\n'}
+[13.336318] (-) TimerEvent: {}
+[13.437976] (-) TimerEvent: {}
+[13.538824] (-) TimerEvent: {}
+[13.616481] (student_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libstudent_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[13.640254] (-) TimerEvent: {}
+[13.740966] (-) TimerEvent: {}
+[13.841633] (-) TimerEvent: {}
+[13.865192] (student_interfaces) StdoutLine: {'line': b'[ 41%] Built target student_interfaces__rosidl_typesupport_cpp\n'}
+[13.896483] (student_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[13.944313] (-) TimerEvent: {}
+[14.045034] (-) TimerEvent: {}
+[14.145705] (-) TimerEvent: {}
+[14.246465] (-) TimerEvent: {}
+[14.265196] (py04_param) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/py04_param', 'build', '--build-base', '/home/huangbo/ros2_learn/tongxun_learn/src/build/py04_param/build', 'install', '--record', '/home/huangbo/ros2_learn/tongxun_learn/src/build/py04_param/install.log', '--install-scripts', '$base/lib/py04_param', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/huangbo/ros2_learn/tongxun_learn/src/py04_param', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'huangbo', 'SSH_CLIENT': '192.168.91.1 12340 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/helpers/browser.sh', 'HOME': '/home/huangbo', 'OLDPWD': '/home/huangbo/ros2_learn/tongxun_learn', 'TERM_PROGRAM_VERSION': '1.138.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-00b45f1c-0bba-44f7-88d2-6b887fa08722.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'huangbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-6c2380fe732802f1.txt', 'LANG': 'zh_CN.UTF-8', 'PYTHONSTARTUP': '/home/huangbo/.vscode-server/data/User/workspaceStorage/c358a63721801e90ff5d3c048722ef27/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b3ba6a87e1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/huangbo/ros2_learn/tongxun_learn/src/build/py04_param', 'COPILOT_DEBUG_NONCE': '0eaae38a08eb9b17f52bd7ed955eaf75', 'SSH_CONNECTION': '192.168.91.1 12340 192.168.91.129 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/huangbo/ros2_learn/tongxun_learn/src/build/py04_param/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tongxun_learn/src/install/py04_param/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[14.347318] (-) TimerEvent: {}
+[14.435666] (student_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libstudent_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[14.448335] (-) TimerEvent: {}
+[14.550481] (-) TimerEvent: {}
+[14.651713] (-) TimerEvent: {}
+[14.700109] (student_interfaces) StdoutLine: {'line': b'[ 45%] Built target student_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[14.730300] (student_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[14.752345] (-) TimerEvent: {}
+[14.826090] (student_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/student_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/student_interfaces/msg/detail/student__type_support.c.o\x1b[0m\n'}
+[14.854320] (-) TimerEvent: {}
+[14.921497] (student_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/student_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/student_interfaces/srv/detail/addints__type_support.c.o\x1b[0m\n'}
+[14.952217] (py04_param) StdoutLine: {'line': b'running egg_info\n'}
+[14.954821] (-) TimerEvent: {}
+[14.955688] (py04_param) StdoutLine: {'line': b'creating ../build/py04_param/py04_param.egg-info\n'}
+[14.998996] (py04_param) StdoutLine: {'line': b'writing ../build/py04_param/py04_param.egg-info/PKG-INFO\n'}
+[15.003139] (py04_param) StdoutLine: {'line': b'writing dependency_links to ../build/py04_param/py04_param.egg-info/dependency_links.txt\n'}
+[15.003337] (py04_param) StdoutLine: {'line': b'writing entry points to ../build/py04_param/py04_param.egg-info/entry_points.txt\n'}
+[15.003461] (py04_param) StdoutLine: {'line': b'writing requirements to ../build/py04_param/py04_param.egg-info/requires.txt\n'}
+[15.003528] (py04_param) StdoutLine: {'line': b'writing top-level names to ../build/py04_param/py04_param.egg-info/top_level.txt\n'}
+[15.003585] (py04_param) StdoutLine: {'line': b"writing manifest file '../build/py04_param/py04_param.egg-info/SOURCES.txt'\n"}
+[15.044521] (student_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/student_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/student_interfaces/action/detail/progress__type_support.c.o\x1b[0m\n'}
+[15.055037] (-) TimerEvent: {}
+[15.108606] (py04_param) StdoutLine: {'line': b"reading manifest file '../build/py04_param/py04_param.egg-info/SOURCES.txt'\n"}
+[15.109966] (py04_param) StdoutLine: {'line': b"writing manifest file '../build/py04_param/py04_param.egg-info/SOURCES.txt'\n"}
+[15.116109] (py04_param) StdoutLine: {'line': b'running build\n'}
+[15.116266] (py04_param) StdoutLine: {'line': b'running build_py\n'}
+[15.116331] (py04_param) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tongxun_learn/src/build/py04_param/build\n'}
+[15.116387] (py04_param) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tongxun_learn/src/build/py04_param/build/lib\n'}
+[15.116439] (py04_param) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tongxun_learn/src/build/py04_param/build/lib/py04_param\n'}
+[15.116510] (py04_param) StdoutLine: {'line': b'copying py04_param/demo02_param_client_py.py -> /home/huangbo/ros2_learn/tongxun_learn/src/build/py04_param/build/lib/py04_param\n'}
+[15.116598] (py04_param) StdoutLine: {'line': b'copying py04_param/demo00_param.py -> /home/huangbo/ros2_learn/tongxun_learn/src/build/py04_param/build/lib/py04_param\n'}
+[15.116656] (py04_param) StdoutLine: {'line': b'copying py04_param/demo01_param_server_py.py -> /home/huangbo/ros2_learn/tongxun_learn/src/build/py04_param/build/lib/py04_param\n'}
+[15.116709] (py04_param) StdoutLine: {'line': b'copying py04_param/__init__.py -> /home/huangbo/ros2_learn/tongxun_learn/src/build/py04_param/build/lib/py04_param\n'}
+[15.116761] (py04_param) StdoutLine: {'line': b'running install\n'}
+[15.127837] (py04_param) StdoutLine: {'line': b'running install_lib\n'}
+[15.156351] (-) TimerEvent: {}
+[15.185212] (py04_param) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tongxun_learn/src/install/py04_param/lib/python3.12/site-packages/py04_param\n'}
+[15.185703] (py04_param) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/tongxun_learn/src/build/py04_param/build/lib/py04_param/demo02_param_client_py.py -> /home/huangbo/ros2_learn/tongxun_learn/src/install/py04_param/lib/python3.12/site-packages/py04_param\n'}
+[15.186035] (py04_param) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/tongxun_learn/src/build/py04_param/build/lib/py04_param/demo00_param.py -> /home/huangbo/ros2_learn/tongxun_learn/src/install/py04_param/lib/python3.12/site-packages/py04_param\n'}
+[15.187350] (py04_param) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/tongxun_learn/src/build/py04_param/build/lib/py04_param/demo01_param_server_py.py -> /home/huangbo/ros2_learn/tongxun_learn/src/install/py04_param/lib/python3.12/site-packages/py04_param\n'}
+[15.187497] (py04_param) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/tongxun_learn/src/build/py04_param/build/lib/py04_param/__init__.py -> /home/huangbo/ros2_learn/tongxun_learn/src/install/py04_param/lib/python3.12/site-packages/py04_param\n'}
+[15.192326] (py04_param) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/tongxun_learn/src/install/py04_param/lib/python3.12/site-packages/py04_param/demo02_param_client_py.py to demo02_param_client_py.cpython-312.pyc\n'}
+[15.193635] (py04_param) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/tongxun_learn/src/install/py04_param/lib/python3.12/site-packages/py04_param/demo00_param.py to demo00_param.cpython-312.pyc\n'}
+[15.195722] (py04_param) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/tongxun_learn/src/install/py04_param/lib/python3.12/site-packages/py04_param/demo01_param_server_py.py to demo01_param_server_py.cpython-312.pyc\n'}
+[15.198166] (py04_param) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/tongxun_learn/src/install/py04_param/lib/python3.12/site-packages/py04_param/__init__.py to __init__.cpython-312.pyc\n'}
+[15.198904] (py04_param) StdoutLine: {'line': b'running install_data\n'}
+[15.199050] (py04_param) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tongxun_learn/src/install/py04_param/share/ament_index\n'}
+[15.199661] (py04_param) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tongxun_learn/src/install/py04_param/share/ament_index/resource_index\n'}
+[15.201383] (py04_param) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tongxun_learn/src/install/py04_param/share/ament_index/resource_index/packages\n'}
+[15.201503] (py04_param) StdoutLine: {'line': b'copying resource/py04_param -> /home/huangbo/ros2_learn/tongxun_learn/src/install/py04_param/share/ament_index/resource_index/packages\n'}
+[15.203985] (py04_param) StdoutLine: {'line': b'copying package.xml -> /home/huangbo/ros2_learn/tongxun_learn/src/install/py04_param/share/py04_param\n'}
+[15.204193] (py04_param) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.257401] (-) TimerEvent: {}
+[15.276216] (py04_param) StdoutLine: {'line': b'Copying ../build/py04_param/py04_param.egg-info to /home/huangbo/ros2_learn/tongxun_learn/src/install/py04_param/lib/python3.12/site-packages/py04_param-0.0.0-py3.12.egg-info\n'}
+[15.281624] (student_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking C shared library libstudent_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[15.283026] (py04_param) StdoutLine: {'line': b'running install_scripts\n'}
+[15.359578] (-) TimerEvent: {}
+[15.460267] (-) TimerEvent: {}
+[15.477750] (student_interfaces) StdoutLine: {'line': b'[ 54%] Built target student_interfaces__rosidl_typesupport_introspection_c\n'}
+[15.507433] (student_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[15.560627] (-) TimerEvent: {}
+[15.619465] (student_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/student_interfaces/msg/student__type_support.cpp.o\x1b[0m\n'}
+[15.664633] (-) TimerEvent: {}
+[15.686027] (py04_param) StdoutLine: {'line': b'Installing demo00_param script to /home/huangbo/ros2_learn/tongxun_learn/src/install/py04_param/lib/py04_param\n'}
+[15.688277] (py04_param) StdoutLine: {'line': b'Installing demo01_param_server_py script to /home/huangbo/ros2_learn/tongxun_learn/src/install/py04_param/lib/py04_param\n'}
+[15.688621] (py04_param) StdoutLine: {'line': b'Installing demo02_param_client_py script to /home/huangbo/ros2_learn/tongxun_learn/src/install/py04_param/lib/py04_param\n'}
+[15.695418] (py04_param) StdoutLine: {'line': b"writing list of installed files to '/home/huangbo/ros2_learn/tongxun_learn/src/build/py04_param/install.log'\n"}
+[15.750450] (student_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/student_interfaces/srv/addints__type_support.cpp.o\x1b[0m\n'}
+[15.766412] (-) TimerEvent: {}
+[15.838158] (py04_param) CommandEnded: {'returncode': 0}
+[15.853963] (py04_param) JobEnded: {'identifier': 'py04_param', 'rc': 0}
+[15.854982] (py05_time) JobStarted: {'identifier': 'py05_time'}
+[15.869105] (-) TimerEvent: {}
+[15.918678] (student_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/student_interfaces/action/progress__type_support.cpp.o\x1b[0m\n'}
+[15.970417] (-) TimerEvent: {}
+[16.071026] (-) TimerEvent: {}
+[16.103253] (student_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libstudent_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[16.171146] (-) TimerEvent: {}
+[16.252398] (student_interfaces) StdoutLine: {'line': b'[ 63%] Built target student_interfaces__rosidl_typesupport_c\n'}
+[16.271481] (-) TimerEvent: {}
+[16.293204] (student_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[16.374048] (-) TimerEvent: {}
+[16.474801] (-) TimerEvent: {}
+[16.575602] (-) TimerEvent: {}
+[16.676616] (-) TimerEvent: {}
+[16.777499] (-) TimerEvent: {}
+[16.879453] (-) TimerEvent: {}
+[16.982469] (-) TimerEvent: {}
+[17.083258] (-) TimerEvent: {}
+[17.186558] (-) TimerEvent: {}
+[17.287155] (-) TimerEvent: {}
+[17.387874] (-) TimerEvent: {}
+[17.488764] (-) TimerEvent: {}
+[17.533691] (student_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/student_interfaces/msg/detail/dds_fastrtps/student__type_support.cpp.o\x1b[0m\n'}
+[17.589015] (-) TimerEvent: {}
+[17.675682] (student_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/student_interfaces/msg/detail/student__type_support.cpp.o\x1b[0m\n'}
+[17.689483] (-) TimerEvent: {}
+[17.790253] (-) TimerEvent: {}
+[17.892371] (-) TimerEvent: {}
+[17.995042] (-) TimerEvent: {}
+[18.096059] (-) TimerEvent: {}
+[18.115409] (py05_time) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/py05_time', 'build', '--build-base', '/home/huangbo/ros2_learn/tongxun_learn/src/build/py05_time/build', 'install', '--record', '/home/huangbo/ros2_learn/tongxun_learn/src/build/py05_time/install.log', '--install-scripts', '$base/lib/py05_time', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/huangbo/ros2_learn/tongxun_learn/src/py05_time', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'huangbo', 'SSH_CLIENT': '192.168.91.1 12340 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/helpers/browser.sh', 'HOME': '/home/huangbo', 'OLDPWD': '/home/huangbo/ros2_learn/tongxun_learn', 'TERM_PROGRAM_VERSION': '1.138.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-00b45f1c-0bba-44f7-88d2-6b887fa08722.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'huangbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-6c2380fe732802f1.txt', 'LANG': 'zh_CN.UTF-8', 'PYTHONSTARTUP': '/home/huangbo/.vscode-server/data/User/workspaceStorage/c358a63721801e90ff5d3c048722ef27/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b3ba6a87e1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/huangbo/ros2_learn/tongxun_learn/src/build/py05_time', 'COPILOT_DEBUG_NONCE': '0eaae38a08eb9b17f52bd7ed955eaf75', 'SSH_CONNECTION': '192.168.91.1 12340 192.168.91.129 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/huangbo/ros2_learn/tongxun_learn/src/build/py05_time/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tongxun_learn/src/install/py05_time/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[18.196194] (-) TimerEvent: {}
+[18.298457] (-) TimerEvent: {}
+[18.402132] (-) TimerEvent: {}
+[18.461841] (student_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/student_interfaces/srv/detail/addints__type_support.cpp.o\x1b[0m\n'}
+[18.502524] (-) TimerEvent: {}
+[18.533701] (student_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/student_interfaces/srv/detail/dds_fastrtps/addints__type_support.cpp.o\x1b[0m\n'}
+[18.599412] (py05_time) StdoutLine: {'line': b'running egg_info\n'}
+[18.599594] (py05_time) StdoutLine: {'line': b'creating ../build/py05_time/py05_time.egg-info\n'}
+[18.603219] (-) TimerEvent: {}
+[18.620648] (py05_time) StdoutLine: {'line': b'writing ../build/py05_time/py05_time.egg-info/PKG-INFO\n'}
+[18.621576] (py05_time) StdoutLine: {'line': b'writing dependency_links to ../build/py05_time/py05_time.egg-info/dependency_links.txt\n'}
+[18.621989] (py05_time) StdoutLine: {'line': b'writing entry points to ../build/py05_time/py05_time.egg-info/entry_points.txt\n'}
+[18.622662] (py05_time) StdoutLine: {'line': b'writing requirements to ../build/py05_time/py05_time.egg-info/requires.txt\n'}
+[18.623226] (py05_time) StdoutLine: {'line': b'writing top-level names to ../build/py05_time/py05_time.egg-info/top_level.txt\n'}
+[18.624487] (py05_time) StdoutLine: {'line': b"writing manifest file '../build/py05_time/py05_time.egg-info/SOURCES.txt'\n"}
+[18.669233] (py05_time) StdoutLine: {'line': b"reading manifest file '../build/py05_time/py05_time.egg-info/SOURCES.txt'\n"}
+[18.670850] (py05_time) StdoutLine: {'line': b"writing manifest file '../build/py05_time/py05_time.egg-info/SOURCES.txt'\n"}
+[18.673119] (py05_time) StdoutLine: {'line': b'running build\n'}
+[18.673382] (py05_time) StdoutLine: {'line': b'running build_py\n'}
+[18.673463] (py05_time) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tongxun_learn/src/build/py05_time/build\n'}
+[18.673556] (py05_time) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tongxun_learn/src/build/py05_time/build/lib\n'}
+[18.676594] (py05_time) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tongxun_learn/src/build/py05_time/build/lib/py05_time\n'}
+[18.676898] (py05_time) StdoutLine: {'line': b'copying py05_time/demo01_time.py -> /home/huangbo/ros2_learn/tongxun_learn/src/build/py05_time/build/lib/py05_time\n'}
+[18.678447] (py05_time) StdoutLine: {'line': b'copying py05_time/__init__.py -> /home/huangbo/ros2_learn/tongxun_learn/src/build/py05_time/build/lib/py05_time\n'}
+[18.678591] (py05_time) StdoutLine: {'line': b'running install\n'}
+[18.688960] (py05_time) StdoutLine: {'line': b'running install_lib\n'}
+[18.704852] (-) TimerEvent: {}
+[18.736389] (py05_time) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tongxun_learn/src/install/py05_time/lib/python3.12/site-packages/py05_time\n'}
+[18.738031] (py05_time) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/tongxun_learn/src/build/py05_time/build/lib/py05_time/demo01_time.py -> /home/huangbo/ros2_learn/tongxun_learn/src/install/py05_time/lib/python3.12/site-packages/py05_time\n'}
+[18.740315] (py05_time) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/tongxun_learn/src/build/py05_time/build/lib/py05_time/__init__.py -> /home/huangbo/ros2_learn/tongxun_learn/src/install/py05_time/lib/python3.12/site-packages/py05_time\n'}
+[18.743970] (py05_time) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/tongxun_learn/src/install/py05_time/lib/python3.12/site-packages/py05_time/demo01_time.py to demo01_time.cpython-312.pyc\n'}
+[18.744145] (py05_time) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/tongxun_learn/src/install/py05_time/lib/python3.12/site-packages/py05_time/__init__.py to __init__.cpython-312.pyc\n'}
+[18.747324] (py05_time) StdoutLine: {'line': b'running install_data\n'}
+[18.747531] (py05_time) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tongxun_learn/src/install/py05_time/share/ament_index\n'}
+[18.748168] (py05_time) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tongxun_learn/src/install/py05_time/share/ament_index/resource_index\n'}
+[18.748715] (py05_time) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tongxun_learn/src/install/py05_time/share/ament_index/resource_index/packages\n'}
+[18.750468] (py05_time) StdoutLine: {'line': b'copying resource/py05_time -> /home/huangbo/ros2_learn/tongxun_learn/src/install/py05_time/share/ament_index/resource_index/packages\n'}
+[18.750578] (py05_time) StdoutLine: {'line': b'copying package.xml -> /home/huangbo/ros2_learn/tongxun_learn/src/install/py05_time/share/py05_time\n'}
+[18.750647] (py05_time) StdoutLine: {'line': b'running install_egg_info\n'}
+[18.773405] (py05_time) StdoutLine: {'line': b'Copying ../build/py05_time/py05_time.egg-info to /home/huangbo/ros2_learn/tongxun_learn/src/install/py05_time/lib/python3.12/site-packages/py05_time-0.0.0-py3.12.egg-info\n'}
+[18.777459] (py05_time) StdoutLine: {'line': b'running install_scripts\n'}
+[18.805496] (-) TimerEvent: {}
+[18.907185] (-) TimerEvent: {}
+[18.992861] (py05_time) StdoutLine: {'line': b'Installing demo01_time script to /home/huangbo/ros2_learn/tongxun_learn/src/install/py05_time/lib/py05_time\n'}
+[18.994282] (py05_time) StdoutLine: {'line': b"writing list of installed files to '/home/huangbo/ros2_learn/tongxun_learn/src/build/py05_time/install.log'\n"}
+[19.009584] (-) TimerEvent: {}
+[19.110319] (-) TimerEvent: {}
+[19.148090] (py05_time) CommandEnded: {'returncode': 0}
+[19.168347] (py05_time) JobEnded: {'identifier': 'py05_time', 'rc': 0}
+[19.210986] (-) TimerEvent: {}
+[19.280228] (student_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/student_interfaces/action/detail/progress__type_support.cpp.o\x1b[0m\n'}
+[19.311530] (-) TimerEvent: {}
+[19.413699] (-) TimerEvent: {}
+[19.516379] (-) TimerEvent: {}
+[19.616940] (-) TimerEvent: {}
+[19.689888] (student_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/student_interfaces/action/detail/dds_fastrtps/progress__type_support.cpp.o\x1b[0m\n'}
+[19.717507] (-) TimerEvent: {}
+[19.819284] (-) TimerEvent: {}
+[19.919807] (-) TimerEvent: {}
+[20.020274] (-) TimerEvent: {}
+[20.123458] (-) TimerEvent: {}
+[20.225572] (-) TimerEvent: {}
+[20.326287] (-) TimerEvent: {}
+[20.427163] (-) TimerEvent: {}
+[20.527694] (-) TimerEvent: {}
+[20.632962] (-) TimerEvent: {}
+[20.733629] (-) TimerEvent: {}
+[20.834373] (-) TimerEvent: {}
+[20.935090] (-) TimerEvent: {}
+[20.944888] (student_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libstudent_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[21.036300] (-) TimerEvent: {}
+[21.057816] (student_interfaces) StdoutLine: {'line': b'[ 78%] Built target student_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[21.137031] (-) TimerEvent: {}
+[21.237452] (-) TimerEvent: {}
+[21.338439] (-) TimerEvent: {}
+[21.398356] (student_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libstudent_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[21.439250] (-) TimerEvent: {}
+[21.510139] (student_interfaces) StdoutLine: {'line': b'[ 80%] Built target student_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[21.540129] (student_interfaces) StdoutLine: {'line': b'[ 80%] Built target student_interfaces\n'}
+[21.540379] (-) TimerEvent: {}
+[21.573057] (student_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[21.640888] (-) TimerEvent: {}
+[21.742045] (-) TimerEvent: {}
+[21.842748] (-) TimerEvent: {}
+[21.943453] (-) TimerEvent: {}
+[22.044079] (-) TimerEvent: {}
+[22.144719] (-) TimerEvent: {}
+[22.245702] (-) TimerEvent: {}
+[22.346369] (-) TimerEvent: {}
+[22.447369] (-) TimerEvent: {}
+[22.475104] (student_interfaces) StdoutLine: {'line': b'[ 81%] Built target student_interfaces__py\n'}
+[22.524881] (student_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_py.dir/rosidl_generator_py/student_interfaces/msg/_student_s.c.o\x1b[0m\n'}
+[22.525618] (student_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_py.dir/rosidl_generator_py/student_interfaces/srv/_addints_s.c.o\x1b[0m\n'}
+[22.548295] (-) TimerEvent: {}
+[22.651148] (-) TimerEvent: {}
+[22.752017] (-) TimerEvent: {}
+[22.853477] (-) TimerEvent: {}
+[22.917997] (student_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_py.dir/rosidl_generator_py/student_interfaces/action/_progress_s.c.o\x1b[0m\n'}
+[22.955241] (-) TimerEvent: {}
+[23.057168] (-) TimerEvent: {}
+[23.157499] (-) TimerEvent: {}
+[23.259429] (-) TimerEvent: {}
+[23.362258] (-) TimerEvent: {}
+[23.421679] (student_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library libstudent_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[23.462600] (-) TimerEvent: {}
+[23.522322] (student_interfaces) StdoutLine: {'line': b'[ 89%] Built target student_interfaces__rosidl_generator_py\n'}
+[23.562782] (-) TimerEvent: {}
+[23.579034] (student_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/student_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/student_interfaces/_student_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[23.613108] (student_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/student_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/student_interfaces/_student_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[23.663562] (-) TimerEvent: {}
+[23.764446] (-) TimerEvent: {}
+[23.865173] (-) TimerEvent: {}
+[23.933374] (student_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/student_interfaces/student_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[23.968347] (-) TimerEvent: {}
+[23.994478] (student_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/student_interfaces/student_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[24.038796] (student_interfaces) StdoutLine: {'line': b'[ 96%] Built target student_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[24.069209] (-) TimerEvent: {}
+[24.126453] (student_interfaces) StdoutLine: {'line': b'[ 96%] Built target student_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[24.137636] (student_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/student_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/student_interfaces/_student_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[24.170110] (-) TimerEvent: {}
+[24.270749] (-) TimerEvent: {}
+[24.371503] (-) TimerEvent: {}
+[24.460632] (student_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/student_interfaces/student_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[24.472293] (-) TimerEvent: {}
+[24.534021] (student_interfaces) StdoutLine: {'line': b'[100%] Built target student_interfaces_s__rosidl_typesupport_c\n'}
+[24.573179] (-) TimerEvent: {}
+[24.576651] (student_interfaces) CommandEnded: {'returncode': 0}
+[24.577640] (student_interfaces) JobProgress: {'identifier': 'student_interfaces', 'progress': 'install'}
+[24.593581] (student_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/huangbo/ros2_learn/tongxun_learn/src/build/student_interfaces'], 'cwd': '/home/huangbo/ros2_learn/tongxun_learn/src/build/student_interfaces', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'huangbo', 'SSH_CLIENT': '192.168.91.1 12340 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/helpers/browser.sh', 'HOME': '/home/huangbo', 'OLDPWD': '/home/huangbo/ros2_learn/tongxun_learn', 'TERM_PROGRAM_VERSION': '1.138.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-00b45f1c-0bba-44f7-88d2-6b887fa08722.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'huangbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-6c2380fe732802f1.txt', 'LANG': 'zh_CN.UTF-8', 'PYTHONSTARTUP': '/home/huangbo/.vscode-server/data/User/workspaceStorage/c358a63721801e90ff5d3c048722ef27/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b3ba6a87e1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/huangbo/ros2_learn/tongxun_learn/src/build/student_interfaces', 'COPILOT_DEBUG_NONCE': '0eaae38a08eb9b17f52bd7ed955eaf75', 'SSH_CONNECTION': '192.168.91.1 12340 192.168.91.129 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[24.607859] (student_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.608540] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/ament_index/resource_index/rosidl_interfaces/student_interfaces\n'}
+[24.609694] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/msg/Student.json\n'}
+[24.610513] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/srv/Addints.json\n'}
+[24.611946] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/action/Progress.json\n'}
+[24.613012] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces\n'}
+[24.613982] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action\n'}
+[24.614316] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action/detail\n'}
+[24.614799] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action/detail/progress__type_support.c\n'}
+[24.615502] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action/detail/progress__functions.h\n'}
+[24.616166] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action/detail/progress__type_support.h\n'}
+[24.616630] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action/detail/progress__functions.c\n'}
+[24.617071] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action/detail/progress__description.c\n'}
+[24.618296] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action/detail/progress__struct.h\n'}
+[24.618530] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action/progress.h\n'}
+[24.619036] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv\n'}
+[24.619523] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv/addints.h\n'}
+[24.620497] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv/detail\n'}
+[24.620857] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv/detail/addints__type_support.c\n'}
+[24.621456] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv/detail/addints__struct.h\n'}
+[24.621952] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv/detail/addints__functions.h\n'}
+[24.622483] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv/detail/addints__functions.c\n'}
+[24.623493] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv/detail/addints__type_support.h\n'}
+[24.624106] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv/detail/addints__description.c\n'}
+[24.625375] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg\n'}
+[24.625691] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail\n'}
+[24.625769] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__type_support.c\n'}
+[24.626720] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__struct.h\n'}
+[24.627285] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__description.c\n'}
+[24.627800] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__functions.h\n'}
+[24.628713] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__functions.c\n'}
+[24.629382] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__type_support.h\n'}
+[24.629786] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[24.630204] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg/student.h\n'}
+[24.631757] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/environment/library_path.sh\n'}
+[24.632346] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/environment/library_path.dsv\n'}
+[24.633560] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/libstudent_interfaces__rosidl_generator_c.so\n'}
+[24.634714] (student_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/libstudent_interfaces__rosidl_generator_c.so" to ""\n'}
+[24.635111] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces\n'}
+[24.635515] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action\n'}
+[24.636467] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action/detail\n'}
+[24.636568] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action/detail/progress__rosidl_typesupport_fastrtps_c.h\n'}
+[24.636635] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv\n'}
+[24.636693] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv/detail\n'}
+[24.636749] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv/detail/addints__rosidl_typesupport_fastrtps_c.h\n'}
+[24.637533] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg\n'}
+[24.637685] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail\n'}
+[24.638236] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__rosidl_typesupport_fastrtps_c.h\n'}
+[24.638624] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[24.640097] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/libstudent_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[24.641110] (student_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/libstudent_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[24.641650] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces\n'}
+[24.641869] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action\n'}
+[24.641943] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action/detail\n'}
+[24.642571] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action/detail/progress__type_support.c\n'}
+[24.642666] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action/detail/progress__rosidl_typesupport_introspection_c.h\n'}
+[24.643242] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv\n'}
+[24.643567] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv/detail\n'}
+[24.644486] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv/detail/addints__type_support.c\n'}
+[24.644779] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv/detail/addints__rosidl_typesupport_introspection_c.h\n'}
+[24.645759] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg\n'}
+[24.646147] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail\n'}
+[24.646756] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__type_support.c\n'}
+[24.647444] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__rosidl_typesupport_introspection_c.h\n'}
+[24.649017] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[24.649889] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/libstudent_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[24.650393] (student_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/libstudent_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[24.651165] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/libstudent_interfaces__rosidl_typesupport_c.so\n'}
+[24.652090] (student_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/libstudent_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[24.652367] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces\n'}
+[24.652687] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action\n'}
+[24.653119] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action/detail\n'}
+[24.653636] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action/detail/progress__struct.hpp\n'}
+[24.653729] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action/detail/progress__traits.hpp\n'}
+[24.654143] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action/detail/progress__type_support.hpp\n'}
+[24.654669] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action/detail/progress__builder.hpp\n'}
+[24.655234] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action/progress.hpp\n'}
+[24.655763] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv\n'}
+[24.656034] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv/detail\n'}
+[24.657353] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv/detail/addints__builder.hpp\n'}
+[24.657813] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv/detail/addints__type_support.hpp\n'}
+[24.658419] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv/detail/addints__struct.hpp\n'}
+[24.659195] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv/detail/addints__traits.hpp\n'}
+[24.660329] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv/addints.hpp\n'}
+[24.661039] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg\n'}
+[24.661415] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail\n'}
+[24.661896] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__builder.hpp\n'}
+[24.662344] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__traits.hpp\n'}
+[24.663079] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__struct.hpp\n'}
+[24.663960] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__type_support.hpp\n'}
+[24.664669] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg/student.hpp\n'}
+[24.665050] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[24.665908] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces\n'}
+[24.666159] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action\n'}
+[24.666504] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action/detail\n'}
+[24.666940] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action/detail/progress__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.667232] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action/detail/dds_fastrtps\n'}
+[24.667547] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv\n'}
+[24.667792] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv/detail\n'}
+[24.668232] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv/detail/addints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.668529] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv/detail/dds_fastrtps\n'}
+[24.668776] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg\n'}
+[24.669166] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail\n'}
+[24.669344] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.670054] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/dds_fastrtps\n'}
+[24.670392] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[24.671833] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/libstudent_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[24.673103] (student_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/libstudent_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[24.673244] (-) TimerEvent: {}
+[24.673542] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces\n'}
+[24.673846] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action\n'}
+[24.674088] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action/detail\n'}
+[24.674414] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action/detail/progress__type_support.cpp\n'}
+[24.674851] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/action/detail/progress__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.675451] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv\n'}
+[24.675754] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv/detail\n'}
+[24.675979] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv/detail/addints__type_support.cpp\n'}
+[24.676547] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/srv/detail/addints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.677327] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg\n'}
+[24.677800] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail\n'}
+[24.678267] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__type_support.cpp\n'}
+[24.679250] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/include/student_interfaces/student_interfaces/msg/detail/student__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.683575] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/libstudent_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[24.683836] (student_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/libstudent_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[24.685682] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/libstudent_interfaces__rosidl_typesupport_cpp.so\n'}
+[24.687106] (student_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/libstudent_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[24.687702] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/environment/pythonpath.sh\n'}
+[24.688083] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/environment/pythonpath.dsv\n'}
+[24.688399] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces-0.0.0-py3.12.egg-info\n'}
+[24.688709] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[24.689551] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[24.690246] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[24.690866] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[24.691582] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces\n'}
+[24.691876] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/student_interfaces_s__rosidl_typesupport_c.so\n'}
+[24.692406] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/student_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[24.693047] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/_student_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[24.694320] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/_student_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[24.695223] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/action\n'}
+[24.696224] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/action/_progress_s.c\n'}
+[24.696750] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/action/_progress.py\n'}
+[24.697253] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/action/__init__.py\n'}
+[24.697796] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/_student_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[24.699056] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/srv\n'}
+[24.699177] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/srv/_addints.py\n'}
+[24.699613] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/srv/_addints_s.c\n'}
+[24.700258] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/srv/__init__.py\n'}
+[24.700742] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/msg\n'}
+[24.701102] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/msg/_student.py\n'}
+[24.701521] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/msg/_student_s.c\n'}
+[24.701976] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/msg/__init__.py\n'}
+[24.702503] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/__init__.py\n'}
+[24.702975] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/student_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[24.771472] (student_interfaces) StdoutLine: {'line': b"Listing '/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces'...\n"}
+[24.771652] (student_interfaces) StdoutLine: {'line': b"Compiling '/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/__init__.py'...\n"}
+[24.771719] (student_interfaces) StdoutLine: {'line': b"Listing '/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/action'...\n"}
+[24.771777] (student_interfaces) StdoutLine: {'line': b"Compiling '/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/action/__init__.py'...\n"}
+[24.771832] (student_interfaces) StdoutLine: {'line': b"Compiling '/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/action/_progress.py'...\n"}
+[24.771887] (student_interfaces) StdoutLine: {'line': b"Listing '/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/msg'...\n"}
+[24.771940] (student_interfaces) StdoutLine: {'line': b"Compiling '/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/msg/__init__.py'...\n"}
+[24.771993] (student_interfaces) StdoutLine: {'line': b"Compiling '/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/msg/_student.py'...\n"}
+[24.772044] (student_interfaces) StdoutLine: {'line': b"Listing '/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/srv'...\n"}
+[24.772096] (student_interfaces) StdoutLine: {'line': b"Compiling '/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/srv/__init__.py'...\n"}
+[24.772252] (student_interfaces) StdoutLine: {'line': b"Compiling '/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/srv/_addints.py'...\n"}
+[24.773774] (-) TimerEvent: {}
+[24.780399] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/student_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[24.782090] (student_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/student_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[24.782748] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/student_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[24.783734] (student_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/student_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[24.784368] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/student_interfaces_s__rosidl_typesupport_c.so\n'}
+[24.785558] (student_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages/student_interfaces/student_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[24.787789] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/libstudent_interfaces__rosidl_generator_py.so\n'}
+[24.788833] (student_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/libstudent_interfaces__rosidl_generator_py.so" to ""\n'}
+[24.789212] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/rust\n'}
+[24.789895] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/rust/src\n'}
+[24.790142] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/rust/src/srv.rs\n'}
+[24.791224] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/rust/src/action\n'}
+[24.791640] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/rust/src/action/rmw.rs\n'}
+[24.792473] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/rust/src/msg.rs\n'}
+[24.793452] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/rust/src/action.rs\n'}
+[24.794671] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/rust/src/srv\n'}
+[24.795038] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/rust/src/srv/rmw.rs\n'}
+[24.795567] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/rust/src/msg\n'}
+[24.796286] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/rust/src/msg/rmw.rs\n'}
+[24.796772] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/rust/src/lib.rs\n'}
+[24.797672] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/rust/Cargo.toml\n'}
+[24.798517] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/rust/build.rs\n'}
+[24.799427] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/msg/Student.idl\n'}
+[24.799891] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/srv/Addints.idl\n'}
+[24.800238] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/action/Progress.idl\n'}
+[24.800787] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/msg/Student.msg\n'}
+[24.801086] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/srv/Addints.srv\n'}
+[24.801450] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/action/Progress.action\n'}
+[24.802204] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/ament_index/resource_index/package_run_dependencies/student_interfaces\n'}
+[24.802503] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/ament_index/resource_index/parent_prefix_path/student_interfaces\n'}
+[24.803225] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/environment/ament_prefix_path.sh\n'}
+[24.803515] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/environment/ament_prefix_path.dsv\n'}
+[24.803875] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/environment/path.sh\n'}
+[24.804501] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/environment/path.dsv\n'}
+[24.804633] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/local_setup.bash\n'}
+[24.804707] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/local_setup.sh\n'}
+[24.805428] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/local_setup.zsh\n'}
+[24.805572] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/local_setup.dsv\n'}
+[24.805654] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/package.dsv\n'}
+[24.806089] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/ament_index/resource_index/packages/student_interfaces\n'}
+[24.806502] (student_interfaces) StdoutLine: {'line': b'-- Old export file "/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/export_student_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/export_student_interfaces__rosidl_generator_cExport-noconfig.cmake].\n'}
+[24.806944] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/export_student_interfaces__rosidl_generator_cExport.cmake\n'}
+[24.808141] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/export_student_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[24.809333] (student_interfaces) StdoutLine: {'line': b'-- Old export file "/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/export_student_interfaces__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/export_student_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].\n'}
+[24.809884] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/export_student_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[24.810774] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/export_student_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[24.811893] (student_interfaces) StdoutLine: {'line': b'-- Old export file "/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/student_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/student_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].\n'}
+[24.812456] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/student_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[24.813561] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/student_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[24.814473] (student_interfaces) StdoutLine: {'line': b'-- Old export file "/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/student_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/student_interfaces__rosidl_typesupport_cExport-noconfig.cmake].\n'}
+[24.814797] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/student_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[24.815632] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/student_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[24.816495] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/export_student_interfaces__rosidl_generator_cppExport.cmake\n'}
+[24.817315] (student_interfaces) StdoutLine: {'line': b'-- Old export file "/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/export_student_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/export_student_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].\n'}
+[24.817798] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/export_student_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[24.818657] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/export_student_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[24.819465] (student_interfaces) StdoutLine: {'line': b'-- Old export file "/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/student_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/student_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].\n'}
+[24.819781] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/student_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[24.820551] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/student_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[24.821351] (student_interfaces) StdoutLine: {'line': b'-- Old export file "/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/student_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/student_interfaces__rosidl_typesupport_cppExport-noconfig.cmake].\n'}
+[24.821627] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/student_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[24.822417] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/student_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[24.823707] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/export_student_interfaces__rosidl_generator_pyExport.cmake\n'}
+[24.824257] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/export_student_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[24.825518] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[24.825713] (student_interfaces) StdoutLine: {'line': b'-- Installing: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[24.826557] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[24.826871] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[24.827083] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[24.827789] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[24.827897] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[24.827985] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[24.828626] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/student_interfacesConfig.cmake\n'}
+[24.828879] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/cmake/student_interfacesConfig-version.cmake\n'}
+[24.829520] (student_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/share/student_interfaces/package.xml\n'}
+[24.835529] (student_interfaces) CommandEnded: {'returncode': 0}
+[24.874131] (-) TimerEvent: {}
+[24.877456] (student_interfaces) JobEnded: {'identifier': 'student_interfaces', 'rc': 0}
+[24.878568] (py01_topic) JobStarted: {'identifier': 'py01_topic'}
+[24.894384] (py03_acton) JobStarted: {'identifier': 'py03_acton'}
+[24.974203] (-) TimerEvent: {}
+[25.075070] (-) TimerEvent: {}
+[25.175512] (-) TimerEvent: {}
+[25.276407] (-) TimerEvent: {}
+[25.377189] (-) TimerEvent: {}
+[25.477953] (-) TimerEvent: {}
+[25.579485] (-) TimerEvent: {}
+[25.683994] (-) TimerEvent: {}
+[25.784754] (-) TimerEvent: {}
+[25.885841] (-) TimerEvent: {}
+[25.990363] (-) TimerEvent: {}
+[26.090882] (-) TimerEvent: {}
+[26.191767] (-) TimerEvent: {}
+[26.293626] (-) TimerEvent: {}
+[26.398496] (-) TimerEvent: {}
+[26.500140] (-) TimerEvent: {}
+[26.600487] (-) TimerEvent: {}
+[26.701293] (-) TimerEvent: {}
+[26.803424] (-) TimerEvent: {}
+[26.904268] (-) TimerEvent: {}
+[26.990263] (py01_topic) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/py01_topic', 'build', '--build-base', '/home/huangbo/ros2_learn/tongxun_learn/src/build/py01_topic/build', 'install', '--record', '/home/huangbo/ros2_learn/tongxun_learn/src/build/py01_topic/install.log', '--install-scripts', '$base/lib/py01_topic', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/huangbo/ros2_learn/tongxun_learn/src/py01_topic', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'huangbo', 'SSH_CLIENT': '192.168.91.1 12340 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/helpers/browser.sh', 'HOME': '/home/huangbo', 'OLDPWD': '/home/huangbo/ros2_learn/tongxun_learn', 'TERM_PROGRAM_VERSION': '1.138.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-00b45f1c-0bba-44f7-88d2-6b887fa08722.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'huangbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-6c2380fe732802f1.txt', 'LANG': 'zh_CN.UTF-8', 'PYTHONSTARTUP': '/home/huangbo/.vscode-server/data/User/workspaceStorage/c358a63721801e90ff5d3c048722ef27/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b3ba6a87e1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/huangbo/ros2_learn/tongxun_learn/src/build/py01_topic', 'COPILOT_DEBUG_NONCE': '0eaae38a08eb9b17f52bd7ed955eaf75', 'SSH_CONNECTION': '192.168.91.1 12340 192.168.91.129 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/huangbo/ros2_learn/tongxun_learn/src/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tongxun_learn/src/install/py01_topic/lib/python3.12/site-packages:/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[26.993987] (py03_acton) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/py03_acton', 'build', '--build-base', '/home/huangbo/ros2_learn/tongxun_learn/src/build/py03_acton/build', 'install', '--record', '/home/huangbo/ros2_learn/tongxun_learn/src/build/py03_acton/install.log', '--install-scripts', '$base/lib/py03_acton', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/huangbo/ros2_learn/tongxun_learn/src/py03_acton', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'huangbo', 'SSH_CLIENT': '192.168.91.1 12340 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/helpers/browser.sh', 'HOME': '/home/huangbo', 'OLDPWD': '/home/huangbo/ros2_learn/tongxun_learn', 'TERM_PROGRAM_VERSION': '1.138.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-00b45f1c-0bba-44f7-88d2-6b887fa08722.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'huangbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-6c2380fe732802f1.txt', 'LANG': 'zh_CN.UTF-8', 'PYTHONSTARTUP': '/home/huangbo/.vscode-server/data/User/workspaceStorage/c358a63721801e90ff5d3c048722ef27/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b3ba6a87e1.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/huangbo/ros2_learn/tongxun_learn/src/build/py03_acton', 'COPILOT_DEBUG_NONCE': '0eaae38a08eb9b17f52bd7ed955eaf75', 'SSH_CONNECTION': '192.168.91.1 12340 192.168.91.129 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/huangbo/ros2_learn/tongxun_learn/src/build/py03_acton/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tongxun_learn/src/install/py03_acton/lib/python3.12/site-packages:/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/huangbo/ros2_learn/tongxun_learn/src/install/student_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[27.004901] (-) TimerEvent: {}
+[27.108357] (-) TimerEvent: {}
+[27.209344] (-) TimerEvent: {}
+[27.295081] (py01_topic) StdoutLine: {'line': b'running egg_info\n'}
+[27.309890] (-) TimerEvent: {}
+[27.316193] (py01_topic) StdoutLine: {'line': b'writing ../build/py01_topic/py01_topic.egg-info/PKG-INFO\n'}
+[27.317107] (py01_topic) StdoutLine: {'line': b'writing dependency_links to ../build/py01_topic/py01_topic.egg-info/dependency_links.txt\n'}
+[27.318085] (py01_topic) StdoutLine: {'line': b'writing entry points to ../build/py01_topic/py01_topic.egg-info/entry_points.txt\n'}
+[27.318705] (py01_topic) StdoutLine: {'line': b'writing requirements to ../build/py01_topic/py01_topic.egg-info/requires.txt\n'}
+[27.319588] (py01_topic) StdoutLine: {'line': b'writing top-level names to ../build/py01_topic/py01_topic.egg-info/top_level.txt\n'}
+[27.336408] (py03_acton) StdoutLine: {'line': b'running egg_info\n'}
+[27.336984] (py03_acton) StdoutLine: {'line': b'creating ../build/py03_acton/py03_acton.egg-info\n'}
+[27.358625] (py03_acton) StdoutLine: {'line': b'writing ../build/py03_acton/py03_acton.egg-info/PKG-INFO\n'}
+[27.359559] (py03_acton) StdoutLine: {'line': b'writing dependency_links to ../build/py03_acton/py03_acton.egg-info/dependency_links.txt\n'}
+[27.360533] (py03_acton) StdoutLine: {'line': b'writing entry points to ../build/py03_acton/py03_acton.egg-info/entry_points.txt\n'}
+[27.363086] (py03_acton) StdoutLine: {'line': b'writing requirements to ../build/py03_acton/py03_acton.egg-info/requires.txt\n'}
+[27.363518] (py03_acton) StdoutLine: {'line': b'writing top-level names to ../build/py03_acton/py03_acton.egg-info/top_level.txt\n'}
+[27.366356] (py03_acton) StdoutLine: {'line': b"writing manifest file '../build/py03_acton/py03_acton.egg-info/SOURCES.txt'\n"}
+[27.369148] (py01_topic) StdoutLine: {'line': b"reading manifest file '../build/py01_topic/py01_topic.egg-info/SOURCES.txt'\n"}
+[27.371608] (py01_topic) StdoutLine: {'line': b"writing manifest file '../build/py01_topic/py01_topic.egg-info/SOURCES.txt'\n"}
+[27.373188] (py01_topic) StdoutLine: {'line': b'running build\n'}
+[27.373547] (py01_topic) StdoutLine: {'line': b'running build_py\n'}
+[27.374428] (py01_topic) StdoutLine: {'line': b'running install\n'}
+[27.386923] (py01_topic) StdoutLine: {'line': b'running install_lib\n'}
+[27.407897] (py03_acton) StdoutLine: {'line': b"reading manifest file '../build/py03_acton/py03_acton.egg-info/SOURCES.txt'\n"}
+[27.409112] (py03_acton) StdoutLine: {'line': b"writing manifest file '../build/py03_acton/py03_acton.egg-info/SOURCES.txt'\n"}
+[27.409759] (py03_acton) StdoutLine: {'line': b'running build\n'}
+[27.409957] (-) TimerEvent: {}
+[27.410536] (py03_acton) StdoutLine: {'line': b'running build_py\n'}
+[27.411119] (py03_acton) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tongxun_learn/src/build/py03_acton/build\n'}
+[27.411870] (py03_acton) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tongxun_learn/src/build/py03_acton/build/lib\n'}
+[27.412062] (py03_acton) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tongxun_learn/src/build/py03_acton/build/lib/py03_acton\n'}
+[27.412541] (py03_acton) StdoutLine: {'line': b'copying py03_acton/demo_action_client_py.py -> /home/huangbo/ros2_learn/tongxun_learn/src/build/py03_acton/build/lib/py03_acton\n'}
+[27.414717] (py03_acton) StdoutLine: {'line': b'copying py03_acton/__init__.py -> /home/huangbo/ros2_learn/tongxun_learn/src/build/py03_acton/build/lib/py03_acton\n'}
+[27.414938] (py03_acton) StdoutLine: {'line': b'copying py03_acton/demo_action_server_py.py -> /home/huangbo/ros2_learn/tongxun_learn/src/build/py03_acton/build/lib/py03_acton\n'}
+[27.415292] (py03_acton) StdoutLine: {'line': b'running install\n'}
+[27.420104] (py01_topic) StdoutLine: {'line': b'running install_data\n'}
+[27.422097] (py01_topic) StdoutLine: {'line': b'running install_egg_info\n'}
+[27.423059] (py03_acton) StdoutLine: {'line': b'running install_lib\n'}
+[27.444365] (py01_topic) StdoutLine: {'line': b"removing '/home/huangbo/ros2_learn/tongxun_learn/src/install/py01_topic/lib/python3.12/site-packages/py01_topic-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[27.446179] (py01_topic) StdoutLine: {'line': b'Copying ../build/py01_topic/py01_topic.egg-info to /home/huangbo/ros2_learn/tongxun_learn/src/install/py01_topic/lib/python3.12/site-packages/py01_topic-0.0.0-py3.12.egg-info\n'}
+[27.447682] (py03_acton) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tongxun_learn/src/install/py03_acton/lib/python3.12/site-packages/py03_acton\n'}
+[27.448225] (py03_acton) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/tongxun_learn/src/build/py03_acton/build/lib/py03_acton/demo_action_client_py.py -> /home/huangbo/ros2_learn/tongxun_learn/src/install/py03_acton/lib/python3.12/site-packages/py03_acton\n'}
+[27.448875] (py03_acton) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/tongxun_learn/src/build/py03_acton/build/lib/py03_acton/__init__.py -> /home/huangbo/ros2_learn/tongxun_learn/src/install/py03_acton/lib/python3.12/site-packages/py03_acton\n'}
+[27.449601] (py01_topic) StdoutLine: {'line': b'running install_scripts\n'}
+[27.450012] (py03_acton) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/tongxun_learn/src/build/py03_acton/build/lib/py03_acton/demo_action_server_py.py -> /home/huangbo/ros2_learn/tongxun_learn/src/install/py03_acton/lib/python3.12/site-packages/py03_acton\n'}
+[27.450583] (py03_acton) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/tongxun_learn/src/install/py03_acton/lib/python3.12/site-packages/py03_acton/demo_action_client_py.py to demo_action_client_py.cpython-312.pyc\n'}
+[27.451803] (py03_acton) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/tongxun_learn/src/install/py03_acton/lib/python3.12/site-packages/py03_acton/__init__.py to __init__.cpython-312.pyc\n'}
+[27.452941] (py03_acton) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/tongxun_learn/src/install/py03_acton/lib/python3.12/site-packages/py03_acton/demo_action_server_py.py to demo_action_server_py.cpython-312.pyc\n'}
+[27.453259] (py03_acton) StdoutLine: {'line': b'running install_data\n'}
+[27.453753] (py03_acton) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tongxun_learn/src/install/py03_acton/share/ament_index\n'}
+[27.454303] (py03_acton) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tongxun_learn/src/install/py03_acton/share/ament_index/resource_index\n'}
+[27.454423] (py03_acton) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tongxun_learn/src/install/py03_acton/share/ament_index/resource_index/packages\n'}
+[27.454763] (py03_acton) StdoutLine: {'line': b'copying resource/py03_acton -> /home/huangbo/ros2_learn/tongxun_learn/src/install/py03_acton/share/ament_index/resource_index/packages\n'}
+[27.457554] (py03_acton) StdoutLine: {'line': b'copying package.xml -> /home/huangbo/ros2_learn/tongxun_learn/src/install/py03_acton/share/py03_acton\n'}
+[27.457736] (py03_acton) StdoutLine: {'line': b'running install_egg_info\n'}
+[27.478820] (py03_acton) StdoutLine: {'line': b'Copying ../build/py03_acton/py03_acton.egg-info to /home/huangbo/ros2_learn/tongxun_learn/src/install/py03_acton/lib/python3.12/site-packages/py03_acton-0.0.0-py3.12.egg-info\n'}
+[27.480657] (py03_acton) StdoutLine: {'line': b'running install_scripts\n'}
+[27.510621] (-) TimerEvent: {}
+[27.597465] (py01_topic) StdoutLine: {'line': b'Installing addints_client_py script to /home/huangbo/ros2_learn/tongxun_learn/src/install/py01_topic/lib/py01_topic\n'}
+[27.598353] (py01_topic) StdoutLine: {'line': b'Installing addints_server_py script to /home/huangbo/ros2_learn/tongxun_learn/src/install/py01_topic/lib/py01_topic\n'}
+[27.598903] (py01_topic) StdoutLine: {'line': b'Installing demo01_talker_str_py script to /home/huangbo/ros2_learn/tongxun_learn/src/install/py01_topic/lib/py01_topic\n'}
+[27.599535] (py01_topic) StdoutLine: {'line': b'Installing demo02_listener_str_py script to /home/huangbo/ros2_learn/tongxun_learn/src/install/py01_topic/lib/py01_topic\n'}
+[27.600123] (py01_topic) StdoutLine: {'line': b'Installing student_listener_py script to /home/huangbo/ros2_learn/tongxun_learn/src/install/py01_topic/lib/py01_topic\n'}
+[27.600809] (py01_topic) StdoutLine: {'line': b'Installing student_talker_py script to /home/huangbo/ros2_learn/tongxun_learn/src/install/py01_topic/lib/py01_topic\n'}
+[27.601516] (py01_topic) StdoutLine: {'line': b"writing list of installed files to '/home/huangbo/ros2_learn/tongxun_learn/src/build/py01_topic/install.log'\n"}
+[27.611026] (-) TimerEvent: {}
+[27.641263] (py01_topic) CommandEnded: {'returncode': 0}
+[27.654088] (py03_acton) StdoutLine: {'line': b'Installing demo_action_client_py script to /home/huangbo/ros2_learn/tongxun_learn/src/install/py03_acton/lib/py03_acton\n'}
+[27.654744] (py03_acton) StdoutLine: {'line': b'Installing demo_action_server_py script to /home/huangbo/ros2_learn/tongxun_learn/src/install/py03_acton/lib/py03_acton\n'}
+[27.655167] (py03_acton) StdoutLine: {'line': b"writing list of installed files to '/home/huangbo/ros2_learn/tongxun_learn/src/build/py03_acton/install.log'\n"}
+[27.673155] (py01_topic) JobEnded: {'identifier': 'py01_topic', 'rc': 0}
+[27.713620] (-) TimerEvent: {}
+[27.755528] (py03_acton) CommandEnded: {'returncode': 0}
+[27.761411] (py03_acton) JobEnded: {'identifier': 'py03_acton', 'rc': 0}
+[27.764896] (-) EventReactorShutdown: {}

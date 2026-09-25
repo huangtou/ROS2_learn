@@ -1,0 +1,30 @@
+[0.000000] (-) TimerEvent: {}
+[0.000256] (py07_jx) JobQueued: {'identifier': 'py07_jx', 'dependencies': OrderedDict({'py07_jx': '/home/huangbo/ros2_learn/tongxun_learn/install/py07_jx'})}
+[0.000380] (py07_jx) JobStarted: {'identifier': 'py07_jx'}
+[0.099667] (-) TimerEvent: {}
+[0.200835] (-) TimerEvent: {}
+[0.261286] (py07_jx) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/huangbo/ros2_learn/tongxun_learn/src/py07_jx', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'RUBBER_DUCK_AGENT': 'true', 'AI_AGENT': 'github_copilot_vscode_agent', 'USER': 'huangbo', 'SSH_CLIENT': '192.168.91.1 3095 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/huangbo', 'GIT_CONFIG_COUNT': '3', 'COPILOT_CLI_RUN_AS_NODE': '1', 'ROS_PYTHON_VERSION': '3', 'COPILOT_CLI': '1', 'SSH_ASKPASS': '', 'ANTHROPIC_ADVISOR': 'false', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'USE_BUILTIN_RIPGREP': 'false', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'GIT_OPTIONAL_LOCKS': '0', 'GCM_INTERACTIVE': 'Never', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'huangbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'XDG_SESSION_ID': '4', 'GIT_CONFIG_VALUE_0': 'explicit', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/node_modules/@vscode/ripgrep-universal/bin/linux-x64', 'GIT_CONFIG_VALUE_1': 'never', 'CLAUDE_CODE_DISABLE_PRECOMPACT_SKIP': '1', 'GIT_CONFIG_VALUE_2': '', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'zh_CN.UTF-8', 'LS_COLORS': '', 'AMENT_PREFIX_PATH': '/home/huangbo/ros2_learn/tongxun_learn/install/py07_jx:/opt/ros/jazzy', 'COPILOT_AGENT_SESSION_ID': '24a895c8-a9ec-452c-ae18-996c93ed6ba6', 'SHELL': '/bin/bash', 'GIT_TERMINAL_PROMPT': '0', 'MXC_BIN_DIR': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/node_modules/@microsoft/mxc-sdk/bin', 'GIT_CONFIG_KEY_0': 'safe.bareRepository', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GIT_CONFIG_KEY_1': 'credential.interactive', 'GIT_CONFIG_KEY_2': 'core.fsmonitor', 'COPILOT_MCP_APPS': 'true', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/huangbo/ros2_learn/tongxun_learn/build/py07_jx', 'AUTO_APPROVAL': 'true', 'SSH_CONNECTION': '192.168.91.1 3095 192.168.91.129 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COPILOT_ENABLE_BUILTIN_GITHUB_MCP': 'true', 'PYTHONPATH': '/home/huangbo/ros2_learn/tongxun_learn/install/py07_jx/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'COPILOT_CLI_ENABLED_FEATURE_FLAGS': 'SHELL_SPAWN_BACKEND', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'PYTHONDONTWRITEBYTECODE': '1', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/pytest.xml --junit-prefix=py07_jx -o cache_dir=/home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/.pytest_cache'}), 'shell': False}
+[0.301749] (-) TimerEvent: {}
+[0.402573] (-) TimerEvent: {}
+[0.503312] (-) TimerEvent: {}
+[0.604575] (-) TimerEvent: {}
+[0.705044] (-) TimerEvent: {}
+[0.732892] (py07_jx) StdoutLine: {'line': b'============================= test session starts ==============================\n'}
+[0.735635] (py07_jx) StdoutLine: {'line': b'platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0\n'}
+[0.736068] (py07_jx) StdoutLine: {'line': b'cachedir: /home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/.pytest_cache\n'}
+[0.736533] (py07_jx) StdoutLine: {'line': b'rootdir: /home/huangbo/ros2_learn/tongxun_learn/src/py07_jx\n'}
+[0.737101] (py07_jx) StdoutLine: {'line': b'plugins: launch-testing-ros-0.26.12, launch-testing-3.4.11, ament-lint-0.17.5, ament-xmllint-0.17.5, ament-pep257-0.17.5, ament-flake8-0.17.5, ament-copyright-0.17.5, colcon-core-0.21.2, cov-4.1.0\n'}
+[0.737942] (py07_jx) StdoutLine: {'line': b'collected 3 items\n'}
+[0.738248] (py07_jx) StdoutLine: {'line': b'\n'}
+[0.745686] (py07_jx) StdoutLine: {'line': b'test/test_copyright.py s                                                 [ 33%]\n'}
+[0.805704] (-) TimerEvent: {}
+[0.895243] (py07_jx) StdoutLine: {'line': b'test/test_flake8.py .                                                    [ 66%]\n'}
+[0.906258] (-) TimerEvent: {}
+[0.918211] (py07_jx) StdoutLine: {'line': b'test/test_pep257.py .                                                    [100%]\n'}
+[0.918664] (py07_jx) StdoutLine: {'line': b'\n'}
+[0.919139] (py07_jx) StdoutLine: {'line': b'- generated xml file: /home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/pytest.xml -\n'}
+[0.919428] (py07_jx) StdoutLine: {'line': b'========================= 2 passed, 1 skipped in 0.29s =========================\n'}
+[1.006849] (-) TimerEvent: {}
+[1.015902] (py07_jx) CommandEnded: {'returncode': 0}
+[1.017203] (py07_jx) JobEnded: {'identifier': 'py07_jx', 'rc': 0}
+[1.018658] (-) EventReactorShutdown: {}

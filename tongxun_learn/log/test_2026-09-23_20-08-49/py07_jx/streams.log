@@ -1,0 +1,15 @@
+[0.261s] Invoking command in '/home/huangbo/ros2_learn/tongxun_learn/src/py07_jx': AMENT_PREFIX_PATH=/home/huangbo/ros2_learn/tongxun_learn/install/py07_jx:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/pytest.xml --junit-prefix=py07_jx -o cache_dir=/home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/huangbo/ros2_learn/tongxun_learn/install/py07_jx/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[0.733s] ============================= test session starts ==============================
+[0.736s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[0.736s] cachedir: /home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/.pytest_cache
+[0.736s] rootdir: /home/huangbo/ros2_learn/tongxun_learn/src/py07_jx
+[0.737s] plugins: launch-testing-ros-0.26.12, launch-testing-3.4.11, ament-lint-0.17.5, ament-xmllint-0.17.5, ament-pep257-0.17.5, ament-flake8-0.17.5, ament-copyright-0.17.5, colcon-core-0.21.2, cov-4.1.0
+[0.738s] collected 3 items
+[0.738s] 
+[0.746s] test/test_copyright.py s                                                 [ 33%]
+[0.895s] test/test_flake8.py .                                                    [ 66%]
+[0.918s] test/test_pep257.py .                                                    [100%]
+[0.918s] 
+[0.919s] - generated xml file: /home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/pytest.xml -
+[0.919s] ========================= 2 passed, 1 skipped in 0.29s =========================
+[1.016s] Invoked command in '/home/huangbo/ros2_learn/tongxun_learn/src/py07_jx' returned '0': AMENT_PREFIX_PATH=/home/huangbo/ros2_learn/tongxun_learn/install/py07_jx:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/pytest.xml --junit-prefix=py07_jx -o cache_dir=/home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/huangbo/ros2_learn/tongxun_learn/install/py07_jx/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

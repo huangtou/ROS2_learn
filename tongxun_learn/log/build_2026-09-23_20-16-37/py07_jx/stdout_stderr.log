@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/py07_jx/py07_jx.egg-info/PKG-INFO
+writing dependency_links to ../../build/py07_jx/py07_jx.egg-info/dependency_links.txt
+writing entry points to ../../build/py07_jx/py07_jx.egg-info/entry_points.txt
+writing requirements to ../../build/py07_jx/py07_jx.egg-info/requires.txt
+writing top-level names to ../../build/py07_jx/py07_jx.egg-info/top_level.txt
+reading manifest file '../../build/py07_jx/py07_jx.egg-info/SOURCES.txt'
+writing manifest file '../../build/py07_jx/py07_jx.egg-info/SOURCES.txt'
+running build
+running build_py
+copying py07_jx/turtle_jingxiang.py -> /home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/build/lib/py07_jx
+running install
+running install_lib
+copying /home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/build/lib/py07_jx/turtle_jingxiang.py -> /home/huangbo/ros2_learn/tongxun_learn/install/py07_jx/lib/python3.12/site-packages/py07_jx
+byte-compiling /home/huangbo/ros2_learn/tongxun_learn/install/py07_jx/lib/python3.12/site-packages/py07_jx/turtle_jingxiang.py to turtle_jingxiang.cpython-312.pyc
+running install_data
+copying launch/mirror_launch.py -> /home/huangbo/ros2_learn/tongxun_learn/install/py07_jx/share/py07_jx/launch
+running install_egg_info
+removing '/home/huangbo/ros2_learn/tongxun_learn/install/py07_jx/lib/python3.12/site-packages/py07_jx-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/py07_jx/py07_jx.egg-info to /home/huangbo/ros2_learn/tongxun_learn/install/py07_jx/lib/python3.12/site-packages/py07_jx-0.0.0-py3.12.egg-info
+running install_scripts
+Installing turtle_jingxiang script to /home/huangbo/ros2_learn/tongxun_learn/install/py07_jx/lib/py07_jx
+writing list of installed files to '/home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/install.log'

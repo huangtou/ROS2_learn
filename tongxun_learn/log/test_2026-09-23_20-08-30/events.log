@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.000420] (py07_jx) JobQueued: {'identifier': 'py07_jx', 'dependencies': OrderedDict({'py07_jx': '/home/huangbo/ros2_learn/tongxun_learn/install/py07_jx'})}
+[0.001230] (py07_jx) JobStarted: {'identifier': 'py07_jx'}
+[0.100225] (-) TimerEvent: {}
+[0.200539] (-) TimerEvent: {}
+[0.260150] (py07_jx) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/huangbo/ros2_learn/tongxun_learn/src/py07_jx', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'RUBBER_DUCK_AGENT': 'true', 'AI_AGENT': 'github_copilot_vscode_agent', 'USER': 'huangbo', 'SSH_CLIENT': '192.168.91.1 3095 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/huangbo', 'GIT_CONFIG_COUNT': '3', 'COPILOT_CLI_RUN_AS_NODE': '1', 'ROS_PYTHON_VERSION': '3', 'COPILOT_CLI': '1', 'SSH_ASKPASS': '', 'ANTHROPIC_ADVISOR': 'false', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'USE_BUILTIN_RIPGREP': 'false', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'GIT_OPTIONAL_LOCKS': '0', 'GCM_INTERACTIVE': 'Never', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'huangbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'XDG_SESSION_ID': '4', 'GIT_CONFIG_VALUE_0': 'explicit', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/node_modules/@vscode/ripgrep-universal/bin/linux-x64', 'GIT_CONFIG_VALUE_1': 'never', 'CLAUDE_CODE_DISABLE_PRECOMPACT_SKIP': '1', 'GIT_CONFIG_VALUE_2': '', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'zh_CN.UTF-8', 'LS_COLORS': '', 'AMENT_PREFIX_PATH': '/home/huangbo/ros2_learn/tongxun_learn/install/py07_jx:/opt/ros/jazzy', 'COPILOT_AGENT_SESSION_ID': '24a895c8-a9ec-452c-ae18-996c93ed6ba6', 'SHELL': '/bin/bash', 'GIT_TERMINAL_PROMPT': '0', 'MXC_BIN_DIR': '/home/huangbo/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/node_modules/@microsoft/mxc-sdk/bin', 'GIT_CONFIG_KEY_0': 'safe.bareRepository', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GIT_CONFIG_KEY_1': 'credential.interactive', 'GIT_CONFIG_KEY_2': 'core.fsmonitor', 'COPILOT_MCP_APPS': 'true', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/huangbo/ros2_learn/tongxun_learn/build/py07_jx', 'AUTO_APPROVAL': 'true', 'SSH_CONNECTION': '192.168.91.1 3095 192.168.91.129 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COPILOT_ENABLE_BUILTIN_GITHUB_MCP': 'true', 'PYTHONPATH': '/home/huangbo/ros2_learn/tongxun_learn/install/py07_jx/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'COPILOT_CLI_ENABLED_FEATURE_FLAGS': 'SHELL_SPAWN_BACKEND', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'PYTHONDONTWRITEBYTECODE': '1', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/pytest.xml --junit-prefix=py07_jx -o cache_dir=/home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/.pytest_cache'}), 'shell': False}
+[0.300946] (-) TimerEvent: {}
+[0.401229] (-) TimerEvent: {}
+[0.501697] (-) TimerEvent: {}
+[0.602503] (-) TimerEvent: {}
+[0.689207] (py07_jx) StdoutLine: {'line': b'============================= test session starts ==============================\n'}
+[0.690047] (py07_jx) StdoutLine: {'line': b'platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0\n'}
+[0.690760] (py07_jx) StdoutLine: {'line': b'cachedir: /home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/.pytest_cache\n'}
+[0.691115] (py07_jx) StdoutLine: {'line': b'rootdir: /home/huangbo/ros2_learn/tongxun_learn/src/py07_jx\n'}
+[0.691360] (py07_jx) StdoutLine: {'line': b'plugins: launch-testing-ros-0.26.12, launch-testing-3.4.11, ament-lint-0.17.5, ament-xmllint-0.17.5, ament-pep257-0.17.5, ament-flake8-0.17.5, ament-copyright-0.17.5, colcon-core-0.21.2, cov-4.1.0\n'}
+[0.691648] (py07_jx) StdoutLine: {'line': b'collected 3 items\n'}
+[0.691890] (py07_jx) StdoutLine: {'line': b'\n'}
+[0.698904] (py07_jx) StdoutLine: {'line': b'test/test_copyright.py s                                                 [ 33%]\n'}
+[0.702653] (-) TimerEvent: {}
+[0.803425] (-) TimerEvent: {}
+[0.874396] (py07_jx) StdoutLine: {'line': b'test/test_flake8.py F                                                    [ 66%]\n'}
+[0.897223] (py07_jx) StdoutLine: {'line': b'test/test_pep257.py .                                                    [100%]\n'}
+[0.897437] (py07_jx) StdoutLine: {'line': b'\n'}
+[0.897507] (py07_jx) StdoutLine: {'line': b'=================================== FAILURES ===================================\n'}
+[0.897567] (py07_jx) StdoutLine: {'line': b'_________________________________ test_flake8 __________________________________\n'}
+[0.897624] (py07_jx) StdoutLine: {'line': b'test/test_flake8.py:23: in test_flake8\n'}
+[0.897696] (py07_jx) StdoutLine: {'line': b'    assert rc == 0, \\\n'}
+[0.897782] (py07_jx) StdoutLine: {'line': b'E   AssertionError: Found 3 code style errors / warnings:\n'}
+[0.897874] (py07_jx) StdoutLine: {'line': b"E     ./setup.py:2:1: I100 Import statements are in the wrong order. 'from glob import glob' should be before 'import os'\n"}
+[0.897935] (py07_jx) StdoutLine: {'line': b"E     ./setup.py:3:1: I201 Missing newline between import groups. 'from setuptools import find_packages, setup' is identified as Third Party and 'from glob import glob' is identified as Stdlib.\n"}
+[0.897992] (py07_jx) StdoutLine: {'line': b'E     ./setup.py:12:9: E128 continuation line under-indented for visual indent\n'}
+[0.898048] (py07_jx) StdoutLine: {'line': b'E   assert 1 == 0\n'}
+[0.898104] (py07_jx) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[0.898158] (py07_jx) StdoutLine: {'line': b'\n'}
+[0.898211] (py07_jx) StdoutLine: {'line': b"./setup.py:2:1: I100 Import statements are in the wrong order. 'from glob import glob' should be before 'import os'\n"}
+[0.898265] (py07_jx) StdoutLine: {'line': b'from glob import glob\n'}
+[0.898319] (py07_jx) StdoutLine: {'line': b'^\n'}
+[0.898390] (py07_jx) StdoutLine: {'line': b'\n'}
+[0.901310] (py07_jx) StdoutLine: {'line': b"./setup.py:3:1: I201 Missing newline between import groups. 'from setuptools import find_packages, setup' is identified as Third Party and 'from glob import glob' is identified as Stdlib.\n"}
+[0.901611] (py07_jx) StdoutLine: {'line': b'from setuptools import find_packages, setup\n'}
+[0.901922] (py07_jx) StdoutLine: {'line': b'^\n'}
+[0.902190] (py07_jx) StdoutLine: {'line': b'\n'}
+[0.902450] (py07_jx) StdoutLine: {'line': b'./setup.py:12:9: E128 continuation line under-indented for visual indent\n'}
+[0.902876] (py07_jx) StdoutLine: {'line': b"        ['resource/' + package_name]),\n"}
+[0.903291] (py07_jx) StdoutLine: {'line': b'        ^\n'}
+[0.903631] (-) TimerEvent: {}
+[0.903702] (py07_jx) StdoutLine: {'line': b'\n'}
+[0.904121] (py07_jx) StdoutLine: {'line': b'1     E128 continuation line under-indented for visual indent\n'}
+[0.904458] (py07_jx) StdoutLine: {'line': b"1     I100 Import statements are in the wrong order. 'from glob import glob' should be before 'import os'\n"}
+[0.904812] (py07_jx) StdoutLine: {'line': b"1     I201 Missing newline between import groups. 'from setuptools import find_packages, setup' is identified as Third Party and 'from glob import glob' is identified as Stdlib.\n"}
+[0.905156] (py07_jx) StdoutLine: {'line': b'\n'}
+[0.905589] (py07_jx) StdoutLine: {'line': b'7 files checked\n'}
+[0.905981] (py07_jx) StdoutLine: {'line': b'3 errors\n'}
+[0.906318] (py07_jx) StdoutLine: {'line': b'\n'}
+[0.906662] (py07_jx) StdoutLine: {'line': b"'E'-type errors: 1\n"}
+[0.906991] (py07_jx) StdoutLine: {'line': b"'I'-type errors: 2\n"}
+[0.907382] (py07_jx) StdoutLine: {'line': b'\n'}
+[0.907709] (py07_jx) StdoutLine: {'line': b'Checked files:\n'}
+[0.908089] (py07_jx) StdoutLine: {'line': b'\n'}
+[0.908394] (py07_jx) StdoutLine: {'line': b'* ./setup.py\n'}
+[0.908719] (py07_jx) StdoutLine: {'line': b'* ./py07_jx/turtle_jingxiang.py\n'}
+[0.909022] (py07_jx) StdoutLine: {'line': b'* ./py07_jx/__init__.py\n'}
+[0.909454] (py07_jx) StdoutLine: {'line': b'* ./test/test_flake8.py\n'}
+[0.909759] (py07_jx) StdoutLine: {'line': b'* ./test/test_copyright.py\n'}
+[0.910150] (py07_jx) StdoutLine: {'line': b'* ./test/test_pep257.py\n'}
+[0.910425] (py07_jx) StdoutLine: {'line': b'* ./launch/mirror_launch.py\n'}
+[0.910695] (py07_jx) StdoutLine: {'line': b'- generated xml file: /home/huangbo/ros2_learn/tongxun_learn/build/py07_jx/pytest.xml -\n'}
+[0.910935] (py07_jx) StdoutLine: {'line': b'=========================== short test summary info ============================\n'}
+[0.911174] (py07_jx) StdoutLine: {'line': b'FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 3 code style ...\n'}
+[0.911589] (py07_jx) StdoutLine: {'line': b'==================== 1 failed, 1 passed, 1 skipped in 0.29s ====================\n'}
+[0.977161] (py07_jx) CommandEnded: {'returncode': 1}
+[0.977954] (py07_jx) TestFailure: {'identifier': 'py07_jx'}
+[0.977987] (py07_jx) JobEnded: {'identifier': 'py07_jx', 'rc': 0}
+[0.978821] (-) EventReactorShutdown: {}

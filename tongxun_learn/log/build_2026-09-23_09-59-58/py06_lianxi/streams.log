@@ -1,0 +1,22 @@
+[1.492s] Invoking command in '/home/huangbo/ros2_learn/tongxun_learn/src/py06_lianxi': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tongxun_learn/build/py06_lianxi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tongxun_learn/install/py06_lianxi/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py06_lianxi build --build-base /home/huangbo/ros2_learn/tongxun_learn/build/py06_lianxi/build install --record /home/huangbo/ros2_learn/tongxun_learn/build/py06_lianxi/install.log --install-scripts $base/lib/py06_lianxi --single-version-externally-managed install_data
+[1.842s] running egg_info
+[1.867s] writing ../../build/py06_lianxi/py06_lianxi.egg-info/PKG-INFO
+[1.868s] writing dependency_links to ../../build/py06_lianxi/py06_lianxi.egg-info/dependency_links.txt
+[1.869s] writing entry points to ../../build/py06_lianxi/py06_lianxi.egg-info/entry_points.txt
+[1.870s] writing requirements to ../../build/py06_lianxi/py06_lianxi.egg-info/requires.txt
+[1.870s] writing top-level names to ../../build/py06_lianxi/py06_lianxi.egg-info/top_level.txt
+[1.916s] reading manifest file '../../build/py06_lianxi/py06_lianxi.egg-info/SOURCES.txt'
+[1.918s] writing manifest file '../../build/py06_lianxi/py06_lianxi.egg-info/SOURCES.txt'
+[1.920s] running build
+[1.924s] running build_py
+[1.924s] running install
+[1.929s] running install_lib
+[1.962s] running install_data
+[1.962s] running install_egg_info
+[1.985s] removing '/home/huangbo/ros2_learn/tongxun_learn/install/py06_lianxi/lib/python3.12/site-packages/py06_lianxi-0.0.0-py3.12.egg-info' (and everything under it)
+[1.988s] Copying ../../build/py06_lianxi/py06_lianxi.egg-info to /home/huangbo/ros2_learn/tongxun_learn/install/py06_lianxi/lib/python3.12/site-packages/py06_lianxi-0.0.0-py3.12.egg-info
+[1.993s] running install_scripts
+[2.170s] Installing turtle_fabu script to /home/huangbo/ros2_learn/tongxun_learn/install/py06_lianxi/lib/py06_lianxi
+[2.171s] Installing turtle_jieshou script to /home/huangbo/ros2_learn/tongxun_learn/install/py06_lianxi/lib/py06_lianxi
+[2.175s] writing list of installed files to '/home/huangbo/ros2_learn/tongxun_learn/build/py06_lianxi/install.log'
+[2.299s] Invoked command in '/home/huangbo/ros2_learn/tongxun_learn/src/py06_lianxi' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tongxun_learn/build/py06_lianxi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tongxun_learn/install/py06_lianxi/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py06_lianxi build --build-base /home/huangbo/ros2_learn/tongxun_learn/build/py06_lianxi/build install --record /home/huangbo/ros2_learn/tongxun_learn/build/py06_lianxi/install.log --install-scripts $base/lib/py06_lianxi --single-version-externally-managed install_data

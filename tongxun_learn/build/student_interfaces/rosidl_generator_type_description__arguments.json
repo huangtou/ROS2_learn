@@ -1,0 +1,15 @@
+{
+  "package_name": "student_interfaces",
+  "output_dir": "/home/huangbo/ros2_learn/tongxun_learn/build/student_interfaces/rosidl_generator_type_description/student_interfaces",
+  "idl_tuples": [
+    "/home/huangbo/ros2_learn/tongxun_learn/build/student_interfaces/rosidl_adapter/student_interfaces:msg/Student.idl",
+    "/home/huangbo/ros2_learn/tongxun_learn/build/student_interfaces/rosidl_adapter/student_interfaces:srv/Addints.idl",
+    "/home/huangbo/ros2_learn/tongxun_learn/build/student_interfaces/rosidl_adapter/student_interfaces:action/Progress.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs"
+  ]
+}
