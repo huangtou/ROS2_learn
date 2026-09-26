@@ -30,6 +30,8 @@ import os
         remappings: Optional[SomeRemapRules] = None,#设置话题重映射
         ros_arguments: Optional[Iterable[SomeSubstitutionsType]] = None,#为节点传参数
         arguments: Optional[Iterable[SomeSubstitutionsType]] = None,#为节点传参数
+        respawn: Optional[SomeSubstitutionsType] = None,#设置节点是否自动重启
+        respawn_delay: Optional[SomeSubstitutionsType] = None,#设置节点自动
         **kwargs
 """
 """
