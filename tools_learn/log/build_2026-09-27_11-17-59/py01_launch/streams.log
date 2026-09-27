@@ -1,0 +1,43 @@
+[0.883s] Invoking command in '/home/huangbo/ros2_learn/tools_learn/build/py01_launch': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tools_learn/build/py01_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tools_learn/install/py01_launch/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/huangbo/ros2_learn/tools_learn/build/py01_launch/build
+[1.231s] running develop
+[1.465s] Removing /home/huangbo/ros2_learn/tools_learn/install/py01_launch/lib/python3.12/site-packages/py01-launch.egg-link (link to .)
+[1.495s] Invoked command in '/home/huangbo/ros2_learn/tools_learn/build/py01_launch' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tools_learn/build/py01_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tools_learn/install/py01_launch/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/huangbo/ros2_learn/tools_learn/build/py01_launch/build
+[1.497s] Invoking command in '/home/huangbo/ros2_learn/tools_learn/src/py01_launch': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tools_learn/build/py01_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tools_learn/install/py01_launch/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py01_launch build --build-base /home/huangbo/ros2_learn/tools_learn/build/py01_launch/build install --record /home/huangbo/ros2_learn/tools_learn/build/py01_launch/install.log --install-scripts $base/lib/py01_launch --single-version-externally-managed install_data --force
+[1.774s] running egg_info
+[1.792s] writing ../../build/py01_launch/py01_launch.egg-info/PKG-INFO
+[1.793s] writing dependency_links to ../../build/py01_launch/py01_launch.egg-info/dependency_links.txt
+[1.793s] writing entry points to ../../build/py01_launch/py01_launch.egg-info/entry_points.txt
+[1.794s] writing requirements to ../../build/py01_launch/py01_launch.egg-info/requires.txt
+[1.795s] writing top-level names to ../../build/py01_launch/py01_launch.egg-info/top_level.txt
+[1.837s] reading manifest file '../../build/py01_launch/py01_launch.egg-info/SOURCES.txt'
+[1.838s] writing manifest file '../../build/py01_launch/py01_launch.egg-info/SOURCES.txt'
+[1.838s] running build
+[1.839s] running build_py
+[1.840s] creating /home/huangbo/ros2_learn/tools_learn/build/py01_launch/build
+[1.840s] creating /home/huangbo/ros2_learn/tools_learn/build/py01_launch/build/lib
+[1.841s] creating /home/huangbo/ros2_learn/tools_learn/build/py01_launch/build/lib/py01_launch
+[1.842s] copying py01_launch/node_1.py -> /home/huangbo/ros2_learn/tools_learn/build/py01_launch/build/lib/py01_launch
+[1.844s] copying py01_launch/__init__.py -> /home/huangbo/ros2_learn/tools_learn/build/py01_launch/build/lib/py01_launch
+[1.844s] running install
+[1.852s] running install_lib
+[1.873s] creating /home/huangbo/ros2_learn/tools_learn/install/py01_launch/lib/python3.12/site-packages/py01_launch
+[1.874s] copying /home/huangbo/ros2_learn/tools_learn/build/py01_launch/build/lib/py01_launch/node_1.py -> /home/huangbo/ros2_learn/tools_learn/install/py01_launch/lib/python3.12/site-packages/py01_launch
+[1.874s] copying /home/huangbo/ros2_learn/tools_learn/build/py01_launch/build/lib/py01_launch/__init__.py -> /home/huangbo/ros2_learn/tools_learn/install/py01_launch/lib/python3.12/site-packages/py01_launch
+[1.876s] byte-compiling /home/huangbo/ros2_learn/tools_learn/install/py01_launch/lib/python3.12/site-packages/py01_launch/node_1.py to node_1.cpython-312.pyc
+[1.877s] byte-compiling /home/huangbo/ros2_learn/tools_learn/install/py01_launch/lib/python3.12/site-packages/py01_launch/__init__.py to __init__.cpython-312.pyc
+[1.877s] running install_data
+[1.877s] copying resource/py01_launch -> /home/huangbo/ros2_learn/tools_learn/install/py01_launch/share/ament_index/resource_index/packages
+[1.878s] copying package.xml -> /home/huangbo/ros2_learn/tools_learn/install/py01_launch/share/py01_launch
+[1.879s] copying py01_launch/launch/py/py04_args_launch.py -> /home/huangbo/ros2_learn/tools_learn/install/py01_launch/share/py01_launch/launch/py
+[1.879s] copying py01_launch/launch/py/py05_include_launch.py -> /home/huangbo/ros2_learn/tools_learn/install/py01_launch/share/py01_launch/launch/py
+[1.880s] copying py01_launch/launch/py/py02_node_launch.py -> /home/huangbo/ros2_learn/tools_learn/install/py01_launch/share/py01_launch/launch/py
+[1.880s] copying py01_launch/launch/py/py01_helloword_launch.py -> /home/huangbo/ros2_learn/tools_learn/install/py01_launch/share/py01_launch/launch/py
+[1.881s] copying py01_launch/launch/py/py03_cmd_launch.py -> /home/huangbo/ros2_learn/tools_learn/install/py01_launch/share/py01_launch/launch/py
+[1.882s] copying py01_launch/launch/yaml/yaml01_helloword_launch.yaml -> /home/huangbo/ros2_learn/tools_learn/install/py01_launch/share/py01_launch/launch/yaml
+[1.882s] copying py01_launch/config/turtle1.yaml -> /home/huangbo/ros2_learn/tools_learn/install/py01_launch/share/py01_launch/config
+[1.882s] running install_egg_info
+[1.904s] Copying ../../build/py01_launch/py01_launch.egg-info to /home/huangbo/ros2_learn/tools_learn/install/py01_launch/lib/python3.12/site-packages/py01_launch-0.0.0-py3.12.egg-info
+[1.907s] running install_scripts
+[2.059s] Installing node_1 script to /home/huangbo/ros2_learn/tools_learn/install/py01_launch/lib/py01_launch
+[2.061s] writing list of installed files to '/home/huangbo/ros2_learn/tools_learn/build/py01_launch/install.log'
+[2.099s] Invoked command in '/home/huangbo/ros2_learn/tools_learn/src/py01_launch' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tools_learn/build/py01_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tools_learn/install/py01_launch/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py01_launch build --build-base /home/huangbo/ros2_learn/tools_learn/build/py01_launch/build install --record /home/huangbo/ros2_learn/tools_learn/build/py01_launch/install.log --install-scripts $base/lib/py01_launch --single-version-externally-managed install_data --force

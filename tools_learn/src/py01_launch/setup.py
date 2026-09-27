@@ -13,9 +13,12 @@ setup(
 
         #这种方法效率太低了 用全局的方法来启动launch文件
         #('share/' + package_name, ['launch/py/py01_helloword_launch.py']),
-        ('share/' + package_name, glob(package_name + "/launch/py/*_launch.py")),
-        ('share/' + package_name, glob(package_name + "/launch/xml/*_launch.xml")),
-        ('share/' + package_name, glob(package_name + "/launch/yaml/*_launch.yaml")),
+        ('share/' + package_name + '/launch/py',
+            glob(package_name + "/launch/py/*_launch.py")),
+        ('share/' + package_name + '/launch/xml',
+            glob(package_name + "/launch/xml/*_launch.xml")),
+        ('share/' + package_name + '/launch/yaml',
+            glob(package_name + "/launch/yaml/*_launch.yaml")),
         ('share/' + package_name + '/config',glob(package_name + "/config/*.yaml")),#安装路径
         
     ],

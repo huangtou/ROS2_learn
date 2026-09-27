@@ -1,0 +1,22 @@
+[1.338s] Invoking command in '/home/huangbo/ros2_learn/tools_learn/build/py01_launch': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tools_learn/build/py01_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tools_learn/install/py01_launch/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/huangbo/ros2_learn/tools_learn/build/py01_launch/build --no-deps symlink_data --force
+[1.714s] running develop
+[1.931s] running egg_info
+[1.956s] writing py01_launch.egg-info/PKG-INFO
+[1.957s] writing dependency_links to py01_launch.egg-info/dependency_links.txt
+[1.957s] writing entry points to py01_launch.egg-info/entry_points.txt
+[1.958s] writing requirements to py01_launch.egg-info/requires.txt
+[1.958s] writing top-level names to py01_launch.egg-info/top_level.txt
+[2.008s] reading manifest file 'py01_launch.egg-info/SOURCES.txt'
+[2.009s] writing manifest file 'py01_launch.egg-info/SOURCES.txt'
+[2.037s] running build_ext
+[2.037s] Creating /home/huangbo/ros2_learn/tools_learn/install/py01_launch/lib/python3.12/site-packages/py01-launch.egg-link (link to .)
+[2.038s] Installing node_1 script to /home/huangbo/ros2_learn/tools_learn/install/py01_launch/lib/py01_launch
+[2.039s] 
+[2.039s] Installed /home/huangbo/ros2_learn/tools_learn/build/py01_launch
+[2.039s] running symlink_data
+[2.039s] symbolically linking /home/huangbo/ros2_learn/tools_learn/build/py01_launch/resource/py01_launch -> /home/huangbo/ros2_learn/tools_learn/install/py01_launch/share/ament_index/resource_index/packages
+[2.040s] symbolically linking /home/huangbo/ros2_learn/tools_learn/build/py01_launch/package.xml -> /home/huangbo/ros2_learn/tools_learn/install/py01_launch/share/py01_launch
+[2.040s] creating /home/huangbo/ros2_learn/tools_learn/install/py01_launch/share/py01_launch/launch
+[2.040s] creating /home/huangbo/ros2_learn/tools_learn/install/py01_launch/share/py01_launch/launch/py
+[2.040s] error: [Errno 2] No such file or directory: '/home/huangbo/ros2_learn/tools_learn/install/py01_launch/share/py01_launch/launch/py/py04_args_launch.py'
+[2.087s] Invoked command in '/home/huangbo/ros2_learn/tools_learn/build/py01_launch' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tools_learn/build/py01_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tools_learn/install/py01_launch/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/huangbo/ros2_learn/tools_learn/build/py01_launch/build --no-deps symlink_data --force
