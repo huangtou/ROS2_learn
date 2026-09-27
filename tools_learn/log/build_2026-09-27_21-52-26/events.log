@@ -1,0 +1,45 @@
+[0.000000] (-) TimerEvent: {}
+[0.000056] (-) JobUnselected: {'identifier': 'py01_launch'}
+[0.000104] (py02_rosbag) JobQueued: {'identifier': 'py02_rosbag', 'dependencies': OrderedDict()}
+[0.000479] (py02_rosbag) JobStarted: {'identifier': 'py02_rosbag'}
+[0.099472] (-) TimerEvent: {}
+[0.199902] (-) TimerEvent: {}
+[0.300580] (-) TimerEvent: {}
+[0.401435] (-) TimerEvent: {}
+[0.501872] (-) TimerEvent: {}
+[0.602236] (-) TimerEvent: {}
+[0.703179] (-) TimerEvent: {}
+[0.804699] (-) TimerEvent: {}
+[0.905210] (-) TimerEvent: {}
+[1.005522] (-) TimerEvent: {}
+[1.105841] (-) TimerEvent: {}
+[1.206624] (-) TimerEvent: {}
+[1.309637] (-) TimerEvent: {}
+[1.410167] (-) TimerEvent: {}
+[1.447290] (py02_rosbag) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/huangbo/ros2_learn/tools_learn/build/py02_rosbag/build', '--no-deps', 'symlink_data'], 'cwd': '/home/huangbo/ros2_learn/tools_learn/build/py02_rosbag', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'RUBBER_DUCK_AGENT': 'true', 'AI_AGENT': 'github_copilot_vscode_agent', 'USER': 'huangbo', 'SSH_CLIENT': '192.168.91.1 1729 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/huangbo', 'GIT_CONFIG_COUNT': '3', 'OLDPWD': '/home/huangbo/ros2_learn/tools_learn', 'COPILOT_CLI_RUN_AS_NODE': '1', 'ROS_PYTHON_VERSION': '3', 'COPILOT_CLI': '1', 'SSH_ASKPASS': '', 'ANTHROPIC_ADVISOR': 'false', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'USE_BUILTIN_RIPGREP': 'false', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'GIT_OPTIONAL_LOCKS': '0', 'GCM_INTERACTIVE': 'Never', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'huangbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'SKILL_CHAR_BUDGET': '15000', 'XDG_SESSION_CLASS': 'user', 'XDG_SESSION_ID': '2', 'GIT_CONFIG_VALUE_0': 'explicit', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/node_modules/@vscode/ripgrep-universal/bin/linux-x64', 'GIT_CONFIG_VALUE_1': 'never', 'CLAUDE_CODE_DISABLE_PRECOMPACT_SKIP': '1', 'GIT_CONFIG_VALUE_2': '', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'zh_CN.UTF-8', 'LS_COLORS': '', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'COPILOT_AGENT_SESSION_ID': '4d04f662-ceae-47e2-8cff-1e602b1e4bbf', 'SHELL': '/bin/bash', 'GIT_TERMINAL_PROMPT': '0', 'MXC_BIN_DIR': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/node_modules/@microsoft/mxc-sdk/bin', 'GIT_CONFIG_KEY_0': 'safe.bareRepository', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GIT_CONFIG_KEY_1': 'credential.interactive', 'GIT_CONFIG_KEY_2': 'core.fsmonitor', 'COPILOT_MCP_APPS': 'true', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/huangbo/ros2_learn/tools_learn/build/py02_rosbag', 'AUTO_APPROVAL': 'true', 'SSH_CONNECTION': '192.168.91.1 1729 192.168.91.129 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COPILOT_ENABLE_BUILTIN_GITHUB_MCP': 'true', 'PYTHONPATH': '/home/huangbo/ros2_learn/tools_learn/build/py02_rosbag/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tools_learn/install/py02_rosbag/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'COPILOT_CLI_ENABLED_FEATURE_FLAGS': 'SHELL_SPAWN_BACKEND', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[1.510473] (-) TimerEvent: {}
+[1.611378] (-) TimerEvent: {}
+[1.711659] (-) TimerEvent: {}
+[1.783864] (py02_rosbag) StdoutLine: {'line': b'running develop\n'}
+[1.812444] (-) TimerEvent: {}
+[1.913293] (-) TimerEvent: {}
+[2.004698] (py02_rosbag) StdoutLine: {'line': b'running egg_info\n'}
+[2.013650] (-) TimerEvent: {}
+[2.024627] (py02_rosbag) StdoutLine: {'line': b'writing py02_rosbag.egg-info/PKG-INFO\n'}
+[2.025378] (py02_rosbag) StdoutLine: {'line': b'writing dependency_links to py02_rosbag.egg-info/dependency_links.txt\n'}
+[2.025755] (py02_rosbag) StdoutLine: {'line': b'writing entry points to py02_rosbag.egg-info/entry_points.txt\n'}
+[2.026383] (py02_rosbag) StdoutLine: {'line': b'writing requirements to py02_rosbag.egg-info/requires.txt\n'}
+[2.026536] (py02_rosbag) StdoutLine: {'line': b'writing top-level names to py02_rosbag.egg-info/top_level.txt\n'}
+[2.070664] (py02_rosbag) StdoutLine: {'line': b"reading manifest file 'py02_rosbag.egg-info/SOURCES.txt'\n"}
+[2.071803] (py02_rosbag) StdoutLine: {'line': b"writing manifest file 'py02_rosbag.egg-info/SOURCES.txt'\n"}
+[2.095101] (py02_rosbag) StdoutLine: {'line': b'running build_ext\n'}
+[2.095670] (py02_rosbag) StdoutLine: {'line': b'Creating /home/huangbo/ros2_learn/tools_learn/install/py02_rosbag/lib/python3.12/site-packages/py02-rosbag.egg-link (link to .)\n'}
+[2.096408] (py02_rosbag) StdoutLine: {'line': b'Installing demo01_writer_py script to /home/huangbo/ros2_learn/tools_learn/install/py02_rosbag/lib/py02_rosbag\n'}
+[2.096828] (py02_rosbag) StdoutLine: {'line': b'Installing demo02_reader_py script to /home/huangbo/ros2_learn/tools_learn/install/py02_rosbag/lib/py02_rosbag\n'}
+[2.097217] (py02_rosbag) StdoutLine: {'line': b'\n'}
+[2.097392] (py02_rosbag) StdoutLine: {'line': b'Installed /home/huangbo/ros2_learn/tools_learn/build/py02_rosbag\n'}
+[2.097482] (py02_rosbag) StdoutLine: {'line': b'running symlink_data\n'}
+[2.113972] (-) TimerEvent: {}
+[2.131441] (py02_rosbag) CommandEnded: {'returncode': 0}
+[2.149542] (py02_rosbag) JobEnded: {'identifier': 'py02_rosbag', 'rc': 0}
+[2.151283] (-) EventReactorShutdown: {}

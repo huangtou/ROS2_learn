@@ -1,0 +1,31 @@
+running develop
+Removing /home/huangbo/ros2_learn/tools_learn/install/py02_rosbag/lib/python3.12/site-packages/py02-rosbag.egg-link (link to .)
+running egg_info
+writing ../../build/py02_rosbag/py02_rosbag.egg-info/PKG-INFO
+writing dependency_links to ../../build/py02_rosbag/py02_rosbag.egg-info/dependency_links.txt
+writing entry points to ../../build/py02_rosbag/py02_rosbag.egg-info/entry_points.txt
+writing requirements to ../../build/py02_rosbag/py02_rosbag.egg-info/requires.txt
+writing top-level names to ../../build/py02_rosbag/py02_rosbag.egg-info/top_level.txt
+reading manifest file '../../build/py02_rosbag/py02_rosbag.egg-info/SOURCES.txt'
+writing manifest file '../../build/py02_rosbag/py02_rosbag.egg-info/SOURCES.txt'
+running build
+running build_py
+copying py02_rosbag/demo01_writer_py.py -> /home/huangbo/ros2_learn/tools_learn/build/py02_rosbag/build/lib/py02_rosbag
+running install
+running install_lib
+creating /home/huangbo/ros2_learn/tools_learn/install/py02_rosbag/lib/python3.12/site-packages/py02_rosbag
+copying /home/huangbo/ros2_learn/tools_learn/build/py02_rosbag/build/lib/py02_rosbag/demo01_writer_py.py -> /home/huangbo/ros2_learn/tools_learn/install/py02_rosbag/lib/python3.12/site-packages/py02_rosbag
+copying /home/huangbo/ros2_learn/tools_learn/build/py02_rosbag/build/lib/py02_rosbag/demo02_reader_py.py -> /home/huangbo/ros2_learn/tools_learn/install/py02_rosbag/lib/python3.12/site-packages/py02_rosbag
+copying /home/huangbo/ros2_learn/tools_learn/build/py02_rosbag/build/lib/py02_rosbag/__init__.py -> /home/huangbo/ros2_learn/tools_learn/install/py02_rosbag/lib/python3.12/site-packages/py02_rosbag
+byte-compiling /home/huangbo/ros2_learn/tools_learn/install/py02_rosbag/lib/python3.12/site-packages/py02_rosbag/demo01_writer_py.py to demo01_writer_py.cpython-312.pyc
+byte-compiling /home/huangbo/ros2_learn/tools_learn/install/py02_rosbag/lib/python3.12/site-packages/py02_rosbag/demo02_reader_py.py to demo02_reader_py.cpython-312.pyc
+byte-compiling /home/huangbo/ros2_learn/tools_learn/install/py02_rosbag/lib/python3.12/site-packages/py02_rosbag/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/py02_rosbag -> /home/huangbo/ros2_learn/tools_learn/install/py02_rosbag/share/ament_index/resource_index/packages
+copying package.xml -> /home/huangbo/ros2_learn/tools_learn/install/py02_rosbag/share/py02_rosbag
+running install_egg_info
+Copying ../../build/py02_rosbag/py02_rosbag.egg-info to /home/huangbo/ros2_learn/tools_learn/install/py02_rosbag/lib/python3.12/site-packages/py02_rosbag-0.0.0-py3.12.egg-info
+running install_scripts
+Installing demo01_writer_py script to /home/huangbo/ros2_learn/tools_learn/install/py02_rosbag/lib/py02_rosbag
+Installing demo02_reader_py script to /home/huangbo/ros2_learn/tools_learn/install/py02_rosbag/lib/py02_rosbag
+writing list of installed files to '/home/huangbo/ros2_learn/tools_learn/build/py02_rosbag/install.log'

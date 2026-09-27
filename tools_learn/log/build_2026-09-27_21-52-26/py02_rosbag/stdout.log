@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing py02_rosbag.egg-info/PKG-INFO
+writing dependency_links to py02_rosbag.egg-info/dependency_links.txt
+writing entry points to py02_rosbag.egg-info/entry_points.txt
+writing requirements to py02_rosbag.egg-info/requires.txt
+writing top-level names to py02_rosbag.egg-info/top_level.txt
+reading manifest file 'py02_rosbag.egg-info/SOURCES.txt'
+writing manifest file 'py02_rosbag.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/huangbo/ros2_learn/tools_learn/install/py02_rosbag/lib/python3.12/site-packages/py02-rosbag.egg-link (link to .)
+Installing demo01_writer_py script to /home/huangbo/ros2_learn/tools_learn/install/py02_rosbag/lib/py02_rosbag
+Installing demo02_reader_py script to /home/huangbo/ros2_learn/tools_learn/install/py02_rosbag/lib/py02_rosbag
+
+Installed /home/huangbo/ros2_learn/tools_learn/build/py02_rosbag
+running symlink_data

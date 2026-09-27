@@ -1,0 +1,18 @@
+[1.448s] Invoking command in '/home/huangbo/ros2_learn/tools_learn/build/py02_rosbag': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tools_learn/build/py02_rosbag/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tools_learn/install/py02_rosbag/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/huangbo/ros2_learn/tools_learn/build/py02_rosbag/build --no-deps symlink_data
+[1.784s] running develop
+[2.004s] running egg_info
+[2.025s] writing py02_rosbag.egg-info/PKG-INFO
+[2.025s] writing dependency_links to py02_rosbag.egg-info/dependency_links.txt
+[2.026s] writing entry points to py02_rosbag.egg-info/entry_points.txt
+[2.026s] writing requirements to py02_rosbag.egg-info/requires.txt
+[2.026s] writing top-level names to py02_rosbag.egg-info/top_level.txt
+[2.070s] reading manifest file 'py02_rosbag.egg-info/SOURCES.txt'
+[2.072s] writing manifest file 'py02_rosbag.egg-info/SOURCES.txt'
+[2.095s] running build_ext
+[2.095s] Creating /home/huangbo/ros2_learn/tools_learn/install/py02_rosbag/lib/python3.12/site-packages/py02-rosbag.egg-link (link to .)
+[2.096s] Installing demo01_writer_py script to /home/huangbo/ros2_learn/tools_learn/install/py02_rosbag/lib/py02_rosbag
+[2.096s] Installing demo02_reader_py script to /home/huangbo/ros2_learn/tools_learn/install/py02_rosbag/lib/py02_rosbag
+[2.097s] 
+[2.097s] Installed /home/huangbo/ros2_learn/tools_learn/build/py02_rosbag
+[2.097s] running symlink_data
+[2.131s] Invoked command in '/home/huangbo/ros2_learn/tools_learn/build/py02_rosbag' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tools_learn/build/py02_rosbag/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tools_learn/install/py02_rosbag/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/huangbo/ros2_learn/tools_learn/build/py02_rosbag/build --no-deps symlink_data
