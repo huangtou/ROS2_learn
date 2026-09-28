@@ -1,0 +1,6 @@
+#命令实现静态广播
+ros2 run tf2_ros static_transform_publisher --frame-id base_car --child-frame-id laster --x 1 --y 1 --z 1 --roll 1
+
+--frame-id 父坐标系 --child-frame-id 子坐标系 --x子坐标系相对于父坐标系x轴偏移量  --y子坐标系相对于父坐标系y轴偏移量 --z子坐标系相对于父坐标系z轴偏移量 
+--roll 绕x轴旋转弧度   --pitch 绕y轴旋转的幅度  --yaw 绕z轴旋转的幅度  以上正数均为逆时针
+

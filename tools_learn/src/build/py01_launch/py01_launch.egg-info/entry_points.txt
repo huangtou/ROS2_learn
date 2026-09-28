@@ -1,0 +1,2 @@
+[console_scripts]
+node_1 = py01_launch.node_1:main
