@@ -66,7 +66,7 @@ def main():
     #创建ros节点
     TFnode = TFStaticFramePublisher(sys.argv)#传入参数
     #传入spin
-    rclpy.spin(TFnode)
+    rclpy.spin(TFnode)#
     #释放资源
     rclpy.shutdown()
 
