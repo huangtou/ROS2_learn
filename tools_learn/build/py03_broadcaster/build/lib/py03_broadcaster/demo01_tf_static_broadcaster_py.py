@@ -45,11 +45,11 @@ class TFStaticFramePublisher(Node):
         ts.transform.translation.y=float(args[2])
         ts.transform.translation.z=float(args[3])
 
-        #设置姿态 (欧拉角形式--->四元数形式)
+        #设置姿态 (欧拉角形式--->四元数形式)            roll              pitch             yaw
         q=tf_transformations.quaternion_from_euler(float(args[4]),float(args[5]),float(args[6]))
         ts.transform.rotation.x=q[0]
         ts.transform.rotation.y=q[1]
-        ts.transform.rotation.z=q[2]
+        ts.transform.rotation.z=q[2] 
         ts.transform.rotation.w=q[3]
 
         #发布消息
@@ -66,7 +66,7 @@ def main():
     #创建ros节点
     TFnode = TFStaticFramePublisher(sys.argv)#传入参数
     #传入spin
-    rclpy.spin(TFnode)
+    rclpy.spin(TFnode)#
     #释放资源
     rclpy.shutdown()
 

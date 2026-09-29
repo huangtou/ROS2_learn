@@ -24,7 +24,12 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'demo01_tf_static_broadcaster_py = py03_broadcaster.demo01_tf_static_broadcaster_py:main'
+            'demo01_tf_static_broadcaster_py = py03_broadcaster.demo01_tf_static_broadcaster_py:main',
+            'demo02_dongtai_broadcaster_py = py03_broadcaster.demo02_dongtai_broadcaster_py:main',
+            'demo03_pub_point_py = py03_broadcaster.demo03_pub_point_py:main',
+                        
+
+
         ],
     },
 )
