@@ -1,0 +1,23 @@
+[1.145s] Invoking command in '/home/huangbo/ros2_learn/tools_learn/src/py03_broadcaster': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tools_learn/build/py03_broadcaster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tools_learn/install/py03_broadcaster/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py03_broadcaster build --build-base /home/huangbo/ros2_learn/tools_learn/build/py03_broadcaster/build install --record /home/huangbo/ros2_learn/tools_learn/build/py03_broadcaster/install.log --install-scripts $base/lib/py03_broadcaster --single-version-externally-managed install_data
+[1.450s] running egg_info
+[1.474s] writing ../../build/py03_broadcaster/py03_broadcaster.egg-info/PKG-INFO
+[1.475s] writing dependency_links to ../../build/py03_broadcaster/py03_broadcaster.egg-info/dependency_links.txt
+[1.477s] writing entry points to ../../build/py03_broadcaster/py03_broadcaster.egg-info/entry_points.txt
+[1.478s] writing requirements to ../../build/py03_broadcaster/py03_broadcaster.egg-info/requires.txt
+[1.480s] writing top-level names to ../../build/py03_broadcaster/py03_broadcaster.egg-info/top_level.txt
+[1.541s] reading manifest file '../../build/py03_broadcaster/py03_broadcaster.egg-info/SOURCES.txt'
+[1.542s] writing manifest file '../../build/py03_broadcaster/py03_broadcaster.egg-info/SOURCES.txt'
+[1.544s] running build
+[1.545s] running build_py
+[1.545s] running install
+[1.553s] running install_lib
+[1.579s] running install_data
+[1.580s] running install_egg_info
+[1.617s] removing '/home/huangbo/ros2_learn/tools_learn/install/py03_broadcaster/lib/python3.12/site-packages/py03_broadcaster-0.0.0-py3.12.egg-info' (and everything under it)
+[1.620s] Copying ../../build/py03_broadcaster/py03_broadcaster.egg-info to /home/huangbo/ros2_learn/tools_learn/install/py03_broadcaster/lib/python3.12/site-packages/py03_broadcaster-0.0.0-py3.12.egg-info
+[1.623s] running install_scripts
+[1.782s] Installing demo01_tf_static_broadcaster_py script to /home/huangbo/ros2_learn/tools_learn/install/py03_broadcaster/lib/py03_broadcaster
+[1.783s] Installing demo02_dongtai_broadcaster_py script to /home/huangbo/ros2_learn/tools_learn/install/py03_broadcaster/lib/py03_broadcaster
+[1.784s] Installing demo03_pub_point_py script to /home/huangbo/ros2_learn/tools_learn/install/py03_broadcaster/lib/py03_broadcaster
+[1.785s] writing list of installed files to '/home/huangbo/ros2_learn/tools_learn/build/py03_broadcaster/install.log'
+[1.841s] Invoked command in '/home/huangbo/ros2_learn/tools_learn/src/py03_broadcaster' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tools_learn/build/py03_broadcaster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tools_learn/install/py03_broadcaster/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py03_broadcaster build --build-base /home/huangbo/ros2_learn/tools_learn/build/py03_broadcaster/build install --record /home/huangbo/ros2_learn/tools_learn/build/py03_broadcaster/install.log --install-scripts $base/lib/py03_broadcaster --single-version-externally-managed install_data

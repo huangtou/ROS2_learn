@@ -1,0 +1,37 @@
+[1.765s] Invoking command in '/home/huangbo/ros2_learn/tools_learn/src/py05_exercise': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tools_learn/build/py05_exercise/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tools_learn/install/py05_exercise/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py05_exercise build --build-base /home/huangbo/ros2_learn/tools_learn/build/py05_exercise/build install --record /home/huangbo/ros2_learn/tools_learn/build/py05_exercise/install.log --install-scripts $base/lib/py05_exercise --single-version-externally-managed install_data
+[2.066s] running egg_info
+[2.067s] creating ../../build/py05_exercise/py05_exercise.egg-info
+[2.093s] writing ../../build/py05_exercise/py05_exercise.egg-info/PKG-INFO
+[2.095s] writing dependency_links to ../../build/py05_exercise/py05_exercise.egg-info/dependency_links.txt
+[2.096s] writing entry points to ../../build/py05_exercise/py05_exercise.egg-info/entry_points.txt
+[2.097s] writing requirements to ../../build/py05_exercise/py05_exercise.egg-info/requires.txt
+[2.098s] writing top-level names to ../../build/py05_exercise/py05_exercise.egg-info/top_level.txt
+[2.100s] writing manifest file '../../build/py05_exercise/py05_exercise.egg-info/SOURCES.txt'
+[2.144s] reading manifest file '../../build/py05_exercise/py05_exercise.egg-info/SOURCES.txt'
+[2.145s] writing manifest file '../../build/py05_exercise/py05_exercise.egg-info/SOURCES.txt'
+[2.147s] running build
+[2.147s] running build_py
+[2.147s] creating /home/huangbo/ros2_learn/tools_learn/build/py05_exercise/build
+[2.149s] creating /home/huangbo/ros2_learn/tools_learn/build/py05_exercise/build/lib
+[2.150s] creating /home/huangbo/ros2_learn/tools_learn/build/py05_exercise/build/lib/py05_exercise
+[2.151s] copying py05_exercise/exer01_spawn_py.py -> /home/huangbo/ros2_learn/tools_learn/build/py05_exercise/build/lib/py05_exercise
+[2.152s] copying py05_exercise/__init__.py -> /home/huangbo/ros2_learn/tools_learn/build/py05_exercise/build/lib/py05_exercise
+[2.154s] running install
+[2.161s] running install_lib
+[2.192s] creating /home/huangbo/ros2_learn/tools_learn/install/py05_exercise/lib/python3.12/site-packages/py05_exercise
+[2.193s] copying /home/huangbo/ros2_learn/tools_learn/build/py05_exercise/build/lib/py05_exercise/exer01_spawn_py.py -> /home/huangbo/ros2_learn/tools_learn/install/py05_exercise/lib/python3.12/site-packages/py05_exercise
+[2.193s] copying /home/huangbo/ros2_learn/tools_learn/build/py05_exercise/build/lib/py05_exercise/__init__.py -> /home/huangbo/ros2_learn/tools_learn/install/py05_exercise/lib/python3.12/site-packages/py05_exercise
+[2.193s] byte-compiling /home/huangbo/ros2_learn/tools_learn/install/py05_exercise/lib/python3.12/site-packages/py05_exercise/exer01_spawn_py.py to exer01_spawn_py.cpython-312.pyc
+[2.193s] byte-compiling /home/huangbo/ros2_learn/tools_learn/install/py05_exercise/lib/python3.12/site-packages/py05_exercise/__init__.py to __init__.cpython-312.pyc
+[2.193s] running install_data
+[2.193s] creating /home/huangbo/ros2_learn/tools_learn/install/py05_exercise/share/ament_index
+[2.193s] creating /home/huangbo/ros2_learn/tools_learn/install/py05_exercise/share/ament_index/resource_index
+[2.193s] creating /home/huangbo/ros2_learn/tools_learn/install/py05_exercise/share/ament_index/resource_index/packages
+[2.193s] copying resource/py05_exercise -> /home/huangbo/ros2_learn/tools_learn/install/py05_exercise/share/ament_index/resource_index/packages
+[2.194s] copying package.xml -> /home/huangbo/ros2_learn/tools_learn/install/py05_exercise/share/py05_exercise
+[2.194s] running install_egg_info
+[2.217s] Copying ../../build/py05_exercise/py05_exercise.egg-info to /home/huangbo/ros2_learn/tools_learn/install/py05_exercise/lib/python3.12/site-packages/py05_exercise-0.0.0-py3.12.egg-info
+[2.218s] running install_scripts
+[2.359s] Installing exer01_spawn_py script to /home/huangbo/ros2_learn/tools_learn/install/py05_exercise/lib/py05_exercise
+[2.360s] writing list of installed files to '/home/huangbo/ros2_learn/tools_learn/build/py05_exercise/install.log'
+[2.416s] Invoked command in '/home/huangbo/ros2_learn/tools_learn/src/py05_exercise' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tools_learn/build/py05_exercise/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tools_learn/install/py05_exercise/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py05_exercise build --build-base /home/huangbo/ros2_learn/tools_learn/build/py05_exercise/build install --record /home/huangbo/ros2_learn/tools_learn/build/py05_exercise/install.log --install-scripts $base/lib/py05_exercise --single-version-externally-managed install_data

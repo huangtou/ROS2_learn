@@ -1,0 +1,27 @@
+[0.995s] Invoking command in '/home/huangbo/ros2_learn/tools_learn/src/py05_exercise': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tools_learn/build/py05_exercise/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tools_learn/install/py05_exercise/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py05_exercise build --build-base /home/huangbo/ros2_learn/tools_learn/build/py05_exercise/build install --record /home/huangbo/ros2_learn/tools_learn/build/py05_exercise/install.log --install-scripts $base/lib/py05_exercise --single-version-externally-managed install_data
+[1.318s] running egg_info
+[1.361s] writing ../../build/py05_exercise/py05_exercise.egg-info/PKG-INFO
+[1.362s] writing dependency_links to ../../build/py05_exercise/py05_exercise.egg-info/dependency_links.txt
+[1.364s] writing entry points to ../../build/py05_exercise/py05_exercise.egg-info/entry_points.txt
+[1.364s] writing requirements to ../../build/py05_exercise/py05_exercise.egg-info/requires.txt
+[1.364s] writing top-level names to ../../build/py05_exercise/py05_exercise.egg-info/top_level.txt
+[1.424s] reading manifest file '../../build/py05_exercise/py05_exercise.egg-info/SOURCES.txt'
+[1.427s] writing manifest file '../../build/py05_exercise/py05_exercise.egg-info/SOURCES.txt'
+[1.428s] running build
+[1.429s] running build_py
+[1.430s] copying py05_exercise/exer03_tf_listener_py.py -> /home/huangbo/ros2_learn/tools_learn/build/py05_exercise/build/lib/py05_exercise
+[1.431s] running install
+[1.442s] running install_lib
+[1.469s] copying /home/huangbo/ros2_learn/tools_learn/build/py05_exercise/build/lib/py05_exercise/exer03_tf_listener_py.py -> /home/huangbo/ros2_learn/tools_learn/install/py05_exercise/lib/python3.12/site-packages/py05_exercise
+[1.469s] byte-compiling /home/huangbo/ros2_learn/tools_learn/install/py05_exercise/lib/python3.12/site-packages/py05_exercise/exer03_tf_listener_py.py to exer03_tf_listener_py.cpython-312.pyc
+[1.471s] running install_data
+[1.472s] copying launch/fuhang.launch.py -> /home/huangbo/ros2_learn/tools_learn/install/py05_exercise/share/py05_exercise
+[1.472s] running install_egg_info
+[1.497s] removing '/home/huangbo/ros2_learn/tools_learn/install/py05_exercise/lib/python3.12/site-packages/py05_exercise-0.0.0-py3.12.egg-info' (and everything under it)
+[1.498s] Copying ../../build/py05_exercise/py05_exercise.egg-info to /home/huangbo/ros2_learn/tools_learn/install/py05_exercise/lib/python3.12/site-packages/py05_exercise-0.0.0-py3.12.egg-info
+[1.500s] running install_scripts
+[1.686s] Installing exer01_spawn_py script to /home/huangbo/ros2_learn/tools_learn/install/py05_exercise/lib/py05_exercise
+[1.687s] Installing exer02_tf_broadcaster_py script to /home/huangbo/ros2_learn/tools_learn/install/py05_exercise/lib/py05_exercise
+[1.688s] Installing exer03_tf_listener_py script to /home/huangbo/ros2_learn/tools_learn/install/py05_exercise/lib/py05_exercise
+[1.689s] writing list of installed files to '/home/huangbo/ros2_learn/tools_learn/build/py05_exercise/install.log'
+[1.735s] Invoked command in '/home/huangbo/ros2_learn/tools_learn/src/py05_exercise' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tools_learn/build/py05_exercise/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tools_learn/install/py05_exercise/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py05_exercise build --build-base /home/huangbo/ros2_learn/tools_learn/build/py05_exercise/build install --record /home/huangbo/ros2_learn/tools_learn/build/py05_exercise/install.log --install-scripts $base/lib/py05_exercise --single-version-externally-managed install_data

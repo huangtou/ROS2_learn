@@ -1,0 +1,37 @@
+[1.321s] Invoking command in '/home/huangbo/ros2_learn/tools_learn/src/py04_tf_listener': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tools_learn/build/py04_tf_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tools_learn/install/py04_tf_listener/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py04_tf_listener build --build-base /home/huangbo/ros2_learn/tools_learn/build/py04_tf_listener/build install --record /home/huangbo/ros2_learn/tools_learn/build/py04_tf_listener/install.log --install-scripts $base/lib/py04_tf_listener --single-version-externally-managed install_data
+[1.795s] running egg_info
+[1.796s] creating ../../build/py04_tf_listener/py04_tf_listener.egg-info
+[1.830s] writing ../../build/py04_tf_listener/py04_tf_listener.egg-info/PKG-INFO
+[1.831s] writing dependency_links to ../../build/py04_tf_listener/py04_tf_listener.egg-info/dependency_links.txt
+[1.833s] writing entry points to ../../build/py04_tf_listener/py04_tf_listener.egg-info/entry_points.txt
+[1.835s] writing requirements to ../../build/py04_tf_listener/py04_tf_listener.egg-info/requires.txt
+[1.836s] writing top-level names to ../../build/py04_tf_listener/py04_tf_listener.egg-info/top_level.txt
+[1.836s] writing manifest file '../../build/py04_tf_listener/py04_tf_listener.egg-info/SOURCES.txt'
+[1.894s] reading manifest file '../../build/py04_tf_listener/py04_tf_listener.egg-info/SOURCES.txt'
+[1.896s] writing manifest file '../../build/py04_tf_listener/py04_tf_listener.egg-info/SOURCES.txt'
+[1.897s] running build
+[1.897s] running build_py
+[1.897s] creating /home/huangbo/ros2_learn/tools_learn/build/py04_tf_listener/build
+[1.899s] creating /home/huangbo/ros2_learn/tools_learn/build/py04_tf_listener/build/lib
+[1.899s] creating /home/huangbo/ros2_learn/tools_learn/build/py04_tf_listener/build/lib/py04_tf_listener
+[1.899s] copying py04_tf_listener/__init__.py -> /home/huangbo/ros2_learn/tools_learn/build/py04_tf_listener/build/lib/py04_tf_listener
+[1.899s] copying py04_tf_listener/demo01_tf_jianting_py.py -> /home/huangbo/ros2_learn/tools_learn/build/py04_tf_listener/build/lib/py04_tf_listener
+[1.899s] running install
+[1.906s] running install_lib
+[1.931s] creating /home/huangbo/ros2_learn/tools_learn/install/py04_tf_listener/lib/python3.12/site-packages/py04_tf_listener
+[1.932s] copying /home/huangbo/ros2_learn/tools_learn/build/py04_tf_listener/build/lib/py04_tf_listener/__init__.py -> /home/huangbo/ros2_learn/tools_learn/install/py04_tf_listener/lib/python3.12/site-packages/py04_tf_listener
+[1.932s] copying /home/huangbo/ros2_learn/tools_learn/build/py04_tf_listener/build/lib/py04_tf_listener/demo01_tf_jianting_py.py -> /home/huangbo/ros2_learn/tools_learn/install/py04_tf_listener/lib/python3.12/site-packages/py04_tf_listener
+[1.933s] byte-compiling /home/huangbo/ros2_learn/tools_learn/install/py04_tf_listener/lib/python3.12/site-packages/py04_tf_listener/__init__.py to __init__.cpython-312.pyc
+[1.933s] byte-compiling /home/huangbo/ros2_learn/tools_learn/install/py04_tf_listener/lib/python3.12/site-packages/py04_tf_listener/demo01_tf_jianting_py.py to demo01_tf_jianting_py.cpython-312.pyc
+[1.934s] running install_data
+[1.935s] creating /home/huangbo/ros2_learn/tools_learn/install/py04_tf_listener/share/ament_index
+[1.935s] creating /home/huangbo/ros2_learn/tools_learn/install/py04_tf_listener/share/ament_index/resource_index
+[1.935s] creating /home/huangbo/ros2_learn/tools_learn/install/py04_tf_listener/share/ament_index/resource_index/packages
+[1.935s] copying resource/py04_tf_listener -> /home/huangbo/ros2_learn/tools_learn/install/py04_tf_listener/share/ament_index/resource_index/packages
+[1.935s] copying package.xml -> /home/huangbo/ros2_learn/tools_learn/install/py04_tf_listener/share/py04_tf_listener
+[1.935s] running install_egg_info
+[1.964s] Copying ../../build/py04_tf_listener/py04_tf_listener.egg-info to /home/huangbo/ros2_learn/tools_learn/install/py04_tf_listener/lib/python3.12/site-packages/py04_tf_listener-0.0.0-py3.12.egg-info
+[1.972s] running install_scripts
+[2.134s] Installing demo01_tf_jianting_py script to /home/huangbo/ros2_learn/tools_learn/install/py04_tf_listener/lib/py04_tf_listener
+[2.135s] writing list of installed files to '/home/huangbo/ros2_learn/tools_learn/build/py04_tf_listener/install.log'
+[2.180s] Invoked command in '/home/huangbo/ros2_learn/tools_learn/src/py04_tf_listener' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tools_learn/build/py04_tf_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tools_learn/install/py04_tf_listener/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py04_tf_listener build --build-base /home/huangbo/ros2_learn/tools_learn/build/py04_tf_listener/build install --record /home/huangbo/ros2_learn/tools_learn/build/py04_tf_listener/install.log --install-scripts $base/lib/py04_tf_listener --single-version-externally-managed install_data

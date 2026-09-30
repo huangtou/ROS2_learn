@@ -1,0 +1,9 @@
+digraph G {
+"base_car" -> "laser"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_car" -> "camera"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"world" -> "turtle1"[label=" Broadcaster: default_authority\nAverage rate: 62.707\nBuffer length: 5.023\nMost recent transform: 1790666729.858522\nOldest transform: 1790666724.835125\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1790666729.8672028"[ shape=plaintext ] ;
+}->"world";
+}

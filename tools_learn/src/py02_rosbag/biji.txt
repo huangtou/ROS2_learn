@@ -5,3 +5,5 @@ rosbag2 功能包
 2.play 对录制的指令回放 使用：ros2 bag play 保存的文件名（bag_cmd）
 
 3.info 查看相关信息     使用 ros2 bag info 保存的文件名（bag_cmd）
+
+

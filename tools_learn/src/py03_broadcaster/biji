@@ -1,0 +1,5 @@
+通讯工具包
+ros2 run tf2_ros tf2_monitor 打印所有坐标系的发布频率与网络延迟 
+ros2 run tf2_ros tf2_monitor camera laser 打印指定坐标系的发布频率与网络延迟
+ros2 run tf2_ros tf2_echo world turtle1 打印两个坐标系的平移旋转关系。
+ros2 run tf2_tools view_frames 以图形化的方式显示坐标系关系。
