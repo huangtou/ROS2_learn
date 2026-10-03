@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/py06_urdf/py06_urdf.egg-info/PKG-INFO
+../../build/py06_urdf/py06_urdf.egg-info/SOURCES.txt
+../../build/py06_urdf/py06_urdf.egg-info/dependency_links.txt
+../../build/py06_urdf/py06_urdf.egg-info/requires.txt
+../../build/py06_urdf/py06_urdf.egg-info/top_level.txt
+../../build/py06_urdf/py06_urdf.egg-info/zip-safe
+launch/display.launch.py
+py06_urdf/__init__.py
+resource/py06_urdf
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+urdf/urdf/demo01_helloword.urdf

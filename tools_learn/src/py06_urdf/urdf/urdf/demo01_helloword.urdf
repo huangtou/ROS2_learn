@@ -1,0 +1,19 @@
+<!-- 这是注释 需求 创建一个盒状机器人 1*0.5*0.1 -->
+
+<!--   robot 根标签  机器人名字 -->
+<robot name="box_robot">   
+<!-- link 连杆 对应机器人刚体部分 -->
+  <link name="base_link">
+  <!-- 可视化 -->
+    <visual>
+    <!-- 几何形状   -->
+      <geometry>
+      <!-- box 长方体 size是长宽高 -->
+        <box size="1 0.5 0.1"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>
+
+<!-- 需要使用xacro加载到内存中 此时只在磁盘中 -->
+<!-- xacro+地址 -->
