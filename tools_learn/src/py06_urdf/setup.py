@@ -15,6 +15,7 @@ data_files = [
 ]
 
 # 递归安装 launch、urdf、rviz、meshes 目录中的文件，并保留目录结构。
+#注意空文件夹不会加入 要建一个空白文件来占位 才会被加入install
 for directory in ['launch', 'urdf', 'rviz', 'meshes']:
     for root, _, files in os.walk(directory):
         if files:

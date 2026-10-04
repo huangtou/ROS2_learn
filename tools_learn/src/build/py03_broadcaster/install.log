@@ -1,6 +1,10 @@
 /home/huangbo/ros2_learn/tools_learn/src/install/py03_broadcaster/lib/python3.12/site-packages/py03_broadcaster/demo01_tf_static_broadcaster_py.py
+/home/huangbo/ros2_learn/tools_learn/src/install/py03_broadcaster/lib/python3.12/site-packages/py03_broadcaster/demo03_pub_point_py.py
+/home/huangbo/ros2_learn/tools_learn/src/install/py03_broadcaster/lib/python3.12/site-packages/py03_broadcaster/demo02_dongtai_broadcaster_py.py
 /home/huangbo/ros2_learn/tools_learn/src/install/py03_broadcaster/lib/python3.12/site-packages/py03_broadcaster/__init__.py
 /home/huangbo/ros2_learn/tools_learn/src/install/py03_broadcaster/lib/python3.12/site-packages/py03_broadcaster/__pycache__/demo01_tf_static_broadcaster_py.cpython-312.pyc
+/home/huangbo/ros2_learn/tools_learn/src/install/py03_broadcaster/lib/python3.12/site-packages/py03_broadcaster/__pycache__/demo03_pub_point_py.cpython-312.pyc
+/home/huangbo/ros2_learn/tools_learn/src/install/py03_broadcaster/lib/python3.12/site-packages/py03_broadcaster/__pycache__/demo02_dongtai_broadcaster_py.cpython-312.pyc
 /home/huangbo/ros2_learn/tools_learn/src/install/py03_broadcaster/lib/python3.12/site-packages/py03_broadcaster/__pycache__/__init__.cpython-312.pyc
 /home/huangbo/ros2_learn/tools_learn/src/install/py03_broadcaster/share/ament_index/resource_index/packages/py03_broadcaster
 /home/huangbo/ros2_learn/tools_learn/src/install/py03_broadcaster/share/py03_broadcaster/package.xml
@@ -12,3 +16,5 @@
 /home/huangbo/ros2_learn/tools_learn/src/install/py03_broadcaster/lib/python3.12/site-packages/py03_broadcaster-0.0.0-py3.12.egg-info/requires.txt
 /home/huangbo/ros2_learn/tools_learn/src/install/py03_broadcaster/lib/python3.12/site-packages/py03_broadcaster-0.0.0-py3.12.egg-info/top_level.txt
 /home/huangbo/ros2_learn/tools_learn/src/install/py03_broadcaster/lib/py03_broadcaster/demo01_tf_static_broadcaster_py
+/home/huangbo/ros2_learn/tools_learn/src/install/py03_broadcaster/lib/py03_broadcaster/demo02_dongtai_broadcaster_py
+/home/huangbo/ros2_learn/tools_learn/src/install/py03_broadcaster/lib/py03_broadcaster/demo03_pub_point_py

@@ -1,0 +1,94 @@
+<!-- 设置一个初始化link 通过关节连接base_link 通过偏移量让base_link 上移 避免一半在水平面一下 -->
+
+<!-- 
+    创建一个机器人模型 有底盘和摄像头组成 并且摄像头可以沿着z轴旋转
+
+    1.创建底盘link
+    2.创建摄像头link
+    3.创建摄像头旋转关节joint
+
+ -->
+
+ <robot name="demo03_bot">
+
+ <!-- 创建footprint_link -->
+    <link name="footprint_link">
+        <!-- 外观描述 -->
+        <visual>
+        <!-- 形状描述 -->
+            <geometry>
+                <!-- sphere是球体 -->
+                <sphere radius="0.001"/>
+            </geometry>
+        </visual>
+    </link>
+
+    
+
+
+ <!-- 创建底盘link -->
+    <link name="base_link">
+        <!-- 外观描述 -->
+        <visual>
+        <!-- 形状描述 -->
+            <geometry>
+                <!-- box是长方体 -->
+                <box size="0.5 0.3 0.1"/>
+            </geometry>
+             <!-- 颜色    name 设置名字 rgb 是三原色 0-1.0   a是透明度 0为完全透明 1为完全不透明 -->
+            <material name="red">
+                <color rgba="1 0 0 0.5"/>
+            </material>
+
+        </visual>
+    </link>
+
+<!-- 创建摄像头link -->
+    <link name="camera_link">
+        <!-- 外观描述 -->
+        <visual>
+        <!-- 形状描述 -->
+            <geometry>
+                <!-- box是长方体 -->
+                <box size="0.02 0.05 0.05"/>
+            </geometry>
+             <!-- 颜色    name 设置名字 rgb 是三原色 0-1.0   a是透明度 0为完全透明 1为完全不透明 -->
+            <material name="blue">
+                <color rgba="0 0 1 0.5"/>
+            </material>
+        </visual>
+    </link>
+
+    <joint name="base_link2footprint" type="fixed">
+        <!-- 连接的两个link 父标签为footprint_link 子标签为base_link 固定类型 -->
+        <parent link="footprint_link"/>
+        <child link="base_link"/>
+
+        <!-- 关节的原点位置 平移量旋转度 上移 -->
+        <origin xyz="0.0 0.0 0.05" rpy="0 0 0"/>
+    </joint>
+
+
+
+    <!-- 创建摄像头旋转关节 -->
+    <!-- 参数1 是关节名称 参数2 是关节类型 这里是continuous 表示360度可旋转 -->
+    <joint name="camera2base_link" type="continuous">
+        <!-- 连接的两个link 父标签为base_link 子标签为camera_link -->
+        <parent link="base_link"/>
+        <child link="camera_link"/>
+
+        <!-- 关节的原点位置 平移量旋转度 -->
+        <origin xyz="0.23 0.0 0.075" rpy="0 0 0"/>
+
+        <!-- 关节的旋转轴 -->
+        <axis xyz="0 0 1"/>
+
+        <!-- 限制关节的旋转角度 -->
+        <!-- <limit lower="-1.57" upper="1.57" effort="10" velocity="1"/> -->
+    </joint>
+
+
+ </robot>
+
+
+ <!-- 使用这个验证旋转  ros2 run joint_state_publisher_gui joint_state_publisher_gui   -->

@@ -1,0 +1,36 @@
+<!-- 生成不同形状的机器人部件  立方体 球体 圆柱体 -->
+
+
+<robot name="demo02_link">
+    <link name="base_link">
+
+        <!-- 外观描述 -->
+        <visual>
+        <!-- 形状描述 -->
+            <geometry>
+                <!-- box是长方体 -->
+                <!-- <box size="0.5 0.5 0.5"/> -->
+
+                <!-- sphere是球体 -->
+                <!-- <sphere radius="3.0"/> -->
+
+                <!-- cylinder是圆柱体 -->
+                <!-- <cylinder radius="1.0" length="3.0"/> -->
+
+                <!-- mesh是网格模型   stl文件是以毫米为单位   rviz中以米为单位 -->
+                <mesh filename="package://py06_urdf/meshes/burger_base.stl" scale="0.001 0.001 0.001"/>
+
+
+            </geometry>
+
+            <!-- 平移和旋转 -->
+            <origin xyz="1 0 0" rpy="0 0 0"/>
+
+            <!-- 颜色    name 设置名字 rgb 是三原色 0-1.0   a是透明度 0为完全透明 1为完全不透明 -->
+            <material name="green">
+                <color rgba="0 1.0 0 0.5"/>
+            </material>
+
+        </visual>
+    </link>
+</robot>

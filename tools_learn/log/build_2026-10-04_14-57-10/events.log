@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.000181] (-) JobUnselected: {'identifier': 'py01_launch'}
+[0.000298] (-) JobUnselected: {'identifier': 'py02_rosbag'}
+[0.000343] (-) JobUnselected: {'identifier': 'py03_broadcaster'}
+[0.000360] (-) JobUnselected: {'identifier': 'py04_tf_listener'}
+[0.001219] (-) JobUnselected: {'identifier': 'py05_exercise'}
+[0.001710] (-) JobUnselected: {'identifier': 'py06_urdf'}
+[0.002499] (-) EventReactorShutdown: {}

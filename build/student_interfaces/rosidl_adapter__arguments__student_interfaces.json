@@ -1,0 +1,8 @@
+{
+  "package_name": "student_interfaces",
+  "non_idl_tuples": [
+    "/home/huangbo/ros2_learn/tongxun_learn/src/student_interfaces:msg/Student.msg",
+    "/home/huangbo/ros2_learn/tongxun_learn/src/student_interfaces:srv/Addints.srv",
+    "/home/huangbo/ros2_learn/tongxun_learn/src/student_interfaces:action/Progress.action"
+  ]
+}

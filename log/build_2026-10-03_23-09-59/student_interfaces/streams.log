@@ -1,0 +1,88 @@
+[0.033s] Invoking command in '/home/huangbo/ros2_learn/build/student_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/huangbo/ros2_learn/tongxun_learn/src/student_interfaces -DCMAKE_INSTALL_PREFIX=/home/huangbo/ros2_learn/install/student_interfaces
+[0.349s] -- The C compiler identification is GNU 13.3.0
+[0.493s] -- The CXX compiler identification is GNU 13.3.0
+[0.540s] -- Detecting C compiler ABI info
+[0.722s] -- Detecting C compiler ABI info - done
+[0.737s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.738s] -- Detecting C compile features
+[0.740s] -- Detecting C compile features - done
+[0.767s] -- Detecting CXX compiler ABI info
+[0.956s] -- Detecting CXX compiler ABI info - done
+[0.975s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.977s] -- Detecting CXX compile features
+[0.977s] -- Detecting CXX compile features - done
+[1.003s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.305s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.537s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.559s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.734s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.886s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.258s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.076s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.212s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.216s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[5.445s] -- Found PythonExtra: /usr/bin/python3  
+[6.334s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[6.516s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.589s] -- Configuring done (6.5s)
+[6.723s] -- Generating done (0.1s)
+[6.757s] -- Build files have been written to: /home/huangbo/ros2_learn/build/student_interfaces
+[6.785s] Invoked command in '/home/huangbo/ros2_learn/build/student_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/huangbo/ros2_learn/tongxun_learn/src/student_interfaces -DCMAKE_INSTALL_PREFIX=/home/huangbo/ros2_learn/install/student_interfaces
+[6.787s] Invoking command in '/home/huangbo/ros2_learn/build/student_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/huangbo/ros2_learn/build/student_interfaces -- -j2 -l2
+[6.871s] [  1%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[6.917s] [  3%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[7.582s] [  3%] Built target student_interfaces__rosidl_generator_type_description
+[7.703s] [  3%] Built target student_interfaces__rs
+[7.713s] [  3%] Built target ament_cmake_python_copy_student_interfaces
+[7.742s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.786s] [  7%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.999s] [  7%] Built target student_interfaces__cpp
+[9.656s] running egg_info
+[9.656s] creating student_interfaces.egg-info
+[9.721s] [  9%] [32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_c.dir/rosidl_generator_c/student_interfaces/msg/detail/student__description.c.o[0m
+[9.722s] writing student_interfaces.egg-info/PKG-INFO
+[9.722s] writing dependency_links to student_interfaces.egg-info/dependency_links.txt
+[9.724s] writing top-level names to student_interfaces.egg-info/top_level.txt
+[9.725s] writing manifest file 'student_interfaces.egg-info/SOURCES.txt'
+[9.849s] reading manifest file 'student_interfaces.egg-info/SOURCES.txt'
+[9.849s] writing manifest file 'student_interfaces.egg-info/SOURCES.txt'
+[9.921s] [ 10%] [32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_c.dir/rosidl_generator_c/student_interfaces/msg/detail/student__functions.c.o[0m
+[9.921s] [ 10%] Built target ament_cmake_python_build_student_interfaces_egg
+[9.952s] [ 12%] [32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_c.dir/rosidl_generator_c/student_interfaces/msg/detail/student__type_support.c.o[0m
+[10.038s] [ 14%] [32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_c.dir/rosidl_generator_c/student_interfaces/srv/detail/addints__functions.c.o[0m
+[10.045s] [ 16%] [32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_c.dir/rosidl_generator_c/student_interfaces/srv/detail/addints__description.c.o[0m
+[10.181s] [ 18%] [32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_c.dir/rosidl_generator_c/student_interfaces/srv/detail/addints__type_support.c.o[0m
+[10.225s] [ 20%] [32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_c.dir/rosidl_generator_c/student_interfaces/action/detail/progress__description.c.o[0m
+[10.268s] [ 21%] [32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_c.dir/rosidl_generator_c/student_interfaces/action/detail/progress__functions.c.o[0m
+[10.434s] [ 23%] [32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_c.dir/rosidl_generator_c/student_interfaces/action/detail/progress__type_support.c.o[0m
+[10.602s] [ 25%] [32m[1mLinking C shared library libstudent_interfaces__rosidl_generator_c.so[0m
+[10.696s] [ 25%] Built target student_interfaces__rosidl_generator_c
+[10.725s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.727s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[11.480s] [ 30%] [32mBuilding C object CMakeFiles/student_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/student_interfaces/msg/detail/student__type_support.c.o[0m
+[11.601s] [ 32%] [32mBuilding C object CMakeFiles/student_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/student_interfaces/srv/detail/addints__type_support.c.o[0m
+[11.750s] [ 34%] [32mBuilding C object CMakeFiles/student_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/student_interfaces/action/detail/progress__type_support.c.o[0m
+[11.898s] [ 36%] [32m[1mLinking C shared library libstudent_interfaces__rosidl_typesupport_introspection_c.so[0m
+[11.986s] [ 36%] Built target student_interfaces__rosidl_typesupport_introspection_c
+[12.003s] [ 38%] [32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/student_interfaces/msg/detail/student__type_support_c.cpp.o[0m
+[12.028s] [ 40%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.577s] [ 41%] [32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/student_interfaces/msg/student__type_support.cpp.o[0m
+[12.719s] [ 43%] [32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/student_interfaces/srv/addints__type_support.cpp.o[0m
+[12.871s] [ 45%] [32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/student_interfaces/action/progress__type_support.cpp.o[0m
+[13.042s] [ 47%] [32m[1mLinking CXX shared library libstudent_interfaces__rosidl_typesupport_c.so[0m
+[13.061s] [ 49%] [32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/student_interfaces/srv/detail/addints__type_support_c.cpp.o[0m
+[13.217s] [ 49%] Built target student_interfaces__rosidl_typesupport_c
+[13.250s] [ 50%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[13.996s] [ 52%] [32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/student_interfaces/action/detail/progress__type_support_c.cpp.o[0m
+[14.682s] [ 54%] [32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/student_interfaces/msg/detail/dds_fastrtps/student__type_support.cpp.o[0m
+[15.657s] [ 56%] [32m[1mLinking CXX shared library libstudent_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[15.971s] [ 58%] [32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/student_interfaces/srv/detail/dds_fastrtps/addints__type_support.cpp.o[0m
+[16.012s] [ 58%] Built target student_interfaces__rosidl_typesupport_fastrtps_c
+[16.059s] [ 60%] [32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/student_interfaces/action/detail/dds_fastrtps/progress__type_support.cpp.o[0m
+[17.726s] [ 61%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[18.619s] [ 63%] [32m[1mLinking CXX shared library libstudent_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[18.784s] [ 65%] [32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/student_interfaces/msg/detail/student__type_support.cpp.o[0m
+[18.882s] [ 65%] Built target student_interfaces__rosidl_typesupport_fastrtps_cpp
+[18.931s] [ 67%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[19.905s] [ 69%] [32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/student_interfaces/srv/detail/addints__type_support.cpp.o[0m
+[20.062s] [ 70%] [32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/student_interfaces/msg/student__type_support.cpp.o[0m

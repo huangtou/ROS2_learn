@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.000633] (-) JobUnselected: {'identifier': 'py01_launch'}
+[0.001828] (-) JobUnselected: {'identifier': 'py02_rosbag'}
+[0.001880] (-) JobUnselected: {'identifier': 'py03_broadcaster'}
+[0.001913] (-) JobUnselected: {'identifier': 'py04_tf_listener'}
+[0.001941] (-) JobUnselected: {'identifier': 'py05_exercise'}
+[0.001971] (py06_urdf) JobQueued: {'identifier': 'py06_urdf', 'dependencies': OrderedDict()}
+[0.002006] (py06_urdf) JobStarted: {'identifier': 'py06_urdf'}
+[0.100698] (-) TimerEvent: {}
+[0.201563] (-) TimerEvent: {}
+[0.302389] (-) TimerEvent: {}
+[0.403050] (-) TimerEvent: {}
+[0.503486] (-) TimerEvent: {}
+[0.603870] (-) TimerEvent: {}
+[0.704462] (-) TimerEvent: {}
+[0.804814] (-) TimerEvent: {}
+[0.905904] (-) TimerEvent: {}
+[1.007978] (-) TimerEvent: {}
+[1.108339] (-) TimerEvent: {}
+[1.209279] (-) TimerEvent: {}
+[1.309584] (-) TimerEvent: {}
+[1.409816] (-) TimerEvent: {}
+[1.510135] (-) TimerEvent: {}
+[1.526093] (py06_urdf) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py06_urdf', 'build', '--build-base', '/home/huangbo/ros2_learn/tools_learn/build/py06_urdf/build', 'install', '--record', '/home/huangbo/ros2_learn/tools_learn/build/py06_urdf/install.log', '--install-scripts', '$base/lib/py06_urdf', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/huangbo/ros2_learn/tools_learn/src/py06_urdf', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'RUBBER_DUCK_AGENT': 'true', 'AI_AGENT': 'github_copilot_vscode_agent', 'USER': 'huangbo', 'SSH_CLIENT': '192.168.91.1 2570 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/huangbo', 'GIT_CONFIG_COUNT': '3', 'OLDPWD': '/home/huangbo/.vscode-server', 'COPILOT_CLI_RUN_AS_NODE': '1', 'ROS_PYTHON_VERSION': '3', 'COPILOT_CLI': '1', 'SSH_ASKPASS': '', 'ANTHROPIC_ADVISOR': 'false', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'USE_BUILTIN_RIPGREP': 'false', 'COPILOT_HOME': '/home/huangbo/.copilot', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'GIT_OPTIONAL_LOCKS': '0', 'GCM_INTERACTIVE': 'Never', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'huangbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'SKILL_CHAR_BUDGET': '15000', 'XDG_SESSION_CLASS': 'user', 'XDG_SESSION_ID': '6', 'GIT_CONFIG_VALUE_0': 'explicit', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huangbo/.vscode-server/cli/servers/Stable-07f806f999227108933c2e30515b26eecc1fda74/server/node_modules/@vscode/ripgrep-universal/bin/linux-x64', 'GIT_CONFIG_VALUE_1': 'never', 'CLAUDE_CODE_DISABLE_PRECOMPACT_SKIP': '1', 'GIT_CONFIG_VALUE_2': 'false', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'zh_CN.UTF-8', 'LS_COLORS': '', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'COPILOT_AGENT_SESSION_ID': '921b2135-e036-4a8f-9db2-1b2d11ff9185', 'SHELL': '/bin/bash', 'COPILOT_RUNTIME_PROCESS_FILE_LOGGING': '1', 'GIT_TERMINAL_PROMPT': '0', 'MXC_BIN_DIR': '/home/huangbo/.vscode-server/cli/servers/Stable-07f806f999227108933c2e30515b26eecc1fda74/server/node_modules/@microsoft/mxc-sdk/bin', 'GIT_CONFIG_KEY_0': 'safe.bareRepository', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GIT_CONFIG_KEY_1': 'credential.interactive', 'GIT_CONFIG_KEY_2': 'core.fsmonitor', 'COPILOT_MCP_APPS': 'true', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/huangbo/ros2_learn/tools_learn/build/py06_urdf', 'AUTO_APPROVAL': 'true', 'SSH_CONNECTION': '192.168.91.1 2570 192.168.91.129 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COPILOT_ENABLE_BUILTIN_GITHUB_MCP': 'true', 'PYTHONPATH': '/home/huangbo/ros2_learn/tools_learn/build/py06_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tools_learn/install/py06_urdf/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'COPILOT_CLI_ENABLED_FEATURE_FLAGS': 'SHELL_SPAWN_BACKEND', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[1.612081] (-) TimerEvent: {}
+[1.712620] (-) TimerEvent: {}
+[1.813580] (-) TimerEvent: {}
+[1.861744] (py06_urdf) StdoutLine: {'line': b'running egg_info\n'}
+[1.886904] (py06_urdf) StdoutLine: {'line': b'writing ../../build/py06_urdf/py06_urdf.egg-info/PKG-INFO\n'}
+[1.887778] (py06_urdf) StdoutLine: {'line': b'writing dependency_links to ../../build/py06_urdf/py06_urdf.egg-info/dependency_links.txt\n'}
+[1.888666] (py06_urdf) StdoutLine: {'line': b'writing requirements to ../../build/py06_urdf/py06_urdf.egg-info/requires.txt\n'}
+[1.888810] (py06_urdf) StdoutLine: {'line': b'writing top-level names to ../../build/py06_urdf/py06_urdf.egg-info/top_level.txt\n'}
+[1.913878] (-) TimerEvent: {}
+[1.939982] (py06_urdf) StdoutLine: {'line': b"reading manifest file '../../build/py06_urdf/py06_urdf.egg-info/SOURCES.txt'\n"}
+[1.941535] (py06_urdf) StdoutLine: {'line': b"writing manifest file '../../build/py06_urdf/py06_urdf.egg-info/SOURCES.txt'\n"}
+[1.941970] (py06_urdf) StdoutLine: {'line': b'running build\n'}
+[1.942103] (py06_urdf) StdoutLine: {'line': b'running build_py\n'}
+[1.942738] (py06_urdf) StdoutLine: {'line': b'running install\n'}
+[1.950818] (py06_urdf) StdoutLine: {'line': b'running install_lib\n'}
+[1.974372] (py06_urdf) StdoutLine: {'line': b'running install_data\n'}
+[1.974799] (py06_urdf) StdoutLine: {'line': b'copying urdf/urdf/demo03_joint.urdf -> /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/urdf/urdf\n'}
+[1.975307] (py06_urdf) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.003277] (py06_urdf) StdoutLine: {'line': b"removing '/home/huangbo/ros2_learn/tools_learn/install/py06_urdf/lib/python3.12/site-packages/py06_urdf-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[2.004785] (py06_urdf) StdoutLine: {'line': b'Copying ../../build/py06_urdf/py06_urdf.egg-info to /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/lib/python3.12/site-packages/py06_urdf-0.0.0-py3.12.egg-info\n'}
+[2.005268] (py06_urdf) StdoutLine: {'line': b'running install_scripts\n'}
+[2.014909] (-) TimerEvent: {}
+[2.118271] (-) TimerEvent: {}
+[2.190379] (py06_urdf) StdoutLine: {'line': b"writing list of installed files to '/home/huangbo/ros2_learn/tools_learn/build/py06_urdf/install.log'\n"}
+[2.218802] (-) TimerEvent: {}
+[2.235818] (py06_urdf) CommandEnded: {'returncode': 0}
+[2.262917] (py06_urdf) JobEnded: {'identifier': 'py06_urdf', 'rc': 0}
+[2.263905] (-) EventReactorShutdown: {}

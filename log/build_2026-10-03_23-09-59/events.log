@@ -1,0 +1,575 @@
+[0.000000] (-) TimerEvent: {}
+[0.000184] (base_tongxun_s) JobQueued: {'identifier': 'base_tongxun_s', 'dependencies': OrderedDict()}
+[0.000239] (py01_launch) JobQueued: {'identifier': 'py01_launch', 'dependencies': OrderedDict()}
+[0.000256] (py02_rosbag) JobQueued: {'identifier': 'py02_rosbag', 'dependencies': OrderedDict()}
+[0.000267] (py02_service) JobQueued: {'identifier': 'py02_service', 'dependencies': OrderedDict()}
+[0.000277] (py02_service_my) JobQueued: {'identifier': 'py02_service_my', 'dependencies': OrderedDict()}
+[0.000286] (py03_broadcaster) JobQueued: {'identifier': 'py03_broadcaster', 'dependencies': OrderedDict()}
+[0.000295] (py04_param) JobQueued: {'identifier': 'py04_param', 'dependencies': OrderedDict()}
+[0.000304] (py04_tf_listener) JobQueued: {'identifier': 'py04_tf_listener', 'dependencies': OrderedDict()}
+[0.000312] (py05_exercise) JobQueued: {'identifier': 'py05_exercise', 'dependencies': OrderedDict()}
+[0.000320] (py05_time) JobQueued: {'identifier': 'py05_time', 'dependencies': OrderedDict()}
+[0.000329] (py06_lianxi) JobQueued: {'identifier': 'py06_lianxi', 'dependencies': OrderedDict()}
+[0.000338] (py06_urdf) JobQueued: {'identifier': 'py06_urdf', 'dependencies': OrderedDict()}
+[0.000346] (py07_jx) JobQueued: {'identifier': 'py07_jx', 'dependencies': OrderedDict()}
+[0.000354] (student_interfaces) JobQueued: {'identifier': 'student_interfaces', 'dependencies': OrderedDict()}
+[0.000362] (py01_topic) JobQueued: {'identifier': 'py01_topic', 'dependencies': OrderedDict({'student_interfaces': '/home/huangbo/ros2_learn/install/student_interfaces'})}
+[0.000376] (py03_acton) JobQueued: {'identifier': 'py03_acton', 'dependencies': OrderedDict({'student_interfaces': '/home/huangbo/ros2_learn/install/student_interfaces'})}
+[0.000440] (student_interfaces) JobStarted: {'identifier': 'student_interfaces'}
+[0.015307] (base_tongxun_s) JobStarted: {'identifier': 'base_tongxun_s'}
+[0.030847] (student_interfaces) JobProgress: {'identifier': 'student_interfaces', 'progress': 'cmake'}
+[0.031147] (student_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/huangbo/ros2_learn/tongxun_learn/src/student_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/huangbo/ros2_learn/install/student_interfaces'], 'cwd': '/home/huangbo/ros2_learn/build/student_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'huangbo', 'SSH_CLIENT': '192.168.91.1 2557 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/helpers/browser.sh', 'HOME': '/home/huangbo', 'OLDPWD': '/home/huangbo/ros2_learn/tools_learn', 'TERM_PROGRAM_VERSION': '1.139.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-c2441449-3ff4-4a75-9ea9-b807cea6d87b.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'huangbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-8983e67041e34765.txt', 'LANG': 'zh_CN.UTF-8', 'PYTHONSTARTUP': '/home/huangbo/.vscode-server/data/User/workspaceStorage/875751c2c8b7a86d8466fc83d22c208d/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b58366a108.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/huangbo/ros2_learn/build/student_interfaces', 'COPILOT_DEBUG_NONCE': 'c014ac316041f6360bf10283106f54d3', 'SSH_CONNECTION': '192.168.91.1 2557 192.168.91.129 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.101602] (-) TimerEvent: {}
+[0.202510] (-) TimerEvent: {}
+[0.306143] (-) TimerEvent: {}
+[0.349323] (student_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.409735] (-) TimerEvent: {}
+[0.493044] (student_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.510480] (-) TimerEvent: {}
+[0.540658] (student_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.611136] (-) TimerEvent: {}
+[0.711700] (-) TimerEvent: {}
+[0.721849] (student_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.737656] (student_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.738797] (student_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.739999] (student_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.767572] (student_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.811943] (-) TimerEvent: {}
+[0.912400] (-) TimerEvent: {}
+[0.956331] (student_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.974776] (student_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.976887] (student_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.977118] (student_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.003662] (student_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.014160] (-) TimerEvent: {}
+[1.115089] (-) TimerEvent: {}
+[1.215716] (-) TimerEvent: {}
+[1.305036] (student_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.315912] (-) TimerEvent: {}
+[1.417193] (-) TimerEvent: {}
+[1.519443] (-) TimerEvent: {}
+[1.537141] (student_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.559348] (student_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.619852] (-) TimerEvent: {}
+[1.721158] (-) TimerEvent: {}
+[1.733851] (student_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.821719] (-) TimerEvent: {}
+[1.884740] (student_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.922448] (-) TimerEvent: {}
+[1.936551] (base_tongxun_s) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/base_tongxun_s', 'build', '--build-base', '/home/huangbo/ros2_learn/build/base_tongxun_s/build', 'install', '--record', '/home/huangbo/ros2_learn/build/base_tongxun_s/install.log', '--install-scripts', '$base/lib/base_tongxun_s', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/huangbo/ros2_learn/tongxun_learn/src/base_tongxun_s', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'huangbo', 'SSH_CLIENT': '192.168.91.1 2557 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/helpers/browser.sh', 'HOME': '/home/huangbo', 'OLDPWD': '/home/huangbo/ros2_learn/tools_learn', 'TERM_PROGRAM_VERSION': '1.139.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-c2441449-3ff4-4a75-9ea9-b807cea6d87b.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'huangbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-8983e67041e34765.txt', 'LANG': 'zh_CN.UTF-8', 'PYTHONSTARTUP': '/home/huangbo/.vscode-server/data/User/workspaceStorage/875751c2c8b7a86d8466fc83d22c208d/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b58366a108.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/huangbo/ros2_learn/build/base_tongxun_s', 'COPILOT_DEBUG_NONCE': 'c014ac316041f6360bf10283106f54d3', 'SSH_CONNECTION': '192.168.91.1 2557 192.168.91.129 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/huangbo/ros2_learn/build/base_tongxun_s/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/install/base_tongxun_s/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[2.023131] (-) TimerEvent: {}
+[2.123679] (-) TimerEvent: {}
+[2.224382] (-) TimerEvent: {}
+[2.324898] (-) TimerEvent: {}
+[2.374059] (base_tongxun_s) StdoutLine: {'line': b'running egg_info\n'}
+[2.374388] (base_tongxun_s) StdoutLine: {'line': b'creating ../../../build/base_tongxun_s/base_tongxun_s.egg-info\n'}
+[2.399382] (base_tongxun_s) StdoutLine: {'line': b'writing ../../../build/base_tongxun_s/base_tongxun_s.egg-info/PKG-INFO\n'}
+[2.399855] (base_tongxun_s) StdoutLine: {'line': b'writing dependency_links to ../../../build/base_tongxun_s/base_tongxun_s.egg-info/dependency_links.txt\n'}
+[2.402045] (base_tongxun_s) StdoutLine: {'line': b'writing requirements to ../../../build/base_tongxun_s/base_tongxun_s.egg-info/requires.txt\n'}
+[2.402143] (base_tongxun_s) StdoutLine: {'line': b'writing top-level names to ../../../build/base_tongxun_s/base_tongxun_s.egg-info/top_level.txt\n'}
+[2.402204] (base_tongxun_s) StdoutLine: {'line': b"writing manifest file '../../../build/base_tongxun_s/base_tongxun_s.egg-info/SOURCES.txt'\n"}
+[2.425411] (-) TimerEvent: {}
+[2.455632] (base_tongxun_s) StdoutLine: {'line': b"reading manifest file '../../../build/base_tongxun_s/base_tongxun_s.egg-info/SOURCES.txt'\n"}
+[2.459546] (base_tongxun_s) StdoutLine: {'line': b"writing manifest file '../../../build/base_tongxun_s/base_tongxun_s.egg-info/SOURCES.txt'\n"}
+[2.459813] (base_tongxun_s) StdoutLine: {'line': b'running build\n'}
+[2.461759] (base_tongxun_s) StdoutLine: {'line': b'running build_py\n'}
+[2.461920] (base_tongxun_s) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/build/base_tongxun_s/build\n'}
+[2.462732] (base_tongxun_s) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/build/base_tongxun_s/build/lib\n'}
+[2.462846] (base_tongxun_s) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/build/base_tongxun_s/build/lib/base_tongxun_s\n'}
+[2.462908] (base_tongxun_s) StdoutLine: {'line': b'copying base_tongxun_s/__init__.py -> /home/huangbo/ros2_learn/build/base_tongxun_s/build/lib/base_tongxun_s\n'}
+[2.462961] (base_tongxun_s) StdoutLine: {'line': b'running install\n'}
+[2.467127] (base_tongxun_s) StdoutLine: {'line': b'running install_lib\n'}
+[2.496474] (base_tongxun_s) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/install/base_tongxun_s/lib/python3.12/site-packages/base_tongxun_s\n'}
+[2.497056] (base_tongxun_s) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/build/base_tongxun_s/build/lib/base_tongxun_s/__init__.py -> /home/huangbo/ros2_learn/install/base_tongxun_s/lib/python3.12/site-packages/base_tongxun_s\n'}
+[2.497771] (base_tongxun_s) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/install/base_tongxun_s/lib/python3.12/site-packages/base_tongxun_s/__init__.py to __init__.cpython-312.pyc\n'}
+[2.498288] (base_tongxun_s) StdoutLine: {'line': b'running install_data\n'}
+[2.498463] (base_tongxun_s) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/install/base_tongxun_s/share/ament_index\n'}
+[2.498819] (base_tongxun_s) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/install/base_tongxun_s/share/ament_index/resource_index\n'}
+[2.498900] (base_tongxun_s) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/install/base_tongxun_s/share/ament_index/resource_index/packages\n'}
+[2.500983] (base_tongxun_s) StdoutLine: {'line': b'copying resource/base_tongxun_s -> /home/huangbo/ros2_learn/install/base_tongxun_s/share/ament_index/resource_index/packages\n'}
+[2.501274] (base_tongxun_s) StdoutLine: {'line': b'copying package.xml -> /home/huangbo/ros2_learn/install/base_tongxun_s/share/base_tongxun_s\n'}
+[2.501372] (base_tongxun_s) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.526653] (-) TimerEvent: {}
+[2.536719] (base_tongxun_s) StdoutLine: {'line': b'Copying ../../../build/base_tongxun_s/base_tongxun_s.egg-info to /home/huangbo/ros2_learn/install/base_tongxun_s/lib/python3.12/site-packages/base_tongxun_s-0.0.0-py3.12.egg-info\n'}
+[2.538299] (base_tongxun_s) StdoutLine: {'line': b'running install_scripts\n'}
+[2.627156] (-) TimerEvent: {}
+[2.728249] (-) TimerEvent: {}
+[2.779927] (base_tongxun_s) StdoutLine: {'line': b"writing list of installed files to '/home/huangbo/ros2_learn/build/base_tongxun_s/install.log'\n"}
+[2.828676] (-) TimerEvent: {}
+[2.840163] (base_tongxun_s) CommandEnded: {'returncode': 0}
+[2.863707] (base_tongxun_s) JobEnded: {'identifier': 'base_tongxun_s', 'rc': 0}
+[2.865118] (py01_launch) JobStarted: {'identifier': 'py01_launch'}
+[2.929315] (-) TimerEvent: {}
+[3.030386] (-) TimerEvent: {}
+[3.130937] (-) TimerEvent: {}
+[3.232622] (-) TimerEvent: {}
+[3.257873] (student_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[3.333571] (-) TimerEvent: {}
+[3.434471] (-) TimerEvent: {}
+[3.535556] (-) TimerEvent: {}
+[3.636144] (-) TimerEvent: {}
+[3.737833] (-) TimerEvent: {}
+[3.838263] (-) TimerEvent: {}
+[3.938742] (-) TimerEvent: {}
+[4.039227] (-) TimerEvent: {}
+[4.076106] (student_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.119075] (py01_launch) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/py01_launch', 'build', '--build-base', '/home/huangbo/ros2_learn/build/py01_launch/build', 'install', '--record', '/home/huangbo/ros2_learn/build/py01_launch/install.log', '--install-scripts', '$base/lib/py01_launch', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/huangbo/ros2_learn/tools_learn/src/py01_launch', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'huangbo', 'SSH_CLIENT': '192.168.91.1 2557 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/helpers/browser.sh', 'HOME': '/home/huangbo', 'OLDPWD': '/home/huangbo/ros2_learn/tools_learn', 'TERM_PROGRAM_VERSION': '1.139.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-c2441449-3ff4-4a75-9ea9-b807cea6d87b.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'huangbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-8983e67041e34765.txt', 'LANG': 'zh_CN.UTF-8', 'PYTHONSTARTUP': '/home/huangbo/.vscode-server/data/User/workspaceStorage/875751c2c8b7a86d8466fc83d22c208d/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b58366a108.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/huangbo/ros2_learn/build/py01_launch', 'COPILOT_DEBUG_NONCE': 'c014ac316041f6360bf10283106f54d3', 'SSH_CONNECTION': '192.168.91.1 2557 192.168.91.129 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/huangbo/ros2_learn/build/py01_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/install/py01_launch/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[4.140328] (-) TimerEvent: {}
+[4.240814] (-) TimerEvent: {}
+[4.343301] (-) TimerEvent: {}
+[4.444175] (-) TimerEvent: {}
+[4.488800] (py01_launch) StdoutLine: {'line': b'running egg_info\n'}
+[4.489860] (py01_launch) StdoutLine: {'line': b'creating ../../../build/py01_launch/py01_launch.egg-info\n'}
+[4.520439] (py01_launch) StdoutLine: {'line': b'writing ../../../build/py01_launch/py01_launch.egg-info/PKG-INFO\n'}
+[4.520607] (py01_launch) StdoutLine: {'line': b'writing dependency_links to ../../../build/py01_launch/py01_launch.egg-info/dependency_links.txt\n'}
+[4.522002] (py01_launch) StdoutLine: {'line': b'writing entry points to ../../../build/py01_launch/py01_launch.egg-info/entry_points.txt\n'}
+[4.523401] (py01_launch) StdoutLine: {'line': b'writing requirements to ../../../build/py01_launch/py01_launch.egg-info/requires.txt\n'}
+[4.524670] (py01_launch) StdoutLine: {'line': b'writing top-level names to ../../../build/py01_launch/py01_launch.egg-info/top_level.txt\n'}
+[4.524891] (py01_launch) StdoutLine: {'line': b"writing manifest file '../../../build/py01_launch/py01_launch.egg-info/SOURCES.txt'\n"}
+[4.545086] (-) TimerEvent: {}
+[4.591293] (py01_launch) StdoutLine: {'line': b"reading manifest file '../../../build/py01_launch/py01_launch.egg-info/SOURCES.txt'\n"}
+[4.591543] (py01_launch) StdoutLine: {'line': b"writing manifest file '../../../build/py01_launch/py01_launch.egg-info/SOURCES.txt'\n"}
+[4.593960] (py01_launch) StdoutLine: {'line': b'running build\n'}
+[4.594483] (py01_launch) StdoutLine: {'line': b'running build_py\n'}
+[4.594683] (py01_launch) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/build/py01_launch/build\n'}
+[4.594804] (py01_launch) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/build/py01_launch/build/lib\n'}
+[4.594901] (py01_launch) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/build/py01_launch/build/lib/py01_launch\n'}
+[4.594991] (py01_launch) StdoutLine: {'line': b'copying py01_launch/node_1.py -> /home/huangbo/ros2_learn/build/py01_launch/build/lib/py01_launch\n'}
+[4.597138] (py01_launch) StdoutLine: {'line': b'copying py01_launch/__init__.py -> /home/huangbo/ros2_learn/build/py01_launch/build/lib/py01_launch\n'}
+[4.598175] (py01_launch) StdoutLine: {'line': b'running install\n'}
+[4.606237] (py01_launch) StdoutLine: {'line': b'running install_lib\n'}
+[4.643248] (py01_launch) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/install/py01_launch/lib/python3.12/site-packages/py01_launch\n'}
+[4.644037] (py01_launch) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/build/py01_launch/build/lib/py01_launch/node_1.py -> /home/huangbo/ros2_learn/install/py01_launch/lib/python3.12/site-packages/py01_launch\n'}
+[4.645354] (py01_launch) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/build/py01_launch/build/lib/py01_launch/__init__.py -> /home/huangbo/ros2_learn/install/py01_launch/lib/python3.12/site-packages/py01_launch\n'}
+[4.645653] (-) TimerEvent: {}
+[4.645906] (py01_launch) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/install/py01_launch/lib/python3.12/site-packages/py01_launch/node_1.py to node_1.cpython-312.pyc\n'}
+[4.646673] (py01_launch) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/install/py01_launch/lib/python3.12/site-packages/py01_launch/__init__.py to __init__.cpython-312.pyc\n'}
+[4.647715] (py01_launch) StdoutLine: {'line': b'running install_data\n'}
+[4.648345] (py01_launch) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/install/py01_launch/share/ament_index\n'}
+[4.648977] (py01_launch) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/install/py01_launch/share/ament_index/resource_index\n'}
+[4.649213] (py01_launch) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/install/py01_launch/share/ament_index/resource_index/packages\n'}
+[4.650766] (py01_launch) StdoutLine: {'line': b'copying resource/py01_launch -> /home/huangbo/ros2_learn/install/py01_launch/share/ament_index/resource_index/packages\n'}
+[4.656771] (py01_launch) StdoutLine: {'line': b'copying package.xml -> /home/huangbo/ros2_learn/install/py01_launch/share/py01_launch\n'}
+[4.657184] (py01_launch) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/install/py01_launch/share/py01_launch/launch\n'}
+[4.657300] (py01_launch) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/install/py01_launch/share/py01_launch/launch/py\n'}
+[4.657389] (py01_launch) StdoutLine: {'line': b'copying py01_launch/launch/py/py04_args_launch.py -> /home/huangbo/ros2_learn/install/py01_launch/share/py01_launch/launch/py\n'}
+[4.661249] (py01_launch) StdoutLine: {'line': b'copying py01_launch/launch/py/py05_include_launch.py -> /home/huangbo/ros2_learn/install/py01_launch/share/py01_launch/launch/py\n'}
+[4.664138] (py01_launch) StdoutLine: {'line': b'copying py01_launch/launch/py/py07_event_launch.py -> /home/huangbo/ros2_learn/install/py01_launch/share/py01_launch/launch/py\n'}
+[4.665943] (py01_launch) StdoutLine: {'line': b'copying py01_launch/launch/py/py06_group_launch.py -> /home/huangbo/ros2_learn/install/py01_launch/share/py01_launch/launch/py\n'}
+[4.667820] (py01_launch) StdoutLine: {'line': b'copying py01_launch/launch/py/py02_node_launch.py -> /home/huangbo/ros2_learn/install/py01_launch/share/py01_launch/launch/py\n'}
+[4.667992] (py01_launch) StdoutLine: {'line': b'copying py01_launch/launch/py/py01_helloword_launch.py -> /home/huangbo/ros2_learn/install/py01_launch/share/py01_launch/launch/py\n'}
+[4.669624] (py01_launch) StdoutLine: {'line': b'copying py01_launch/launch/py/py03_cmd_launch.py -> /home/huangbo/ros2_learn/install/py01_launch/share/py01_launch/launch/py\n'}
+[4.674176] (py01_launch) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/install/py01_launch/share/py01_launch/launch/xml\n'}
+[4.674402] (py01_launch) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/install/py01_launch/share/py01_launch/launch/yaml\n'}
+[4.676429] (py01_launch) StdoutLine: {'line': b'copying py01_launch/launch/yaml/yaml01_helloword_launch.yaml -> /home/huangbo/ros2_learn/install/py01_launch/share/py01_launch/launch/yaml\n'}
+[4.676629] (py01_launch) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/install/py01_launch/share/py01_launch/config\n'}
+[4.676701] (py01_launch) StdoutLine: {'line': b'copying py01_launch/config/turtle1.yaml -> /home/huangbo/ros2_learn/install/py01_launch/share/py01_launch/config\n'}
+[4.679537] (py01_launch) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.711901] (py01_launch) StdoutLine: {'line': b'Copying ../../../build/py01_launch/py01_launch.egg-info to /home/huangbo/ros2_learn/install/py01_launch/lib/python3.12/site-packages/py01_launch-0.0.0-py3.12.egg-info\n'}
+[4.716409] (py01_launch) StdoutLine: {'line': b'running install_scripts\n'}
+[4.746167] (-) TimerEvent: {}
+[4.847442] (-) TimerEvent: {}
+[4.919666] (py01_launch) StdoutLine: {'line': b'Installing node_1 script to /home/huangbo/ros2_learn/install/py01_launch/lib/py01_launch\n'}
+[4.921193] (py01_launch) StdoutLine: {'line': b"writing list of installed files to '/home/huangbo/ros2_learn/build/py01_launch/install.log'\n"}
+[4.947907] (-) TimerEvent: {}
+[4.984750] (py01_launch) CommandEnded: {'returncode': 0}
+[4.995318] (py01_launch) JobEnded: {'identifier': 'py01_launch', 'rc': 0}
+[4.996936] (py02_rosbag) JobStarted: {'identifier': 'py02_rosbag'}
+[5.048348] (-) TimerEvent: {}
+[5.148841] (-) TimerEvent: {}
+[5.212067] (student_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.215798] (student_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[5.249174] (-) TimerEvent: {}
+[5.350350] (-) TimerEvent: {}
+[5.445312] (student_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[5.450774] (-) TimerEvent: {}
+[5.552633] (-) TimerEvent: {}
+[5.653632] (-) TimerEvent: {}
+[5.754744] (-) TimerEvent: {}
+[5.857656] (-) TimerEvent: {}
+[5.958130] (-) TimerEvent: {}
+[6.059193] (-) TimerEvent: {}
+[6.160126] (-) TimerEvent: {}
+[6.260598] (-) TimerEvent: {}
+[6.334006] (student_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[6.361243] (-) TimerEvent: {}
+[6.407107] (py02_rosbag) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/py02_rosbag', 'build', '--build-base', '/home/huangbo/ros2_learn/build/py02_rosbag/build', 'install', '--record', '/home/huangbo/ros2_learn/build/py02_rosbag/install.log', '--install-scripts', '$base/lib/py02_rosbag', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/huangbo/ros2_learn/tools_learn/src/py02_rosbag', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'huangbo', 'SSH_CLIENT': '192.168.91.1 2557 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/helpers/browser.sh', 'HOME': '/home/huangbo', 'OLDPWD': '/home/huangbo/ros2_learn/tools_learn', 'TERM_PROGRAM_VERSION': '1.139.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-c2441449-3ff4-4a75-9ea9-b807cea6d87b.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'huangbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-8983e67041e34765.txt', 'LANG': 'zh_CN.UTF-8', 'PYTHONSTARTUP': '/home/huangbo/.vscode-server/data/User/workspaceStorage/875751c2c8b7a86d8466fc83d22c208d/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b58366a108.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/huangbo/ros2_learn/build/py02_rosbag', 'COPILOT_DEBUG_NONCE': 'c014ac316041f6360bf10283106f54d3', 'SSH_CONNECTION': '192.168.91.1 2557 192.168.91.129 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/huangbo/ros2_learn/build/py02_rosbag/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/install/py02_rosbag/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[6.462135] (-) TimerEvent: {}
+[6.516535] (student_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[6.562643] (-) TimerEvent: {}
+[6.589065] (student_interfaces) StdoutLine: {'line': b'-- Configuring done (6.5s)\n'}
+[6.663143] (-) TimerEvent: {}
+[6.723338] (student_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[6.757422] (student_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/huangbo/ros2_learn/build/student_interfaces\n'}
+[6.763595] (-) TimerEvent: {}
+[6.785323] (student_interfaces) CommandEnded: {'returncode': 0}
+[6.786725] (student_interfaces) JobProgress: {'identifier': 'student_interfaces', 'progress': 'build'}
+[6.786777] (student_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/huangbo/ros2_learn/build/student_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/huangbo/ros2_learn/build/student_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'huangbo', 'SSH_CLIENT': '192.168.91.1 2557 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/helpers/browser.sh', 'HOME': '/home/huangbo', 'OLDPWD': '/home/huangbo/ros2_learn/tools_learn', 'TERM_PROGRAM_VERSION': '1.139.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-c2441449-3ff4-4a75-9ea9-b807cea6d87b.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'huangbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-8983e67041e34765.txt', 'LANG': 'zh_CN.UTF-8', 'PYTHONSTARTUP': '/home/huangbo/.vscode-server/data/User/workspaceStorage/875751c2c8b7a86d8466fc83d22c208d/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b58366a108.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/huangbo/ros2_learn/build/student_interfaces', 'COPILOT_DEBUG_NONCE': 'c014ac316041f6360bf10283106f54d3', 'SSH_CONNECTION': '192.168.91.1 2557 192.168.91.129 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[6.867248] (-) TimerEvent: {}
+[6.871528] (student_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[6.907029] (py02_rosbag) StdoutLine: {'line': b'running egg_info\n'}
+[6.911228] (py02_rosbag) StdoutLine: {'line': b'creating ../../../build/py02_rosbag/py02_rosbag.egg-info\n'}
+[6.917175] (student_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[6.941605] (py02_rosbag) StdoutLine: {'line': b'writing ../../../build/py02_rosbag/py02_rosbag.egg-info/PKG-INFO\n'}
+[6.942352] (py02_rosbag) StdoutLine: {'line': b'writing dependency_links to ../../../build/py02_rosbag/py02_rosbag.egg-info/dependency_links.txt\n'}
+[6.942898] (py02_rosbag) StdoutLine: {'line': b'writing entry points to ../../../build/py02_rosbag/py02_rosbag.egg-info/entry_points.txt\n'}
+[6.943276] (py02_rosbag) StdoutLine: {'line': b'writing requirements to ../../../build/py02_rosbag/py02_rosbag.egg-info/requires.txt\n'}
+[6.943607] (py02_rosbag) StdoutLine: {'line': b'writing top-level names to ../../../build/py02_rosbag/py02_rosbag.egg-info/top_level.txt\n'}
+[6.943941] (py02_rosbag) StdoutLine: {'line': b"writing manifest file '../../../build/py02_rosbag/py02_rosbag.egg-info/SOURCES.txt'\n"}
+[6.967353] (-) TimerEvent: {}
+[7.015688] (py02_rosbag) StdoutLine: {'line': b"reading manifest file '../../../build/py02_rosbag/py02_rosbag.egg-info/SOURCES.txt'\n"}
+[7.016730] (py02_rosbag) StdoutLine: {'line': b"writing manifest file '../../../build/py02_rosbag/py02_rosbag.egg-info/SOURCES.txt'\n"}
+[7.017408] (py02_rosbag) StdoutLine: {'line': b'running build\n'}
+[7.017665] (py02_rosbag) StdoutLine: {'line': b'running build_py\n'}
+[7.018232] (py02_rosbag) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/build/py02_rosbag/build\n'}
+[7.018338] (py02_rosbag) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/build/py02_rosbag/build/lib\n'}
+[7.018547] (py02_rosbag) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/build/py02_rosbag/build/lib/py02_rosbag\n'}
+[7.018813] (py02_rosbag) StdoutLine: {'line': b'copying py02_rosbag/demo01_writer_py.py -> /home/huangbo/ros2_learn/build/py02_rosbag/build/lib/py02_rosbag\n'}
+[7.019720] (py02_rosbag) StdoutLine: {'line': b'copying py02_rosbag/demo02_reader_py.py -> /home/huangbo/ros2_learn/build/py02_rosbag/build/lib/py02_rosbag\n'}
+[7.020521] (py02_rosbag) StdoutLine: {'line': b'copying py02_rosbag/__init__.py -> /home/huangbo/ros2_learn/build/py02_rosbag/build/lib/py02_rosbag\n'}
+[7.023121] (py02_rosbag) StdoutLine: {'line': b'running install\n'}
+[7.039100] (py02_rosbag) StdoutLine: {'line': b'running install_lib\n'}
+[7.068188] (-) TimerEvent: {}
+[7.098470] (py02_rosbag) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/install/py02_rosbag/lib/python3.12/site-packages/py02_rosbag\n'}
+[7.099793] (py02_rosbag) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/build/py02_rosbag/build/lib/py02_rosbag/demo01_writer_py.py -> /home/huangbo/ros2_learn/install/py02_rosbag/lib/python3.12/site-packages/py02_rosbag\n'}
+[7.100751] (py02_rosbag) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/build/py02_rosbag/build/lib/py02_rosbag/demo02_reader_py.py -> /home/huangbo/ros2_learn/install/py02_rosbag/lib/python3.12/site-packages/py02_rosbag\n'}
+[7.102052] (py02_rosbag) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/build/py02_rosbag/build/lib/py02_rosbag/__init__.py -> /home/huangbo/ros2_learn/install/py02_rosbag/lib/python3.12/site-packages/py02_rosbag\n'}
+[7.102267] (py02_rosbag) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/install/py02_rosbag/lib/python3.12/site-packages/py02_rosbag/demo01_writer_py.py to demo01_writer_py.cpython-312.pyc\n'}
+[7.103735] (py02_rosbag) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/install/py02_rosbag/lib/python3.12/site-packages/py02_rosbag/demo02_reader_py.py to demo02_reader_py.cpython-312.pyc\n'}
+[7.105031] (py02_rosbag) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/install/py02_rosbag/lib/python3.12/site-packages/py02_rosbag/__init__.py to __init__.cpython-312.pyc\n'}
+[7.105636] (py02_rosbag) StdoutLine: {'line': b'running install_data\n'}
+[7.105772] (py02_rosbag) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/install/py02_rosbag/share/ament_index\n'}
+[7.106137] (py02_rosbag) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/install/py02_rosbag/share/ament_index/resource_index\n'}
+[7.106486] (py02_rosbag) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/install/py02_rosbag/share/ament_index/resource_index/packages\n'}
+[7.107127] (py02_rosbag) StdoutLine: {'line': b'copying resource/py02_rosbag -> /home/huangbo/ros2_learn/install/py02_rosbag/share/ament_index/resource_index/packages\n'}
+[7.107686] (py02_rosbag) StdoutLine: {'line': b'copying package.xml -> /home/huangbo/ros2_learn/install/py02_rosbag/share/py02_rosbag\n'}
+[7.109969] (py02_rosbag) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.145750] (py02_rosbag) StdoutLine: {'line': b'Copying ../../../build/py02_rosbag/py02_rosbag.egg-info to /home/huangbo/ros2_learn/install/py02_rosbag/lib/python3.12/site-packages/py02_rosbag-0.0.0-py3.12.egg-info\n'}
+[7.148243] (py02_rosbag) StdoutLine: {'line': b'running install_scripts\n'}
+[7.168380] (-) TimerEvent: {}
+[7.268794] (-) TimerEvent: {}
+[7.369143] (-) TimerEvent: {}
+[7.424609] (py02_rosbag) StdoutLine: {'line': b'Installing demo01_writer_py script to /home/huangbo/ros2_learn/install/py02_rosbag/lib/py02_rosbag\n'}
+[7.425164] (py02_rosbag) StdoutLine: {'line': b'Installing demo02_reader_py script to /home/huangbo/ros2_learn/install/py02_rosbag/lib/py02_rosbag\n'}
+[7.425792] (py02_rosbag) StdoutLine: {'line': b"writing list of installed files to '/home/huangbo/ros2_learn/build/py02_rosbag/install.log'\n"}
+[7.471238] (-) TimerEvent: {}
+[7.476498] (py02_rosbag) CommandEnded: {'returncode': 0}
+[7.494610] (py02_rosbag) JobEnded: {'identifier': 'py02_rosbag', 'rc': 0}
+[7.495097] (py02_service) JobStarted: {'identifier': 'py02_service'}
+[7.572411] (-) TimerEvent: {}
+[7.582099] (student_interfaces) StdoutLine: {'line': b'[  3%] Built target student_interfaces__rosidl_generator_type_description\n'}
+[7.676110] (-) TimerEvent: {}
+[7.702925] (student_interfaces) StdoutLine: {'line': b'[  3%] Built target student_interfaces__rs\n'}
+[7.713068] (student_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_student_interfaces\n'}
+[7.741949] (student_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.777318] (-) TimerEvent: {}
+[7.785927] (student_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.878112] (-) TimerEvent: {}
+[7.978814] (-) TimerEvent: {}
+[8.079711] (-) TimerEvent: {}
+[8.181411] (-) TimerEvent: {}
+[8.284235] (-) TimerEvent: {}
+[8.386184] (-) TimerEvent: {}
+[8.486822] (-) TimerEvent: {}
+[8.587588] (-) TimerEvent: {}
+[8.689335] (-) TimerEvent: {}
+[8.791759] (-) TimerEvent: {}
+[8.892466] (-) TimerEvent: {}
+[8.995409] (-) TimerEvent: {}
+[8.998897] (student_interfaces) StdoutLine: {'line': b'[  7%] Built target student_interfaces__cpp\n'}
+[9.096122] (-) TimerEvent: {}
+[9.196987] (-) TimerEvent: {}
+[9.297580] (-) TimerEvent: {}
+[9.398394] (-) TimerEvent: {}
+[9.436327] (py02_service) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/py02_service', 'build', '--build-base', '/home/huangbo/ros2_learn/build/py02_service/build', 'install', '--record', '/home/huangbo/ros2_learn/build/py02_service/install.log', '--install-scripts', '$base/lib/py02_service', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/huangbo/ros2_learn/tongxun_learn/src/py02_service', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'huangbo', 'SSH_CLIENT': '192.168.91.1 2557 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/helpers/browser.sh', 'HOME': '/home/huangbo', 'OLDPWD': '/home/huangbo/ros2_learn/tools_learn', 'TERM_PROGRAM_VERSION': '1.139.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-c2441449-3ff4-4a75-9ea9-b807cea6d87b.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'huangbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-8983e67041e34765.txt', 'LANG': 'zh_CN.UTF-8', 'PYTHONSTARTUP': '/home/huangbo/.vscode-server/data/User/workspaceStorage/875751c2c8b7a86d8466fc83d22c208d/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b58366a108.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/huangbo/ros2_learn/build/py02_service', 'COPILOT_DEBUG_NONCE': 'c014ac316041f6360bf10283106f54d3', 'SSH_CONNECTION': '192.168.91.1 2557 192.168.91.129 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/huangbo/ros2_learn/build/py02_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/install/py02_service/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[9.499067] (-) TimerEvent: {}
+[9.601538] (-) TimerEvent: {}
+[9.655939] (student_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[9.656196] (student_interfaces) StdoutLine: {'line': b'creating student_interfaces.egg-info\n'}
+[9.702296] (-) TimerEvent: {}
+[9.721559] (student_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_c.dir/rosidl_generator_c/student_interfaces/msg/detail/student__description.c.o\x1b[0m\n'}
+[9.721973] (student_interfaces) StdoutLine: {'line': b'writing student_interfaces.egg-info/PKG-INFO\n'}
+[9.722298] (student_interfaces) StdoutLine: {'line': b'writing dependency_links to student_interfaces.egg-info/dependency_links.txt\n'}
+[9.724692] (student_interfaces) StdoutLine: {'line': b'writing top-level names to student_interfaces.egg-info/top_level.txt\n'}
+[9.725093] (student_interfaces) StdoutLine: {'line': b"writing manifest file 'student_interfaces.egg-info/SOURCES.txt'\n"}
+[9.805311] (-) TimerEvent: {}
+[9.849451] (student_interfaces) StdoutLine: {'line': b"reading manifest file 'student_interfaces.egg-info/SOURCES.txt'\n"}
+[9.849621] (student_interfaces) StdoutLine: {'line': b"writing manifest file 'student_interfaces.egg-info/SOURCES.txt'\n"}
+[9.906537] (-) TimerEvent: {}
+[9.921270] (student_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_c.dir/rosidl_generator_c/student_interfaces/msg/detail/student__functions.c.o\x1b[0m\n'}
+[9.921518] (student_interfaces) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_build_student_interfaces_egg\n'}
+[9.952230] (student_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_c.dir/rosidl_generator_c/student_interfaces/msg/detail/student__type_support.c.o\x1b[0m\n'}
+[10.006821] (-) TimerEvent: {}
+[10.038338] (student_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_c.dir/rosidl_generator_c/student_interfaces/srv/detail/addints__functions.c.o\x1b[0m\n'}
+[10.045381] (student_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_c.dir/rosidl_generator_c/student_interfaces/srv/detail/addints__description.c.o\x1b[0m\n'}
+[10.091484] (py02_service) StdoutLine: {'line': b'running egg_info\n'}
+[10.092262] (py02_service) StdoutLine: {'line': b'creating ../../../build/py02_service/py02_service.egg-info\n'}
+[10.107379] (-) TimerEvent: {}
+[10.129456] (py02_service) StdoutLine: {'line': b'writing ../../../build/py02_service/py02_service.egg-info/PKG-INFO\n'}
+[10.136680] (py02_service) StdoutLine: {'line': b'writing dependency_links to ../../../build/py02_service/py02_service.egg-info/dependency_links.txt\n'}
+[10.136844] (py02_service) StdoutLine: {'line': b'writing entry points to ../../../build/py02_service/py02_service.egg-info/entry_points.txt\n'}
+[10.136905] (py02_service) StdoutLine: {'line': b'writing requirements to ../../../build/py02_service/py02_service.egg-info/requires.txt\n'}
+[10.136958] (py02_service) StdoutLine: {'line': b'writing top-level names to ../../../build/py02_service/py02_service.egg-info/top_level.txt\n'}
+[10.137008] (py02_service) StdoutLine: {'line': b"writing manifest file '../../../build/py02_service/py02_service.egg-info/SOURCES.txt'\n"}
+[10.181694] (student_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_c.dir/rosidl_generator_c/student_interfaces/srv/detail/addints__type_support.c.o\x1b[0m\n'}
+[10.207988] (-) TimerEvent: {}
+[10.214804] (py02_service) StdoutLine: {'line': b"reading manifest file '../../../build/py02_service/py02_service.egg-info/SOURCES.txt'\n"}
+[10.215608] (py02_service) StdoutLine: {'line': b"writing manifest file '../../../build/py02_service/py02_service.egg-info/SOURCES.txt'\n"}
+[10.217520] (py02_service) StdoutLine: {'line': b'running build\n'}
+[10.217684] (py02_service) StdoutLine: {'line': b'running build_py\n'}
+[10.218441] (py02_service) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/build/py02_service/build\n'}
+[10.220247] (py02_service) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/build/py02_service/build/lib\n'}
+[10.220316] (py02_service) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/build/py02_service/build/lib/py02_service\n'}
+[10.220371] (py02_service) StdoutLine: {'line': b'copying py02_service/demo02_client_py.py -> /home/huangbo/ros2_learn/build/py02_service/build/lib/py02_service\n'}
+[10.220424] (py02_service) StdoutLine: {'line': b'copying py02_service/demo01_server_py.py -> /home/huangbo/ros2_learn/build/py02_service/build/lib/py02_service\n'}
+[10.220474] (py02_service) StdoutLine: {'line': b'copying py02_service/__init__.py -> /home/huangbo/ros2_learn/build/py02_service/build/lib/py02_service\n'}
+[10.220523] (py02_service) StdoutLine: {'line': b'running install\n'}
+[10.225434] (student_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_c.dir/rosidl_generator_c/student_interfaces/action/detail/progress__description.c.o\x1b[0m\n'}
+[10.233188] (py02_service) StdoutLine: {'line': b'running install_lib\n'}
+[10.268010] (student_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_c.dir/rosidl_generator_c/student_interfaces/action/detail/progress__functions.c.o\x1b[0m\n'}
+[10.308595] (-) TimerEvent: {}
+[10.315884] (py02_service) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/install/py02_service/lib/python3.12/site-packages/py02_service\n'}
+[10.316164] (py02_service) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/build/py02_service/build/lib/py02_service/demo02_client_py.py -> /home/huangbo/ros2_learn/install/py02_service/lib/python3.12/site-packages/py02_service\n'}
+[10.327019] (py02_service) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/build/py02_service/build/lib/py02_service/demo01_server_py.py -> /home/huangbo/ros2_learn/install/py02_service/lib/python3.12/site-packages/py02_service\n'}
+[10.328262] (py02_service) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/build/py02_service/build/lib/py02_service/__init__.py -> /home/huangbo/ros2_learn/install/py02_service/lib/python3.12/site-packages/py02_service\n'}
+[10.328602] (py02_service) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/install/py02_service/lib/python3.12/site-packages/py02_service/demo02_client_py.py to demo02_client_py.cpython-312.pyc\n'}
+[10.333587] (py02_service) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/install/py02_service/lib/python3.12/site-packages/py02_service/demo01_server_py.py to demo01_server_py.cpython-312.pyc\n'}
+[10.333980] (py02_service) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/install/py02_service/lib/python3.12/site-packages/py02_service/__init__.py to __init__.cpython-312.pyc\n'}
+[10.334779] (py02_service) StdoutLine: {'line': b'running install_data\n'}
+[10.334872] (py02_service) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/install/py02_service/share/ament_index\n'}
+[10.335230] (py02_service) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/install/py02_service/share/ament_index/resource_index\n'}
+[10.336180] (py02_service) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/install/py02_service/share/ament_index/resource_index/packages\n'}
+[10.340572] (py02_service) StdoutLine: {'line': b'copying resource/py02_service -> /home/huangbo/ros2_learn/install/py02_service/share/ament_index/resource_index/packages\n'}
+[10.340900] (py02_service) StdoutLine: {'line': b'copying package.xml -> /home/huangbo/ros2_learn/install/py02_service/share/py02_service\n'}
+[10.340993] (py02_service) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.409188] (-) TimerEvent: {}
+[10.410807] (py02_service) StdoutLine: {'line': b'Copying ../../../build/py02_service/py02_service.egg-info to /home/huangbo/ros2_learn/install/py02_service/lib/python3.12/site-packages/py02_service-0.0.0-py3.12.egg-info\n'}
+[10.414354] (py02_service) StdoutLine: {'line': b'running install_scripts\n'}
+[10.433723] (student_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/student_interfaces__rosidl_generator_c.dir/rosidl_generator_c/student_interfaces/action/detail/progress__type_support.c.o\x1b[0m\n'}
+[10.515270] (-) TimerEvent: {}
+[10.602198] (student_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library libstudent_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[10.615550] (-) TimerEvent: {}
+[10.642070] (py02_service) StdoutLine: {'line': b'Installing demo01_server_py script to /home/huangbo/ros2_learn/install/py02_service/lib/py02_service\n'}
+[10.642259] (py02_service) StdoutLine: {'line': b'Installing demo02_client_py script to /home/huangbo/ros2_learn/install/py02_service/lib/py02_service\n'}
+[10.642796] (py02_service) StdoutLine: {'line': b"writing list of installed files to '/home/huangbo/ros2_learn/build/py02_service/install.log'\n"}
+[10.696138] (student_interfaces) StdoutLine: {'line': b'[ 25%] Built target student_interfaces__rosidl_generator_c\n'}
+[10.711743] (py02_service) CommandEnded: {'returncode': 0}
+[10.716894] (-) TimerEvent: {}
+[10.719519] (py02_service) JobEnded: {'identifier': 'py02_service', 'rc': 0}
+[10.720321] (py02_service_my) JobStarted: {'identifier': 'py02_service_my'}
+[10.725309] (student_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.727536] (student_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[10.818503] (-) TimerEvent: {}
+[10.919015] (-) TimerEvent: {}
+[11.019424] (-) TimerEvent: {}
+[11.121407] (-) TimerEvent: {}
+[11.224518] (-) TimerEvent: {}
+[11.326163] (-) TimerEvent: {}
+[11.426826] (-) TimerEvent: {}
+[11.480530] (student_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object CMakeFiles/student_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/student_interfaces/msg/detail/student__type_support.c.o\x1b[0m\n'}
+[11.527316] (-) TimerEvent: {}
+[11.601150] (student_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object CMakeFiles/student_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/student_interfaces/srv/detail/addints__type_support.c.o\x1b[0m\n'}
+[11.627479] (-) TimerEvent: {}
+[11.727862] (-) TimerEvent: {}
+[11.750136] (student_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/student_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/student_interfaces/action/detail/progress__type_support.c.o\x1b[0m\n'}
+[11.828822] (-) TimerEvent: {}
+[11.898512] (student_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking C shared library libstudent_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[11.929288] (-) TimerEvent: {}
+[11.986479] (student_interfaces) StdoutLine: {'line': b'[ 36%] Built target student_interfaces__rosidl_typesupport_introspection_c\n'}
+[12.003289] (student_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/student_interfaces/msg/detail/student__type_support_c.cpp.o\x1b[0m\n'}
+[12.028267] (student_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.030135] (-) TimerEvent: {}
+[12.130392] (-) TimerEvent: {}
+[12.230943] (-) TimerEvent: {}
+[12.331628] (-) TimerEvent: {}
+[12.432439] (-) TimerEvent: {}
+[12.533927] (-) TimerEvent: {}
+[12.577610] (student_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/student_interfaces/msg/student__type_support.cpp.o\x1b[0m\n'}
+[12.635894] (-) TimerEvent: {}
+[12.719362] (student_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/student_interfaces/srv/addints__type_support.cpp.o\x1b[0m\n'}
+[12.737301] (-) TimerEvent: {}
+[12.790728] (py02_service_my) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/py02_service_my', 'build', '--build-base', '/home/huangbo/ros2_learn/build/py02_service_my/build', 'install', '--record', '/home/huangbo/ros2_learn/build/py02_service_my/install.log', '--install-scripts', '$base/lib/py02_service_my', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/huangbo/ros2_learn/tongxun_learn/src/py02_service_my', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'huangbo', 'SSH_CLIENT': '192.168.91.1 2557 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/helpers/browser.sh', 'HOME': '/home/huangbo', 'OLDPWD': '/home/huangbo/ros2_learn/tools_learn', 'TERM_PROGRAM_VERSION': '1.139.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-c2441449-3ff4-4a75-9ea9-b807cea6d87b.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'huangbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-8983e67041e34765.txt', 'LANG': 'zh_CN.UTF-8', 'PYTHONSTARTUP': '/home/huangbo/.vscode-server/data/User/workspaceStorage/875751c2c8b7a86d8466fc83d22c208d/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b58366a108.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/huangbo/ros2_learn/build/py02_service_my', 'COPILOT_DEBUG_NONCE': 'c014ac316041f6360bf10283106f54d3', 'SSH_CONNECTION': '192.168.91.1 2557 192.168.91.129 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/huangbo/ros2_learn/build/py02_service_my/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/install/py02_service_my/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[12.839377] (-) TimerEvent: {}
+[12.871699] (student_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/student_interfaces/action/progress__type_support.cpp.o\x1b[0m\n'}
+[12.939555] (-) TimerEvent: {}
+[13.040378] (-) TimerEvent: {}
+[13.042564] (student_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libstudent_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.061555] (student_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/student_interfaces/srv/detail/addints__type_support_c.cpp.o\x1b[0m\n'}
+[13.140633] (-) TimerEvent: {}
+[13.216951] (student_interfaces) StdoutLine: {'line': b'[ 49%] Built target student_interfaces__rosidl_typesupport_c\n'}
+[13.240871] (-) TimerEvent: {}
+[13.250537] (student_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[13.341118] (-) TimerEvent: {}
+[13.442842] (-) TimerEvent: {}
+[13.443696] (py02_service_my) StdoutLine: {'line': b'running egg_info\n'}
+[13.443875] (py02_service_my) StdoutLine: {'line': b'creating ../../../build/py02_service_my/py02_service_my.egg-info\n'}
+[13.473552] (py02_service_my) StdoutLine: {'line': b'writing ../../../build/py02_service_my/py02_service_my.egg-info/PKG-INFO\n'}
+[13.474989] (py02_service_my) StdoutLine: {'line': b'writing dependency_links to ../../../build/py02_service_my/py02_service_my.egg-info/dependency_links.txt\n'}
+[13.475209] (py02_service_my) StdoutLine: {'line': b'writing entry points to ../../../build/py02_service_my/py02_service_my.egg-info/entry_points.txt\n'}
+[13.476949] (py02_service_my) StdoutLine: {'line': b'writing requirements to ../../../build/py02_service_my/py02_service_my.egg-info/requires.txt\n'}
+[13.477070] (py02_service_my) StdoutLine: {'line': b'writing top-level names to ../../../build/py02_service_my/py02_service_my.egg-info/top_level.txt\n'}
+[13.477134] (py02_service_my) StdoutLine: {'line': b"writing manifest file '../../../build/py02_service_my/py02_service_my.egg-info/SOURCES.txt'\n"}
+[13.540335] (py02_service_my) StdoutLine: {'line': b"reading manifest file '../../../build/py02_service_my/py02_service_my.egg-info/SOURCES.txt'\n"}
+[13.540513] (py02_service_my) StdoutLine: {'line': b"writing manifest file '../../../build/py02_service_my/py02_service_my.egg-info/SOURCES.txt'\n"}
+[13.540578] (py02_service_my) StdoutLine: {'line': b'running build\n'}
+[13.540630] (py02_service_my) StdoutLine: {'line': b'running build_py\n'}
+[13.540680] (py02_service_my) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/build/py02_service_my/build\n'}
+[13.540729] (py02_service_my) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/build/py02_service_my/build/lib\n'}
+[13.540781] (py02_service_my) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/build/py02_service_my/build/lib/py02_service_my\n'}
+[13.540830] (py02_service_my) StdoutLine: {'line': b'copying py02_service_my/demo_server_py.py -> /home/huangbo/ros2_learn/build/py02_service_my/build/lib/py02_service_my\n'}
+[13.542442] (py02_service_my) StdoutLine: {'line': b'copying py02_service_my/demo_client_py.py -> /home/huangbo/ros2_learn/build/py02_service_my/build/lib/py02_service_my\n'}
+[13.543139] (py02_service_my) StdoutLine: {'line': b'copying py02_service_my/__init__.py -> /home/huangbo/ros2_learn/build/py02_service_my/build/lib/py02_service_my\n'}
+[13.543280] (-) TimerEvent: {}
+[13.543517] (py02_service_my) StdoutLine: {'line': b'running install\n'}
+[13.566770] (py02_service_my) StdoutLine: {'line': b'running install_lib\n'}
+[13.628962] (py02_service_my) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/install/py02_service_my/lib/python3.12/site-packages/py02_service_my\n'}
+[13.630939] (py02_service_my) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/build/py02_service_my/build/lib/py02_service_my/demo_server_py.py -> /home/huangbo/ros2_learn/install/py02_service_my/lib/python3.12/site-packages/py02_service_my\n'}
+[13.632457] (py02_service_my) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/build/py02_service_my/build/lib/py02_service_my/demo_client_py.py -> /home/huangbo/ros2_learn/install/py02_service_my/lib/python3.12/site-packages/py02_service_my\n'}
+[13.632677] (py02_service_my) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/build/py02_service_my/build/lib/py02_service_my/__init__.py -> /home/huangbo/ros2_learn/install/py02_service_my/lib/python3.12/site-packages/py02_service_my\n'}
+[13.633309] (py02_service_my) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/install/py02_service_my/lib/python3.12/site-packages/py02_service_my/demo_server_py.py to demo_server_py.cpython-312.pyc\n'}
+[13.633977] (py02_service_my) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/install/py02_service_my/lib/python3.12/site-packages/py02_service_my/demo_client_py.py to demo_client_py.cpython-312.pyc\n'}
+[13.637209] (py02_service_my) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/install/py02_service_my/lib/python3.12/site-packages/py02_service_my/__init__.py to __init__.cpython-312.pyc\n'}
+[13.637870] (py02_service_my) StdoutLine: {'line': b'running install_data\n'}
+[13.638250] (py02_service_my) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/install/py02_service_my/share/ament_index\n'}
+[13.640125] (py02_service_my) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/install/py02_service_my/share/ament_index/resource_index\n'}
+[13.640212] (py02_service_my) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/install/py02_service_my/share/ament_index/resource_index/packages\n'}
+[13.640324] (py02_service_my) StdoutLine: {'line': b'copying resource/py02_service_my -> /home/huangbo/ros2_learn/install/py02_service_my/share/ament_index/resource_index/packages\n'}
+[13.640393] (py02_service_my) StdoutLine: {'line': b'copying package.xml -> /home/huangbo/ros2_learn/install/py02_service_my/share/py02_service_my\n'}
+[13.640460] (py02_service_my) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.643586] (-) TimerEvent: {}
+[13.718771] (py02_service_my) StdoutLine: {'line': b'Copying ../../../build/py02_service_my/py02_service_my.egg-info to /home/huangbo/ros2_learn/install/py02_service_my/lib/python3.12/site-packages/py02_service_my-0.0.0-py3.12.egg-info\n'}
+[13.722633] (py02_service_my) StdoutLine: {'line': b'running install_scripts\n'}
+[13.745255] (-) TimerEvent: {}
+[13.846379] (-) TimerEvent: {}
+[13.947349] (-) TimerEvent: {}
+[13.994974] (student_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/student_interfaces/action/detail/progress__type_support_c.cpp.o\x1b[0m\n'}
+[14.047575] (-) TimerEvent: {}
+[14.107141] (py02_service_my) StdoutLine: {'line': b'Installing demo_client_py script to /home/huangbo/ros2_learn/install/py02_service_my/lib/py02_service_my\n'}
+[14.109991] (py02_service_my) StdoutLine: {'line': b'Installing demo_server_py script to /home/huangbo/ros2_learn/install/py02_service_my/lib/py02_service_my\n'}
+[14.115316] (py02_service_my) StdoutLine: {'line': b"writing list of installed files to '/home/huangbo/ros2_learn/build/py02_service_my/install.log'\n"}
+[14.147755] (-) TimerEvent: {}
+[14.161436] (py02_service_my) CommandEnded: {'returncode': 0}
+[14.180834] (py02_service_my) JobEnded: {'identifier': 'py02_service_my', 'rc': 0}
+[14.181888] (py03_broadcaster) JobStarted: {'identifier': 'py03_broadcaster'}
+[14.247989] (-) TimerEvent: {}
+[14.348804] (-) TimerEvent: {}
+[14.449852] (-) TimerEvent: {}
+[14.552144] (-) TimerEvent: {}
+[14.654096] (-) TimerEvent: {}
+[14.681709] (student_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/student_interfaces/msg/detail/dds_fastrtps/student__type_support.cpp.o\x1b[0m\n'}
+[14.755831] (-) TimerEvent: {}
+[14.856328] (-) TimerEvent: {}
+[14.957100] (-) TimerEvent: {}
+[15.059342] (-) TimerEvent: {}
+[15.160249] (-) TimerEvent: {}
+[15.264200] (-) TimerEvent: {}
+[15.366443] (-) TimerEvent: {}
+[15.480229] (-) TimerEvent: {}
+[15.581295] (-) TimerEvent: {}
+[15.657361] (student_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libstudent_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[15.681504] (-) TimerEvent: {}
+[15.783571] (-) TimerEvent: {}
+[15.885067] (-) TimerEvent: {}
+[15.971444] (student_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/student_interfaces/srv/detail/dds_fastrtps/addints__type_support.cpp.o\x1b[0m\n'}
+[15.985277] (-) TimerEvent: {}
+[16.012344] (student_interfaces) StdoutLine: {'line': b'[ 58%] Built target student_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[16.058970] (student_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/student_interfaces/action/detail/dds_fastrtps/progress__type_support.cpp.o\x1b[0m\n'}
+[16.085491] (-) TimerEvent: {}
+[16.186290] (-) TimerEvent: {}
+[16.287156] (-) TimerEvent: {}
+[16.388103] (-) TimerEvent: {}
+[16.490664] (-) TimerEvent: {}
+[16.603334] (-) TimerEvent: {}
+[16.703999] (-) TimerEvent: {}
+[16.804846] (-) TimerEvent: {}
+[16.907984] (-) TimerEvent: {}
+[16.959642] (py03_broadcaster) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/py03_broadcaster', 'build', '--build-base', '/home/huangbo/ros2_learn/build/py03_broadcaster/build', 'install', '--record', '/home/huangbo/ros2_learn/build/py03_broadcaster/install.log', '--install-scripts', '$base/lib/py03_broadcaster', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/huangbo/ros2_learn/tools_learn/src/py03_broadcaster', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'huangbo', 'SSH_CLIENT': '192.168.91.1 2557 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/helpers/browser.sh', 'HOME': '/home/huangbo', 'OLDPWD': '/home/huangbo/ros2_learn/tools_learn', 'TERM_PROGRAM_VERSION': '1.139.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-c2441449-3ff4-4a75-9ea9-b807cea6d87b.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'huangbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-8983e67041e34765.txt', 'LANG': 'zh_CN.UTF-8', 'PYTHONSTARTUP': '/home/huangbo/.vscode-server/data/User/workspaceStorage/875751c2c8b7a86d8466fc83d22c208d/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b58366a108.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/huangbo/ros2_learn/build/py03_broadcaster', 'COPILOT_DEBUG_NONCE': 'c014ac316041f6360bf10283106f54d3', 'SSH_CONNECTION': '192.168.91.1 2557 192.168.91.129 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/huangbo/ros2_learn/build/py03_broadcaster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/install/py03_broadcaster/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[17.011227] (-) TimerEvent: {}
+[17.112078] (-) TimerEvent: {}
+[17.215393] (-) TimerEvent: {}
+[17.316187] (-) TimerEvent: {}
+[17.416763] (-) TimerEvent: {}
+[17.465683] (py03_broadcaster) StdoutLine: {'line': b'running egg_info\n'}
+[17.466075] (py03_broadcaster) StdoutLine: {'line': b'creating ../../../build/py03_broadcaster/py03_broadcaster.egg-info\n'}
+[17.501285] (py03_broadcaster) StdoutLine: {'line': b'writing ../../../build/py03_broadcaster/py03_broadcaster.egg-info/PKG-INFO\n'}
+[17.501451] (py03_broadcaster) StdoutLine: {'line': b'writing dependency_links to ../../../build/py03_broadcaster/py03_broadcaster.egg-info/dependency_links.txt\n'}
+[17.501523] (py03_broadcaster) StdoutLine: {'line': b'writing entry points to ../../../build/py03_broadcaster/py03_broadcaster.egg-info/entry_points.txt\n'}
+[17.501580] (py03_broadcaster) StdoutLine: {'line': b'writing requirements to ../../../build/py03_broadcaster/py03_broadcaster.egg-info/requires.txt\n'}
+[17.501631] (py03_broadcaster) StdoutLine: {'line': b'writing top-level names to ../../../build/py03_broadcaster/py03_broadcaster.egg-info/top_level.txt\n'}
+[17.501681] (py03_broadcaster) StdoutLine: {'line': b"writing manifest file '../../../build/py03_broadcaster/py03_broadcaster.egg-info/SOURCES.txt'\n"}
+[17.516865] (-) TimerEvent: {}
+[17.594528] (py03_broadcaster) StdoutLine: {'line': b"reading manifest file '../../../build/py03_broadcaster/py03_broadcaster.egg-info/SOURCES.txt'\n"}
+[17.595424] (py03_broadcaster) StdoutLine: {'line': b"writing manifest file '../../../build/py03_broadcaster/py03_broadcaster.egg-info/SOURCES.txt'\n"}
+[17.597210] (py03_broadcaster) StdoutLine: {'line': b'running build\n'}
+[17.597361] (py03_broadcaster) StdoutLine: {'line': b'running build_py\n'}
+[17.597490] (py03_broadcaster) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/build/py03_broadcaster/build\n'}
+[17.597555] (py03_broadcaster) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/build/py03_broadcaster/build/lib\n'}
+[17.597609] (py03_broadcaster) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/build/py03_broadcaster/build/lib/py03_broadcaster\n'}
+[17.597730] (py03_broadcaster) StdoutLine: {'line': b'copying py03_broadcaster/demo01_tf_static_broadcaster_py.py -> /home/huangbo/ros2_learn/build/py03_broadcaster/build/lib/py03_broadcaster\n'}
+[17.598529] (py03_broadcaster) StdoutLine: {'line': b'copying py03_broadcaster/demo03_pub_point_py.py -> /home/huangbo/ros2_learn/build/py03_broadcaster/build/lib/py03_broadcaster\n'}
+[17.600312] (py03_broadcaster) StdoutLine: {'line': b'copying py03_broadcaster/demo02_dongtai_broadcaster_py.py -> /home/huangbo/ros2_learn/build/py03_broadcaster/build/lib/py03_broadcaster\n'}
+[17.600449] (py03_broadcaster) StdoutLine: {'line': b'copying py03_broadcaster/__init__.py -> /home/huangbo/ros2_learn/build/py03_broadcaster/build/lib/py03_broadcaster\n'}
+[17.601965] (py03_broadcaster) StdoutLine: {'line': b'running install\n'}
+[17.606948] (py03_broadcaster) StdoutLine: {'line': b'running install_lib\n'}
+[17.618302] (-) TimerEvent: {}
+[17.650892] (py03_broadcaster) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/install/py03_broadcaster/lib/python3.12/site-packages/py03_broadcaster\n'}
+[17.651125] (py03_broadcaster) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/build/py03_broadcaster/build/lib/py03_broadcaster/demo01_tf_static_broadcaster_py.py -> /home/huangbo/ros2_learn/install/py03_broadcaster/lib/python3.12/site-packages/py03_broadcaster\n'}
+[17.651266] (py03_broadcaster) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/build/py03_broadcaster/build/lib/py03_broadcaster/demo03_pub_point_py.py -> /home/huangbo/ros2_learn/install/py03_broadcaster/lib/python3.12/site-packages/py03_broadcaster\n'}
+[17.651785] (py03_broadcaster) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/build/py03_broadcaster/build/lib/py03_broadcaster/demo02_dongtai_broadcaster_py.py -> /home/huangbo/ros2_learn/install/py03_broadcaster/lib/python3.12/site-packages/py03_broadcaster\n'}
+[17.652075] (py03_broadcaster) StdoutLine: {'line': b'copying /home/huangbo/ros2_learn/build/py03_broadcaster/build/lib/py03_broadcaster/__init__.py -> /home/huangbo/ros2_learn/install/py03_broadcaster/lib/python3.12/site-packages/py03_broadcaster\n'}
+[17.652913] (py03_broadcaster) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/install/py03_broadcaster/lib/python3.12/site-packages/py03_broadcaster/demo01_tf_static_broadcaster_py.py to demo01_tf_static_broadcaster_py.cpython-312.pyc\n'}
+[17.658208] (py03_broadcaster) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/install/py03_broadcaster/lib/python3.12/site-packages/py03_broadcaster/demo03_pub_point_py.py to demo03_pub_point_py.cpython-312.pyc\n'}
+[17.661865] (py03_broadcaster) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/install/py03_broadcaster/lib/python3.12/site-packages/py03_broadcaster/demo02_dongtai_broadcaster_py.py to demo02_dongtai_broadcaster_py.cpython-312.pyc\n'}
+[17.662151] (py03_broadcaster) StdoutLine: {'line': b'byte-compiling /home/huangbo/ros2_learn/install/py03_broadcaster/lib/python3.12/site-packages/py03_broadcaster/__init__.py to __init__.cpython-312.pyc\n'}
+[17.662962] (py03_broadcaster) StdoutLine: {'line': b'running install_data\n'}
+[17.663282] (py03_broadcaster) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/install/py03_broadcaster/share/ament_index\n'}
+[17.664344] (py03_broadcaster) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/install/py03_broadcaster/share/ament_index/resource_index\n'}
+[17.664602] (py03_broadcaster) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/install/py03_broadcaster/share/ament_index/resource_index/packages\n'}
+[17.667213] (py03_broadcaster) StdoutLine: {'line': b'copying resource/py03_broadcaster -> /home/huangbo/ros2_learn/install/py03_broadcaster/share/ament_index/resource_index/packages\n'}
+[17.669001] (py03_broadcaster) StdoutLine: {'line': b'copying package.xml -> /home/huangbo/ros2_learn/install/py03_broadcaster/share/py03_broadcaster\n'}
+[17.669135] (py03_broadcaster) StdoutLine: {'line': b'running install_egg_info\n'}
+[17.720294] (-) TimerEvent: {}
+[17.726640] (student_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[17.738971] (py03_broadcaster) StdoutLine: {'line': b'Copying ../../../build/py03_broadcaster/py03_broadcaster.egg-info to /home/huangbo/ros2_learn/install/py03_broadcaster/lib/python3.12/site-packages/py03_broadcaster-0.0.0-py3.12.egg-info\n'}
+[17.740587] (py03_broadcaster) StdoutLine: {'line': b'running install_scripts\n'}
+[17.820478] (-) TimerEvent: {}
+[17.922872] (-) TimerEvent: {}
+[18.023730] (-) TimerEvent: {}
+[18.048524] (py03_broadcaster) StdoutLine: {'line': b'Installing demo01_tf_static_broadcaster_py script to /home/huangbo/ros2_learn/install/py03_broadcaster/lib/py03_broadcaster\n'}
+[18.049250] (py03_broadcaster) StdoutLine: {'line': b'Installing demo02_dongtai_broadcaster_py script to /home/huangbo/ros2_learn/install/py03_broadcaster/lib/py03_broadcaster\n'}
+[18.052181] (py03_broadcaster) StdoutLine: {'line': b'Installing demo03_pub_point_py script to /home/huangbo/ros2_learn/install/py03_broadcaster/lib/py03_broadcaster\n'}
+[18.052325] (py03_broadcaster) StdoutLine: {'line': b"writing list of installed files to '/home/huangbo/ros2_learn/build/py03_broadcaster/install.log'\n"}
+[18.113315] (py03_broadcaster) CommandEnded: {'returncode': 0}
+[18.120540] (py03_broadcaster) JobEnded: {'identifier': 'py03_broadcaster', 'rc': 0}
+[18.121339] (py04_param) JobStarted: {'identifier': 'py04_param'}
+[18.125272] (-) TimerEvent: {}
+[18.226239] (-) TimerEvent: {}
+[18.326928] (-) TimerEvent: {}
+[18.429338] (-) TimerEvent: {}
+[18.533203] (-) TimerEvent: {}
+[18.619671] (student_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libstudent_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[18.633500] (-) TimerEvent: {}
+[18.734400] (-) TimerEvent: {}
+[18.784015] (student_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/student_interfaces/msg/detail/student__type_support.cpp.o\x1b[0m\n'}
+[18.835055] (-) TimerEvent: {}
+[18.882066] (student_interfaces) StdoutLine: {'line': b'[ 65%] Built target student_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[18.931131] (student_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[18.936163] (-) TimerEvent: {}
+[19.037035] (-) TimerEvent: {}
+[19.141294] (-) TimerEvent: {}
+[19.242179] (-) TimerEvent: {}
+[19.344956] (-) TimerEvent: {}
+[19.445382] (-) TimerEvent: {}
+[19.546039] (-) TimerEvent: {}
+[19.646609] (-) TimerEvent: {}
+[19.748104] (-) TimerEvent: {}
+[19.848897] (-) TimerEvent: {}
+[19.904716] (student_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/student_interfaces/srv/detail/addints__type_support.cpp.o\x1b[0m\n'}
+[19.949145] (-) TimerEvent: {}
+[20.049910] (-) TimerEvent: {}
+[20.062119] (student_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/student_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/student_interfaces/msg/student__type_support.cpp.o\x1b[0m\n'}
+[20.076678] (py04_param) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/py04_param', 'build', '--build-base', '/home/huangbo/ros2_learn/build/py04_param/build', 'install', '--record', '/home/huangbo/ros2_learn/build/py04_param/install.log', '--install-scripts', '$base/lib/py04_param', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/huangbo/ros2_learn/tongxun_learn/src/py04_param', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'huangbo', 'SSH_CLIENT': '192.168.91.1 2557 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/helpers/browser.sh', 'HOME': '/home/huangbo', 'OLDPWD': '/home/huangbo/ros2_learn/tools_learn', 'TERM_PROGRAM_VERSION': '1.139.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-c2441449-3ff4-4a75-9ea9-b807cea6d87b.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'huangbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/huangbo/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/huangbo/.vscode-server/cli/servers/Stable-04c0d99f4fb0d8afe6ce4f0c58e31e183ac3e4b1/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/huangbo/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-8983e67041e34765.txt', 'LANG': 'zh_CN.UTF-8', 'PYTHONSTARTUP': '/home/huangbo/.vscode-server/data/User/workspaceStorage/875751c2c8b7a86d8466fc83d22c208d/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b58366a108.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/huangbo/ros2_learn/build/py04_param', 'COPILOT_DEBUG_NONCE': 'c014ac316041f6360bf10283106f54d3', 'SSH_CONNECTION': '192.168.91.1 2557 192.168.91.129 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/huangbo/ros2_learn/build/py04_param/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/install/py04_param/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[20.151334] (-) TimerEvent: {}
+[20.252176] (-) TimerEvent: {}
+[20.354241] (-) TimerEvent: {}
+[20.455090] (-) TimerEvent: {}

@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing py06_urdf.egg-info/PKG-INFO
+writing dependency_links to py06_urdf.egg-info/dependency_links.txt
+writing requirements to py06_urdf.egg-info/requires.txt
+writing top-level names to py06_urdf.egg-info/top_level.txt
+reading manifest file 'py06_urdf.egg-info/SOURCES.txt'
+writing manifest file 'py06_urdf.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/lib/python3.12/site-packages/py06-urdf.egg-link (link to .)
+
+Installed /home/huangbo/ros2_learn/tools_learn/build/py06_urdf
+running symlink_data
+symbolically linking /home/huangbo/ros2_learn/tools_learn/build/py06_urdf/resource/py06_urdf -> /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/ament_index/resource_index/packages
+symbolically linking /home/huangbo/ros2_learn/tools_learn/build/py06_urdf/package.xml -> /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf
+symbolically linking /home/huangbo/ros2_learn/tools_learn/build/py06_urdf/launch/display.launch.py -> /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/launch
+symbolically linking /home/huangbo/ros2_learn/tools_learn/build/py06_urdf/urdf/urdf/demo01_helloword.urdf -> /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/urdf/urdf
+symbolically linking /home/huangbo/ros2_learn/tools_learn/build/py06_urdf/rviz/urdf1.rviz -> /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/rviz
+creating /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/meshes

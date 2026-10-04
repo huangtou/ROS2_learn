@@ -4,6 +4,14 @@
 /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/package.xml
 /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/launch/display.launch.py
 /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/urdf/urdf/demo01_helloword.urdf
+/home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/urdf/urdf/demo02_link.urdf
+/home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/urdf/urdf/demo04_joint_basefootprint.urdf
+/home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/urdf/urdf/demo03_joint.urdf
+/home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/urdf/urdf/demo05_car.urdf
+/home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/rviz/urdf1.rviz
+/home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/meshes/升级版ccd.STL
+/home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/meshes/burger_base.stl
+/home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/meshes/.keep
 /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/lib/python3.12/site-packages/py06_urdf-0.0.0-py3.12.egg-info/zip-safe
 /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/lib/python3.12/site-packages/py06_urdf-0.0.0-py3.12.egg-info/SOURCES.txt
 /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/lib/python3.12/site-packages/py06_urdf-0.0.0-py3.12.egg-info/dependency_links.txt

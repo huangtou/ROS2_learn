@@ -1,0 +1,41 @@
+[1.942s] Invoking command in '/home/huangbo/ros2_learn/tongxun_learn/src/py02_service': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/build/py02_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/install/py02_service/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/py02_service build --build-base /home/huangbo/ros2_learn/build/py02_service/build install --record /home/huangbo/ros2_learn/build/py02_service/install.log --install-scripts $base/lib/py02_service --single-version-externally-managed install_data
+[2.597s] running egg_info
+[2.597s] creating ../../../build/py02_service/py02_service.egg-info
+[2.635s] writing ../../../build/py02_service/py02_service.egg-info/PKG-INFO
+[2.642s] writing dependency_links to ../../../build/py02_service/py02_service.egg-info/dependency_links.txt
+[2.642s] writing entry points to ../../../build/py02_service/py02_service.egg-info/entry_points.txt
+[2.642s] writing requirements to ../../../build/py02_service/py02_service.egg-info/requires.txt
+[2.642s] writing top-level names to ../../../build/py02_service/py02_service.egg-info/top_level.txt
+[2.642s] writing manifest file '../../../build/py02_service/py02_service.egg-info/SOURCES.txt'
+[2.720s] reading manifest file '../../../build/py02_service/py02_service.egg-info/SOURCES.txt'
+[2.721s] writing manifest file '../../../build/py02_service/py02_service.egg-info/SOURCES.txt'
+[2.723s] running build
+[2.723s] running build_py
+[2.725s] creating /home/huangbo/ros2_learn/build/py02_service/build
+[2.725s] creating /home/huangbo/ros2_learn/build/py02_service/build/lib
+[2.725s] creating /home/huangbo/ros2_learn/build/py02_service/build/lib/py02_service
+[2.725s] copying py02_service/demo02_client_py.py -> /home/huangbo/ros2_learn/build/py02_service/build/lib/py02_service
+[2.725s] copying py02_service/demo01_server_py.py -> /home/huangbo/ros2_learn/build/py02_service/build/lib/py02_service
+[2.725s] copying py02_service/__init__.py -> /home/huangbo/ros2_learn/build/py02_service/build/lib/py02_service
+[2.725s] running install
+[2.738s] running install_lib
+[2.821s] creating /home/huangbo/ros2_learn/install/py02_service/lib/python3.12/site-packages/py02_service
+[2.821s] copying /home/huangbo/ros2_learn/build/py02_service/build/lib/py02_service/demo02_client_py.py -> /home/huangbo/ros2_learn/install/py02_service/lib/python3.12/site-packages/py02_service
+[2.833s] copying /home/huangbo/ros2_learn/build/py02_service/build/lib/py02_service/demo01_server_py.py -> /home/huangbo/ros2_learn/install/py02_service/lib/python3.12/site-packages/py02_service
+[2.833s] copying /home/huangbo/ros2_learn/build/py02_service/build/lib/py02_service/__init__.py -> /home/huangbo/ros2_learn/install/py02_service/lib/python3.12/site-packages/py02_service
+[2.834s] byte-compiling /home/huangbo/ros2_learn/install/py02_service/lib/python3.12/site-packages/py02_service/demo02_client_py.py to demo02_client_py.cpython-312.pyc
+[2.839s] byte-compiling /home/huangbo/ros2_learn/install/py02_service/lib/python3.12/site-packages/py02_service/demo01_server_py.py to demo01_server_py.cpython-312.pyc
+[2.839s] byte-compiling /home/huangbo/ros2_learn/install/py02_service/lib/python3.12/site-packages/py02_service/__init__.py to __init__.cpython-312.pyc
+[2.840s] running install_data
+[2.840s] creating /home/huangbo/ros2_learn/install/py02_service/share/ament_index
+[2.840s] creating /home/huangbo/ros2_learn/install/py02_service/share/ament_index/resource_index
+[2.841s] creating /home/huangbo/ros2_learn/install/py02_service/share/ament_index/resource_index/packages
+[2.846s] copying resource/py02_service -> /home/huangbo/ros2_learn/install/py02_service/share/ament_index/resource_index/packages
+[2.846s] copying package.xml -> /home/huangbo/ros2_learn/install/py02_service/share/py02_service
+[2.846s] running install_egg_info
+[2.916s] Copying ../../../build/py02_service/py02_service.egg-info to /home/huangbo/ros2_learn/install/py02_service/lib/python3.12/site-packages/py02_service-0.0.0-py3.12.egg-info
+[2.919s] running install_scripts
+[3.147s] Installing demo01_server_py script to /home/huangbo/ros2_learn/install/py02_service/lib/py02_service
+[3.148s] Installing demo02_client_py script to /home/huangbo/ros2_learn/install/py02_service/lib/py02_service
+[3.148s] writing list of installed files to '/home/huangbo/ros2_learn/build/py02_service/install.log'
+[3.217s] Invoked command in '/home/huangbo/ros2_learn/tongxun_learn/src/py02_service' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/build/py02_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/install/py02_service/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/py02_service build --build-base /home/huangbo/ros2_learn/build/py02_service/build install --record /home/huangbo/ros2_learn/build/py02_service/install.log --install-scripts $base/lib/py02_service --single-version-externally-managed install_data

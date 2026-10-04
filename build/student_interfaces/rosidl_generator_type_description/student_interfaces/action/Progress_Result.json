@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "student_interfaces/action/Progress_Result",
+      "fields": [
+        {
+          "name": "sum",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "student_interfaces/action/Progress_Result",
+      "hash_string": "RIHS01_272dd272eb6a55ddd3dc19a2932c7af6e8f52978eca0ac11fa4757d76dc4c34d"
+    }
+  ]
+}

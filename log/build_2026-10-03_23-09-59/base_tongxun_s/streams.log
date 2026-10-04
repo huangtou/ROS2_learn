@@ -1,0 +1,32 @@
+[1.923s] Invoking command in '/home/huangbo/ros2_learn/tongxun_learn/src/base_tongxun_s': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/build/base_tongxun_s/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/install/base_tongxun_s/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/base_tongxun_s build --build-base /home/huangbo/ros2_learn/build/base_tongxun_s/build install --record /home/huangbo/ros2_learn/build/base_tongxun_s/install.log --install-scripts $base/lib/base_tongxun_s --single-version-externally-managed install_data
+[2.359s] running egg_info
+[2.359s] creating ../../../build/base_tongxun_s/base_tongxun_s.egg-info
+[2.384s] writing ../../../build/base_tongxun_s/base_tongxun_s.egg-info/PKG-INFO
+[2.385s] writing dependency_links to ../../../build/base_tongxun_s/base_tongxun_s.egg-info/dependency_links.txt
+[2.387s] writing requirements to ../../../build/base_tongxun_s/base_tongxun_s.egg-info/requires.txt
+[2.387s] writing top-level names to ../../../build/base_tongxun_s/base_tongxun_s.egg-info/top_level.txt
+[2.387s] writing manifest file '../../../build/base_tongxun_s/base_tongxun_s.egg-info/SOURCES.txt'
+[2.442s] reading manifest file '../../../build/base_tongxun_s/base_tongxun_s.egg-info/SOURCES.txt'
+[2.444s] writing manifest file '../../../build/base_tongxun_s/base_tongxun_s.egg-info/SOURCES.txt'
+[2.445s] running build
+[2.447s] running build_py
+[2.447s] creating /home/huangbo/ros2_learn/build/base_tongxun_s/build
+[2.447s] creating /home/huangbo/ros2_learn/build/base_tongxun_s/build/lib
+[2.448s] creating /home/huangbo/ros2_learn/build/base_tongxun_s/build/lib/base_tongxun_s
+[2.448s] copying base_tongxun_s/__init__.py -> /home/huangbo/ros2_learn/build/base_tongxun_s/build/lib/base_tongxun_s
+[2.448s] running install
+[2.452s] running install_lib
+[2.481s] creating /home/huangbo/ros2_learn/install/base_tongxun_s/lib/python3.12/site-packages/base_tongxun_s
+[2.482s] copying /home/huangbo/ros2_learn/build/base_tongxun_s/build/lib/base_tongxun_s/__init__.py -> /home/huangbo/ros2_learn/install/base_tongxun_s/lib/python3.12/site-packages/base_tongxun_s
+[2.483s] byte-compiling /home/huangbo/ros2_learn/install/base_tongxun_s/lib/python3.12/site-packages/base_tongxun_s/__init__.py to __init__.cpython-312.pyc
+[2.483s] running install_data
+[2.483s] creating /home/huangbo/ros2_learn/install/base_tongxun_s/share/ament_index
+[2.484s] creating /home/huangbo/ros2_learn/install/base_tongxun_s/share/ament_index/resource_index
+[2.484s] creating /home/huangbo/ros2_learn/install/base_tongxun_s/share/ament_index/resource_index/packages
+[2.486s] copying resource/base_tongxun_s -> /home/huangbo/ros2_learn/install/base_tongxun_s/share/ament_index/resource_index/packages
+[2.486s] copying package.xml -> /home/huangbo/ros2_learn/install/base_tongxun_s/share/base_tongxun_s
+[2.486s] running install_egg_info
+[2.522s] Copying ../../../build/base_tongxun_s/base_tongxun_s.egg-info to /home/huangbo/ros2_learn/install/base_tongxun_s/lib/python3.12/site-packages/base_tongxun_s-0.0.0-py3.12.egg-info
+[2.523s] running install_scripts
+[2.765s] writing list of installed files to '/home/huangbo/ros2_learn/build/base_tongxun_s/install.log'
+[2.825s] Invoked command in '/home/huangbo/ros2_learn/tongxun_learn/src/base_tongxun_s' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/build/base_tongxun_s/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/install/base_tongxun_s/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/base_tongxun_s build --build-base /home/huangbo/ros2_learn/build/base_tongxun_s/build install --record /home/huangbo/ros2_learn/build/base_tongxun_s/install.log --install-scripts $base/lib/base_tongxun_s --single-version-externally-managed install_data

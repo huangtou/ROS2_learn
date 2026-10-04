@@ -1,0 +1,2 @@
+[console_scripts]
+demo01_tf_jianting_py = py04_tf_listener.demo01_tf_jianting_py:main

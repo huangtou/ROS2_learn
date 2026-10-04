@@ -1,0 +1,78 @@
+[0.000000] (-) TimerEvent: {}
+[0.000603] (-) JobUnselected: {'identifier': 'py01_launch'}
+[0.000707] (-) JobUnselected: {'identifier': 'py02_rosbag'}
+[0.000734] (-) JobUnselected: {'identifier': 'py03_broadcaster'}
+[0.000758] (-) JobUnselected: {'identifier': 'py04_tf_listener'}
+[0.000776] (-) JobUnselected: {'identifier': 'py05_exercise'}
+[0.000802] (py06_urdf) JobQueued: {'identifier': 'py06_urdf', 'dependencies': OrderedDict()}
+[0.001668] (py06_urdf) JobStarted: {'identifier': 'py06_urdf'}
+[0.100436] (-) TimerEvent: {}
+[0.216298] (-) TimerEvent: {}
+[0.317412] (-) TimerEvent: {}
+[0.418918] (-) TimerEvent: {}
+[0.521111] (-) TimerEvent: {}
+[0.622024] (-) TimerEvent: {}
+[0.722997] (-) TimerEvent: {}
+[0.824067] (-) TimerEvent: {}
+[0.927716] (-) TimerEvent: {}
+[1.028552] (-) TimerEvent: {}
+[1.130214] (-) TimerEvent: {}
+[1.231073] (-) TimerEvent: {}
+[1.334526] (-) TimerEvent: {}
+[1.436832] (-) TimerEvent: {}
+[1.541334] (-) TimerEvent: {}
+[1.646262] (-) TimerEvent: {}
+[1.746979] (-) TimerEvent: {}
+[1.847624] (-) TimerEvent: {}
+[1.948160] (-) TimerEvent: {}
+[2.049966] (-) TimerEvent: {}
+[2.151587] (-) TimerEvent: {}
+[2.252385] (-) TimerEvent: {}
+[2.355138] (-) TimerEvent: {}
+[2.455747] (-) TimerEvent: {}
+[2.555958] (-) TimerEvent: {}
+[2.656410] (-) TimerEvent: {}
+[2.757054] (-) TimerEvent: {}
+[2.857752] (-) TimerEvent: {}
+[2.958531] (-) TimerEvent: {}
+[3.058994] (-) TimerEvent: {}
+[3.088712] (py06_urdf) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/huangbo/ros2_learn/tools_learn/build/py06_urdf/build', '--no-deps', 'symlink_data'], 'cwd': '/home/huangbo/ros2_learn/tools_learn/build/py06_urdf', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'RUBBER_DUCK_AGENT': 'true', 'AI_AGENT': 'github_copilot_vscode_agent', 'USER': 'huangbo', 'SSH_CLIENT': '192.168.91.1 2557 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/huangbo', 'GIT_CONFIG_COUNT': '3', 'OLDPWD': '/home/huangbo/ros2_learn/tools_learn', 'COPILOT_CLI_RUN_AS_NODE': '1', 'ROS_PYTHON_VERSION': '3', 'COPILOT_CLI': '1', 'SSH_ASKPASS': '', 'ANTHROPIC_ADVISOR': 'false', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'USE_BUILTIN_RIPGREP': 'false', 'COPILOT_HOME': '/home/huangbo/.copilot', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'GIT_OPTIONAL_LOCKS': '0', 'GCM_INTERACTIVE': 'Never', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'huangbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'SKILL_CHAR_BUDGET': '15000', 'XDG_SESSION_CLASS': 'user', 'XDG_SESSION_ID': '4', 'GIT_CONFIG_VALUE_0': 'explicit', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huangbo/.vscode-server/cli/servers/Stable-07f806f999227108933c2e30515b26eecc1fda74/server/node_modules/@vscode/ripgrep-universal/bin/linux-x64', 'GIT_CONFIG_VALUE_1': 'never', 'CLAUDE_CODE_DISABLE_PRECOMPACT_SKIP': '1', 'GIT_CONFIG_VALUE_2': 'false', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'zh_CN.UTF-8', 'LS_COLORS': '', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'COPILOT_AGENT_SESSION_ID': '9d00b6fe-c1fd-45fd-8f73-77cbe4d4dc8d', 'SHELL': '/bin/bash', 'COPILOT_RUNTIME_PROCESS_FILE_LOGGING': '1', 'GIT_TERMINAL_PROMPT': '0', 'MXC_BIN_DIR': '/home/huangbo/.vscode-server/cli/servers/Stable-07f806f999227108933c2e30515b26eecc1fda74/server/node_modules/@microsoft/mxc-sdk/bin', 'GIT_CONFIG_KEY_0': 'safe.bareRepository', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GIT_CONFIG_KEY_1': 'credential.interactive', 'GIT_CONFIG_KEY_2': 'core.fsmonitor', 'COPILOT_MCP_APPS': 'true', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/huangbo/ros2_learn/tools_learn/build/py06_urdf', 'AUTO_APPROVAL': 'true', 'SSH_CONNECTION': '192.168.91.1 2557 192.168.91.129 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COPILOT_ENABLE_BUILTIN_GITHUB_MCP': 'true', 'PYTHONPATH': '/home/huangbo/ros2_learn/tools_learn/build/py06_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tools_learn/install/py06_urdf/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'COPILOT_CLI_ENABLED_FEATURE_FLAGS': 'SHELL_SPAWN_BACKEND', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[3.159518] (-) TimerEvent: {}
+[3.260183] (-) TimerEvent: {}
+[3.360803] (-) TimerEvent: {}
+[3.461443] (-) TimerEvent: {}
+[3.468775] (py06_urdf) StdoutLine: {'line': b'running develop\n'}
+[3.561954] (-) TimerEvent: {}
+[3.662696] (-) TimerEvent: {}
+[3.692771] (py06_urdf) StdoutLine: {'line': b'running egg_info\n'}
+[3.692976] (py06_urdf) StdoutLine: {'line': b'creating py06_urdf.egg-info\n'}
+[3.716047] (py06_urdf) StdoutLine: {'line': b'writing py06_urdf.egg-info/PKG-INFO\n'}
+[3.716365] (py06_urdf) StdoutLine: {'line': b'writing dependency_links to py06_urdf.egg-info/dependency_links.txt\n'}
+[3.716477] (py06_urdf) StdoutLine: {'line': b'writing requirements to py06_urdf.egg-info/requires.txt\n'}
+[3.716544] (py06_urdf) StdoutLine: {'line': b'writing top-level names to py06_urdf.egg-info/top_level.txt\n'}
+[3.717040] (py06_urdf) StdoutLine: {'line': b"writing manifest file 'py06_urdf.egg-info/SOURCES.txt'\n"}
+[3.761885] (py06_urdf) StdoutLine: {'line': b"reading manifest file 'py06_urdf.egg-info/SOURCES.txt'\n"}
+[3.762661] (py06_urdf) StdoutLine: {'line': b"writing manifest file 'py06_urdf.egg-info/SOURCES.txt'\n"}
+[3.763384] (-) TimerEvent: {}
+[3.786818] (py06_urdf) StdoutLine: {'line': b'running build_ext\n'}
+[3.787097] (py06_urdf) StdoutLine: {'line': b'Creating /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/lib/python3.12/site-packages/py06-urdf.egg-link (link to .)\n'}
+[3.787893] (py06_urdf) StdoutLine: {'line': b'\n'}
+[3.788080] (py06_urdf) StdoutLine: {'line': b'Installed /home/huangbo/ros2_learn/tools_learn/build/py06_urdf\n'}
+[3.788147] (py06_urdf) StdoutLine: {'line': b'running symlink_data\n'}
+[3.788240] (py06_urdf) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/ament_index\n'}
+[3.788307] (py06_urdf) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/ament_index/resource_index\n'}
+[3.788369] (py06_urdf) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/ament_index/resource_index/packages\n'}
+[3.788425] (py06_urdf) StdoutLine: {'line': b'symbolically linking /home/huangbo/ros2_learn/tools_learn/build/py06_urdf/resource/py06_urdf -> /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/ament_index/resource_index/packages\n'}
+[3.788479] (py06_urdf) StdoutLine: {'line': b'symbolically linking /home/huangbo/ros2_learn/tools_learn/build/py06_urdf/package.xml -> /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf\n'}
+[3.788531] (py06_urdf) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/launch\n'}
+[3.788582] (py06_urdf) StdoutLine: {'line': b'symbolically linking /home/huangbo/ros2_learn/tools_learn/build/py06_urdf/launch/display.launch.py -> /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/launch\n'}
+[3.788636] (py06_urdf) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/urdf\n'}
+[3.789080] (py06_urdf) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/urdf/urdf\n'}
+[3.789340] (py06_urdf) StdoutLine: {'line': b'symbolically linking /home/huangbo/ros2_learn/tools_learn/build/py06_urdf/urdf/urdf/demo01_helloword.urdf -> /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/urdf/urdf\n'}
+[3.789429] (py06_urdf) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/rviz\n'}
+[3.789501] (py06_urdf) StdoutLine: {'line': b'symbolically linking /home/huangbo/ros2_learn/tools_learn/build/py06_urdf/rviz/urdf1.rviz -> /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/rviz\n'}
+[3.790101] (py06_urdf) StdoutLine: {'line': b'creating /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/meshes\n'}
+[3.790429] (py06_urdf) StdoutLine: {'line': b'symbolically linking /home/huangbo/ros2_learn/tools_learn/build/py06_urdf/meshes/.keep -> /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/meshes\n'}
+[3.831266] (py06_urdf) CommandEnded: {'returncode': 0}
+[3.857039] (py06_urdf) JobEnded: {'identifier': 'py06_urdf', 'rc': 0}
+[3.858432] (-) EventReactorShutdown: {}

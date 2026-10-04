@@ -8,9 +8,17 @@ setup.py
 ../../build/py06_urdf/py06_urdf.egg-info/top_level.txt
 ../../build/py06_urdf/py06_urdf.egg-info/zip-safe
 launch/display.launch.py
+meshes/.keep
+meshes/burger_base.stl
+meshes/升级版ccd.STL
 py06_urdf/__init__.py
 resource/py06_urdf
+rviz/urdf1.rviz
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 urdf/urdf/demo01_helloword.urdf
+urdf/urdf/demo02_link.urdf
+urdf/urdf/demo03_joint.urdf
+urdf/urdf/demo04_joint_basefootprint.urdf
+urdf/urdf/demo05_car.urdf
