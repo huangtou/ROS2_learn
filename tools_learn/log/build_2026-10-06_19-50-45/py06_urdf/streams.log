@@ -1,0 +1,17 @@
+[1.513s] Invoking command in '/home/huangbo/ros2_learn/tools_learn/build/py06_urdf': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tools_learn/build/py06_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tools_learn/install/py06_urdf/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/huangbo/ros2_learn/tools_learn/build/py06_urdf/build --no-deps symlink_data
+[1.870s] running develop
+[2.088s] running egg_info
+[2.108s] writing py06_urdf.egg-info/PKG-INFO
+[2.109s] writing dependency_links to py06_urdf.egg-info/dependency_links.txt
+[2.109s] writing requirements to py06_urdf.egg-info/requires.txt
+[2.109s] writing top-level names to py06_urdf.egg-info/top_level.txt
+[2.153s] reading manifest file 'py06_urdf.egg-info/SOURCES.txt'
+[2.153s] writing manifest file 'py06_urdf.egg-info/SOURCES.txt'
+[2.175s] running build_ext
+[2.175s] Creating /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/lib/python3.12/site-packages/py06-urdf.egg-link (link to .)
+[2.176s] 
+[2.176s] Installed /home/huangbo/ros2_learn/tools_learn/build/py06_urdf
+[2.177s] running symlink_data
+[2.177s] symbolically linking /home/huangbo/ros2_learn/tools_learn/build/py06_urdf/launch/__pycache__/display.launch.cpython-312.pyc -> /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/launch/__pycache__
+[2.177s] error: [Errno 17] File exists: '/home/huangbo/ros2_learn/tools_learn/build/py06_urdf/launch/__pycache__/display.launch.cpython-312.pyc' -> '/home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/launch/__pycache__/display.launch.cpython-312.pyc'
+[2.216s] Invoked command in '/home/huangbo/ros2_learn/tools_learn/build/py06_urdf' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tools_learn/build/py06_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tools_learn/install/py06_urdf/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/huangbo/ros2_learn/tools_learn/build/py06_urdf/build --no-deps symlink_data

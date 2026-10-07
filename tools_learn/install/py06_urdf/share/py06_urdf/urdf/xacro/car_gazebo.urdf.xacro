@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="car">
+  <xacro:property name="body_length" value="0.20"/>
+  <xacro:property name="body_width" value="0.12"/>
+  <xacro:property name="body_height" value="0.07"/>
+  <xacro:property name="wheel_radius" value="0.025"/>
+  <xacro:property name="wheel_width" value="0.02"/>
+  <xacro:property name="wheel_x" value="0.08"/>
+  <xacro:property name="wheel_y" value="${body_width / 2}"/>
+  <xacro:property name="wheel_z" value="${-(body_height / 2 + 0.015 - wheel_radius)}"/>
+
+  <material name="red">
+    <color rgba="0.8 0.05 0.05 1.0"/>
+  </material>
+  <material name="black">
+    <color rgba="0.05 0.05 0.05 1.0"/>
+  </material>
+
+  <link name="base_footprint"/>
+
+  <link name="base_link">
+    <inertial>
+      <mass value="1.0"/>
+      <inertia ixx="0.004" ixy="0.0" ixz="0.0"
+               iyy="0.004" iyz="0.0" izz="0.004"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="${body_length} ${body_width} ${body_height}"/>
+      </geometry>
+      <material name="red"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="${body_length} ${body_width} ${body_height}"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="base_link_to_footprint" type="fixed">
+    <parent link="base_footprint"/>
+    <child link="base_link"/>
+    <origin xyz="0 0 ${body_height / 2 + 0.015}" rpy="0 0 0"/>
+  </joint>
+
+  <xacro:macro name="wheel" params="name x y">
+    <link name="${name}">
+      <inertial>
+        <mass value="0.1"/>
+        <inertia ixx="0.00005" ixy="0.0" ixz="0.0"
+                 iyy="0.00005" iyz="0.0" izz="0.00005"/>
+      </inertial>
+      <visual>
+        <origin rpy="${pi / 2} 0 0"/>
+        <geometry>
+          <cylinder radius="${wheel_radius}" length="${wheel_width}"/>
+        </geometry>
+        <material name="black"/>
+      </visual>
+      <collision>
+        <origin rpy="${pi / 2} 0 0"/>
+        <geometry>
+          <cylinder radius="${wheel_radius}" length="${wheel_width}"/>
+        </geometry>
+      </collision>
+    </link>
+    <joint name="${name}_joint" type="continuous">
+      <parent link="base_link"/>
+      <child link="${name}"/>
+      <origin xyz="${x} ${y} ${wheel_z}" rpy="0 0 0"/>
+      <axis xyz="0 1 0"/>
+    </joint>
+  </xacro:macro>
+
+  <xacro:wheel name="left_front_wheel" x="${wheel_x}" y="${wheel_y}"/>
+  <xacro:wheel name="right_front_wheel" x="${wheel_x}" y="${-wheel_y}"/>
+  <xacro:wheel name="left_rear_wheel" x="${-wheel_x}" y="${wheel_y}"/>
+  <xacro:wheel name="right_rear_wheel" x="${-wheel_x}" y="${-wheel_y}"/>
+
+  <gazebo reference="base_link">
+    <material>Gazebo/Red</material>
+  </gazebo>
+  <gazebo reference="left_front_wheel"><material>Gazebo/Black</material></gazebo>
+  <gazebo reference="right_front_wheel"><material>Gazebo/Black</material></gazebo>
+  <gazebo reference="left_rear_wheel"><material>Gazebo/Black</material></gazebo>
+  <gazebo reference="right_rear_wheel"><material>Gazebo/Black</material></gazebo>
+
+  <gazebo>
+    <plugin filename="gz-sim-diff-drive-system"
+            name="gz::sim::systems::DiffDrive">
+      <left_joint>left_front_wheel_joint</left_joint>
+      <left_joint>left_rear_wheel_joint</left_joint>
+      <right_joint>right_front_wheel_joint</right_joint>
+      <right_joint>right_rear_wheel_joint</right_joint>
+      <wheel_separation>${body_width}</wheel_separation>
+      <wheel_radius>${wheel_radius}</wheel_radius>
+      <topic>cmd_vel</topic>
+      <odom_topic>odom</odom_topic>
+      <frame_id>odom</frame_id>
+      <child_frame_id>base_footprint</child_frame_id>
+      <odom_publish_frequency>30</odom_publish_frequency>
+    </plugin>
+  </gazebo>
+</robot>

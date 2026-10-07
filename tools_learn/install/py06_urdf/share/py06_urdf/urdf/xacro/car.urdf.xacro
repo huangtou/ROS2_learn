@@ -1,0 +1,14 @@
+<!-- 小车集成 -->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="car">
+
+    <!-- 包含文件 -->
+    <xacro:include filename="car_base.urdf.xacro" />
+    <xacro:include filename="car_carmer.urdf.xacro" />
+    <xacro:include filename="car_laser.urdf.xacro" />
+
+
+</robot>
+
+
+<!-- 调用 -->
+<!-- ros2 launch py06_urdf display.launch.py model:="$(ros2 pkg prefix  两个横杠share py06_urdf)/urdf/xacro/car.urdf.xacro" -->

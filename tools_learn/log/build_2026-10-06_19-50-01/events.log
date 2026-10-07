@@ -1,0 +1,53 @@
+[0.000000] (-) TimerEvent: {}
+[0.000075] (-) JobUnselected: {'identifier': 'py01_launch'}
+[0.000099] (-) JobUnselected: {'identifier': 'py02_rosbag'}
+[0.000162] (-) JobUnselected: {'identifier': 'py03_broadcaster'}
+[0.000197] (-) JobUnselected: {'identifier': 'py04_tf_listener'}
+[0.000991] (-) JobUnselected: {'identifier': 'py05_exercise'}
+[0.001038] (py06_urdf) JobQueued: {'identifier': 'py06_urdf', 'dependencies': OrderedDict()}
+[0.001073] (py06_urdf) JobStarted: {'identifier': 'py06_urdf'}
+[0.100256] (-) TimerEvent: {}
+[0.201152] (-) TimerEvent: {}
+[0.301989] (-) TimerEvent: {}
+[0.402793] (-) TimerEvent: {}
+[0.503600] (-) TimerEvent: {}
+[0.604134] (-) TimerEvent: {}
+[0.704552] (-) TimerEvent: {}
+[0.805146] (-) TimerEvent: {}
+[0.905765] (-) TimerEvent: {}
+[1.006876] (-) TimerEvent: {}
+[1.107790] (-) TimerEvent: {}
+[1.208843] (-) TimerEvent: {}
+[1.310178] (-) TimerEvent: {}
+[1.410915] (-) TimerEvent: {}
+[1.511713] (-) TimerEvent: {}
+[1.614139] (-) TimerEvent: {}
+[1.681820] (py06_urdf) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/huangbo/ros2_learn/tools_learn/build/py06_urdf/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/huangbo/ros2_learn/tools_learn/build/py06_urdf', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'RUBBER_DUCK_AGENT': 'true', 'AI_AGENT': 'github_copilot_vscode_agent', 'USER': 'huangbo', 'SSH_CLIENT': '192.168.91.1 6228 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/huangbo', 'GIT_CONFIG_COUNT': '3', 'OLDPWD': '/home/huangbo/ros2_learn/tools_learn', 'COPILOT_CLI_RUN_AS_NODE': '1', 'ROS_PYTHON_VERSION': '3', 'COPILOT_CLI': '1', 'SSH_ASKPASS': '', 'ANTHROPIC_ADVISOR': 'false', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'USE_BUILTIN_RIPGREP': 'false', 'COPILOT_HOME': '/home/huangbo/.copilot', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'GIT_OPTIONAL_LOCKS': '0', 'GCM_INTERACTIVE': 'Never', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'huangbo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'SKILL_CHAR_BUDGET': '15000', 'XDG_SESSION_CLASS': 'user', 'XDG_SESSION_ID': '2', 'GIT_CONFIG_VALUE_0': 'explicit', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/huangbo/.vscode-server/cli/servers/Stable-07f806f999227108933c2e30515b26eecc1fda74/server/node_modules/@vscode/ripgrep-universal/bin/linux-x64', 'GIT_CONFIG_VALUE_1': 'never', 'CLAUDE_CODE_DISABLE_PRECOMPACT_SKIP': '1', 'GIT_CONFIG_VALUE_2': 'false', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'zh_CN.UTF-8', 'LS_COLORS': '', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'COPILOT_AGENT_SESSION_ID': '522d8a00-8ae7-40ee-877e-febd664c829e', 'SHELL': '/bin/bash', 'COPILOT_RUNTIME_PROCESS_FILE_LOGGING': '1', 'GIT_TERMINAL_PROMPT': '0', 'MXC_BIN_DIR': '/home/huangbo/.vscode-server/cli/servers/Stable-07f806f999227108933c2e30515b26eecc1fda74/server/node_modules/@microsoft/mxc-sdk/bin', 'GIT_CONFIG_KEY_0': 'safe.bareRepository', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GIT_CONFIG_KEY_1': 'credential.interactive', 'GIT_CONFIG_KEY_2': 'core.fsmonitor', 'COPILOT_MCP_APPS': 'true', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/huangbo/ros2_learn/tools_learn/build/py06_urdf', 'AUTO_APPROVAL': 'true', 'SSH_CONNECTION': '192.168.91.1 6228 192.168.91.129 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COPILOT_ENABLE_BUILTIN_GITHUB_MCP': 'true', 'PYTHONPATH': '/home/huangbo/ros2_learn/tools_learn/build/py06_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tools_learn/install/py06_urdf/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'COPILOT_CLI_ENABLED_FEATURE_FLAGS': 'SHELL_SPAWN_BACKEND', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[1.714311] (-) TimerEvent: {}
+[1.814922] (-) TimerEvent: {}
+[1.918223] (-) TimerEvent: {}
+[2.019025] (-) TimerEvent: {}
+[2.109202] (py06_urdf) StdoutLine: {'line': b'running develop\n'}
+[2.119767] (-) TimerEvent: {}
+[2.220639] (-) TimerEvent: {}
+[2.320806] (py06_urdf) StdoutLine: {'line': b'running egg_info\n'}
+[2.320971] (-) TimerEvent: {}
+[2.342259] (py06_urdf) StdoutLine: {'line': b'writing py06_urdf.egg-info/PKG-INFO\n'}
+[2.342933] (py06_urdf) StdoutLine: {'line': b'writing dependency_links to py06_urdf.egg-info/dependency_links.txt\n'}
+[2.343408] (py06_urdf) StdoutLine: {'line': b'writing requirements to py06_urdf.egg-info/requires.txt\n'}
+[2.344041] (py06_urdf) StdoutLine: {'line': b'writing top-level names to py06_urdf.egg-info/top_level.txt\n'}
+[2.386176] (py06_urdf) StdoutLine: {'line': b"reading manifest file 'py06_urdf.egg-info/SOURCES.txt'\n"}
+[2.387548] (py06_urdf) StdoutLine: {'line': b"writing manifest file 'py06_urdf.egg-info/SOURCES.txt'\n"}
+[2.408955] (py06_urdf) StdoutLine: {'line': b'running build_ext\n'}
+[2.410959] (py06_urdf) StdoutLine: {'line': b'Creating /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/lib/python3.12/site-packages/py06-urdf.egg-link (link to .)\n'}
+[2.411421] (py06_urdf) StdoutLine: {'line': b'\n'}
+[2.411524] (py06_urdf) StdoutLine: {'line': b'Installed /home/huangbo/ros2_learn/tools_learn/build/py06_urdf\n'}
+[2.412076] (py06_urdf) StdoutLine: {'line': b'running symlink_data\n'}
+[2.412148] (py06_urdf) StdoutLine: {'line': b'symbolically linking /home/huangbo/ros2_learn/tools_learn/build/py06_urdf/resource/py06_urdf -> /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/ament_index/resource_index/packages\n'}
+[2.412208] (py06_urdf) StdoutLine: {'line': b'symbolically linking /home/huangbo/ros2_learn/tools_learn/build/py06_urdf/package.xml -> /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf\n'}
+[2.412263] (py06_urdf) StdoutLine: {'line': b'symbolically linking /home/huangbo/ros2_learn/tools_learn/build/py06_urdf/launch/display.launch.py -> /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/launch\n'}
+[2.412523] (py06_urdf) StderrLine: {'line': b"error: [Errno 2] No such file or directory: '/home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/urdf/urdf/my_car.pdf'\n"}
+[2.421447] (-) TimerEvent: {}
+[2.444894] (py06_urdf) CommandEnded: {'returncode': 1}
+[2.445432] (py06_urdf) JobEnded: {'identifier': 'py06_urdf', 'rc': 1}
+[2.456643] (-) EventReactorShutdown: {}

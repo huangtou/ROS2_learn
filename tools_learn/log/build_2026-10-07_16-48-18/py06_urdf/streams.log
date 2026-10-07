@@ -1,0 +1,26 @@
+[2.585s] Invoking command in '/home/huangbo/ros2_learn/tools_learn/src/py06_urdf': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tools_learn/build/py06_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tools_learn/install/py06_urdf/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py06_urdf build --build-base /home/huangbo/ros2_learn/tools_learn/build/py06_urdf/build install --record /home/huangbo/ros2_learn/tools_learn/build/py06_urdf/install.log --install-scripts $base/lib/py06_urdf --single-version-externally-managed install_data
+[3.137s] running egg_info
+[3.192s] writing ../../build/py06_urdf/py06_urdf.egg-info/PKG-INFO
+[3.203s] writing dependency_links to ../../build/py06_urdf/py06_urdf.egg-info/dependency_links.txt
+[3.223s] writing entry points to ../../build/py06_urdf/py06_urdf.egg-info/entry_points.txt
+[3.224s] writing requirements to ../../build/py06_urdf/py06_urdf.egg-info/requires.txt
+[3.224s] writing top-level names to ../../build/py06_urdf/py06_urdf.egg-info/top_level.txt
+[3.290s] reading manifest file '../../build/py06_urdf/py06_urdf.egg-info/SOURCES.txt'
+[3.293s] writing manifest file '../../build/py06_urdf/py06_urdf.egg-info/SOURCES.txt'
+[3.294s] running build
+[3.294s] running build_py
+[3.295s] copying py06_urdf/rviz_motion_demo.py -> /home/huangbo/ros2_learn/tools_learn/build/py06_urdf/build/lib/py06_urdf
+[3.296s] running install
+[3.304s] running install_lib
+[3.328s] copying /home/huangbo/ros2_learn/tools_learn/build/py06_urdf/build/lib/py06_urdf/rviz_motion_demo.py -> /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/lib/python3.12/site-packages/py06_urdf
+[3.330s] byte-compiling /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/lib/python3.12/site-packages/py06_urdf/rviz_motion_demo.py to rviz_motion_demo.cpython-312.pyc
+[3.331s] running install_data
+[3.331s] copying launch/rviz_motion.launch.py -> /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/launch
+[3.332s] copying rviz/urdf1.rviz -> /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/rviz
+[3.334s] running install_egg_info
+[3.360s] removing '/home/huangbo/ros2_learn/tools_learn/install/py06_urdf/lib/python3.12/site-packages/py06_urdf-0.0.0-py3.12.egg-info' (and everything under it)
+[3.362s] Copying ../../build/py06_urdf/py06_urdf.egg-info to /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/lib/python3.12/site-packages/py06_urdf-0.0.0-py3.12.egg-info
+[3.363s] running install_scripts
+[3.869s] Installing rviz_motion_demo script to /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/lib/py06_urdf
+[3.870s] writing list of installed files to '/home/huangbo/ros2_learn/tools_learn/build/py06_urdf/install.log'
+[4.027s] Invoked command in '/home/huangbo/ros2_learn/tools_learn/src/py06_urdf' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tools_learn/build/py06_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tools_learn/install/py06_urdf/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py06_urdf build --build-base /home/huangbo/ros2_learn/tools_learn/build/py06_urdf/build install --record /home/huangbo/ros2_learn/tools_learn/build/py06_urdf/install.log --install-scripts $base/lib/py06_urdf --single-version-externally-managed install_data

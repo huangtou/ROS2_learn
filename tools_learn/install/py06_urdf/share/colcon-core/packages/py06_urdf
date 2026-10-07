@@ -1,1 +1,1 @@
-joint_state_publisher:robot_state_publisher:ros2launch:rviz2:xacro
+geometry_msgs:joint_state_publisher:nav_msgs:robot_state_publisher:ros2launch:ros_gz_bridge:ros_gz_sim:rosgraph_msgs:rviz2:xacro

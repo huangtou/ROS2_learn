@@ -1,0 +1,31 @@
+<!-- 雷达实现 -->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <!-- 定于变量 -->
+    <xacro:property name="laser_r" value="0.05"/>
+    <xacro:property name="laser_h" value="0.03"/>
+
+    <!-- 偏移量 -->
+    <xacro:property name="delet_x1" value="0.0"/>
+    <xacro:property name="delet_y1" value="0.0"/>
+    <xacro:property name="delet_z1" value="${car_height/2+laser_h/2}"/>
+
+
+
+    <!-- 定义link -->
+    <link name="laser_link">
+        <visual>
+            <geometry>
+                <cylinder radius="${laser_r}" length="${laser_h}"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+    </link>
+
+    <!-- 定义关节 -->
+    <joint name="laser_link2base_link" type="fixed">
+        <parent link="base_link"/>
+        <child link="laser_link"/>    
+
+        <origin xyz="${delet_x1} ${delet_y1} ${delet_z1}" rpy="0 0 0"/>
+    </joint>
+</robot>

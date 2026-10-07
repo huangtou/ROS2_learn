@@ -1,0 +1,13 @@
+<!-- 演示变量的使用 -->
+<!-- 变量声明 调用 变量运算 -->
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="demo02_pro">
+
+    <!-- 变量声明 -->
+    <xacro:property name="num1" value="10"/>
+    <xacro:property name="num2" value="20"/>
+
+    <!-- 变量调用   运算  ${变量名}  ${变量名操作}-->
+    <xacro:property name="num4" value="${num1}"/>
+    <sum value="${num1 * num2}"/>
+</robot>

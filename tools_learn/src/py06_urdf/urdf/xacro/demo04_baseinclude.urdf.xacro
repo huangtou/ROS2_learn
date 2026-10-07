@@ -1,0 +1,9 @@
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="demo04_include">
+    <!-- 文件包含 -->
+    
+    <xacro:include filename="demo02_basepro.urdf.xacro"/>
+    <xacro:include filename="demo03_basefunc.urdf.xacro"/>
+
+    <!-- 文件包含最好 子级文件要和父级文件的 name值一致 -->
+    
+</robot>

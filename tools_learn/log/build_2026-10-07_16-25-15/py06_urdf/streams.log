@@ -1,0 +1,20 @@
+[3.426s] Invoking command in '/home/huangbo/ros2_learn/tools_learn/src/py06_urdf': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tools_learn/build/py06_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tools_learn/install/py06_urdf/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py06_urdf build --build-base /home/huangbo/ros2_learn/tools_learn/build/py06_urdf/build install --record /home/huangbo/ros2_learn/tools_learn/build/py06_urdf/install.log --install-scripts $base/lib/py06_urdf --single-version-externally-managed install_data
+[3.980s] running egg_info
+[4.011s] writing ../../build/py06_urdf/py06_urdf.egg-info/PKG-INFO
+[4.012s] writing dependency_links to ../../build/py06_urdf/py06_urdf.egg-info/dependency_links.txt
+[4.013s] writing requirements to ../../build/py06_urdf/py06_urdf.egg-info/requires.txt
+[4.014s] writing top-level names to ../../build/py06_urdf/py06_urdf.egg-info/top_level.txt
+[4.070s] reading manifest file '../../build/py06_urdf/py06_urdf.egg-info/SOURCES.txt'
+[4.073s] writing manifest file '../../build/py06_urdf/py06_urdf.egg-info/SOURCES.txt'
+[4.073s] running build
+[4.073s] running build_py
+[4.073s] running install
+[4.080s] running install_lib
+[4.105s] running install_data
+[4.106s] copying launch/gazebo.launch.py -> /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/share/py06_urdf/launch
+[4.106s] running install_egg_info
+[4.132s] removing '/home/huangbo/ros2_learn/tools_learn/install/py06_urdf/lib/python3.12/site-packages/py06_urdf-0.0.0-py3.12.egg-info' (and everything under it)
+[4.136s] Copying ../../build/py06_urdf/py06_urdf.egg-info to /home/huangbo/ros2_learn/tools_learn/install/py06_urdf/lib/python3.12/site-packages/py06_urdf-0.0.0-py3.12.egg-info
+[4.141s] running install_scripts
+[4.395s] writing list of installed files to '/home/huangbo/ros2_learn/tools_learn/build/py06_urdf/install.log'
+[4.440s] Invoked command in '/home/huangbo/ros2_learn/tools_learn/src/py06_urdf' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/huangbo/ros2_learn/tools_learn/build/py06_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/huangbo/ros2_learn/tools_learn/install/py06_urdf/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py06_urdf build --build-base /home/huangbo/ros2_learn/tools_learn/build/py06_urdf/build install --record /home/huangbo/ros2_learn/tools_learn/build/py06_urdf/install.log --install-scripts $base/lib/py06_urdf --single-version-externally-managed install_data

@@ -1,0 +1,90 @@
+<!-- 底盘实现 -->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+<!-- 底盘实现 -->
+
+    <!-- 声明变量 -->
+    <xacro:property name="PI" value="3.1415927"/>
+    <xacro:property name="car_length" value="0.2"/>
+    <xacro:property name="car_width" value="0.12"/>
+    <xacro:property name="car_height" value="0.07"/>
+    <!-- 轮胎尺寸 -->
+    <xacro:property name="wheel_radius" value="0.025"/>
+    <xacro:property name="wheel_width" value="0.02"/>
+    <!-- 离地距离 -->
+    <xacro:property name="clearance" value="0.015"/>
+
+    <!-- 封装轮胎关节平移 -->
+    <xacro:property name="wheel_absx" value="0.08"/>
+    <xacro:property name="wheel_absy" value="${car_width/2}"/>
+    <xacro:property name="wheel_absz" value="${-(car_height/2 + clearance - wheel_radius)}"/>
+
+    <!-- 颜色 -->
+    <material name="black">
+        <color rgba="0.0 0.0 0.0 0.5"/>
+    </material>
+    <material name="red">
+        <color rgba="1.0 0.0 0.0 0.5"/>
+    </material> 
+    
+    <!-- 设置base_footprint -->
+    <link name="base_footprint_link">
+        <visual>
+            <geometry>
+                <sphere radius="0.001"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <!-- 设置底盘 base_link -->
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <box size="${car_length} ${car_width} ${car_height}"/>
+            </geometry>
+            <material name="red"/>
+        </visual>
+    </link>
+
+    <!-- 使用join关联 -->
+    <!-- base_link与base_footprint_link的关节 -->
+    <joint name="base_link2footprint" type="fixed">
+    <!-- 连接的两个link 父标签为footprint_link 子标签为base_link 固定类型 -->
+        <parent link="base_footprint_link"/>
+        <child link="base_link"/>
+    <!-- 关节的原点位置 平移量旋转度   上移  0.07除以2+0.15 二分之一车体高度加离地间距 -->
+        <origin xyz="0.0 0.0 ${car_height/2 + clearance}" rpy="0 0 0"/>
+    </joint>
+    <!-- 定义车轮相关的宏 -->
+    <!-- 封装可被复用的代码 变的数据以参数形式传入 变的数据是名称 -->
+    <!-- link中 name -->
+    <!-- joint 中 name child_link origin(x，y)坐标 前 左 为1  后 右为0 -->
+    <xacro:macro name="wheel_func" params="link_name front_flag left_flag">
+        <link name="${link_name}">
+        <visual>
+            <geometry>
+                <cylinder radius="${wheel_radius}" length="${wheel_width}"/>
+            </geometry>
+            <material name="black">
+                <color rgba="0 0 0 0.5"/>
+            </material>
+            <!-- 设置旋转 -->
+            <origin rpy="${PI/2} 0 0"/>
+        </visual>
+    </link> 
+
+    <joint name="${link_name}2base_link" type="continuous">
+        <parent link="base_link"/>
+        <child link="${link_name}"/>
+        <origin xyz="${wheel_absx*front_flag} ${wheel_absy*left_flag} ${wheel_absz}" rpy="0 0 0"/>
+        <!-- 关节的旋转轴 -->
+        <axis xyz="0 1 0"/>
+    </joint>
+    </xacro:macro>
+
+    <!-- 调用宏生成多个车轮 -->
+    <xacro:wheel_func link_name="left_front_wheel_link" front_flag="1" left_flag="1"/>
+    <xacro:wheel_func link_name="right_front_wheel_link" front_flag="1" left_flag="-1"/>
+    <xacro:wheel_func link_name="left_hou_wheel_link" front_flag="-1" left_flag="1"/>
+    <xacro:wheel_func link_name="right_hou_wheel_link" front_flag="-1" left_flag="-1"/>
+
+</robot>

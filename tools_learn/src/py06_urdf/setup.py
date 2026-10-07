@@ -44,6 +44,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'rviz_motion_demo = py06_urdf.rviz_motion_demo:main',
         ],
     },
 )

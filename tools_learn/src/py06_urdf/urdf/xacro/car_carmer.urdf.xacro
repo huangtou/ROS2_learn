@@ -1,0 +1,32 @@
+<!-- 摄像头实现 -->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <!-- #定义属性 -->
+    <xacro:property name="camera_x" value="0.01"/>
+    <xacro:property name="camera_y" value="0.08"/>
+    <xacro:property name="camera_z" value="0.01"/>
+    
+    <!-- 偏移量 -->
+    <xacro:property name="delet_x" value="${car_length/2-0.01}"/>
+    <xacro:property name="delet_y" value="0.0"/>
+    <xacro:property name="delet_z" value="${car_height/2+camera_z/2}"/>
+
+    <!-- 创建link -->
+     <!-- 设置base_footprint -->
+    <link name="carmar_link">
+        <visual>
+            <geometry>
+                <box size="${camera_x} ${camera_y} ${camera_z}"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+    </link>
+
+
+    <!-- 设置关节 -->
+    <joint name="carmar_link2base_link" type="fixed">
+        <parent link="base_link"/>
+        <child link="carmar_link"/>    
+
+        <origin xyz="${delet_x} ${delet_y} ${delet_z}" rpy="0 0 0"/>
+    </joint> 
+</robot>

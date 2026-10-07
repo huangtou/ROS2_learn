@@ -1,2 +1,9 @@
 urdf下有urdf 和xacro两个目录 用来存储不同格式的建模文件r
 rviz是保存和rviz相关的文件  meshes用于保存机器人皮肤
+
+
+urdf检查工具
+1.check_urdf urdf文件（需要进入urdf保存的目录中去）
+    如果正确会输出层级关系 有问题会爆异常
+2.urdf_to_graphviz urdf文件 （需要进入urdf保存的目录中去）
+    以图的结构输出层级关系生成pdf
